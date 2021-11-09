@@ -6,16 +6,16 @@ header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
 ---
 
-![](img/Ajay-Kumar-Dwivedi.png)
+![](img/Ajay-Kumar-Dwivedi.jpeg)
 
-Jérémy VINCENT
-======
+Ajay Kumar Dwivedi
+==================
 
-###### 28 ans . Habite à La Talaudière . Anglais technique
+###### 10+ Years of Exp. Lives in Hyderabad, India. Loves Building Automations & Resolve SQL Server Performance Issues.
 
-#### Accompagne les entreprises dans la gestion du SI et dans leur virage digital. Je suis à l'écoute des solutions innovantes afin de répondre au mieux au business.
+#### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
-###### [jvincent.eu](https://jvincent.eu) . [linkedin.com/in/jvin042](https://www.linkedin.com/in/jvin042) . [pro@jvincent.eu](mailto:pro@jvincent.eu) . [06 23 41 36 66](tel:+33623413666)
+###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/ajaydwivedi2007](https://www.linkedin.com/in/ajaydwivedi2007) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+33623413666)
 
 <br>
 
