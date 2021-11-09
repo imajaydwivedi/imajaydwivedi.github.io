@@ -1,12 +1,12 @@
 ---
-author: Jérémy VINCENT
-description: Administrateur systèmes et réseaux et développeur autodidacte pendant mon temps libre.
-lang: fr
+author: Ajay Kumar Dwivedi
+description: SQL Server Administration & Automation Expert
+lang: English
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
-pagetitle: Jérémy VINCENT
+pagetitle: Ajay Kumar Dwivedi
 ---
 
-![](img/jeremy.png)
+![](img/Ajay-Kumar-Dwivedi.png)
 
 Jérémy VINCENT
 ======
