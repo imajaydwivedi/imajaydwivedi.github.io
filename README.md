@@ -1,5 +1,5 @@
 ---
-author: Jérémy VINCENT
+author: Ajay Kumar Dwivedi
 description: Administrateur systèmes et réseaux et développeur autodidacte pendant mon temps libre.
 lang: fr
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
