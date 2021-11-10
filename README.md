@@ -87,15 +87,20 @@ Ajay Kumar Dwivedi
 - Online live [YouTube tutorial sessions](https://www.youtube.com/user/modernpandit18) for L1/L2 Database Administrators & Developers
 
 ## Languages and Technologies
-### Technologies
+
+#### Technologies
 - HTML, CSS, SQL Server, Linux, CentOS8, Ubuntu, PostgreSQL
-### Tools
+
+#### Tools
 - Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Graphana; Zabbix
-### Scripting
+
+#### Scripting
 - PowerShell, TSQL, Python
-### Operating System
+
+#### Operating System
 - RHEL 8, Ubuntu, Windows
-### Programming Models
+
+#### Programming Models
 - SOLID Principles
 - MVT Architecture
 - MVC Architecture
