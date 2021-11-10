@@ -67,17 +67,17 @@ Ajay Kumar Dwivedi
 **Bachelor of Engineering**, RGPV University, Bhopal (July 2006 - Apr 2010)
 
 ## OPEN SOURCE PROJECTS
-**SQLDBATools**: PowerShell module to automate common DBA tasks.
+**[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks.
 
-**MetaDataSync**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
+**[MetaDataSync](https://github.com/imajaydwivedi/MetaDataSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
 
-**Space-Capacity-Automation**: Stored Procedure that would add/restrict data and log files on new and old disk drives automatically without DBA intervention.
+**[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)**: Stored Procedure that would add/restrict data and log files on new and old disk drives automatically without DBA intervention.
 
-**SQLDBA-SSMS-Solution**: TSQL/PowerShell script for day to day DBA support work.
+**[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
 
-**SqlServer-Baselining-Grafana (2020).**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
+**[SqlServer-Baselining-Grafana](https://github.com/imajaydwivedi/SqlServer-Baselining-Grafana)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
 
-**sp_HealthCheck**: Stored Procedure that would provide currently running queries, CPU and Memory usage, usage of Data and Log Volumes, space utilization of Data/Log files, Lead Blockers, and any Long Running request details. TSQL Programming
+**[sp_HealthCheck](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution#3-sp_healthcheck)**: Stored Procedure that would provide currently running queries, CPU and Memory usage, usage of Data and Log Volumes, space utilization of Data/Log files, Lead Blockers, and any Long Running request details. TSQL Programming
 
 
 Compétences
