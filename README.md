@@ -79,28 +79,23 @@ Ajay Kumar Dwivedi
 
 **[sp_HealthCheck](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution#3-sp_healthcheck)**: Stored Procedure that would provide currently running queries, CPU and Memory usage, usage of Data and Log Volumes, space utilization of Data/Log files, Lead Blockers, and any Long Running request details. TSQL Programming
 
+## Additional Experience And Awards
 
-Compétences
----------
-**Cloud:** Gestion de zones DNS et NDD, Serveurs web (Apache, Nginx), Microsoft 365 (Azure, Exchange, SharePoint), SEO
+- **Instructor (2008 - 2010)**: Taught 4 batches of C/C++ in coaching institute
+- **Multiple Award for Automation**: Awarded multiple times for Space Capacity automation, Prod- Non-Prod DDL script comparison, Instance Migration automation and many more.
+- **Technical Blog Website**: https://ajaydwivedi.com
+- Online live [YouTube tutorial sessions](https://www.youtube.com/user/modernpandit18) for L1/L2 Database Administrators & Developers
 
-**Langages de commandes:** Bash, PowerShell, Python
-
-**Langages de programmation:** C#, C++, HTML/CSS, Javascript, Node.js, PHP
-
-**Matériels:** Cisco, Dell, HP, Ubiquiti, Sophos, Stormshield, Watchguard
-
-**Réseaux:** IP, DHCP, DNS, Firewall, LAN/WAN, Proxy, VLAN, VPN
-
-**Systèmes:** Conteneurs (Docker et LXC), Linux (Debian, RHEL), Windows Server (AD, DFS, Exchange, RDS, SQL, WSUS), Virtualisation (Hyper-V, Proxmox, VMware ESX)
-
-**Autres:** Adobe CC, Ansible, Cloudflare, Docker Compose, Git, Microsoft Office, pfSense, RGPD, Unity
-
-Certifications
----------
-- **SecNumAcadémie**, ANSSI (2020)
-- **L'atelier RGPD**, CNIL (2019)
-- **LPIC-1 : Linux Professional Institute**, Cisco (2017)
-- **CCNA 2 : Routage et commutation**, Cisco (2017)
-- **CCNA 1 : Notions de base sur les réseaux**, Cisco (2016)
-- **CCNA Discovery : Mise en réseau pour les petites et moyennes entreprises**, Cisco (2016)
+## Languages and Technologies
+#### Technologies
+- HTML, CSS, SQL Server, Linux, CentOS8, Ubuntu, PostgreSQL
+#### Tools
+- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Graphana; Zabbix
+#### Scripting
+- PowerShell, TSQL, Python
+#### Operating System
+- RHEL 8, Ubuntu, Windows
+#### Programming Models
+- SOLID Principles
+- MVT Architecture
+- MVC Architecture
