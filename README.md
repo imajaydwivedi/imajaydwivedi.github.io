@@ -33,6 +33,7 @@ Ajay Kumar Dwivedi
 - Benchmarking of Staging table architecture
 - Manage PostgreSQL servers/databases
 - Resolved High CPU issues using Resource Governor & XEvents in multitenancy environment
+- Brought down app query duration to seconds by converting multi day time filter query to SARGable predicates.
 
 
 **Senior SQL Server DBA, TiVo** (Feb 2018 - May 2020)
