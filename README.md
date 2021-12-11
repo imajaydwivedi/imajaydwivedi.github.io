@@ -28,12 +28,12 @@ Ajay Kumar Dwivedi
 - Designed automation to setup remote Distributor in availability group using PowerShell
 - Designed automation to setup Transactional replication using PowerShell
 - Automated scripting out of entire SQL Server & Replications similar to Export-DbaInstance
-- Created AlwaysOn Latency Graphana Dashboards
+- Designed automations & Monitoring Dashboards on Grafana
 - Resolved High CPU/Query Regression/IO Latency/Blocking Alerts
-- Benchmarking of Staging table architecture
 - Manage PostgreSQL servers/databases
 - Resolved High CPU issues using Resource Governor & XEvents in multitenancy environment
 - Brought down app query duration to seconds by converting multi day time filter query to SARGable predicates.
+- Resolved query regressions by getting rid of issues like tempdb spills, wrong index choice, creating proper structure like indexed view, computed columns, and putting appropriate query hints
 
 
 **Senior SQL Server DBA, TiVo** (Feb 2018 - May 2020)
