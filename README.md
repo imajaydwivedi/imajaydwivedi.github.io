@@ -20,7 +20,10 @@ Ajay Kumar Dwivedi
 <br>
 
 ## EMPLOYMENT
-**Database Reliability Engineer, Arcesium** (May 2020 - Today)
+**Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
+- Leading database team
+
+**Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
 
 - Designed AlwaysOn RO Readiness solution using TSQL & PowerShell
 - Designed PowerShell module to move Availability Group databases, and moved 38 TB data
