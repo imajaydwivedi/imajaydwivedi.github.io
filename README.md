@@ -21,6 +21,7 @@ Ajay Kumar Dwivedi
 
 ## EMPLOYMENT
 **Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
+
 - Developed & baselined 40+ SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multidomain environment.
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 
