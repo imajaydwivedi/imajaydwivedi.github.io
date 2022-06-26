@@ -11,17 +11,18 @@ pagetitle: Ajay Kumar Dwivedi
 Ajay Kumar Dwivedi
 ==================
 
-###### 10+ Years of Exp. Lives in Hyderabad, India. Loves Building Automations & Resolve SQL Server Performance Issues.
+###### 11+ Years of Exp. Lives in Hyderabad, India. Loves Building Automations & Resolve SQL Server Performance Issues.
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
-###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/ajaydwivedi2007](https://www.linkedin.com/in/ajaydwivedi2007) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+33623413666)
+###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/ajaydwivedi2007](https://www.linkedin.com/in/ajaydwivedi2007) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
 
 <br>
 
 ## EMPLOYMENT
 **Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
-- Leading database team
+- Developed & baselined 40+ SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multidomain environment.
+- Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 
 **Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
 
@@ -71,7 +72,7 @@ Ajay Kumar Dwivedi
 **Bachelor of Engineering**, RGPV University, Bhopal (July 2006 - Apr 2010)
 
 ## OPEN SOURCE PROJECTS
-**[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks.
+**[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks and advanced alert setup.
 
 **[MetaDataSync](https://github.com/imajaydwivedi/MetaDataSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
 
@@ -79,9 +80,11 @@ Ajay Kumar Dwivedi
 
 **[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
 
-**[SqlServer-Baselining-Grafana](https://github.com/imajaydwivedi/SqlServer-Baselining-Grafana)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
+**[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
 
 **[sp_HealthCheck](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution#3-sp_healthcheck)**: Stored Procedure that would provide currently running queries, CPU and Memory usage, usage of Data and Log Volumes, space utilization of Data/Log files, Lead Blockers, and any Long Running request details. TSQL Programming
+
+**[Credential Manager](https://github.com/imajaydwivedi/SQLMonitor/tree/master/Credential-Manager)**: Infra that provides storage/retrieval functionality similar to Windows Credential Manager. This is very helpful in environment where a proper vault/credential management software is not present.
 
 ## Additional Experience And Awards
 
@@ -96,7 +99,7 @@ Ajay Kumar Dwivedi
 - HTML, CSS, SQL Server, Linux, CentOS8, Ubuntu, PostgreSQL
 
 #### Tools
-- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Graphana; Zabbix
+- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Graphana;
 
 #### Scripting
 - PowerShell, TSQL, Python
