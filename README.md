@@ -26,10 +26,10 @@ Ajay Kumar Dwivedi
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
 - Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
-- Implemented [SQLTextNormalizer](https://github.com/arvindshmicrosoft/SQLScriptDomSamples) based infra with XEvent (resource_consumption) to performance tuning.
+- Implemented [SQLTextNormalizer](https://github.com/arvindshmicrosoft/SQLScriptDomSamples) based infra with XEvent (resource_consumption) for performance tuning.
 - Mentored developers in efficient query writing and performance tuning using techniques like 10x rule of cardinality, cut/combine queries, dealing with scaler functions, inlining of MSTVFs, pagination, columnstore indexes etc.
 - Helped developers identify parameter sniffing issues causing query regression issues, and resolve them using various techniques.
-- Resolved many complex query performance issues by solving [Kitechen Sink design patterns](https://www.sentryone.com/blog/aaronbertrand/backtobasics-updated-kitchen-sink-example).
+- Resolved many complex query performance issues by solving [Kitchen Sink design patterns](https://www.sentryone.com/blog/aaronbertrand/backtobasics-updated-kitchen-sink-example).
 
 **Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
 
@@ -64,15 +64,15 @@ Ajay Kumar Dwivedi
 **Senior SQL Server Developer, Ericsson** (Jun 2015 - Oct 2016)
 
 - Resolved SQL Server Performance Issue with Table Partitioning
-- Mentored team and guided them with Query Performance Turning best practices 
+- Mentored team and guided them with Query Performance Turning best practices
 - Tripled Database server performance by Query Optimization
 
 
 **SQL Server DBA/Developer, TATA Consultancy Services** (Mar 2011 - June 2015)
 
-- Saved Hours of DBA efforts with TSQL scripts for SQL Instance Migration activity 
-- Mentored 5 developers and designed Data Warehouse using DB2 & Pentaho 
-- Successfully migrated Billions of data with efficient Tsql programmingsks
+- Saved Hours of DBA efforts with TSQL scripts for SQL Instance Migration activity
+- Mentored 5 developers and designed Data Warehouse using DB2 & Pentaho
+- Successfully migrated Billions of data with efficient Tsql programming
 
 
 ## Education
@@ -106,7 +106,7 @@ Ajay Kumar Dwivedi
 - HTML, CSS, SQL Server, Linux, CentOS8, Ubuntu, PostgreSQL
 
 #### Tools
-- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Graphana;
+- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Grafana;
 
 #### Scripting
 - PowerShell, TSQL, Python
