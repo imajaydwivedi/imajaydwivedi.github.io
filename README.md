@@ -96,7 +96,7 @@ Ajay Kumar Dwivedi
 - **Instructor (2008 - 2010)**: Taught 4 batches of C/C++ in coaching institute
 - **Multiple Award for Automation**: Awarded multiple times for Space Capacity automation, Prod- Non-Prod DDL script comparison, Instance Migration automation and many more.
 - **Technical Blog Website**: https://ajaydwivedi.com
-- Online live [YouTube tutorial sessions](https://www.youtube.com/user/modernpandit18) for L1/L2 Database Administrators & Developers
+- Online live [YouTube tutorial sessions](https://ajaydwivedi.com/go/youtube) for L1/L2 Database Administrators & Developers
 
 ## Languages and Technologies
 
