@@ -1,6 +1,6 @@
 ---
 author: Ajay Kumar Dwivedi
-description: SQL Server Administration & Automation Expert
+description: SQL Server Performance Tuning & Automation Expert
 lang: English
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
@@ -15,14 +15,14 @@ Ajay Kumar Dwivedi
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
-###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/ajaydwivedi2007](https://www.linkedin.com/in/ajaydwivedi2007) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
+###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/imajaydwivedi](https://www.linkedin.com/in/imajaydwivedi) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
 
 <br>
 
 ## EMPLOYMENT
 **Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
 
-- Developed & baselined 48+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
+- Developed & baselined 60+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
 - Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
