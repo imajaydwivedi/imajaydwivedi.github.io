@@ -1,6 +1,6 @@
 ---
 author: Ajay Kumar Dwivedi
-description: SQL Server Administration & Automation Expert
+description: SQL Server Performance Tuning & Automation Expert
 lang: English
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
@@ -15,14 +15,14 @@ Ajay Kumar Dwivedi
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
-###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/ajaydwivedi2007](https://www.linkedin.com/in/ajaydwivedi2007) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
+###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/imajaydwivedi](https://www.linkedin.com/in/imajaydwivedi) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
 
 <br>
 
 ## EMPLOYMENT
 **Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
 
-- Developed & baselined 48+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
+- Developed & baselined 60+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
 - Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
@@ -79,19 +79,17 @@ Ajay Kumar Dwivedi
 **Bachelor of Engineering**, RGPV University, Bhopal (July 2006 - Apr 2010)
 
 ## OPEN SOURCE PROJECTS
+**[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
+
+**[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
+
 **[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks and advanced alert setup.
 
 **[MetaDataSync](https://github.com/imajaydwivedi/MetaDataSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
 
-**[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)**: Stored Procedure that would add/restrict data and log files on new and old disk drives automatically without DBA intervention.
-
-**[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
-
-**[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
-
-**[sp_HealthCheck](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution#3-sp_healthcheck)**: Stored Procedure that would provide currently running queries, CPU and Memory usage, usage of Data and Log Volumes, space utilization of Data/Log files, Lead Blockers, and any Long Running request details. TSQL Programming
-
 **[Credential Manager](https://github.com/imajaydwivedi/SQLMonitor/tree/master/Credential-Manager)**: Infra that provides storage/retrieval functionality similar to Windows Credential Manager. This is very helpful in environment where a proper vault/credential management software is not present.
+
+**[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)**: Stored Procedure that would add/restrict data and log files on new and old disk drives automatically without DBA intervention.
 
 ## Additional Experience And Awards
 
