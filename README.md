@@ -79,7 +79,9 @@ Ajay Kumar Dwivedi
 
 ## Education
 **Bachelor of Engineering**, RGPV University, Bhopal (July 2006 - Apr 2010)
+
 **[Fundamentals & Mastering Bundle](https://training.brentozar.com/p/fundamentals-and-mastering-bundle)**, BrentOzar Unlimited (Dec 2021 - Nov 2022)
+
 **[SQLSkills Blackbelt Bundle](https://www.sqlskills.com/product/sqlskills-blackbelt-bundle/)**, SQLSkills.com (Dec 2022 - Present)
 
 ## OPEN SOURCE PROJECTS
