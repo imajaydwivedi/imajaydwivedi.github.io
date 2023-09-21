@@ -22,7 +22,7 @@ Ajay Kumar Dwivedi
 ## EMPLOYMENT
 **Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
 
-- Developed & baselined 80+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
+- Developed & baselined 115+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/github/sqlmonitor) project in a multi-domain environment.
 - Developed alerts using Grafana Alert Engine & custom PowerShell
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
