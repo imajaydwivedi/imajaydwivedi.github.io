@@ -91,7 +91,7 @@ Ajay Kumar Dwivedi
 
 **[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks and advanced alert setup.
 
-**[MetaDataSync](https://github.com/imajaydwivedi/MetaDataSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
+**[HadrSync](https://github.com/imajaydwivedi/HadrSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
 
 **[Credential Manager](https://github.com/imajaydwivedi/SQLMonitor/tree/master/Credential-Manager)**: Infra that provides storage/retrieval functionality similar to Windows Credential Manager. This is very helpful in environment where a proper vault/credential management software is not present.
 
