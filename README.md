@@ -11,7 +11,7 @@ pagetitle: Ajay Kumar Dwivedi
 Ajay Kumar Dwivedi
 ==================
 
-###### 12+ Years of Exp. Lives in Hyderabad, India. Loves Building Automations & Resolve SQL Server Performance Issues.
+###### 13+ Years of Exp. Lives in Nagpur, India. Loves Building Automations & Resolve SQL Server Performance Issues.
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
@@ -24,6 +24,7 @@ Ajay Kumar Dwivedi
 
 - Developed & baselined 280+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor) project in a multi-domain environment.
 - Developed alerts using Grafana Alert Engine & custom PowerShell
+- Developer alerts using Python & Grafana
 - Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
 - Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
@@ -31,7 +32,7 @@ Ajay Kumar Dwivedi
 - Mentored developers in efficient query writing and performance tuning using techniques like 10x rule of cardinality, cut/combine queries, dealing with scaler functions, inlining of MSTVFs, pagination, columnstore indexes etc.
 - Helped developers identify parameter sniffing issues causing query regression issues, and resolve them using various techniques.
 - Resolved many complex query performance issues by solving [Kitchen Sink design patterns](https://www.sentryone.com/blog/aaronbertrand/backtobasics-updated-kitchen-sink-example).
-- Automated 1-click implementation of [Transparent Data Encryption](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution/tree/master/Security) on 60+ servers.
+- Automated 1-click implementation of [Transparent Data Encryption](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution/tree/master/Security) on 150+ servers.
 
 **Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
 
