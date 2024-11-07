@@ -11,7 +11,7 @@ pagetitle: Ajay Kumar Dwivedi
 Ajay Kumar Dwivedi
 ==================
 
-###### 13+ Years of Exp. Lives in Nagpur, India. Loves Building Automations & Resolve SQL Server Performance Issues.
+###### 13+ Years of Exp. Lives in Nagpur, India. Loves Building Automations & Resolve SQLServer/PostgreSQL Performance Issues.
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
@@ -24,8 +24,8 @@ Ajay Kumar Dwivedi
 
 - Developed & baselined 280+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor) project in a multi-domain environment.
 - Developed alerts using Grafana Alert Engine & custom PowerShell
-- Developed alerts using Python & Grafana
-- Developed advanced intelligent alerting system for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc using PowerShell & PagerDuty
+- Developed advanced [Alert Engine tool using Python & Slack](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/).
+- Created 25+ alerts for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc with self developed [Alert Engine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/).
 - Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
 - Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
 - Helped developers identify/resolve Ascending Key Problem, and fix linked server query issues.
@@ -87,6 +87,8 @@ Ajay Kumar Dwivedi
 
 ## OPEN SOURCE PROJECTS
 **[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
+
+**[SQLMonitor-AlertEngine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/)**: Advanced smart alert system to get Slack/Email/PagerDuty alerts for SQLServer issues/events.
 
 **[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
 
