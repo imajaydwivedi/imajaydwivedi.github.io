@@ -1,6 +1,6 @@
 ---
 author: Ajay Kumar Dwivedi
-description: SQL Server Performance Tuning & Automation Expert
+description: SQLServer/PostgreSQL Database Design, Optimization & Automation
 lang: English
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
@@ -11,7 +11,7 @@ pagetitle: Ajay Kumar Dwivedi
 Ajay Kumar Dwivedi
 ==================
 
-###### 13+ Years of Exp. Lives in Nagpur, India. Loves Building Automations & Resolve SQLServer/PostgreSQL Performance Issues.
+###### Automation, Performance Optimization, Query Tuning, Database Design, Monitoring || SQLServer, PostgreSQL, PowerShell, Python, Grafana, Ansible
 
 #### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
 
@@ -33,6 +33,7 @@ Ajay Kumar Dwivedi
 - Helped developers identify parameter sniffing issues causing query regression issues, and resolve them using various techniques.
 - Resolved many complex query performance issues by solving [Kitchen Sink design patterns](https://www.sentryone.com/blog/aaronbertrand/backtobasics-updated-kitchen-sink-example).
 - Automated 1-click implementation of [Transparent Data Encryption](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution/tree/master/Security) on 150+ servers.
+- Tuned PostgreSQL queries by redesigning query to allow parallel plan, utilizing grouping sets, and creating partial covering indexes.
 
 **Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
 
@@ -116,7 +117,7 @@ Ajay Kumar Dwivedi
 - Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Grafana;
 
 #### Scripting
-- PowerShell, TSQL, Python
+- PowerShell, TSQL, Python, Bash
 
 #### Operating System
 - RHEL 8, Ubuntu, Windows
@@ -125,3 +126,4 @@ Ajay Kumar Dwivedi
 - SOLID Principles
 - MVT Architecture
 - MVC Architecture
+- NORM Methodology for ORM Applications
