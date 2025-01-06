@@ -13,12 +13,12 @@ pagetitle: Ajay Kumar Dwivedi
 **Automation | Performance Tuning | Query Optimization | Monitoring**  
 
 🌐 [ajaydwivedi.com](https://ajaydwivedi.com) | 💻 [GitHub](https://imajaydwivedi.github.io/) | 🔗 [LinkedIn](https://www.linkedin.com/in/imajaydwivedi)  
-✉️ [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) | 📞 [+91 9868534271](tel:+919868534271)  
+✉️ [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) | 📞 [+91 7032312749](tel:+917032312749)  
 
 ---
 
 ## 📊 **Professional Summary**  
-✅ **12+ years of expertise** in SQL Server and PostgreSQL databases.  
+✅ **13+ years of expertise** in SQL Server and PostgreSQL databases.  
 ✅ Specialist in **Database Design**, **Performance Optimization**, and **Automation**.  
 ✅ Skilled in **PowerShell**, **Python**, and **Grafana** for monitoring and alerting.  
 ✅ Ensures **high availability**, **data integrity**, and **optimized database systems**.
@@ -28,16 +28,17 @@ pagetitle: Ajay Kumar Dwivedi
 ## 💼 **Employment History**
 
 ### 🎯 **Senior Site Reliability Engineer** | **AngelOne** *(Feb 2022 – Present)*  
-- 📊 **280+ SQL Servers Baselined** using [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor).  
-- 🚨 Developed **custom alerts** via **Grafana** and **Python Slack Bot**.  
+- 📊 **280+ SQL Servers Baselined** using self built [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor).  
+- 🚨 Developed **Alert Engine** tool via **Flask**, **Grafana** and **Python**.  
 - ⚙️ Optimized SQL Server performance with **D.E.A.T.H Methodology** *(IO latency: 350ms → <9ms)*.  
 - 🔒 Automated **Transparent Data Encryption (TDE)** for **150+ servers**.  
 - 🛠️ Tuned **PostgreSQL queries** for efficient parallel plans and indexing.
+- 🛠️ Fixed **MSSQL query problems** like Ascending Key issue, Kitchen Sink design, uneven threading, distributed query plans, MSTVFs, etc.
 
 ### 🎯 **Database Reliability Engineer** | **Arcesium** *(May 2020 – Feb 2022)*  
 - 🛡️ Designed **AlwaysOn Readiness Solutions**.  
 - ⚙️ Automated **Transactional Replication Setup** with PowerShell.  
-- 📈 Created **Monitoring Dashboards** in **Grafana**.  
+- 🚚 Designed **PowerShell module** to move **38 TB** AG databases.
 - 🐢 Fixed **High CPU/Query Regression** issues.
 
 ### 🎯 **Senior SQL Server DBA** | **TiVo** *(Feb 2018 – May 2020)*  
@@ -57,7 +58,7 @@ pagetitle: Ajay Kumar Dwivedi
 ## 🎓 **Education & Certifications**  
 
 - 🎓 **Bachelor of Engineering** – *RGPV University, Bhopal (2006–2010)*  
-- 📚 **SQLSkills Blackbelt Bundle** – *SQLSkills.com (2022 – Present)*  
+- 📚 **SQLSkills Blackbelt Bundle** – *SQLSkills.com (2022 – 2024)*  
 - 📚 **Fundamentals & Mastering Bundle** – *BrentOzar Unlimited (2021–2022)*  
 
 ---
@@ -79,8 +80,8 @@ pagetitle: Ajay Kumar Dwivedi
 | **Database Systems**  | SQL Server, PostgreSQL |  
 | **Automation Tools**  | PowerShell, Python, Bash |  
 | **Monitoring Tools**  | Grafana, Prometheus |  
-| **DevOps Tools**      | Docker, Ansible |  
-| **OS Expertise**      | RHEL 8, Ubuntu, Windows |  
+| **DevOps Tools**      | Docker, Ansible, Git |  
+| **OS Expertise**      | Ubuntu, Windows |  
 
 ---
 
