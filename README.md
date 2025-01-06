@@ -8,122 +8,99 @@ pagetitle: Ajay Kumar Dwivedi
 
 ![](img/Ajay-Kumar-Dwivedi.jpeg)
 
-Ajay Kumar Dwivedi
-==================
+# 🚀 **Ajay Kumar Dwivedi**  
+**SQL Server / PostgreSQL Database Administrator & Developer**  
+**Automation | Performance Tuning | Query Optimization | Monitoring**  
 
-###### Automation, Performance Optimization, Query Tuning, Database Design, Monitoring || SQLServer, PostgreSQL, PowerShell, Python, Grafana, Ansible
+🌐 [ajaydwivedi.com](https://ajaydwivedi.com) | 💻 [GitHub](https://imajaydwivedi.github.io/) | 🔗 [LinkedIn](https://www.linkedin.com/in/imajaydwivedi)  
+✉️ [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) | 📞 [+91 9868534271](tel:+919868534271)  
 
-#### I help clients to ensure Database Systems are Issue Free, Always Available, and running at Peak Performance State all the time.
+---
 
-###### [ajaydwivedi.com](https://ajaydwivedi.com) . [imajaydwivedi.github.io](https://imajaydwivedi.github.io/) . [linkedin.com/in/imajaydwivedi](https://www.linkedin.com/in/imajaydwivedi) . [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) . [+91 9868534271](tel:+919868534271)
+## 📊 **Professional Summary**  
+✅ **12+ years of expertise** in SQL Server and PostgreSQL databases.  
+✅ Specialist in **Database Design**, **Performance Optimization**, and **Automation**.  
+✅ Skilled in **PowerShell**, **Python**, and **Grafana** for monitoring and alerting.  
+✅ Ensures **high availability**, **data integrity**, and **optimized database systems**.
 
-<br>
+---
 
-## EMPLOYMENT
-**Senior Site Reliability Engineer, AngelOne** (Feb 2022 - Present)
+## 💼 **Employment History**
 
-- Developed & baselined 280+ P1 SQL Server using own [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor) project in a multi-domain environment.
-- Developed alerts using Grafana Alert Engine & custom PowerShell
-- Developed advanced [Alert Engine tool using Python & Slack](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/).
-- Created 25+ alerts for events like Server Unavailability, Low Available Memory, High CPU, Blocking, Low Disk Space, etc with self developed [Alert Engine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/).
-- Performed Optimization of SQL Servers by implementing [D.E.A.T.H method](https://www.brentozar.com/archive/2018/10/index-tuning-week-my-d-e-a-t-h-method-for-tuning-indexes/) of Indexing bring down IO latency from 350+ ms to less than 9 ms.
-- Tuned multiple queries using various tools like sp_BlitzCache, sp_WhoIsActive, XEvents (rpc_completed/sql_batch_completed)
-- Helped developers identify/resolve Ascending Key Problem, and fix linked server query issues.
-- Mentored developers in efficient query writing and performance tuning using techniques like 10x rule of cardinality, cut/combine queries, dealing with scaler functions, inlining of MSTVFs, pagination, columnstore indexes etc.
-- Helped developers identify parameter sniffing issues causing query regression issues, and resolve them using various techniques.
-- Resolved many complex query performance issues by solving [Kitchen Sink design patterns](https://www.sentryone.com/blog/aaronbertrand/backtobasics-updated-kitchen-sink-example).
-- Automated 1-click implementation of [Transparent Data Encryption](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution/tree/master/Security) on 150+ servers.
-- Tuned PostgreSQL queries by redesigning query to allow parallel plan, utilizing grouping sets, and creating partial covering indexes.
+### 🎯 **Senior Site Reliability Engineer** | **AngelOne** *(Feb 2022 – Present)*  
+- 📊 **280+ SQL Servers Baselined** using [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor).  
+- 🚨 Developed **custom alerts** via **Grafana** and **Python Slack Bot**.  
+- ⚙️ Optimized SQL Server performance with **D.E.A.T.H Methodology** *(IO latency: 350ms → <9ms)*.  
+- 🔒 Automated **Transparent Data Encryption (TDE)** for **150+ servers**.  
+- 🛠️ Tuned **PostgreSQL queries** for efficient parallel plans and indexing.
 
-**Database Reliability Engineer, Arcesium** (May 2020 - Feb 2022)
+### 🎯 **Database Reliability Engineer** | **Arcesium** *(May 2020 – Feb 2022)*  
+- 🛡️ Designed **AlwaysOn Readiness Solutions**.  
+- ⚙️ Automated **Transactional Replication Setup** with PowerShell.  
+- 📈 Created **Monitoring Dashboards** in **Grafana**.  
+- 🐢 Fixed **High CPU/Query Regression** issues.
 
-- Designed AlwaysOn RO Readiness solution using TSQL & PowerShell
-- Designed PowerShell module to move Availability Group databases, and moved 38 TB data
-- Provided Org Wide SQL Server Training
-- Designed automation to setup remote Distributor in availability group using PowerShell
-- Designed automation to setup Transactional replication using PowerShell
-- Automated scripting out of entire SQL Server & Replications similar to Export-DbaInstance
-- Designed automations & Monitoring Dashboards on Grafana
-- Resolved High CPU/Query Regression/IO Latency/Blocking Alerts
-- Manage PostgreSQL servers/databases
-- Resolved High CPU issues using Resource Governor & XEvents in multitenancy environment
-- Brought down app query duration to seconds by converting multi day time filter query to SARGable predicates.
-- Resolved query regressions by getting rid of issues like tempdb spills, wrong index choice, creating proper structure like indexed view, computed columns, and putting appropriate query hints
+### 🎯 **Senior SQL Server DBA** | **TiVo** *(Feb 2018 – May 2020)*  
+- 🛠️ Built **Monitoring System** using **Python, Django, and PowerShell**.  
+- ⚙️ Automated SQL Server installation and health checks.
 
+### 🎯 **Senior SQL Server DBA** | **United Health Group** *(Oct 2016 – Feb 2018)*  
+- 💰 Saved **$1.0 million/year** via **Storage Space Automation**.  
+- 🛡️ Managed **VLDBs** effectively under load.
 
-**Senior SQL Server DBA, TiVo** (Feb 2018 - May 2020)
+### 🎯 **Senior SQL Server Developer** | **Ericsson** *(Jun 2015 – Oct 2016)*  
+- 🚀 **3x Performance Improvement** via advanced query optimization.  
+- 🧠 Mentored team on **SQL Best Practices**.
 
-- Implemented Database Inventory and Monitoring System using Python/Django/PowerShell/SQL Server
-- Created Alert/Monitoring System using PowerShell
-- Automated Server Health Check for users using native tools
-- Automated Installation/Configuration/Uninstallation of SQL Servers using PowerShell
+---
 
+## 🎓 **Education & Certifications**  
 
-**Senior SQL Server DBA, United Health Group** (Oct 2016 - Feb 2018)
+- 🎓 **Bachelor of Engineering** – *RGPV University, Bhopal (2006–2010)*  
+- 📚 **SQLSkills Blackbelt Bundle** – *SQLSkills.com (2022 – Present)*  
+- 📚 **Fundamentals & Mastering Bundle** – *BrentOzar Unlimited (2021–2022)*  
 
-- Saved $1.0 million/year with Space Capacity Automation
-- Handled VLDBs and took care of Core DBA Tasks
+---
 
+## 🛠️ **Key Projects**  
 
-**Senior SQL Server Developer, Ericsson** (Jun 2015 - Oct 2016)
+✅ **[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)** – Baseline and monitor SQL Server.  
+✅ **[SQLMonitor-AlertEngine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/)** – Advanced alerting system.  
+✅ **[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)** – Daily DBA task scripts.  
+✅ **[HadrSync](https://github.com/imajaydwivedi/HadrSync)** – Replica synchronization.  
+✅ **[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)** – Disk space management.
 
-- Resolved SQL Server Performance Issue with Table Partitioning
-- Mentored team and guided them with Query Performance Turning best practices
-- Tripled Database server performance by Query Optimization
+---
 
+## 💡 **Skills**  
 
-**SQL Server DBA/Developer, TATA Consultancy Services** (Mar 2011 - June 2015)
+| **Skill Area**        | **Proficiency** |  
+|------------------------|---------------|  
+| **Database Systems**  | SQL Server, PostgreSQL |  
+| **Automation Tools**  | PowerShell, Python, Bash |  
+| **Monitoring Tools**  | Grafana, Prometheus |  
+| **DevOps Tools**      | Docker, Ansible |  
+| **OS Expertise**      | RHEL 8, Ubuntu, Windows |  
 
-- Saved Hours of DBA efforts with TSQL scripts for SQL Instance Migration activity
-- Mentored 5 developers and designed Data Warehouse using DB2 & Pentaho
-- Successfully migrated Billions of data with efficient Tsql programming
+---
 
+## 🏆 **Awards & Achievements**  
 
-## Education
-**Bachelor of Engineering**, RGPV University, Bhopal (July 2006 - Apr 2010)
+🏅 **Multiple Automation Awards** for innovative automation scripts.  
+📝 **Technical Blog:** [ajaydwivedi.com](https://ajaydwivedi.com)  
+🎥 **Live YouTube Tutorials:** [YouTube Sessions](https://ajaydwivedi.com/go/youtube)  
+👨‍🏫 **Instructor Experience:** Taught **C/C++ (2008–2010)**  
 
-**[Fundamentals & Mastering Bundle](https://training.brentozar.com/p/fundamentals-and-mastering-bundle)**, BrentOzar Unlimited (Dec 2021 - Nov 2022)
+---
 
-**[SQLSkills Blackbelt Bundle](https://www.sqlskills.com/product/sqlskills-blackbelt-bundle/)**, SQLSkills.com (Dec 2022 - Present)
+## 🌍 **Languages**  
 
-## OPEN SOURCE PROJECTS
-**[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)**: Automation to baseline SQL Server using TSQL, PowerShell, Perfmon & Grafana
+- 🗣️ **English**  
+- 🗣️ **Hindi**  
 
-**[SQLMonitor-AlertEngine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/)**: Advanced smart alert system to get Slack/Email/PagerDuty alerts for SQLServer issues/events.
+---
 
-**[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)**: TSQL/PowerShell script for day to day DBA support work.
+## 📣 **Final Note**  
+I’m passionate about **designing efficient database systems** and **solving complex performance challenges**. Ready to bring expertise, innovation, and dedication to your organization.  
 
-**[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)**: PowerShell module to automate common DBA tasks and advanced alert setup.
-
-**[HadrSync](https://github.com/imajaydwivedi/HadrSync)**: PowerShell module to synchronize everything from Primary/Principal replicas to Secondary/Mirror/DR replicas in Always On/Mirror setup.
-
-**[Credential Manager](https://github.com/imajaydwivedi/SQLMonitor/tree/master/Credential-Manager)**: Infra that provides storage/retrieval functionality similar to Windows Credential Manager. This is very helpful in environment where a proper vault/credential management software is not present.
-
-**[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)**: Stored Procedure that would add/restrict data and log files on new and old disk drives automatically without DBA intervention.
-
-## Additional Experience And Awards
-
-- **Instructor (2008 - 2010)**: Taught 4 batches of C/C++ in coaching institute
-- **Multiple Award for Automation**: Awarded multiple times for Space Capacity automation, Prod- Non-Prod DDL script comparison, Instance Migration automation and many more.
-- **Technical Blog Website**: https://ajaydwivedi.com
-- Online live [YouTube tutorial sessions](https://ajaydwivedi.com/go/youtube) for L1/L2 Database Administrators & Developers
-
-## Languages and Technologies
-
-#### Technologies
-- HTML, CSS, SQL Server, Linux, CentOS8, Ubuntu, PostgreSQL
-
-#### Tools
-- Docker, Django, Bootstrap, JQuery, SQL Server, BrentOzarUnlimited First-Responder-Kit; SQLQueryStress; SQL Sentry Plan Explorer; Ola Hallengren Maintenance Solution; OStress; DiagManager; SQLNexus; Performance Monitor; SQL Profiler; SQL Trace; Clear Trace; Extended Events; ReadTrace; PAL; Django; CentOS; RHEL; Grafana;
-
-#### Scripting
-- PowerShell, TSQL, Python, Bash
-
-#### Operating System
-- RHEL 8, Ubuntu, Windows
-
-#### Programming Models
-- SOLID Principles
-- MVT Architecture
-- MVC Architecture
-- NORM Methodology for ORM Applications
+✨ **Let’s connect and discuss how I can add value to your team!**  
