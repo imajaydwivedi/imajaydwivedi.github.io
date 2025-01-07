@@ -9,7 +9,7 @@ echo 'Done'
 
 echo
 echo 'Generate HTML to PDF ...'
-wkhtmltopdf --enable-local-file-access index.html resume.pdf
+wkhtmltopdf --enable-local-file-access --encoding "UTF-8" index.html resume.pdf
 
 echo
 echo 'Generate Markdown to HTML Light + Footer (Download Link) ...'
