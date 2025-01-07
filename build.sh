@@ -4,12 +4,12 @@
 
 echo
 echo 'Generate Markdown to HTML ...'
-pandoc -s -c css/design.css README.md -o index.html
+pandoc -s -c css/design-resume.css README.md -o resume.html
 echo 'Done'
 
 echo
 echo 'Generate HTML to PDF ...'
-wkhtmltopdf --enable-local-file-access --encoding "UTF-8" index.html resume.pdf
+wkhtmltopdf --enable-local-file-access --encoding "UTF-8" resume.html resume.pdf
 
 echo
 echo 'Generate Markdown to HTML Light + Footer (Download Link) ...'
