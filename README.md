@@ -6,7 +6,9 @@ header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
 ---
 
-![](img/Ajay-Kumar-Dwivedi.jpeg)
+<!-- ![](img/Ajay-Kumar-Dwivedi.jpeg) -->
+<img src="img/Ajay-Kumar-Dwivedi.jpeg" alt="Description" width="200px">
+
 
 # 🚀 **Ajay Kumar Dwivedi**  
 **SQL Server / PostgreSQL Database Administrator & Developer**  
