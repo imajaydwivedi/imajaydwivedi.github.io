@@ -1,7 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -14,7 +12,7 @@
  */
 
  html {
-    font-family: 'Inter', 'Noto Emoji', 'Arial', 'Noto Sans', sans-serif;
+    font-family: sans-serif;
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
@@ -357,14 +355,12 @@
 
 html,body {
   background-color: #f7fafb;
-  font-family: 'Noto Sans',Inter,sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 15px;
-  margin: 0;
+  margin: auto;
   max-width: 60em; 
-  padding:40px;  
-  padding-top: 2em;    
+  padding:40px;      
 }
-
 
 a {
   color: #121c42;
