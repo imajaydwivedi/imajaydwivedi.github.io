@@ -17,7 +17,7 @@ pagetitle: Ajay Kumar Dwivedi
 ---
 
 ## 📊 **Professional Summary**  
-✅ **13+ years of expertise** in SQL Server and PostgreSQL databases.  
+✅ **14 years of expertise** in SQL Server and PostgreSQL databases.  
 ✅ Specialist in **Database Design**, **Performance Optimization**, and **Automation**.  
 ✅ Skilled in **PowerShell**, **Python**, and **Grafana** for monitoring and alerting.  
 ✅ Ensures **high availability**, **data integrity**, and **optimized database systems**.
@@ -30,26 +30,28 @@ pagetitle: Ajay Kumar Dwivedi
 - 📊 **280+ SQL Servers Baselined** using self built [SQLMonitor](https://ajaydwivedi.com/demo/sqlmonitor).  
 - 🚨 Developed **Alert Engine** tool via **Flask**, **Grafana** and **Python**.  
 - ⚙️ Optimized SQL Server performance with **D.E.A.T.H Methodology** *(IO latency: 350ms → <9ms)*.  
-- 🔒 Automated **Transparent Data Encryption (TDE)** for **150+ servers**.  
+- 🔒 Automated **Transparent Data Encryption (TDE)** for **280+ servers**.  
 - 🛠️ Tuned **PostgreSQL queries** for efficient parallel plans and indexing.
 - 🛠️ Fixed **MSSQL query problems** like Ascending Key issue, Kitchen Sink design, uneven threading, distributed query plans, MSTVFs, etc.
+- ⚙️ Automated bi-directional **Transactional Replication** for DR setup using PowerShell.  
 
 ### 🎯 **Database Reliability Engineer** | **Arcesium** *(May 2020 – Feb 2022)*  
-- 🛡️ Designed **AlwaysOn Readiness Solutions**.  
-- ⚙️ Automated **Transactional Replication Setup** with PowerShell.  
+- 🛡️ Designed **AlwaysOn Readiness Solutions** using PowerShell & Grafana.  
 - 🚚 Designed **PowerShell module** to move **38 TB** AG databases.
-- 🐢 Fixed **High CPU/Query Regression** issues.
+- 🚀 Automated/Upgraded **30 SQL Instances**, having **Replication on top of AG replicas formed of SqlClusters** in **12 hours**.
+- 🛠️ Fixed **High CPU/Query Regression** issues.
+- 🛠️ Automated **Script Out** of entire SQLServer Instance
 
 ### 🎯 **Senior SQL Server DBA** | **TiVo** *(Feb 2018 – May 2020)*  
-- 🛠️ Built **Monitoring System** using **Python, Django, and PowerShell**.  
-- ⚙️ Automated SQL Server installation and health checks.
+- 🛠️ Built **DBA Inventory** using **Python, Django, and PowerShell**.  
+- ⚙️ Automated SQLServer **deployment** using **PowerShell**.
 
 ### 🎯 **Senior SQL Server DBA** | **United Health Group** *(Oct 2016 – Feb 2018)*  
-- 💰 Saved **$1.0 million/year** via **Storage Space Automation**.  
+- 💰 Saved **$1.0 million/year** via [**DB Space Capacity Automation**](https://github.com/imajaydwivedi/Space-Capacity-Automation).
 - 🛡️ Managed **VLDBs** effectively under load.
 
 ### 🎯 **Senior SQL Server Developer** | **Ericsson** *(Jun 2015 – Oct 2016)*  
-- 🚀 **3x Performance Improvement** via advanced query optimization.  
+- 🚀 **3x Performance Improvement** via advanced query optimization like Recursive CTE and Table Partitioning.  
 - 🧠 Mentored team on **SQL Best Practices**.
 
 ---
@@ -64,11 +66,14 @@ pagetitle: Ajay Kumar Dwivedi
 
 ## 🛠️ **Key Projects**  
 
+✅ **[CredentialManager](https://ajaydwivedi.com/powershell/how-to-handle-passwords-in-powershell-automation/)** – Safely use with credentails in automations.  
 ✅ **[SQLMonitor](https://github.com/imajaydwivedi/SqlMonitor)** – Baseline and monitor SQL Server.  
 ✅ **[SQLMonitor-AlertEngine](https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/)** – Advanced alerting system.  
 ✅ **[SQLDBA-SSMS-Solution](https://github.com/imajaydwivedi/SQLDBA-SSMS-Solution)** – Daily DBA task scripts.  
 ✅ **[HadrSync](https://github.com/imajaydwivedi/HadrSync)** – Replica synchronization.  
-✅ **[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)** – Disk space management.
+✅ **[Space-Capacity-Automation](https://github.com/imajaydwivedi/Space-Capacity-Automation)** – Disk space management.  
+✅ **[SQLDBATools](https://github.com/imajaydwivedi/SQLDBATools)** – PowerShell module to help with DBA activities.  
+
 
 ---
 
@@ -81,6 +86,7 @@ pagetitle: Ajay Kumar Dwivedi
 | **Monitoring Tools**  | Grafana, Prometheus |  
 | **DevOps Tools**      | Docker, Ansible, Git |  
 | **OS Expertise**      | Ubuntu, Windows |  
+| **Web Frameworks**    | Flask, Django |
 
 ---
 
@@ -90,13 +96,6 @@ pagetitle: Ajay Kumar Dwivedi
 📝 **Technical Blog:** [ajaydwivedi.com](https://ajaydwivedi.com)  
 🎥 **Live YouTube Tutorials:** [YouTube Sessions](https://ajaydwivedi.com/go/youtube)  
 👨‍🏫 **Instructor Experience:** Taught **C/C++ (2008–2010)**  
-
----
-
-## 🌍 **Languages**  
-
-- 🗣️ **English**  
-- 🗣️ **Hindi**  
 
 ---
 
