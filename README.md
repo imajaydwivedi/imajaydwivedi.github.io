@@ -5,7 +5,7 @@ lang: English
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Ajay Kumar Dwivedi
 ---
-<img src="img/Ajay-Kumar-Dwivedi.jpeg" alt="Description" width="200px">
+<img src="img/Ajay-Kumar-Dwivedi.png" alt="Description" width="200px">
 
 # 🚀 **Ajay Kumar Dwivedi**  
 **SQL Server / PostgreSQL Database Administrator & Developer**  
@@ -19,7 +19,7 @@ pagetitle: Ajay Kumar Dwivedi
 ## 📊 **Professional Summary**  
 ✅ **14 years of expertise** in SQL Server and PostgreSQL databases.  
 ✅ Specialist in **Database Design**, **Performance Optimization**, and **Automation**.  
-✅ Skilled in **PowerShell**, **Python**, and **Grafana** for monitoring and alerting.  
+✅ Skilled in **PowerShell**, **Python**, **Ansible**, and **Grafana** for monitoring and alerting.  
 ✅ Ensures **high availability**, **data integrity**, and **optimized database systems**.
 
 ---
