@@ -1,0 +1,46 @@
+With 14+ years of experience, I optimize database systems like SQLServer & PostgreSQL. I Build Infra automation with scripting tools like PowerShell, Python and Ansible.
+
+AngelOne
+Senior Site Reliability Engineer (Feb 2022 - Present)
+
+Optimized SQL Server performance with D.E.A.T.H Methodology (IO latency: 350ms → <9ms)
+Automated Transparent Data Encryption (TDE) for 280+ servers
+Fixed MSSQL query problems like Ascending Key issue, Kitchen Sink design, uneven threading, distributed query plans, MSTVFs, etc
+Built Monitoring & Alerting using PowerShell & Python for SQLServers
+
+
+Arcesium
+Database Reliability Engineer (May 2020 - Feb 2022)
+
+Designed AlwaysOn Readiness Solutions using PowerShell & Grafana
+Designed PowerShell module to move 38 TB AG databases
+Automated/Upgraded 30 SQL Instances, having Replication on top of AG replicas formed of SqlClusters in 12 hours
+Automated Script Out of entire SQLServer Instance
+
+
+TiVo
+Senior SQL DBA (Feb 2018 - May 2020)
+
+Built Client Self-service portal using Flask
+Automated SQLServer deployment and configuration using PowerShell
+Designed alerts for Replication Health & Latency
+
+
+United Health Group
+Senior SQL Server DBA (Oct 2016 - Feb 2018)
+
+Saved $1.0 million/year via DB Space Capacity Automation
+Managed VLDBs effectivity under load
+
+
+Ericsson Global
+Senior SQL Server Developer (Jun 2015 - Oct 2016)
+
+3x Performance Improvement via advanced query optimization like Recursive CTE and Table Partitioning
+Mentored team on SQL Best Practices
+
+
+TATA Consultancy Services
+DBA/Developer (Mar 2011 - Jun 2015)
+
+Mar 2011 - Jun 2015
