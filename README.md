@@ -7,12 +7,8 @@ pagetitle: Ajay Kumar Dwivedi
 ---
 <img src="img/Ajay-Kumar-Dwivedi.png" alt="Description" width="200px">
 
-# 🚀 **Ajay Kumar Dwivedi**  
-**SQL Server / PostgreSQL Database Administrator & Developer**  
-**Automation | Performance Tuning | Query Optimization | Monitoring**  
-
-🌐 [ajaydwivedi.com](https://ajaydwivedi.com) | 💻 [GitHub](https://imajaydwivedi.github.io/) | 🔗 [LinkedIn](https://www.linkedin.com/in/imajaydwivedi)  
-✉️ [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) | 📞 [+91 7032312749](tel:+917032312749)  
+# **Ajay Kumar Dwivedi**
++91-7032312749 | [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) | [ajaydwivedi.com](https://ajaydwivedi.com) | [Github](https://imajaydwivedi.github.io/) | [LinkedIn](https://www.linkedin.com/in/imajaydwivedi) | [SQLMonitor](https://github.com/imajaydwivedi/sqlmonitor)
 
 ---
 
