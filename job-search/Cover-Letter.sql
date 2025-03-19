@@ -1,11 +1,7 @@
-Hi  Folks,
-
-Looking for job change.
+I bring 14+ years of extensive experience in SQLServer, PostgreSQL, Python, PowerShell and Ansible.
 
 Resume -> https://ajaydwivedi.com/go/resume
 Blog -> https://ajaydwivedi.com
-
-I carry 14+ years of extensive experience in SQLServer, PostgreSQL, Python, PowerShell and Ansible.
 
 Project showing my skills -> https://ajaydwivedi.com/category/sqlmonitor
 
