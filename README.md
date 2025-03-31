@@ -46,19 +46,18 @@ With over 14 years of experience, I optimize SQL Server and PostgreSQL databases
   : **Feb 2022 - Present**
 
 - Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
-- Automated Transparent Data Encryption (TDE) for 280+ servers.
-- Reduced 20x query time by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
-- Built Monitoring & 45+ Alerts using PowerShell & Python for SQLServers.
+- Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
+- Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
+- Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
 
 
 **Database Reliability Engineer**
   : **Arcesium**
   : **May 2020 - Feb 2022**
 
-- Designed PowerShell module to move 38 TB AG databases.
-- Automated/Upgraded 30 SQL Instances, having Replication on top of AG replicas formed of SqlClusters in 12 hours.
-- Automated Script Out of entire SQLServer Instance for Disaster Recovery
-Drills.
+- Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
+- Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
+- Improved database relibility with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
 
 
 **Senior SQL DBA**
@@ -66,16 +65,16 @@ Drills.
   : **Feb 2018 - May 2020**
 
 - Saved 40+ hours by automating SQLServer deployment and configuration using PowerShell.
-- Reduced Replication Health & Latency issues by 10x with latency infra.
-- Reduced performance incidents by 5x by building Delta Index Defragmentation automation for replicated & HADR databases.
+- Reduced 80% transactional replication issues with latency infra.
+- Reduced 80% performance incidents by building Delta Index Defragmentation automation for replicated & HADR databases.
 
 
 **Senior SQL DBA**
   : **United Health Group**
   : **Oct 2016 - Feb 2018**
 
-- Saved $1.0 million/year via DB Space Capacity Automation.
-- Reduced VLDBs maintenance time by 3x with effective backup &defragmentation strategies.
+- Saved $1 million/year via DB Space Capacity Automation.
+- Improved 50% performance issues with reduced VLDBs maintenance time.
 
 
 **Senior SQL Developer**
@@ -83,15 +82,15 @@ Drills.
   : **Jun 2015 - Oct 2016**
 
 - 3x Performance Improvement via advanced query optimization like Recursive CTE and Table Partitioning.
-- Mentored team on SQL Best Practices.
+- Lead 18+ developers for best practices and guidelines.
 
 
 **SQL DBA Developer**
   : **TATA Consultancy Services**
   : **Mar 2011 - Jun 2015**
 
-- Built data migration pipelines using SSIS to move billions of records.
-- Built data warehouse refresh pipelines using Pentaho & Kettle for Retail stores.
+- Moved 250+ large tables with each having billions of records using SSIS in 45 hours.
+- Built data warehouse ETL pipelines using Pentaho & Kettle for high volume Liquor Retail stores.
 - Saved 20+ hours/week by Automating core DBA tasks using dynamic SQL.
 
 ## Education
