@@ -3,13 +3,17 @@
 
 # Ajay Kumar Dwivedi
 
-<span class="iconify" data-icon="charm:person"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
+<span class="iconify" data-icon="hugeicons:blogger"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
-  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
+  : <span class="iconify" data-icon="tabler:brand-youtube"></span> [youtube.com/@imajaydwivedi](https://www.youtube.com/@imajaydwivedi)
+
+<span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
+  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com)
 
 <span class="iconify" data-icon="ic:outline-location-on"></span> Nagpur, Maharashtra, India
-  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
-  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com)
+  : <span class="iconify" data-icon="tabler:phone"></span> [+91 7032312749](https://wa.me/7032312749)
+  
+
 
 ## Professional Summary
 
@@ -103,10 +107,10 @@ RustamJi Institue of Technology
 
 ## Awards and Honors
 
-**Gold**, International Collegiate Catching Fish Contest (ICCFC)
-  : 2018
+**Tech Titan**, AngelOne for 10x Performance Optimization on Prod SQLServer.
+  : 2022
 
-**First Prize**, China National Scholarship for Outstanding Dragons
+**Sapphire**, United Health Group for Innovation and automations.
   : 2017, 2018
 
 ## Projects
