@@ -14,7 +14,7 @@
 
 ## Professional Summary
 
-With over 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+Site Reliability Engineer with 14+ years of experience optimizing SQLServer and PostgreSQL databases, building infrastructure automation using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. Leading team in implementing DevOps practices and SRE principles to enhance system reliability and operational efficiency.
 
 
 ## Skills
