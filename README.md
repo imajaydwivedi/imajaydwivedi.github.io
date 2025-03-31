@@ -3,21 +3,19 @@
 
 # Ajay Kumar Dwivedi
 
-<span class="iconify" data-icon="hugeicons:blogger"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
+<span class="iconify" data-icon="charm:person"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
-  : <span class="iconify" data-icon="tabler:brand-youtube"></span> [youtube.com/@imajaydwivedi](https://www.youtube.com/@imajaydwivedi)
-
-<span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
-  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com)
+  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
 
 <span class="iconify" data-icon="ic:outline-location-on"></span> Nagpur, Maharashtra, India
-  : <span class="iconify" data-icon="tabler:phone"></span> [+91 7032312749](https://wa.me/7032312749)
-  
+  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
+  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) 
 
 
 ## Professional Summary
 
-With over 14 years of experience, I optimize SQL Server and PostgreSQL databases and build DevOps CI/CD Pipelines to automate Infra with scripting tools like PowerShell, Python, Ansible and GitHub Actions.
+With over 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+
 
 ## Skills
 
@@ -33,6 +31,7 @@ With over 14 years of experience, I optimize SQL Server and PostgreSQL databases
 
 **Languages:** English (proficient), Hindi (native)
 
+
 ## Certifications
 - Microsoft Certified Professional - Database Querying
   : Oct 2013
@@ -43,30 +42,33 @@ With over 14 years of experience, I optimize SQL Server and PostgreSQL databases
 - SQLSkills Blackbelt Professional
   : Jun 2023
 
+
 ## Experience
 
-**Senior Site Reliability Engineer**
+**Senior Site Reliability Engineer (DevOps)**
   : **AngelOne**
-  : **Feb 2022 - Present**
+  : **02 2022 - Present**
 
+- Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
 - Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
 - Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
 - Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
 - Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
+- Collaborated with Developers and
 
 
 **Database Reliability Engineer**
   : **Arcesium**
-  : **May 2020 - Feb 2022**
+  : **05 2020 - 02 2022**
 
 - Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
 - Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
 - Improved database relibility with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
 
 
-**Senior SQL DBA**
+**Database Administrator**
   : **TiVo**
-  : **Feb 2018 - May 2020**
+  : **02 2018 - 05 2020**
 
 - Saved 40+ hours by automating SQLServer deployment and configuration using PowerShell.
 - Reduced 80% transactional replication issues with latency infra.
@@ -75,15 +77,15 @@ With over 14 years of experience, I optimize SQL Server and PostgreSQL databases
 
 **Senior SQL DBA**
   : **United Health Group**
-  : **Oct 2016 - Feb 2018**
+  : **10 2016 - 02 2018**
 
 - Saved $1 million/year via DB Space Capacity Automation.
 - Improved 50% performance issues with reduced VLDBs maintenance time.
 
 
-**Senior SQL Developer**
+**Technical Lead**
   : **Ericsson Global**
-  : **Jun 2015 - Oct 2016**
+  : **06 2015 - 10 2016**
 
 - 3x Performance Improvement via advanced query optimization like Recursive CTE and Table Partitioning.
 - Lead 18+ developers for best practices and guidelines.
@@ -91,19 +93,21 @@ With over 14 years of experience, I optimize SQL Server and PostgreSQL databases
 
 **SQL DBA Developer**
   : **TATA Consultancy Services**
-  : **Mar 2011 - Jun 2015**
+  : **03 2011 - 06 2015**
 
 - Moved 250+ large tables with each having billions of records using SSIS in 45 hours.
 - Built data warehouse ETL pipelines using Pentaho & Kettle for high volume Liquor Retail stores.
 - Saved 20+ hours/week by Automating core DBA tasks using dynamic SQL.
 
+
 ## Education
 
 **Bachelor of Engineering in Electronics & Communication Engineering**
-  : **Jul 2006 - Jun 2010**
+  : **07 2006 - 06 2010**
 
 RustamJi Institue of Technology
   : Gwalior, Madhya Pradesh
+
 
 ## Awards and Honors
 
@@ -111,20 +115,21 @@ RustamJi Institue of Technology
   : 2022
 
 **Sapphire**, United Health Group for Innovation and automations.
-  : 2017, 2018
+  : 2017
+
 
 ## Projects
 
 **SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
-  : **Jan 2021 - Present**
+  : **01 2021 - Present**
 
 - Built using TSQL, PowerShell, Python, and Grafana.
 - Successfully monitoring 500+ SQLServers across environments.
-- Sends alerts to Slack, PagerDuty or Email
+- Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
 **HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
-  : **Jan 2021 - Present**
+  : **01 2021 - Present**
 
 - Ensures zero sync issues during failovers/Drs.
 - Detects & synchronizes even delta changes like changes in passwords, definition etc.
@@ -138,6 +143,6 @@ RustamJi Institue of Technology
 
 **Remote:** Open to remote opportunities
 
+
 ## FINAL NOTE
-I am passionate about designing efficient database systems and solving complex performance challenges. I help organisations build robust, fully automated infrastructure with PowerShell, Python
-and Ansible.
+I have problem-solving mindset and love designing efficient database systems and solving complex performance challenges in collaboration with various tech teams. I help organisations build robust, fully automated infrastructure with PowerShell, Python and Ansible.
