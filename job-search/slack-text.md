@@ -5,7 +5,10 @@ Looking for job change.
 Resume -> https://ajaydwivedi.com/go/resume
 Blog -> https://ajaydwivedi.com
 
-I carry 14+ years of extensive experience in SQLServer, PostgreSQL, Python, PowerShell and Ansible.
+With over 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech
+teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell,
+Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers
+and administrators to effectivly build monitoring and alerting system for organisation.
 
 Project showing my skills -> https://ajaydwivedi.com/category/sqlmonitor
 
