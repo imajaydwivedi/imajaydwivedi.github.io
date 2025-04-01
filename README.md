@@ -54,7 +54,6 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 - Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
 - Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
 - Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
-- Collaborated with Developers and
 
 
 **Database Reliability Engineer**
