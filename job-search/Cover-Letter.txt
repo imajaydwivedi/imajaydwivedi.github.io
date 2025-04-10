@@ -1,13 +1,13 @@
 I bring 14+ years of extensive experience in SQLServer, PostgreSQL, Python, PowerShell and Ansible.
 
-Resume -> https://ajaydwivedi.com/go/resume
-Blog -> https://ajaydwivedi.com
+Resume - https://ajaydwivedi.com/go/resume
+Blog - https://ajaydwivedi.com
 
-Project showing my skills -> https://ajaydwivedi.com/category/sqlmonitor
+Project showing my skills - https://ajaydwivedi.com/category/sqlmonitor
 
 HaDrSync - Sync delta objects b/w 2 servers - https://github.com/imajaydwivedi/HadrSync
 Alerting tool - https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/
-Monitoring Tool -> https://github.com/imajaydwivedi/sqlmonitor
+Monitoring Tool - https://github.com/imajaydwivedi/sqlmonitor
 
 My projects/Blogs have been appreciated experts like BrentOzar - https://github.com/imajaydwivedi/Images/blob/master/Recognitions/SQLMonitor-Recognitions-gif.gif
 Received various reward in various jobs for automating repetitive tasks bring efficiency in processes. https://github.com/imajaydwivedi/Images/tree/master/Recognitions
