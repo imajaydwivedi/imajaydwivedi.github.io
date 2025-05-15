@@ -54,8 +54,8 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 - Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
 - Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
 - Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
-- Automated Patroni PostgreSQL Cluster Health PagerDuty and Slack Alerts using Github Actions Workflow.
-- Automated Patroni PostgreSQL Cluster Installation and Configuration using Github Actions and Ansible.
+- Designed Alerts for PostgreSQL Cluster Health using Github Actions Workflow.
+- Automated PostgreSQL Cluster Installation and Configuration using Github Actions and Ansible.
 
 
 **Database Reliability Engineer**
@@ -121,7 +121,7 @@ RustamJi Institue of Technology
 
 ## Projects
 
-**SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
+**[SQLMonitor](https://github.com/imajaydwivedi/SQLMonitor):** Open source Enterprise grade SQLServer monitoring tool
   : **01 2021 - Present**
 
 - Built using TSQL, PowerShell, Python, and Grafana.
@@ -129,7 +129,7 @@ RustamJi Institue of Technology
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
-**HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
+**[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
 
 - Ensures zero sync issues during failovers/Drs.
