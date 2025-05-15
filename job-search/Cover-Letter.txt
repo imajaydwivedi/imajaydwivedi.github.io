@@ -1,3 +1,6 @@
+
+I can confidently lead your Database/SRE team and design a robust infrastructure that is highly available, scalable & running at peak performance.
+
 I bring 14+ years of extensive experience in SQLServer, PostgreSQL, Python, PowerShell and Ansible.
 
 Resume - https://ajaydwivedi.com/go/resume
