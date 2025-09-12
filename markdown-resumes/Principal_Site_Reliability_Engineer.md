@@ -14,12 +14,12 @@
 
 ## Professional Summary
 
-Site Reliability Engineer with 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+Site Reliability Engineer with 14+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS & Azure).
 
 
 ## Skills
 
-**Databases:** <span class="iconify" data-icon="vscode-icons:file-type-sqlserver"></span> SQLServer, PostgreSQL, SQLite, RDS, Managed Instance, Aurora
+**Databases:** <span class="iconify" data-icon="vscode-icons:file-type-sqlserver"></span> SQLServer, PostgreSQL, SQLite, RDS, Azure SQL, Managed Instance, Aurora
 
 **Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-sql"></span> SQL, <span class="iconify" data-icon="vscode-icons:file-type-powershell"></span> PowerShell, <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript, <span class="iconify" data-icon="vscode-icons:file-type-html"></span> HTML / <span class="iconify" data-icon="vscode-icons:file-type-css"></span> CSS, <span class="iconify" data-icon="vscode-icons:file-type-shell"></span> Shell Scripting
 
@@ -49,14 +49,12 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
   : **AngelOne**
   : **02 2022 - Present**
 
-- Automated multi datacenter HA & Standalone PostgreSQL setup
-- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers
-- Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
-- Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
-- Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
-- Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
-- Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
-
+- Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
+- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
+- Saved 80 hours/week SRE effort with single click Github Action based PostgreSQL Cluster deployment & Configuration using Ansible Playbook.
+- Baselined all windows & linux servers using Prometheus and Grafana
+- Created Github Repo based baselining of servers to ease monitoring and baselining using Prometheus and Grafana
+- Automated common database teams activities like installation, configuration, monitoring and alerting using PowerShell, Flask, Python, TSQL, Grafana, and PagerDuty for On-Prem and Cloud Managed Instances
 
 **Database Reliability Engineer**
   : **Arcesium**
@@ -65,6 +63,7 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 - Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
 - Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
 - Improved database relibility with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
+- Built automations to prevent common issues like tempdbSaver, LogSaver etc.
 
 
 **Database Administrator**
@@ -121,7 +120,7 @@ RustamJi Institue of Technology
 
 ## Projects
 
-**SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
+**[SQLMonitor](https://github.com/imajaydwivedi/SQLMonitor):** Open source Enterprise grade SQLServer monitoring tool
   : **01 2021 - Present**
 
 - Built using TSQL, PowerShell, Python, and Grafana.
@@ -129,7 +128,7 @@ RustamJi Institue of Technology
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
-**HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
+**[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
 
 - Ensures zero sync issues during failovers/Drs.

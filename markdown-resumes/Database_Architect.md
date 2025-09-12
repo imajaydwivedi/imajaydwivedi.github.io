@@ -14,7 +14,7 @@
 
 ## Professional Summary
 
-Site Reliability Engineer with 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+Site Reliability Engineer with 14+ years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. With my Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
 
 
 ## Skills
@@ -49,8 +49,8 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
   : **AngelOne**
   : **02 2022 - Present**
 
-- Automated multi datacenter HA & Standalone PostgreSQL setup
-- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers
+- Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
+- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
 - Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
 - Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
 - Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
@@ -121,7 +121,7 @@ RustamJi Institue of Technology
 
 ## Projects
 
-**SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
+**[SQLMonitor](https://github.com/imajaydwivedi/SQLMonitor):** Open source Enterprise grade SQLServer monitoring tool
   : **01 2021 - Present**
 
 - Built using TSQL, PowerShell, Python, and Grafana.
@@ -129,7 +129,7 @@ RustamJi Institue of Technology
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
-**HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
+**[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
 
 - Ensures zero sync issues during failovers/Drs.
