@@ -49,10 +49,11 @@ Site Reliability Engineer with 14+ years of experience, I automate infrastructur
   : **AngelOne**
   : **02 2022 - Present**
 
+- Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
+- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
 - Saved 80 hours/week SRE effort with single click Github Action based PostgreSQL Cluster deployment & Configuration using Ansible Playbook.
 - Baselined all windows & linux servers using Prometheus and Grafana
 - Created Github Repo based baselining of servers to ease monitoring and baselining using Prometheus and Grafana
-- Implemented solutions for Ansible Playbook deployment through Github Actions using Containers
 - Automated common database teams activities like installation, configuration, monitoring and alerting using PowerShell, Flask, Python, TSQL, Grafana, and PagerDuty for On-Prem and Cloud Managed Instances
 
 **Database Reliability Engineer**
