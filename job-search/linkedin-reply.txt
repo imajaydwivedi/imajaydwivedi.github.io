@@ -1,0 +1,22 @@
+Greetings Vineeth,
+
+I came across your post about J.P. Morgan hiring talented engineers — it sounds like a great opportunity!
+
+With over 14 years of hands-on experience in SQL Server, PostgreSQL, Python, PowerShell, and Ansible across both on-prem and cloud environments, I’m confident I can lead a Database/SRE team and design robust, scalable, and highly available infrastructure that runs at peak performance.
+
+Profile & Work:
+
+Resume: https://ajaydwivedi.com/go/resume
+Technical Blog: https://ajaydwivedi.com
+SQLMonitor – Open Source Monitoring Tool: https://ajaydwivedi.com/category/sqlmonitor
+HaDrSync – Delta Object Sync between Servers: https://github.com/imajaydwivedi/HadrSync
+SQLMonitor Alerting Tool: https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/
+GitHub: SQLMonitor: https://github.com/imajaydwivedi/sqlmonitor
+
+My projects and blogs have been appreciated by industry experts like Brent Ozar, and I’ve received multiple rewards for automation initiatives that improved efficiency and reliability.
+Recognitions: https://github.com/imajaydwivedi/Images/tree/master/Recognitions
+
+Would love to connect and explore how I can contribute to J.P. Morgan’s engineering excellence.
+
+Thanks & Regards,
+Ajay Dwivedi

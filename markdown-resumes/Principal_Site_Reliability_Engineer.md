@@ -49,6 +49,7 @@ Site Reliability Engineer with 14+ years of experience, I automate infrastructur
   : **AngelOne**
   : **02 2022 - Present**
 
+- Developed DB AI Agent using Ollama (LLM) and LangChain for Performce Monitoring & Troubleshooting
 - Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
 - Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
 - Saved 80 hours/week SRE effort with single click Github Action based PostgreSQL Cluster deployment & Configuration using Ansible Playbook.
@@ -127,6 +128,12 @@ RustamJi Institue of Technology
 - Successfully monitoring 500+ SQLServers across environments.
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
+
+**[AI Agent](https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent):** AI Agent to help application users troubleshoot database performance issues interactively though portal & Slack
+  : **10 2025 - Present**
+
+- Built using Python, LangChain, Ollama, and SQLMonitor
+- Successfully handling developers/application users in Database Performance tuning
 
 **[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
