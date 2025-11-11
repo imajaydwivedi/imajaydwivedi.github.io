@@ -23,7 +23,7 @@ Site Reliability Engineer with 14+ years of experience, I optimize SQL Server an
 
 **Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-sql"></span> SQL, <span class="iconify" data-icon="vscode-icons:file-type-powershell"></span> PowerShell, <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript, <span class="iconify" data-icon="vscode-icons:file-type-html"></span> HTML / <span class="iconify" data-icon="vscode-icons:file-type-css"></span> CSS, <span class="iconify" data-icon="vscode-icons:file-type-shell"></span> Shell Scripting
 
-**Tools and Frameworks:** Git, Linux, Ansible, Flask, Django, GitHub Actions, VS Code, Grafana, Prometheus, KVM Virtualization, Container, Podman, Docker, Ubuntu, RHEL, PowerShell DSC, Infrastructure as Code (IaC)
+**Tools and Frameworks:** Git, Linux, Ansible, Flask, Django, GitHub Actions, VS Code, Grafana, Prometheus, KVM Virtualization, Container, Podman, Docker, Ubuntu, RHEL, PowerShell DSC, Infrastructure as Code (IaC), LangChain, Ollama, OpenAI
 
 **Cloud Platforms:** AWS, Azure
 
@@ -49,6 +49,7 @@ Site Reliability Engineer with 14+ years of experience, I optimize SQL Server an
   : **AngelOne**
   : **02 2022 - Present**
 
+- Developed DB AI Agent using Ollama (LLM) and LangChain for Performce Monitoring & Troubleshooting
 - Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
 - Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
 - Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
@@ -128,6 +129,12 @@ RustamJi Institue of Technology
 - Successfully monitoring 500+ SQLServers across environments.
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
+
+**[AI Agent](https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent):** AI Agent to help application users troubleshoot database performance issues interactively though portal & Slack
+  : **10 2025 - Present**
+
+- Built using Python, LangChain, Ollama, and SQLMonitor
+- Successfully handling developers/application users in Database Performance tuning
 
 **[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
