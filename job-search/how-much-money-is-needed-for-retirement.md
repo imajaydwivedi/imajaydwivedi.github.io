@@ -43,7 +43,22 @@ Already in corpus = 1500k (Stocks) + 2600k (MF) + 1300k (NPS) + 3222k (EPF)
     = 88.41 million
     = 8.84 crore
 
+
+### ----------------------------------------------------------
+### HOW MANY YEARS TO RETIREMENT??
+
+I have mutual funds of 2.6 million growing at cagr of 12%, nps of 1.3 million growing at cagr of 11% and fixed deposit of 3.2 million growing at cagr of 8%.
+Also, I am investing yearly 0.6 million in mutual funds, 0.276 million in nps, and 0.6 million in fixed deposit.
+
+In how many years, but investment corpus would reach 65 million?
+
+******** Your answer ********: You'll reach ₹65 million in approximately 13-14 years.
+
 ```
+
+## Investment Corpus Prediction
+
+![retirement-prediction](retirement-prediction.png)
 
 
 ## Calculations - How much Corpus I need at retirement??
