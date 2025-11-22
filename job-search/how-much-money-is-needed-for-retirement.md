@@ -1,0 +1,173 @@
+# How much money is needed for retirement?
+
+## Problem statement
+```
+I am Ajay Dwivedi. 36 years old. Working in IT sector. Today is 2025-Nov-22.
+
+Considering that today I need 110k INR per month as expenses, and the rate of inflation is 6% per year.
+
+I am putting investments in Mutual Funds, and growing it at CAGR of 12%.
+
+How much money I need in Mutual Funds considering below points -
+- I want to keep getting 110k INR equivalent money per month after retirement
+- This 110k INR equivalent money would be coming from 7% earnings (out of 12% growth) from Mutual Funds as Systematic Withdrawl Plan (SWP)
+
+
+So how much money do I need in mutual funds? I already have 2600k INR worth Mutual Funds already.
+
+```
+
+
+## Summary of present corpus
+```
+Already in corpus = 1500k (Stocks) + 2600k (MF) + 1300k (NPS) + 3222k (EPF)
+    = 8622k = 8,622 = ₹ 8.6 million
+
+```
+
+## Summary of Future Corpus if present corpus is kept invested
+```
+### ----------------------------------------------------------
+### Based on Existing Corpus: Future Value calculated from existing Corpus (Actual Calculations further below) -
+
+    = 25.08 million (MF @ 12%) + 10.48 million (NPS @ 11%) + 14.92 million (EPF @ 8%)
+    = 50.48 million
+    = 5.04 crore
+
+
+### ----------------------------------------------------------
+### Based on Monthly Investments: Future Value calculated based on Monthly Investment (Actual Calculations further below) -
+
+    = 50k pm (MF @ 12%) + 23k pm (NPS @ 11%) + 50k pm (EPF @ 8%)
+    = 43.23 million + 17.72 million + 27.46 million
+    = 88.41 million
+    = 8.84 crore
+
+```
+
+
+## Calculations - How much Corpus I need at retirement??
+```
+### ----------------------------------------------------------
+### Step 01: Calculate your monthly expense need at retirement
+
+If you retire in, say, 20 years, with 6% annual inflation,
+your ₹110k monthly need becomes:
+
+₹110k × (1.06)^20 = ₹352784.90 = approximately ₹352k per month
+110 × pow(1.06,20) = ₹352784.90 = approximately ₹352k per month
+
+
+### ----------------------------------------------------------
+### Step 02: Calculate annual withdrawal need
+
+₹352k x 12 = ₹ 4,233,408 = ₹ 4.2 million per year
+
+
+### ----------------------------------------------------------
+### Step 03: Calculate corpus needed
+
+If you're withdrawing 7% annually through SWP (meaning your corpus needs to generate that amount),
+you can use this formula:
+
+Corpus needed = Annual withdrawal need ÷ 0.07
+Corpus = ₹4.2 million ÷ 0.07 = ₹ 60,477,257 = approximately ₹6.04 crore (₹60.48 million)
+
+
+```
+
+
+
+## Calculations - Future Corpus based on already accumulated funds
+```
+### ----------------------------------------------------------
+### Step 01: Calculate Final Return on ****Mutual Funds**** after 20 Years at CAGR of 12%
+
+Present Value = current Mutual Funds value = ₹ 2600k
+  = ₹ 2.6 million
+
+CAGR = 12%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Present Value * (1+Rate)^Years
+
+FV = 2.6 million * pow(1.12, 20) = 25.08 million = ₹ 2.50 Crore
+
+
+### ----------------------------------------------------------
+### Step 02: Calculate Final Return on ****NPS**** after 20 Years at CAGR of 11%
+
+Present Value = current NPS value = ₹ 1300K
+  = ₹ 1.3 million
+
+CAGR = 11%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Present Value * (1+Rate)^Years
+
+FV = 1.3 million * pow(1.11, 20) = 10.48 million = ₹ 1.05 Crore
+
+
+### ----------------------------------------------------------
+### Step 03: Calculate Final Return on ****EPF**** after 20 Years at CAGR of 8.0%
+
+Present Value = current EPF value = ₹ 3222K
+  = ₹ 3.2 million
+
+CAGR = 8%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Present Value * (1+Rate)^Years
+
+FV = 3.2 million * pow(1.08, 20) = 14.92 million = ₹ 1.49 Crore
+```
+
+
+
+## Calculations - Future Corpus based on Monthly Investments
+
+```
+### ----------------------------------------------------------
+### Step 01: Calculate Corpus with SIP on ****Mutual Funds**** after 20 Years at CAGR of 12%
+
+Monthly SIP Amount - 50k
+Annual SIP Amount = 50k * 12 = ₹ 600k
+
+CAGR = 12%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Annual SIP * ( (pow(1+r, n) - 1) / r)
+  = 600 * ( (pow(1+0.12, 20) - 1) / 0.12)
+  = 43231 k = 43,231,000 = ₹ 43.23 million = ₹ 4.32 crore
+
+
+### ----------------------------------------------------------
+### Step 02: Calculate Corpus with SIP on ****NPS**** after 20 Years at CAGR of 11%
+
+Monthly SIP Amount - 23k
+Annual SIP Amount = 23k * 12 = ₹ 276k
+
+CAGR = 11%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Annual SIP * ( (pow(1+r, n) - 1) / r)
+  = 276 * ( (pow(1+0.11, 20) - 1) / 0.11)
+  = 17719 k = 17,719,000 = ₹ 17.72 million = ₹ 1.8 crore
+
+
+### ----------------------------------------------------------
+### Step 03: Calculate Corpus with SIP on ****EPF**** after 20 Years at CAGR of 8%
+
+Monthly SIP Amount - 50k
+Annual SIP Amount = 50k * 12 = ₹ 600k
+
+CAGR = 8%
+Years = 20 (Dated 2025-Nov-22)
+
+Future Value = Annual SIP * ( (pow(1+r, n) - 1) / r)
+  = 600 * ( (pow(1+0.08, 20) - 1) / 0.08)
+  = 27457 k = 27,457,000 = ₹ 27.46 million = ₹ 2.75 crore
+
+```
+
+
