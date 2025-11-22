@@ -4,16 +4,21 @@
 ```
 I am Ajay Dwivedi. 36 years old. Working in IT sector. Today is 2025-Nov-22.
 
-Considering that today I need 110k INR per month as expenses, and the rate of inflation is 6% per year.
+Considering that today I need 110k INR per month as expenses, and the rate of inflation is 7% per year.
 
-I am putting investments in Mutual Funds, and growing it at CAGR of 12%.
+NOTE: Assuming 12% CAGR for Mutual Funds, 11% for NPS & 8% for EPF.
 
-How much money I need in Mutual Funds considering below points -
+How much CORPUS I need during retirement after 20 years considering below points -
 - I want to keep getting 110k INR equivalent money per month after retirement
-- This 110k INR equivalent money would be coming from 7% earnings (out of 12% growth) from Mutual Funds as Systematic Withdrawl Plan (SWP)
+- This 110k INR equivalent money would be coming from 5% earnings (out of 12% growth) from Mutual Funds as Systematic Withdrawl Plan (SWP)
 
 
 So how much money do I need in mutual funds? I already have 2600k INR worth Mutual Funds already.
+
+### ----------------------------------------------------------
+Answer provided in: _____## Calculations - How much Corpus I need at retirement at Inflation Rate of 7% ??_____
+
+    Need approximately ₹10.22 crore (₹102 million) at the time of retirement
 
 ```
 
@@ -50,9 +55,10 @@ Already in corpus = 1500k (Stocks) + 2600k (MF) + 1300k (NPS) + 3222k (EPF)
 I have mutual funds of 2.6 million growing at cagr of 12%, nps of 1.3 million growing at cagr of 11% and fixed deposit of 3.2 million growing at cagr of 8%.
 Also, I am investing yearly 0.6 million in mutual funds, 0.276 million in nps, and 0.6 million in fixed deposit.
 
-In how many years, but investment corpus would reach 65 million?
+In how many years, my investment corpus would reach 10.22 crore?
+Give me tabular data for next 20 years keeping columns like Year, Mutual Funds, NPS, EPF, Total Corpus & Monthly Expense.
 
-******** Your answer ********: You'll reach ₹65 million in approximately 13-14 years.
+******** Your answer ********: You'll reach ₹10.22 crore in approximately 17 years.
 
 ```
 
@@ -61,39 +67,39 @@ In how many years, but investment corpus would reach 65 million?
 ![retirement-prediction](retirement-prediction.png)
 
 
-## Calculations - How much Corpus I need at retirement??
+## Calculations - How much Corpus I need at retirement at Inflation Rate of 7% ??
 ```
 ### ----------------------------------------------------------
 ### Step 01: Calculate your monthly expense need at retirement
 
-If you retire in, say, 20 years, with 6% annual inflation,
+If you retire in, say, 20 years, with 7% annual inflation,
 your ₹110k monthly need becomes:
 
-₹110k × (1.06)^20 = ₹352784.90 = approximately ₹352k per month
-110 × pow(1.06,20) = ₹352784.90 = approximately ₹352k per month
+₹110k × (1.07)^20 = ₹352784.90 = approximately ₹352k per month
+110 * pow(1.07,20) = ₹425665.29 = approximately ₹426k per month
 
 
 ### ----------------------------------------------------------
 ### Step 02: Calculate annual withdrawal need
 
-₹352k x 12 = ₹ 4,233,408 = ₹ 4.2 million per year
+₹426k x 12 = ₹ 5,112,000 = ₹ 5.1 million per year
 
 
 ### ----------------------------------------------------------
 ### Step 03: Calculate corpus needed
 
-If you're withdrawing 7% annually through SWP (meaning your corpus needs to generate that amount),
+If you're withdrawing 5% annually through SWP (meaning your corpus needs to generate that amount),
 you can use this formula:
 
-Corpus needed = Annual withdrawal need ÷ 0.07
-Corpus = ₹4.2 million ÷ 0.07 = ₹ 60,477,257 = approximately ₹6.04 crore (₹60.48 million)
+Corpus needed = Annual withdrawal need ÷ 0.05
+Corpus = ₹5.1 million ÷ 0.05 = ₹ 102,240,000.0 = approximately ₹10.22 crore (₹102 million)
 
 
 ```
 
 
 
-## Calculations - Future Corpus based on already accumulated funds
+## Calculations - Future Corpus based on already accumulated funds after 20 Years
 ```
 ### ----------------------------------------------------------
 ### Step 01: Calculate Final Return on ****Mutual Funds**** after 20 Years at CAGR of 12%
@@ -139,7 +145,7 @@ FV = 3.2 million * pow(1.08, 20) = 14.92 million = ₹ 1.49 Crore
 
 
 
-## Calculations - Future Corpus based on Monthly Investments
+## Calculations - Future Corpus based on Monthly Investments after 20 Years
 
 ```
 ### ----------------------------------------------------------
