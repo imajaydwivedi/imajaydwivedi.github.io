@@ -1,5 +1,14 @@
 # How much money is needed for retirement?
 
+> ##  Rule of 20-30-40-10
+> `20 %` to Life Style
+> `30 %` to Essentials
+> `40 %` to Wealth Management
+> `10 %` to Skill Building
+
+At present, my monthly cost of living is `85k`.
+
+
 ## Problem statement
 ```
 I am Ajay Dwivedi. 36 years old. Working in IT sector. Today is 2025-Nov-22.
