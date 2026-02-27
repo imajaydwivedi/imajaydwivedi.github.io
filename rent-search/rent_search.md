@@ -34,6 +34,20 @@ https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-b
     Owner Suresh 7411952634
     Result -> Not available yet
 
+https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-15500/ff80818152dde4f40152e44ea881488a/detail?nbFr=list-rent
+    3 BHK Flat In Vbhc Vaibhava for Rent In Byagadadhenahalli
+    15.5k, 1000 sqft, 50k deposit
+    3 bedroom, 3 bathroom, 3 balcony, floor 3/7
+    Owner Pravash 9662384691
+    Result -> Call did not connect
+
+https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-chandapura-bangalore-for-rs-18500/8aa997849bdf9415019bdfb93d0f0db3/detail
+    3 BHK Flat In Vbhc Vaibhava Phase 2 for Rent In Chandapura
+    18.5k, 1000 sqft, 50k deposit
+    3 bedroom, 2 bathroom, 2 balcony, floor 0/7
+    Owner Sumanth 7204176073
+    Result -> Call did not connect
+
 https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-15000/8a9f8c03902570b4019025c4ee632992/detail?nbFr=list-rent
     3 BHK Flat In Aryan Orchid Apartment, Aryan Orchid Appartment for Rent In Byagadadhenahalli
     15k, 1200 sqft, 50k deposit
@@ -44,16 +58,22 @@ https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-b
 https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-23500/8a9fac83960078ca019600d2addb2130/detail?nbFr=list-rent
     3 BHK Flat In Satkeerti's Symphony for Rent In Byagadadhenahalli
     23.5k, 1400 sqft, 100k deposit, floor x/y
-    3 bedroom, 2 balcony, 3 bathroom
+    3 bedroom, 2 balcony, 3 bathroom (preferred)
     Owner Pankaj 9662415660
     Result -> visit. key with security guard
 
-https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-15500/ff80818152dde4f40152e44ea881488a/detail?nbFr=list-rent
-    3 BHK Flat In Vbhc Vaibhava for Rent In Byagadadhenahalli
-    15.5k, 1000 sqft, 50k deposit
-    3 bedroom, 3 bathroom, 3 balcony, floor 3/7
-    Owner Pravash 9662384691
-    Result -> Call did not connect
+https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-20000/8aa9b12b9b08c97d019b092badf71608/detail?nbFr=list-rent
+    2 BHK Flat In Satkeerti Symphony for Rent In Byagadadhenahalli
+    20k + 3k, 1200 sqft, 50k deposit, ground floor
+    1 balcony, semi furnished (preferred)
+    Owner  Akmal S | Keys with Yashwanth +918068091063
+
+https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-chandapura-bangalore-for-rs-20000/8a9fc38280568ba50180571509cf42b0/detail
+    2 BHK Flat In The Commune for Rent In Chandapura
+    20k + 3k (Negotiable), 1040 sqft, 70k deposit, floor 4/13
+    2 balcony, 2 bathroom, semi furnished (preferred)
+    Owner  Amaresh Kumar 9240246187
+
 
 https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-20000/8aa9b12b9b08c97d019b092badf71608/detail?nbFr=carousel_premium
     2 BHK Flat In Satkeerti Symphony for Rent In Byagadadhenahalli
@@ -61,6 +81,7 @@ https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-byagadadhenahalli-b
     3 bedroom, 1 balcony, 2 bathroom, furnished
     Owner -> 
     Result -> 
+
 
 https://www.nobroker.in/property/2-bhk-apartment-for-rent-in-byagadadhenahalli-bangalore-for-rs-16000/8a9f913074fc4e040174fc76c87a1439/detail?nbFr=list-rent
     2 BHK Flat In Apartment for Rent In Byagadadhenahalli
