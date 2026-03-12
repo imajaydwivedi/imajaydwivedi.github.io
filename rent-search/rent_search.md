@@ -60,6 +60,12 @@ https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-miyapur-hyderabad-f
     25k+3k, 1205 sqft, 50k deposit
     1 balcony, 2 bathroom, 3/10 floor, park, gym, pool
 
+https://www.nobroker.in/property/3-bhk-apartment-for-rent-in-miyapur-hyderabad-for-rs-26000/8a9f93827ab2a261017ab2c88ab51028/detail?nbFr=list-rent
+    3 BHK Flat In Janapriya Nile Valley for Rent In Miyapur
+    25k+3k, 1625 sqft, 60k deposit
+    3 balcony, 2/12 floor, 3 bathroom, park, pool, AC
+    
+
 3 BHK Suggested by Muddu
     Owner Phani Garu Mirra C Block +91 94929 19087
     Referrer Chiranjeevi
