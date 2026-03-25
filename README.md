@@ -5,7 +5,9 @@
 
 <span class="iconify" data-icon="charm:person"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
-  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
+  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 986-853-4271](https://wa.me/9868534271)
+
+<!-- -->
 
 <span class="iconify" data-icon="ic:outline-location-on"></span> Hyderabad, Telangana, India
   : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
@@ -14,12 +16,12 @@
 
 ## Professional Summary
 
-Site Reliability Engineer with 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+Site Reliability Engineer with 15+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS & Azure).
 
 
 ## Skills
 
-**Databases:** <span class="iconify" data-icon="vscode-icons:file-type-sqlserver"></span> SQLServer, PostgreSQL, SQLite, RDS, Managed Instance, Aurora
+**Databases:** <span class="iconify" data-icon="vscode-icons:file-type-sqlserver"></span> SQLServer, PostgreSQL, SQLite, RDS, Azure SQL, Managed Instance, Aurora
 
 **Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-sql"></span> SQL, <span class="iconify" data-icon="vscode-icons:file-type-powershell"></span> PowerShell, <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript, <span class="iconify" data-icon="vscode-icons:file-type-html"></span> HTML / <span class="iconify" data-icon="vscode-icons:file-type-css"></span> CSS, <span class="iconify" data-icon="vscode-icons:file-type-shell"></span> Shell Scripting
 
@@ -45,24 +47,25 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 
 ## Experience
 
-**Principal Solution Architect**
+**Principal Solution Architect - SQL Server**
   : **Tessell**
   : **02 2026 - Present**
 
-- Build enhancement into existing Saas product
+- Added enhancements to support Change Data Capture & transactional Replication
+- Added Monitoring feature for Data & Log file growth
 
 
 **Senior Site Reliability Engineer (DevOps)**
   : **AngelOne**
   : **02 2022 - 02 2026**
 
-- Automated multi datacenter HA & Standalone PostgreSQL setup
-- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers
-- Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
-- Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
-- Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
-- Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
-- Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
+- Developed DB AI Agent using Ollama (LLM) and LangChain for Performce Monitoring & Troubleshooting
+- Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
+- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using python
+- Saved 80 hours/week SRE effort with single click Github Action based PostgreSQL Cluster deployment & Configuration using Ansible Playbook.
+- Baselined all windows & linux servers using Prometheus and Grafana
+- Created Github Repo based baselining of servers to ease monitoring and baselining using Prometheus and Grafana
+- Automated common database teams activities like installation, configuration, monitoring and alerting using PowerShell, Flask, Python, TSQL, Grafana, and PagerDuty for On-Prem and Cloud Managed Instances
 
 
 **Database Reliability Engineer**
@@ -72,6 +75,7 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 - Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
 - Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
 - Improved database relibility with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
+- Built automations to prevent common issues like tempdbSaver, LogSaver etc.
 
 
 **Database Administrator**
@@ -113,6 +117,8 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 **Bachelor of Engineering in Electronics & Communication Engineering**
   : **07 2006 - 06 2010**
 
+<!-- -->
+
 RustamJi Institue of Technology
   : Gwalior, Madhya Pradesh
 
@@ -122,13 +128,15 @@ RustamJi Institue of Technology
 **Tech Titan**, AngelOne for 10x Performance Optimization on Prod SQLServer.
   : 2022
 
+<!-- -->
+
 **Sapphire**, United Health Group for Innovation and automations.
   : 2017
 
 
 ## Projects
 
-**SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
+**[SQLMonitor](https://github.com/imajaydwivedi/SQLMonitor):** Open source Enterprise grade SQLServer monitoring tool
   : **01 2021 - Present**
 
 - Built using TSQL, PowerShell, Python, and Grafana.
@@ -136,7 +144,13 @@ RustamJi Institue of Technology
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
-**HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
+**[AI Agent](https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent):** AI Agent to help application users troubleshoot database performance issues interactively though portal & Slack
+  : **10 2025 - Present**
+
+- Built using Python, LangChain, Ollama, and SQLMonitor
+- Successfully handling developers/application users in Database Performance tuning
+
+**[HadrSync](https://github.com/imajaydwivedi/HadrSync):** PowerShell module that synchronizes all objects across Replicas in Availability Groups
   : **01 2021 - Present**
 
 - Ensures zero sync issues during failovers/Drs.
@@ -145,7 +159,7 @@ RustamJi Institue of Technology
 
 ## Availability
 
-**Notice Period:** 90 Days
+**Notice Period:** 30 Days
 
 **Relocation:** Open to Relocation
 

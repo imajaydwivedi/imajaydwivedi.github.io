@@ -1,144 +1,172 @@
-/* Backbone CSS for Resume Template 1 */
+/* Resume CSS for pandoc-generated HTML (no #vue-smart-pages-preview wrapper needed) */
+
+/* Page setup */
+
+@page {
+  size: A4;
+  margin: 10mm 31mm;
+}
+
+/* Hide pandoc title-block (duplicate of the h1 in the body) */
+header#title-block-header {
+  display: none;
+}
 
 /* Basic */
 
-#vue-smart-pages-preview {
+html, body {
   background-color: white;
   color: black;
-  text-align: left;
+  font-family: sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
 }
 
-#vue-smart-pages-preview p,
-#vue-smart-pages-preview li,
-#vue-smart-pages-preview dl {
+p, li, dl {
   margin: 0;
 }
 
 /* Headings */
 
-#vue-smart-pages-preview h1,
-#vue-smart-pages-preview h2,
-#vue-smart-pages-preview h3 {
+h1, h2, h3 {
   font-weight: bold;
 }
 
-#vue-smart-pages-preview h1 {
-  font-size: 2.5em;
+h1 {
+  font-size: 2.2em;
   letter-spacing: 0.1em;
   text-align: center;
   margin-bottom: 0.25em;
-}
-
-#vue-smart-pages-preview h2,
-#vue-smart-pages-preview h3 {
-  margin-bottom: 0.25em;
-  margin-top: 1.0em;
-  font-size: 1.2em;
-}
-
-#vue-smart-pages-preview h1,
-#vue-smart-pages-preview h2 {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: darkgrey;
 }
 
-/* Lists */
-
-#vue-smart-pages-preview ul,
-#vue-smart-pages-preview ol {
-  padding-left: 1.5em;
-  margin: 0.2em 0 1.0em 0;
+h2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: darkgrey;
+  margin-bottom: 0.25em;
+  margin-top: 0.7em;
+  font-size: 1.2em;
 }
 
-#vue-smart-pages-preview ul {
+/* Skills h2 follows a paragraph — smaller margin avoids spurious blank line in PDF */
+h2#skills {
+  margin-top: 0.3em;
+}
+
+h3 {
+  margin-bottom: 0.25em;
+  margin-top: 0.8em;
+  font-size: 1.0em;
+}
+
+/* Lists */
+
+ul, ol {
+  padding-left: 1.5em;
+  margin: 0.2em 0 0.8em 0;
+}
+
+ul {
   list-style-type: disc;
 }
 
-#vue-smart-pages-preview ol {
+ol {
   list-style-type: decimal;
 }
 
-/* Definition Lists */
-
-#vue-smart-pages-preview dl {
+/* Definition Lists
+ *
+ * Matching the original vue-smart-pages CSS behavior:
+ *   - dl is a single flex row (no wrap); each DL block is its own row
+ *   - dt and non-last dd share space equally (flex: 1)
+ *   - last dd takes its natural content width (auto)
+ *   - This works because pandoc (with <!-- --> separators in markdown)
+ *     creates separate <dl> elements for each logical row:
+ *       Contact row 1: dl(website, github, phone) → website+github equal, phone auto
+ *       Contact row 2: dl(location, linkedin, email) → location+linkedin equal, email auto
+ *       Experience:    dl(title, company, date) → title+company equal, date auto
+ *       Education row1: dl(degree, date) → degree flex:1, date auto
+ *       Education row2: dl(institution, city) → institution flex:1, city auto
+ *       Certifications: li>dl(name, date) → name flex:1, date auto
+ */
+dl {
   display: flex;
+  margin: 0;
 }
 
-#vue-smart-pages-preview dl dt,
-#vue-smart-pages-preview dl dd:not(:last-child) {
+dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl dt,
+dl dd:not(:last-child) {
   flex: 1;
-}
-
-/* Tex */
-
-#vue-smart-pages-preview :not(span.katex-display)>span.katex {
-  font-size: 1em !important;
 }
 
 /* SVG & Images */
 
-#vue-smart-pages-preview svg.iconify {
+svg.iconify {
   vertical-align: -0.2em;
 }
 
-#vue-smart-pages-preview img {
+img {
   max-width: 100%;
 }
 
 /* Header */
 
-#vue-smart-pages-preview .resume-header {
+.resume-header {
   text-align: center;
 }
 
-#vue-smart-pages-preview .resume-header h1 {
+.resume-header h1 {
   text-align: center;
   line-height: 1;
   margin-bottom: 8px;
 }
 
-#vue-smart-pages-preview .resume-header-item:not(.no-separator)::after {
+.resume-header-item:not(.no-separator)::after {
   content: " | ";
 }
 
 /* Citations */
 
-#vue-smart-pages-preview ul.crossref-list {
+ul.crossref-list {
   padding-left: 1.2em;
 }
 
-#vue-smart-pages-preview li.crossref-item p {
+li.crossref-item p {
   margin-left: 0.5em;
 }
 
-#vue-smart-pages-preview li.crossref-item::marker {
+li.crossref-item::marker {
   content: attr(data-caption);
 }
 
-#vue-smart-pages-preview sup.crossref-ref {
+sup.crossref-ref {
   font-size: 100%;
   top: 0;
 }
 
-/* Dark & print mode */
-
-.dark #vue-smart-pages-preview {
-  background-color: #334155;
-  color: #e5e7eb;
-}
+/* Print mode */
 
 @media print {
-  #vue-smart-pages-preview {
+  html, body {
     background-color: white !important;
     color: black !important;
   }
 
-  .dark #vue-smart-pages-preview a {
+  a {
     color: black !important;
   }
 }
