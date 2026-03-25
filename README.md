@@ -7,7 +7,7 @@
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
   : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
 
-<span class="iconify" data-icon="ic:outline-location-on"></span> Nagpur, Maharashtra, India
+<span class="iconify" data-icon="ic:outline-location-on"></span> Hyderabad, Telangana, India
   : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
   : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) 
 
@@ -45,9 +45,16 @@ Site Reliability Engineer with 14 years of experience, I optimize SQL Server and
 
 ## Experience
 
+**Principal Solution Architect**
+  : **Tessell**
+  : **02 2026 - Present**
+
+- Build enhancement into existing Saas product
+
+
 **Senior Site Reliability Engineer (DevOps)**
   : **AngelOne**
-  : **02 2022 - Present**
+  : **02 2022 - 02 2026**
 
 - Automated multi datacenter HA & Standalone PostgreSQL setup
 - Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers

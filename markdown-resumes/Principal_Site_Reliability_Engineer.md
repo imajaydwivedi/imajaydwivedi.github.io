@@ -5,16 +5,16 @@
 
 <span class="iconify" data-icon="charm:person"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
-  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
+  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 986-853-4271](https://wa.me/9868534271)
 
-<span class="iconify" data-icon="ic:outline-location-on"></span> Nagpur, Maharashtra, India
+<span class="iconify" data-icon="ic:outline-location-on"></span> Hyderabad, Telangana, India
   : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
   : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) 
 
 
 ## Professional Summary
 
-Site Reliability Engineer with 14+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS & Azure).
+Site Reliability Engineer with 15+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS & Azure).
 
 
 ## Skills
@@ -45,9 +45,16 @@ Site Reliability Engineer with 14+ years of experience, I automate infrastructur
 
 ## Experience
 
+**Principal Solution Architect - SQL Server**
+  : **Tessell**
+  : **02 2026 - Present**
+
+- Added enhancements to support Change Data Capture & transactional Replication
+- Added Monitoring feature for Data & Log file growth
+
 **Senior Site Reliability Engineer (DevOps)**
   : **AngelOne**
-  : **02 2022 - Present**
+  : **02 2022 - 02 2026**
 
 - Developed DB AI Agent using Ollama (LLM) and LangChain for Performce Monitoring & Troubleshooting
 - Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
@@ -144,7 +151,7 @@ RustamJi Institue of Technology
 
 ## Availability
 
-**Notice Period:** 90 Days
+**Notice Period:** 30 Days
 
 **Relocation:** Open to Relocation
 
