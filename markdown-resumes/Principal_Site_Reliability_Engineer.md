@@ -51,6 +51,7 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
 
 - Added enhancements to support Change Data Capture & transactional Replication
 - Added Monitoring feature for Data & Log file growth
+- Designed CentOS-2-RHEL Migration automation using Python & Ansible for PostgreSQL
 
 **Senior Site Reliability Engineer (DevOps)**
   : **AngelOne**

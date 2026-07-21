@@ -6,6 +6,9 @@ personal
 .secret
 work*
 
+# Mac os dummy files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
