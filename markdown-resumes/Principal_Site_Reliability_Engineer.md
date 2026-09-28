@@ -50,7 +50,7 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   : **02 2026 - Present**
 
 - Added enhancements to support Change Data Capture & transactional Replication
-- Added Monitoring feature for Data & Log file growth
+- Added Monitoring feature for Data & Log file growth using SQLExporter, Prometheus & Victoria Metrics
 - Designed CentOS-2-RHEL Migration automation using Python & Ansible for PostgreSQL
 
 **Senior Site Reliability Engineer (DevOps)**
