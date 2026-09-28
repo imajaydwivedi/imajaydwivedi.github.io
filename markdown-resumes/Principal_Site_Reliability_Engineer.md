@@ -47,7 +47,7 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
 
 **Principal Solution Architect - SQL Server**
   : **Tessell**
-  : **02 2026 - Present**
+  : **02 2026 - 09 2026**
 
 - Added enhancements to support Change Data Capture & transactional Replication
 - Added Monitoring feature for Data & Log file growth using SQLExporter, Prometheus & Victoria Metrics
@@ -152,7 +152,7 @@ RustamJi Institue of Technology
 
 ## Availability
 
-**Notice Period:** 30 Days
+**Notice Period:** 7 Days
 
 **Relocation:** Open to Relocation
 
