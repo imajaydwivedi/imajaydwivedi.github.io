@@ -1,0 +1,1130 @@
+{
+  "source": "Keyword catalog adapted from a rule-based resume tailor shared by Manisha (help-from-manisha.txt).",
+  "case_sensitive_aliases": [
+    "Go",
+    "R"
+  ],
+  "groups": [
+    {
+      "label": "AWS",
+      "aliases": [
+        "AWS",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "label": "GCP",
+      "aliases": [
+        "GCP",
+        "Google Cloud Platform",
+        "Google Cloud"
+      ]
+    },
+    {
+      "label": "Azure",
+      "aliases": [
+        "Azure",
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "label": "Kubernetes",
+      "aliases": [
+        "Kubernetes",
+        "K8s"
+      ]
+    },
+    {
+      "label": "Docker",
+      "aliases": [
+        "Docker"
+      ]
+    },
+    {
+      "label": "Terraform",
+      "aliases": [
+        "Terraform"
+      ]
+    },
+    {
+      "label": "Ansible",
+      "aliases": [
+        "Ansible"
+      ]
+    },
+    {
+      "label": "CloudFormation",
+      "aliases": [
+        "CloudFormation"
+      ]
+    },
+    {
+      "label": "IAM",
+      "aliases": [
+        "IAM"
+      ]
+    },
+    {
+      "label": "VPC",
+      "aliases": [
+        "VPC"
+      ]
+    },
+    {
+      "label": "EC2",
+      "aliases": [
+        "EC2"
+      ]
+    },
+    {
+      "label": "S3",
+      "aliases": [
+        "S3"
+      ]
+    },
+    {
+      "label": "RDS",
+      "aliases": [
+        "RDS"
+      ]
+    },
+    {
+      "label": "Route 53",
+      "aliases": [
+        "Route 53"
+      ]
+    },
+    {
+      "label": "AWS DMS",
+      "aliases": [
+        "AWS DMS",
+        "DMS"
+      ]
+    },
+    {
+      "label": "AWS SCT",
+      "aliases": [
+        "AWS SCT",
+        "SCT"
+      ]
+    },
+    {
+      "label": "Lightsail",
+      "aliases": [
+        "Lightsail"
+      ]
+    },
+    {
+      "label": "Serverless",
+      "aliases": [
+        "Serverless"
+      ]
+    },
+    {
+      "label": "Containers",
+      "aliases": [
+        "Containers",
+        "Containerization"
+      ]
+    },
+    {
+      "label": "Virtualization",
+      "aliases": [
+        "Virtualization"
+      ]
+    },
+    {
+      "label": "Linux",
+      "aliases": [
+        "Linux"
+      ]
+    },
+    {
+      "label": "RHEL",
+      "aliases": [
+        "RHEL"
+      ]
+    },
+    {
+      "label": "CentOS",
+      "aliases": [
+        "CentOS"
+      ]
+    },
+    {
+      "label": "Ubuntu",
+      "aliases": [
+        "Ubuntu"
+      ]
+    },
+    {
+      "label": "Windows Server",
+      "aliases": [
+        "Windows Server"
+      ]
+    },
+    {
+      "label": "Solaris",
+      "aliases": [
+        "Solaris"
+      ]
+    },
+    {
+      "label": "Hybrid Cloud",
+      "aliases": [
+        "Hybrid Cloud",
+        "Hybrid Infrastructure"
+      ]
+    },
+    {
+      "label": "Multi-Cloud",
+      "aliases": [
+        "Multi-Cloud"
+      ]
+    },
+    {
+      "label": "Cloud-Native",
+      "aliases": [
+        "Cloud-Native",
+        "Cloud Native"
+      ]
+    },
+    {
+      "label": "Cloud Infrastructure",
+      "aliases": [
+        "Cloud Infrastructure",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "label": "Distributed Systems",
+      "aliases": [
+        "Distributed Systems"
+      ]
+    },
+    {
+      "label": "System Design",
+      "aliases": [
+        "System Design"
+      ]
+    },
+    {
+      "label": "Distributed Computing",
+      "aliases": [
+        "Distributed Computing"
+      ]
+    },
+    {
+      "label": "Microservices",
+      "aliases": [
+        "Microservices"
+      ]
+    },
+    {
+      "label": "High Availability",
+      "aliases": [
+        "High Availability",
+        "HA"
+      ]
+    },
+    {
+      "label": "Disaster Recovery",
+      "aliases": [
+        "Disaster Recovery",
+        "DR"
+      ]
+    },
+    {
+      "label": "Business Continuity",
+      "aliases": [
+        "Business Continuity",
+        "BCP"
+      ]
+    },
+    {
+      "label": "Load Balancing",
+      "aliases": [
+        "Load Balancing"
+      ]
+    },
+    {
+      "label": "Networking",
+      "aliases": [
+        "Networking",
+        "Network Protocols"
+      ]
+    },
+    {
+      "label": "Firewall",
+      "aliases": [
+        "Firewall"
+      ]
+    },
+    {
+      "label": "Python",
+      "aliases": [
+        "Python"
+      ]
+    },
+    {
+      "label": "Go",
+      "aliases": [
+        "Golang",
+        "Go"
+      ]
+    },
+    {
+      "label": "Java",
+      "aliases": [
+        "Java"
+      ]
+    },
+    {
+      "label": "C++",
+      "aliases": [
+        "C++"
+      ]
+    },
+    {
+      "label": "C#",
+      "aliases": [
+        "C#"
+      ]
+    },
+    {
+      "label": "JavaScript",
+      "aliases": [
+        "JavaScript"
+      ]
+    },
+    {
+      "label": "TypeScript",
+      "aliases": [
+        "TypeScript"
+      ]
+    },
+    {
+      "label": "SQL",
+      "aliases": [
+        "SQL"
+      ]
+    },
+    {
+      "label": "MySQL",
+      "aliases": [
+        "MySQL"
+      ]
+    },
+    {
+      "label": "PostgreSQL",
+      "aliases": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "label": "Bash",
+      "aliases": [
+        "Bash",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "label": "PowerShell",
+      "aliases": [
+        "PowerShell"
+      ]
+    },
+    {
+      "label": "Scala",
+      "aliases": [
+        "Scala"
+      ]
+    },
+    {
+      "label": "Ruby",
+      "aliases": [
+        "Ruby"
+      ]
+    },
+    {
+      "label": "PHP",
+      "aliases": [
+        "PHP"
+      ]
+    },
+    {
+      "label": "MongoDB",
+      "aliases": [
+        "MongoDB"
+      ]
+    },
+    {
+      "label": "Cassandra",
+      "aliases": [
+        "Cassandra"
+      ]
+    },
+    {
+      "label": "Redis",
+      "aliases": [
+        "Redis"
+      ]
+    },
+    {
+      "label": "Memcached",
+      "aliases": [
+        "Memcached"
+      ]
+    },
+    {
+      "label": "MariaDB",
+      "aliases": [
+        "MariaDB"
+      ]
+    },
+    {
+      "label": "Aurora",
+      "aliases": [
+        "Aurora"
+      ]
+    },
+    {
+      "label": "Oracle",
+      "aliases": [
+        "Oracle"
+      ]
+    },
+    {
+      "label": "MS SQL Server",
+      "aliases": [
+        "MS SQL Server",
+        "Microsoft SQL Server",
+        "SQL Server"
+      ]
+    },
+    {
+      "label": "NoSQL",
+      "aliases": [
+        "NoSQL"
+      ]
+    },
+    {
+      "label": "Snowflake",
+      "aliases": [
+        "Snowflake"
+      ]
+    },
+    {
+      "label": "SingleStore",
+      "aliases": [
+        "SingleStore"
+      ]
+    },
+    {
+      "label": "SAP HANA",
+      "aliases": [
+        "SAP HANA"
+      ]
+    },
+    {
+      "label": "DynamoDB",
+      "aliases": [
+        "DynamoDB"
+      ]
+    },
+    {
+      "label": "Elasticsearch",
+      "aliases": [
+        "Elasticsearch"
+      ]
+    },
+    {
+      "label": "Spark",
+      "aliases": [
+        "Apache Spark",
+        "Spark"
+      ]
+    },
+    {
+      "label": "Flink",
+      "aliases": [
+        "Flink"
+      ]
+    },
+    {
+      "label": "Kafka",
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "label": "Airflow",
+      "aliases": [
+        "Airflow"
+      ]
+    },
+    {
+      "label": "Iceberg",
+      "aliases": [
+        "Iceberg"
+      ]
+    },
+    {
+      "label": "Trino",
+      "aliases": [
+        "Trino"
+      ]
+    },
+    {
+      "label": "Druid",
+      "aliases": [
+        "Druid"
+      ]
+    },
+    {
+      "label": "ETL",
+      "aliases": [
+        "ETL"
+      ]
+    },
+    {
+      "label": "Data Pipelines",
+      "aliases": [
+        "Data Pipeline",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "label": "Data Analysis",
+      "aliases": [
+        "Data Analysis",
+        "Data Analytics"
+      ]
+    },
+    {
+      "label": "Data Warehouse",
+      "aliases": [
+        "Data Warehouse"
+      ]
+    },
+    {
+      "label": "Jupyter Notebooks",
+      "aliases": [
+        "Jupyter Notebooks",
+        "Jupyter"
+      ]
+    },
+    {
+      "label": "Tableau",
+      "aliases": [
+        "Tableau"
+      ]
+    },
+    {
+      "label": "Business Objects",
+      "aliases": [
+        "Business Objects"
+      ]
+    },
+    {
+      "label": "ThoughtSpot",
+      "aliases": [
+        "ThoughtSpot"
+      ]
+    },
+    {
+      "label": "Big Data",
+      "aliases": [
+        "Big Data"
+      ]
+    },
+    {
+      "label": "Prometheus",
+      "aliases": [
+        "Prometheus"
+      ]
+    },
+    {
+      "label": "Grafana",
+      "aliases": [
+        "Grafana"
+      ]
+    },
+    {
+      "label": "DataDog",
+      "aliases": [
+        "DataDog"
+      ]
+    },
+    {
+      "label": "New Relic",
+      "aliases": [
+        "New Relic"
+      ]
+    },
+    {
+      "label": "Splunk",
+      "aliases": [
+        "Splunk"
+      ]
+    },
+    {
+      "label": "ELK Stack",
+      "aliases": [
+        "ELK Stack",
+        "ELK"
+      ]
+    },
+    {
+      "label": "Nagios",
+      "aliases": [
+        "Nagios"
+      ]
+    },
+    {
+      "label": "CloudWatch",
+      "aliases": [
+        "CloudWatch"
+      ]
+    },
+    {
+      "label": "Thanos",
+      "aliases": [
+        "Thanos"
+      ]
+    },
+    {
+      "label": "PagerDuty",
+      "aliases": [
+        "PagerDuty"
+      ]
+    },
+    {
+      "label": "Dynatrace",
+      "aliases": [
+        "Dynatrace"
+      ]
+    },
+    {
+      "label": "AppDynamics",
+      "aliases": [
+        "AppDynamics"
+      ]
+    },
+    {
+      "label": "StackStorm",
+      "aliases": [
+        "StackStorm"
+      ]
+    },
+    {
+      "label": "Observability",
+      "aliases": [
+        "Observability"
+      ]
+    },
+    {
+      "label": "Monitoring",
+      "aliases": [
+        "Monitoring"
+      ]
+    },
+    {
+      "label": "Logging",
+      "aliases": [
+        "Logging"
+      ]
+    },
+    {
+      "label": "Tracing",
+      "aliases": [
+        "Tracing"
+      ]
+    },
+    {
+      "label": "Alerting",
+      "aliases": [
+        "Alerting"
+      ]
+    },
+    {
+      "label": "Jenkins",
+      "aliases": [
+        "Jenkins"
+      ]
+    },
+    {
+      "label": "Git",
+      "aliases": [
+        "Git"
+      ]
+    },
+    {
+      "label": "GitHub Actions",
+      "aliases": [
+        "GitHub Actions"
+      ]
+    },
+    {
+      "label": "GitLab CI",
+      "aliases": [
+        "GitLab CI"
+      ]
+    },
+    {
+      "label": "CI/CD",
+      "aliases": [
+        "CI/CD",
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Continuous Delivery"
+      ]
+    },
+    {
+      "label": "Infrastructure as Code",
+      "aliases": [
+        "Infrastructure as Code",
+        "IaC"
+      ]
+    },
+    {
+      "label": "Automation",
+      "aliases": [
+        "Automation"
+      ]
+    },
+    {
+      "label": "DevOps",
+      "aliases": [
+        "DevOps"
+      ]
+    },
+    {
+      "label": "Release Engineering",
+      "aliases": [
+        "Release Engineering"
+      ]
+    },
+    {
+      "label": "Deployment Pipelines",
+      "aliases": [
+        "Deployment Pipelines"
+      ]
+    },
+    {
+      "label": "ServiceNow",
+      "aliases": [
+        "ServiceNow"
+      ]
+    },
+    {
+      "label": "JIRA",
+      "aliases": [
+        "JIRA"
+      ]
+    },
+    {
+      "label": "Remedy",
+      "aliases": [
+        "Remedy"
+      ]
+    },
+    {
+      "label": "Zabbix",
+      "aliases": [
+        "Zabbix"
+      ]
+    },
+    {
+      "label": "Command Center",
+      "aliases": [
+        "Command Center"
+      ]
+    },
+    {
+      "label": "ITIL",
+      "aliases": [
+        "ITIL"
+      ]
+    },
+    {
+      "label": "ITSM",
+      "aliases": [
+        "ITSM"
+      ]
+    },
+    {
+      "label": "Site Reliability Engineering",
+      "aliases": [
+        "Site Reliability Engineering",
+        "SRE"
+      ]
+    },
+    {
+      "label": "Incident Management",
+      "aliases": [
+        "Incident Management"
+      ]
+    },
+    {
+      "label": "Incident Response",
+      "aliases": [
+        "Incident Response"
+      ]
+    },
+    {
+      "label": "On-Call",
+      "aliases": [
+        "On-Call",
+        "On Call"
+      ]
+    },
+    {
+      "label": "Root Cause Analysis",
+      "aliases": [
+        "Root Cause Analysis",
+        "RCA"
+      ]
+    },
+    {
+      "label": "Postmortem",
+      "aliases": [
+        "Postmortem",
+        "Post-Incident Review"
+      ]
+    },
+    {
+      "label": "Problem Management",
+      "aliases": [
+        "Problem Management"
+      ]
+    },
+    {
+      "label": "Change Management",
+      "aliases": [
+        "Change Management"
+      ]
+    },
+    {
+      "label": "Production Readiness",
+      "aliases": [
+        "Production Readiness"
+      ]
+    },
+    {
+      "label": "Capacity Planning",
+      "aliases": [
+        "Capacity Planning"
+      ]
+    },
+    {
+      "label": "SLI",
+      "aliases": [
+        "SLI",
+        "Service Level Indicator"
+      ]
+    },
+    {
+      "label": "SLO",
+      "aliases": [
+        "SLO",
+        "Service Level Objective"
+      ]
+    },
+    {
+      "label": "SLA",
+      "aliases": [
+        "SLA",
+        "Service Level Agreement"
+      ]
+    },
+    {
+      "label": "Error Budget",
+      "aliases": [
+        "Error Budget"
+      ]
+    },
+    {
+      "label": "Fault Tolerance",
+      "aliases": [
+        "Fault Tolerance",
+        "Fault Analysis"
+      ]
+    },
+    {
+      "label": "Self-Healing",
+      "aliases": [
+        "Self-Healing"
+      ]
+    },
+    {
+      "label": "Toil",
+      "aliases": [
+        "Toil"
+      ]
+    },
+    {
+      "label": "Reliability Engineering",
+      "aliases": [
+        "Reliability Engineering"
+      ]
+    },
+    {
+      "label": "Escalation Management",
+      "aliases": [
+        "Escalation Management"
+      ]
+    },
+    {
+      "label": "Major Incident Management",
+      "aliases": [
+        "Major Incident Management",
+        "Major Incident"
+      ]
+    },
+    {
+      "label": "NOC",
+      "aliases": [
+        "NOC"
+      ]
+    },
+    {
+      "label": "Shift Leadership",
+      "aliases": [
+        "Shift Leadership",
+        "Shift Lead"
+      ]
+    },
+    {
+      "label": "Batch Jobs",
+      "aliases": [
+        "Batch Jobs",
+        "Batch Processing"
+      ]
+    },
+    {
+      "label": "SFTP",
+      "aliases": [
+        "SFTP"
+      ]
+    },
+    {
+      "label": "Generative AI",
+      "aliases": [
+        "Generative AI",
+        "GenAI",
+        "Gen AI"
+      ]
+    },
+    {
+      "label": "Large Language Models",
+      "aliases": [
+        "Large Language Models",
+        "LLM",
+        "LLMs"
+      ]
+    },
+    {
+      "label": "Machine Learning",
+      "aliases": [
+        "Machine Learning",
+        "ML"
+      ]
+    },
+    {
+      "label": "AI Automation",
+      "aliases": [
+        "AI Automation"
+      ]
+    },
+    {
+      "label": "OpenAI",
+      "aliases": [
+        "OpenAI"
+      ]
+    },
+    {
+      "label": "Anthropic",
+      "aliases": [
+        "Anthropic"
+      ]
+    },
+    {
+      "label": "Claude",
+      "aliases": [
+        "Claude"
+      ]
+    },
+    {
+      "label": "People Management",
+      "aliases": [
+        "People Management"
+      ]
+    },
+    {
+      "label": "Team Leadership",
+      "aliases": [
+        "Team Leadership"
+      ]
+    },
+    {
+      "label": "Engineering Management",
+      "aliases": [
+        "Engineering Management"
+      ]
+    },
+    {
+      "label": "Mentoring",
+      "aliases": [
+        "Mentoring",
+        "Mentorship"
+      ]
+    },
+    {
+      "label": "Hiring",
+      "aliases": [
+        "Hiring",
+        "Recruiting"
+      ]
+    },
+    {
+      "label": "Performance Management",
+      "aliases": [
+        "Performance Management"
+      ]
+    },
+    {
+      "label": "Cross-Functional Leadership",
+      "aliases": [
+        "Cross-Functional Leadership",
+        "Cross-Functional Collaboration"
+      ]
+    },
+    {
+      "label": "Stakeholder Management",
+      "aliases": [
+        "Stakeholder Management"
+      ]
+    },
+    {
+      "label": "Vendor Management",
+      "aliases": [
+        "Vendor Management"
+      ]
+    },
+    {
+      "label": "Project Management",
+      "aliases": [
+        "Project Management"
+      ]
+    },
+    {
+      "label": "Program Management",
+      "aliases": [
+        "Program Management"
+      ]
+    },
+    {
+      "label": "Roadmap Planning",
+      "aliases": [
+        "Roadmap Planning",
+        "Roadmaps"
+      ]
+    },
+    {
+      "label": "OKRs",
+      "aliases": [
+        "OKRs",
+        "Objectives and Key Results"
+      ]
+    },
+    {
+      "label": "Operational Reviews",
+      "aliases": [
+        "Operational Reviews"
+      ]
+    },
+    {
+      "label": "Process Improvement",
+      "aliases": [
+        "Process Improvement"
+      ]
+    },
+    {
+      "label": "Workflow Optimization",
+      "aliases": [
+        "Workflow Optimization"
+      ]
+    },
+    {
+      "label": "Technical Leadership",
+      "aliases": [
+        "Technical Leadership"
+      ]
+    },
+    {
+      "label": "Coaching",
+      "aliases": [
+        "Coaching"
+      ]
+    },
+    {
+      "label": "Customer-Facing",
+      "aliases": [
+        "Customer-Facing",
+        "Customer Facing"
+      ]
+    },
+    {
+      "label": "Customer Support",
+      "aliases": [
+        "Customer Support"
+      ]
+    },
+    {
+      "label": "Technical Consulting",
+      "aliases": [
+        "Technical Consulting"
+      ]
+    },
+    {
+      "label": "ERP",
+      "aliases": [
+        "ERP",
+        "Enterprise Resource Planning",
+        "Oracle NetSuite",
+        "NetSuite"
+      ]
+    },
+    {
+      "label": "SAP",
+      "aliases": [
+        "SAP"
+      ]
+    },
+    {
+      "label": "Enterprise Tooling",
+      "aliases": [
+        "Enterprise Tooling"
+      ]
+    },
+    {
+      "label": "PMP",
+      "aliases": [
+        "PMP"
+      ]
+    },
+    {
+      "label": "Agile",
+      "aliases": [
+        "Agile"
+      ]
+    },
+    {
+      "label": "Scrum",
+      "aliases": [
+        "Scrum"
+      ]
+    }
+  ]
+}

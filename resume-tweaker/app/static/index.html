@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Tailor your resume to a job description. Review every keyword before it is added.">
+  <title>Resume Tweaker</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="wrap">
+      <h1>Resume Tweaker</h1>
+      <p>Align your resume with a job description. You decide every change.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card" aria-labelledby="h-resume">
+      <h2 id="h-resume"><span class="step">1</span> Upload your current resume</h2>
+      <p class="hint">PDF, DOC, DOCX or Markdown. Up to 5 MB.</p>
+      <div class="row">
+        <input type="file" id="resume-file" accept=".pdf,.doc,.docx,.md,.markdown" aria-label="Resume file">
+        <button type="button" id="preview-resume" class="btn" disabled>Preview resume</button>
+      </div>
+      <p id="resume-status" class="status" aria-live="polite"></p>
+    </section>
+
+    <section class="card" aria-labelledby="h-jd">
+      <h2 id="h-jd"><span class="step">2</span> Job description</h2>
+      <div class="segmented" role="radiogroup" aria-label="How to provide the job description">
+        <label><input type="radio" name="jd-mode" value="url" checked> Job page URL</label>
+        <label><input type="radio" name="jd-mode" value="text"> Paste text</label>
+      </div>
+
+      <div id="jd-url-panel">
+        <label for="jd-url" class="field-label">Job posting URL</label>
+        <div class="row">
+          <input type="url" id="jd-url" placeholder="https://company.com/careers/job-123" autocomplete="off">
+          <button type="button" id="fetch-jd" class="btn">Fetch</button>
+        </div>
+      </div>
+
+      <div id="jd-text-panel" hidden>
+        <div class="toolbar" role="toolbar" aria-label="Formatting">
+          <button type="button" class="btn small" data-cmd="bold" title="Bold"><b>B</b></button>
+          <button type="button" class="btn small" data-cmd="italic" title="Italic"><i>I</i></button>
+          <button type="button" class="btn small" data-cmd="insertUnorderedList" title="Bulleted list">&bull; List</button>
+          <button type="button" class="btn small" data-cmd="insertOrderedList" title="Numbered list">1. List</button>
+          <button type="button" class="btn small" data-cmd="removeFormat" title="Clear formatting">Clear</button>
+        </div>
+        <div id="jd-editor" class="editor" contenteditable="true" role="textbox" aria-multiline="true"
+             aria-label="Job description" data-placeholder="Paste the job description here. Formatting is kept."></div>
+        <div class="row between">
+          <span id="jd-words" class="hint"></span>
+          <button type="button" id="save-jd-text" class="btn">Use this text</button>
+        </div>
+      </div>
+      <p id="jd-status" class="status" aria-live="polite"></p>
+    </section>
+
+    <div class="analyze-grid">
+    <section class="card" aria-labelledby="h-analyze">
+      <h2 id="h-analyze"><span class="step">3</span> Analyze</h2>
+      <button type="button" id="analyze" class="btn primary" disabled>Analyze resume against job</button>
+      <p id="analyze-status" class="status" aria-live="polite"></p>
+      <div id="match" class="match" hidden>
+        <div><span id="match-before" class="big">–</span><small>Match today</small></div>
+        <div><span id="match-after" class="big">–</span><small>Match if all kept</small></div>
+      </div>
+    </section>
+
+    <div class="results-col">
+    <section class="card" id="step-suggest" aria-labelledby="h-suggest" hidden>
+      <h2 id="h-suggest"><span class="step">4</span> Suggested keywords</h2>
+      <p class="hint">Everything starts checked. Uncheck any keyword that does not reflect your experience. Checked keywords are listed under Core Competencies; nothing is invented.</p>
+      <div class="row between">
+        <span id="selected-count" class="hint" aria-live="polite"></span>
+        <span class="row tight">
+          <button type="button" id="select-all" class="btn small">Select all</button>
+          <button type="button" id="clear-all" class="btn small">Clear all</button>
+        </span>
+      </div>
+      <h3 id="missing-heading">Missing from your resume</h3>
+      <ul id="suggestions" class="suggestions"></ul>
+      <div id="covered-group" hidden>
+        <h3>Already in your resume</h3>
+        <ul id="covered" class="suggestions"></ul>
+      </div>
+      <label class="option">
+        <input type="checkbox" id="reorder" checked>
+        <span>Reorder Skills and Experience bullets so the job-relevant ones come first. Wording is not changed.</span>
+      </label>
+      <button type="button" id="tweak" class="btn primary">Tweak resume</button>
+      <p id="tweak-status" class="status" aria-live="polite"></p>
+    </section>
+
+    <section class="card" id="step-result" aria-labelledby="h-result" hidden>
+      <h2 id="h-result"><span class="step">5</span> Tweaked resume</h2>
+      <p id="result-summary" class="hint"></p>
+      <div class="row">
+        <button type="button" id="preview-tweaked" class="btn primary wide">Preview tweaked resume</button>
+      </div>
+
+      <h3>Download tweaked resume</h3>
+      <div class="download-group">
+        <a class="btn" href="/api/download/tweaked/pdf" download>PDF</a>
+        <a class="btn" href="/api/download/tweaked/docx" download>DOCX</a>
+        <a class="btn" href="/api/download/tweaked/md" download>Markdown</a>
+      </div>
+
+      <h3>Download original resume</h3>
+      <div class="download-group">
+        <a class="btn small" href="/api/download/original/pdf" download>PDF</a>
+        <a class="btn small" href="/api/download/original/docx" download>DOCX</a>
+        <a class="btn small" href="/api/download/original/md" download>Markdown</a>
+      </div>
+    </section>
+    </div>
+    </div>
+  </main>
+
+  <footer class="wrap foot">Resume Tweaker runs locally. Nothing you upload is stored after your session ends.</footer>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

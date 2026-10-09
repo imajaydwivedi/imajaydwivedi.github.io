@@ -1,0 +1,17 @@
+Site Reliability Engineer - Data Platform
+
+About us: We are a fast-growing company building data products for logistics customers.
+
+Responsibilities
+- Operate and improve Kubernetes clusters and Terraform-managed infrastructure on AWS.
+- Build CI/CD pipelines with GitHub Actions and Jenkins.
+- Own observability using Prometheus and Grafana, and drive incident response.
+- Maintain PostgreSQL and SQL Server high availability and disaster recovery.
+
+Requirements
+- 5+ years of experience in site reliability engineering or database administration.
+- Strong Python or PowerShell scripting skills.
+- Hands-on experience with Docker and Linux.
+- Knowledge of infrastructure as code and monitoring tools such as Datadog.
+
+Benefits: competitive salary, health insurance, and flexible working hours.

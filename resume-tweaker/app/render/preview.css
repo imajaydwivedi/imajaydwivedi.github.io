@@ -1,0 +1,17 @@
+/* Browser preview only. Not loaded for PDF output. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #e6e9f0;
+    --muted: #a3acbd;
+    --accent: #7aa7ff;
+    --paper: #161a22;
+    --mark: #6b5a12;
+    --rule: #303746;
+  }
+}
+@media (max-width: 600px) {
+  .resume { padding: 16px; }
+  h1 { font-size: 19pt; }
+  /* Wide tables scroll inside their own box instead of widening the page. */
+  table { display: block; overflow-x: auto; max-width: 100%; }
+}
