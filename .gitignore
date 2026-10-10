@@ -6,6 +6,9 @@ personal
 .secret
 work*
 
+.venv
+.env
+
 # Mac os dummy files
 .DS_Store
 

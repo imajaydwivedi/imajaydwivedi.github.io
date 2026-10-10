@@ -5,152 +5,145 @@
 
 <span class="iconify" data-icon="charm:person"></span> [ajaydwivedi.com](https://ajaydwivedi.com/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/imajaydwivedi](https://github.com/imajaydwivedi)
-  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 703-231-2749](https://wa.me/7032312749)
+  : <span class="iconify" data-icon="tabler:phone"></span> [(+91) 986-853-4271](https://wa.me/9868534271)
 
 <span class="iconify" data-icon="ic:outline-location-on"></span> Hyderabad, Telangana, India
   : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [linkedin.com/in/imajaydwivedi](https://linkedin.com/in/imajaydwivedi/)
-  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com) 
+  : <span class="iconify" data-icon="tabler:mail"></span> [ajay.dwivedi2007@gmail.com](mailto:ajay.dwivedi2007@gmail.com)
 
 
-## Professional Summary
+## Profile
 
-Site Reliability Engineer with 14 years of experience, I optimize SQL Server and PostgreSQL databases while collaborating with tech teams to build infrastructure automations using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, and GitHub Actions. My Strong problem-solving and communication skills, I lead & train developers and administrators to effectivly build monitoring and alerting system for organisation.
+Site Reliability Engineer with 15+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS & Azure).
 
+## Core Competencies
+
+- AWS | Ansible | RDS | Python
+- SQL | PostgreSQL | Monitoring | CI/CD
+- Infrastructure as Code | Automation | Kubernetes | Terraform
+- EC2 | Cloud Infrastructure | On-Call | Capacity Planning
+- Customer-Facing
 
 ## Skills
 
-**Databases:** <span class="iconify" data-icon="vscode-icons:file-type-sqlserver"></span> SQLServer, PostgreSQL, SQLite, RDS, Managed Instance, Aurora
-
-**Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-sql"></span> SQL, <span class="iconify" data-icon="vscode-icons:file-type-powershell"></span> PowerShell, <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Python, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaScript, <span class="iconify" data-icon="vscode-icons:file-type-html"></span> HTML / <span class="iconify" data-icon="vscode-icons:file-type-css"></span> CSS, <span class="iconify" data-icon="vscode-icons:file-type-shell"></span> Shell Scripting
-
-**Tools and Frameworks:** Git, Linux, Ansible, Flask, Django, GitHub Actions, VS Code, Grafana, Prometheus, KVM Virtualization, Container, Podman, Docker, Ubuntu, RHEL, PowerShell DSC, Infrastructure as Code (IaC)
-
-**Cloud Platforms:** AWS, Azure
-
-**High Availability & Disaster Recovery:** Clustering, Availability Groups, Mirroring, Log Shipping, Replication, Disk Stripping, RAID, Multi Subnet Setup
-
-**Languages:** English (proficient), Hindi (native)
-
-
-## Certifications
-- Microsoft Certified Professional - Database Querying
-  : Oct 2013
-- Microsoft Certified Professional - Database Administration
-  : Dec 2013
-- BrentOzarUnlimited Mastering SQLServer
-  : Nov 2022
-- SQLSkills Blackbelt Professional
-  : Jun 2023
-
+- **Databases:** SQLServer, PostgreSQL, SQLite, RDS, Azure SQL, Managed Instance, Aurora
+- **Programming Languages:** SQL, PowerShell, Python, JavaScript, HTML / CSS, Shell Scripting
+- **Tools and Frameworks:** Git, Linux, Ansible, Flask, Django, GitHub Actions, VS Code, Grafana, Prometheus, KVM Virtualization, Container, Podman, Docker, Ubuntu, RHEL, PowerShell DSC, Infrastructure as Code (IaC)
+- **Cloud Platforms:** AWS, Azure
+- **High Availability & Disaster Recovery:** Clustering, Availability Groups, Mirroring, Log Shipping, Replication, Disk Stripping, RAID, Multi Subnet Setup
+- **Languages:** English (proficient), Hindi (native)
 
 ## Experience
 
-**Principal Solution Architect**
-  : **Tessell**
-  : **02 2026 - Present**
+**Tessell**
+  : *February 2026 – September 2026*
+  : *Principal Solution Architect - SQL Server*
 
-- Build enhancement into existing Saas product
+- Designed CentOS-2-RHEL Migration automation using Python & Ansible for PostgreSQL
+- Wrote SAGA workflows using Kubernetes & dockerized environment to build Tessell Database As a Service platform on AWS and Azure.
+- Built DBaaS for deploying SQLServer on AWS EC2 & Azure VM
+- Wrote Python-based SAGA workload to build Tessell DBaaS on Cloud Infrastructure
+- Worked with customers to debug production bugs & implement fixes during 24x7 on-call support
+- Added Monitoring feature for Data & Log file growth using SQLExporter, Prometheus & Victoria Metrics
+- Added enhancements to support Change Data Capture & transactional Replication
 
+**AngelOne**
+  : *February 2022 – February 2026*
+  : *Senior Site Reliability Engineer (DevOps)*
 
-**Senior Site Reliability Engineer (DevOps)**
-  : **AngelOne**
-  : **02 2022 - 02 2026**
+- Automated AWS RDS/Aurora PostgreSQL database deployment & maintenance using Terraform
+- Built SQLMonitor monitoring tool with dashboards that helped in capacity planning & estimate required space for next couple of years based on past growth
+- Automated multi datacenter HA & Standalone PostgreSQL setup using Ansible
+- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers using Python
+- Saved 80 hours/week SRE effort with single click GitHub Action based PostgreSQL Cluster deployment & Configuration using Ansible Playbook.
+- Automated common database teams activities like installation, configuration, monitoring and alerting using PowerShell, Flask, Python, TSQL, Grafana, and PagerDuty for On-Prem and Cloud Managed Instances
+- Developed DB AI Agent using Ollama (LLM) and LangChain for Performance Monitoring & Troubleshooting
+- Created GitHub Repo based baselining of servers to ease monitoring and baselining using Prometheus and Grafana
+- Baselined all Windows & Linux servers using Prometheus and Grafana
 
-- Automated multi datacenter HA & Standalone PostgreSQL setup
-- Automated disk, connectivity, patroni health, and backup alerts for PostgreSQL servers
-- Saved 80 hours/week DBA effort with single click Github Action based PostgreSQL Cluster deployment using Ansible Playbook.
-- Optimized 10x SQL Server performance with D.E.A.T.H Methodology.
-- Saved 1400 hrs/year by automating Transparent Data Encryption (TDE).
-- Reduced 80% alerts with query tuning by fixing problems like Ascending Key, Kitchen Sink design, un-even threading, distributed query plans, MSTVFs, etc.
-- Reduced 90% incidents by building monitoring and alerting system using PowerShell & Python.
-
-
-**Database Reliability Engineer**
-  : **Arcesium**
-  : **05 2020 - 02 2022**
+**Arcesium**
+  : *May 2020 – February 2022*
+  : *Database Reliability Engineer*
 
 - Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
 - Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
-- Improved database relibility with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
+- Improved database reliability with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
+- Built automations to prevent common issues like tempdbSaver, LogSaver etc.
 
+**TiVo**
+  : *February 2018 – May 2020*
+  : *Database Administrator*
 
-**Database Administrator**
-  : **TiVo**
-  : **02 2018 - 05 2020**
-
+- Reduced 80% performance incidents by building Delta Index Defragmentation automation for replicated & HADR databases.
 - Saved 40+ hours by automating SQLServer deployment and configuration using PowerShell.
 - Reduced 80% transactional replication issues with latency infra.
-- Reduced 80% performance incidents by building Delta Index Defragmentation automation for replicated & HADR databases.
 
+**United Health Group**
+  : *October 2016 – February 2018*
+  : *Senior SQL DBA*
 
-**Senior SQL DBA**
-  : **United Health Group**
-  : **10 2016 - 02 2018**
-
+- Fixed multiple critical customer-facing performance & deployment issues by directly interacting with them
 - Saved $1 million/year via DB Space Capacity Automation.
 - Improved 50% performance issues with reduced VLDBs maintenance time.
 
-
-**Technical Lead**
-  : **Ericsson Global**
-  : **06 2015 - 10 2016**
+**Ericsson Global**
+  : *June 2015 – October 2016*
+  : *Technical Lead*
 
 - 3x Performance Improvement via advanced query optimization like Recursive CTE and Table Partitioning.
-- Lead 18+ developers for best practices and guidelines.
+- Led 18+ developers for best practices and guidelines.
 
+**TATA Consultancy Services**
+  : *March 2011 – June 2015*
+  : *SQL DBA Developer*
 
-**SQL DBA Developer**
-  : **TATA Consultancy Services**
-  : **03 2011 - 06 2015**
-
+- Saved 20+ hours/week by Automating core DBA tasks using dynamic SQL.
 - Moved 250+ large tables with each having billions of records using SSIS in 45 hours.
 - Built data warehouse ETL pipelines using Pentaho & Kettle for high volume Liquor Retail stores.
-- Saved 20+ hours/week by Automating core DBA tasks using dynamic SQL.
-
-
-## Education
-
-**Bachelor of Engineering in Electronics & Communication Engineering**
-  : **07 2006 - 06 2010**
-
-RustamJi Institue of Technology
-  : Gwalior, Madhya Pradesh
-
-
-## Awards and Honors
-
-**Tech Titan**, AngelOne for 10x Performance Optimization on Prod SQLServer.
-  : 2022
-
-**Sapphire**, United Health Group for Innovation and automations.
-  : 2017
-
 
 ## Projects
 
-**SQLMonitor:** Open source Enterprise grade SQLServer monitoring tool
-  : **01 2021 - Present**
+**SQLMonitor**
+  : *January 2021 – Present*
+  : *Open source Enterprise grade SQLServer monitoring tool* ([GitHub](https://github.com/imajaydwivedi/SQLMonitor))
 
 - Built using TSQL, PowerShell, Python, and Grafana.
 - Successfully monitoring 500+ SQLServers across environments.
 - Observability alerts to Slack, PagerDuty and Email
 - Inbuilt auto action to Clear & Resolve
 
-**HadrSync:** PowerShell module that synchronizes all objects across Replicas in Availability Groups
-  : **01 2021 - Present**
+**AI Agent**
+  : *October 2025 – Present*
+  : *AI Agent to help application users troubleshoot database performance issues interactively through portal & Slack* ([GitHub](https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent))
 
-- Ensures zero sync issues during failovers/Drs.
+- Built using Python, LangChain, Ollama, and SQLMonitor
+- Successfully handling developers/application users in Database Performance tuning
+
+**HadrSync**
+  : *January 2021 – Present*
+  : *PowerShell module that synchronizes all objects across Replicas in Availability Groups* ([GitHub](https://github.com/imajaydwivedi/HadrSync))
+
+- Ensures zero sync issues during failovers/DRs.
 - Detects & synchronizes even delta changes like changes in passwords, definition etc.
 
+## Certifications
+
+- Microsoft Certified Professional - Database Querying (October 2013)
+- Microsoft Certified Professional - Database Administration (December 2013)
+- BrentOzarUnlimited Mastering SQLServer (November 2022)
+- SQLSkills Blackbelt Professional (June 2023)
+
+## Education
+
+**Bachelor of Engineering in Electronics & Communication Engineering**
+  : *July 2006 – June 2010*
+  : RustamJi Institute of Technology, Gwalior, Madhya Pradesh
+
+## Awards and Honors
+
+- **Tech Titan**, AngelOne for 10x Performance Optimization on Prod SQLServer (2022)
+- **Sapphire**, United Health Group for Innovation and automations (2017)
 
 ## Availability
 
-**Notice Period:** 90 Days
-
-**Relocation:** Open to Relocation
-
-**Remote:** Open to remote opportunities
-
-
-## FINAL NOTE
-I have problem-solving mindset and love designing efficient database systems and solving complex performance challenges in collaboration with various tech teams. I help organisations build robust, fully automated infrastructure with PowerShell, Python and Ansible.
+Notice Period: 7 Days | Open to Relocation | Open to remote opportunities
