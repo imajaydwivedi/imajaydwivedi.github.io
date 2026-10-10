@@ -1,0 +1,5 @@
+We are hiring a Site Reliability Engineer. You will own Kubernetes clusters on AWS,
+write infrastructure as code with Terraform, and build observability with Prometheus and Grafana.
+Experience with Golang or Python is required. Knowledge of Kafka and PostgreSQL is a plus.
+You will join an on-call rotation and run incident response and postmortems.
+Dr. Patel from our hiring panel will interview you. We value high availability design.

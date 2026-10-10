@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume Tailor (LaTeX)</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Resume Tailor <span>LaTeX</span></h1>
+    <p class="lede">Rule-based. No AI, no invented skills. Your resume is only reordered and given a Core Competencies line built from keywords you already have, plus any gaps you confirm.</p>
+  </header>
+
+  <main>
+    <section class="inputs">
+      <div class="card">
+        <div class="card-head">
+          <h2>1. Resume <small>(.tex)</small></h2>
+          <label class="file-btn">Upload<input type="file" id="resume-file" accept=".tex,text/plain"></label>
+        </div>
+        <textarea id="resume" spellcheck="false" placeholder="Paste your LaTeX resume here"></textarea>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>2. Job description</h2>
+          <label class="file-btn">Upload<input type="file" id="jd-file" accept=".txt,text/plain"></label>
+        </div>
+        <textarea id="jd" spellcheck="false" placeholder="Paste the job description here"></textarea>
+      </div>
+    </section>
+
+    <div class="actions">
+      <button id="analyze-btn" class="primary">Analyze</button>
+      <span id="status" role="status"></span>
+    </div>
+
+    <section id="analysis" class="card hidden">
+      <h2>3. Keywords</h2>
+      <p class="muted" id="summary"></p>
+
+      <div class="kw-block">
+        <h3>Already in your resume <small>included automatically</small></h3>
+        <div id="covered" class="chips"></div>
+      </div>
+
+      <div class="kw-block">
+        <h3>Missing from your resume <small>tick only what is true of you</small></h3>
+        <p class="muted small">Unticked keywords stay out of the resume.</p>
+        <div id="gaps" class="chips selectable"></div>
+      </div>
+
+      <div class="kw-block" id="additions-block">
+        <h3>Fit into your experience <small>optional, but recommended</small></h3>
+        <p class="muted small">For each keyword you ticked, write one bullet describing work you actually did, and pick the job it belongs to. The tool inserts your wording as written. It does not write bullets for you, and each bullet must contain its keyword.</p>
+        <div id="addition-rows" class="addition-rows"></div>
+      </div>
+
+      <label class="toggle">
+        <input type="checkbox" id="reorder" checked>
+        Reorder Skills and Experience bullets so the most relevant ones come first
+      </label>
+
+      <div class="actions">
+        <button id="tailor-btn" class="primary">Build tailored resume</button>
+      </div>
+    </section>
+
+    <section id="result" class="card hidden">
+      <h2>4. Tailored resume</h2>
+      <ul id="notes" class="notes"></ul>
+      <div class="actions">
+        <button id="download-pdf" class="primary hidden">Download .pdf</button>
+        <button id="download-docx" class="primary hidden">Download .docx</button>
+        <button id="download-tex">Download .tex</button>
+        <button id="copy-tex">Copy</button>
+      </div>
+      <pre id="output"></pre>
+    </section>
+  </main>
+
+  <footer>PDF and DOCX buttons appear when the server has the converters installed.</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

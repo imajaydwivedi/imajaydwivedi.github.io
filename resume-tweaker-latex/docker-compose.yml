@@ -1,0 +1,12 @@
+services:
+  resume-tailor:
+    build: .
+    image: resume-tailor:latest
+    ports:
+      # host 8080 -> container 80. Bound to localhost so the app is not open to your network.
+      # Change to "8080:80" to listen on all interfaces.
+      - "127.0.0.1:8080:80"
+    read_only: true
+    tmpfs:
+      - /tmp
+    restart: unless-stopped
