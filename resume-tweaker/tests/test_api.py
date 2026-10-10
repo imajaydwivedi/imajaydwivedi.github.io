@@ -14,7 +14,7 @@ JD = (FIXTURES / "sample_jd.txt").read_text()
 def test_index_serves_page():
     r = client.get("/")
     assert r.status_code == 200
-    assert "Resume Tailor" in r.text
+    assert "Resume Tweaker" in r.text
 
 
 def test_analyze_returns_covered_and_gaps():

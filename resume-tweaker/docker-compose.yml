@@ -1,7 +1,8 @@
 services:
-  resume-tailor:
+  resume-tweaker:
     build: .
-    image: resume-tailor:latest
+    container_name: resume-tweaker
+    image: resume-tweaker:latest
     ports:
       # host 8080 -> container 80. Bound to localhost so the app is not open to your network.
       # Change to "8080:80" to listen on all interfaces.

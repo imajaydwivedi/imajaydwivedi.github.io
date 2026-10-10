@@ -14,7 +14,7 @@ MAX_CHARS = 200_000
 STATIC_DIR = Path(__file__).parent / "static"
 DOCX_TYPE = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
 
-app = FastAPI(title="Resume Tailor (LaTeX)", docs_url=None, redoc_url=None)
+app = FastAPI(title="Resume Tweaker", docs_url=None, redoc_url=None)
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 

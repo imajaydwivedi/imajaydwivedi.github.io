@@ -28,7 +28,7 @@ RUN useradd --uid 10001 --create-home --shell /usr/sbin/nologin app
 # the unprivileged `app` user. Compose must not set no-new-privileges, which would block file capabilities.
 RUN setcap 'cap_net_bind_service=+ep' "$(readlink -f "$(which python)")"
 
-WORKDIR /opt/resume-tailor
+WORKDIR /opt/resume-tweaker
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt

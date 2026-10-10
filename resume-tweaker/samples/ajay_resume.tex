@@ -1,5 +1,5 @@
 \documentclass[10pt,a4paper]{article}
-\usepackage[margin=0.6in]{geometry}
+\usepackage[top=0.6in,bottom=0.6in,left=0.75in,right=0.75in]{geometry}
 \usepackage[hidelinks,pdftitle={Ajay Kumar Dwivedi - Resume},pdfauthor={Ajay Kumar Dwivedi}]{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -10,10 +10,11 @@
 \pagestyle{empty}
 \setcounter{secnumdepth}{-1} % no numbers on section headings
 \setlength{\parindent}{0pt}
-\setlist[itemize]{nosep, leftmargin=*, topsep=2pt, itemsep=1pt}
+\renewcommand{\normalsize}{\fontsize{10.9}{13.6}\selectfont}
+\setlist[itemize]{nosep, leftmargin=*, topsep=0pt, itemsep=1pt}
 
-\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-3pt}\titlerule]
-\titlespacing*{\section}{0pt}{9pt}{5pt}
+\titleformat{\section}{\fontsize{12}{14}\selectfont\bfseries\color{accent}}{}{0em}{}[\vspace{12pt}{\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{11pt}{11pt}
 
 \begin{document}
 
@@ -27,7 +28,7 @@ Hyderabad, Telangana, India ~|~ (+91) 986-853-4271 ~|~ \href{mailto:ajay.dwivedi
 \href{https://ajaydwivedi.com/}{ajaydwivedi.com} ~|~ \href{https://github.com/imajaydwivedi}{github.com/imajaydwivedi} ~|~ \href{https://linkedin.com/in/imajaydwivedi/}{linkedin.com/in/imajaydwivedi}
 \end{center}
 
-\section{Professional Summary}
+\section{Profile}
 Site Reliability Engineer with 15+ years of experience, I automate infrastructure using DevOps CI/CD pipelines leveraging scripting tools like PowerShell, Python, Ansible, GitHub Actions, Containers etc. I build monitoring and alerting systems using tools like Python, PowerShell, Flask, Prometheus and Grafana for both On-Prem and Cloud platform (AWS \& Azure).
 
 \section{Core Competencies}
@@ -49,19 +50,11 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   \item \textbf{Languages:} English (proficient), Hindi (native)
 \end{itemize}
 
-\section{Certifications}
-\begin{itemize}
-  \item Microsoft Certified Professional - Database Querying (October 2013)
-  \item Microsoft Certified Professional - Database Administration (December 2013)
-  \item BrentOzarUnlimited Mastering SQLServer (November 2022)
-  \item SQLSkills Blackbelt Professional (June 2023)
-\end{itemize}
-
 \section{Experience}
 
 \noindent\textbf{Tessell}~\hfill~\textit{February 2026 -- September 2026}
 
-\textit{Principal Solution Architect - SQL Server}
+\textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
   \item Designed CentOS-2-RHEL Migration automation using Python \& Ansible for PostgreSQL
   \item Wrote SAGA workflows using Kubernetes \& dockerized environment to build Tessell Database As a Service platform on AWS and Azure.
@@ -71,10 +64,10 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   \item Added Monitoring feature for Data \& Log file growth using SQLExporter, Prometheus \& Victoria Metrics
   \item Added enhancements to support Change Data Capture \& transactional Replication
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{AngelOne}~\hfill~\textit{February 2022 -- February 2026}
 
-\textit{Senior Site Reliability Engineer (DevOps)}
+\textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
   \item Automated AWS RDS/Aurora PostgreSQL database deployment \& maintenance using Terraform
   \item Built SQLMonitor monitoring tool with dashboards that helped in capacity planning \& estimate required space for next couple of years based on past growth
@@ -86,46 +79,46 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   \item Created GitHub Repo based baselining of servers to ease monitoring and baselining using Prometheus and Grafana
   \item Baselined all Windows \& Linux servers using Prometheus and Grafana
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{Arcesium}~\hfill~\textit{May 2020 -- February 2022}
 
-\textit{Database Reliability Engineer}
+\textit{Database Reliability Engineer}\\[-5pt]
 \begin{itemize}
   \item Resolved 100s of incidents by moving 38 TB AG databases with PowerShell.
   \item Automated/Upgraded 30 Critical SQLClusters/AGs in 12 hours avoiding week long downtime.
   \item Improved database reliability with automated ScriptOut of entire SQLServer Instances for Disaster Recovery.
   \item Built automations to prevent common issues like tempdbSaver, LogSaver etc.
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{TiVo}~\hfill~\textit{February 2018 -- May 2020}
 
-\textit{Database Administrator}
+\textit{Database Administrator}\\[-5pt]
 \begin{itemize}
   \item Reduced 80\% performance incidents by building Delta Index Defragmentation automation for replicated \& HADR databases.
   \item Saved 40+ hours by automating SQLServer deployment and configuration using PowerShell.
   \item Reduced 80\% transactional replication issues with latency infra.
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{United Health Group}~\hfill~\textit{October 2016 -- February 2018}
 
-\textit{Senior SQL DBA}
+\textit{Senior SQL DBA}\\[-5pt]
 \begin{itemize}
   \item Fixed multiple critical customer-facing performance \& deployment issues by directly interacting with them
   \item Saved \$1 million/year via DB Space Capacity Automation.
   \item Improved 50\% performance issues with reduced VLDBs maintenance time.
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{Ericsson Global}~\hfill~\textit{June 2015 -- October 2016}
 
-\textit{Technical Lead}
+\textit{Technical Lead}\\[-5pt]
 \begin{itemize}
   \item 3x Performance Improvement via advanced query optimization like Recursive CTE and Table Partitioning.
   \item Led 18+ developers for best practices and guidelines.
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{TATA Consultancy Services}~\hfill~\textit{March 2011 -- June 2015}
 
-\textit{SQL DBA Developer}
+\textit{SQL DBA Developer}\\[-5pt]
 \begin{itemize}
   \item Saved 20+ hours/week by Automating core DBA tasks using dynamic SQL.
   \item Moved 250+ large tables with each having billions of records using SSIS in 45 hours.
@@ -143,7 +136,7 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   \item Observability alerts to Slack, PagerDuty and Email
   \item Inbuilt auto action to Clear \& Resolve
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{AI Agent}~\hfill~\textit{October 2025 -- Present}
 
 \textit{AI Agent to help application users troubleshoot database performance issues interactively through portal \& Slack} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
@@ -151,13 +144,21 @@ Site Reliability Engineer with 15+ years of experience, I automate infrastructur
   \item Built using Python, LangChain, Ollama, and SQLMonitor
   \item Successfully handling developers/application users in Database Performance tuning
 \end{itemize}
-
+\vspace{14.7pt}
 \noindent\textbf{HadrSync}~\hfill~\textit{January 2021 -- Present}
 
 \textit{PowerShell module that synchronizes all objects across Replicas in Availability Groups} (\href{https://github.com/imajaydwivedi/HadrSync}{GitHub})
 \begin{itemize}
   \item Ensures zero sync issues during failovers/DRs.
   \item Detects \& synchronizes even delta changes like changes in passwords, definition etc.
+\end{itemize}
+
+\section{Certifications}
+\begin{itemize}
+  \item Microsoft Certified Professional - Database Querying (October 2013)
+  \item Microsoft Certified Professional - Database Administration (December 2013)
+  \item BrentOzarUnlimited Mastering SQLServer (November 2022)
+  \item SQLSkills Blackbelt Professional (June 2023)
 \end{itemize}
 
 \section{Education}
