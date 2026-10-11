@@ -17,20 +17,44 @@ The PDF and DOCX buttons appear only when the server has the converters. The con
 
 ## Run it (container)
 
+This uses the system Docker engine (`/var/run/docker.sock`), which starts at boot. Docker Desktop is not needed. If Docker Desktop is installed, make sure it is not holding port 8080, or the start will fail with "address already in use".
+
+Run these from the `resume-tweaker` directory. Step 1 builds the image, and step 2 creates and starts the container from it.
+
 ```bash
 cd resume-tweaker
-docker compose up -d --build
+
+# 1. Build the image
+docker --context default build -t resume-tweaker:latest .
+
+# 2. Create and start the container
+docker --context default run -d --name resume-tweaker \
+  --restart unless-stopped \
+  --read-only --tmpfs /tmp \
+  -p 127.0.0.1:8080:80 \
+  resume-tweaker:latest
 ```
 
-Open http://localhost:8080. The app listens on port 80 inside the container, and compose maps host port 8080 to it.
+Or do both steps with compose, which reads `docker-compose.yml`:
 
 ```bash
-docker compose logs -f           # logs
-docker compose down              # stop and remove the container
-docker ps --filter name=resume-tweaker   # check status (should say "healthy")
+docker --context default compose up -d --build
+```
+
+Open http://localhost:8080. The app listens on port 80 inside the container, and the port mapping sends host port 8080 to it.
+
+The container has `restart: unless-stopped`, so it comes back after an OS restart. It only stays down if you stop it yourself with `docker stop` or `docker compose down`.
+
+```bash
+docker --context default compose logs -f                      # logs
+docker --context default compose restart                      # restart
+docker --context default compose down                         # stop and remove the container (not restored on boot)
+docker --context default ps --filter name=resume-tweaker      # check status (should say "healthy")
 ```
 
 The container is named `resume-tweaker`, and its image is `resume-tweaker:latest`.
+
+To check persistence after a reboot, run `docker --context default ps --all --filter name=resume-tweaker` once the system has booted. It should show `Up` with `(healthy)`.
 
 - It runs as a non-root user with a read-only filesystem. `/tmp` is the only writable location.
 - Compose binds the port to `127.0.0.1`, so only this machine can reach it. To allow other devices on your network, change `"127.0.0.1:8080:80"` to `"8080:80"` in `docker-compose.yml`.
