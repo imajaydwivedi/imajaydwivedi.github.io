@@ -10,6 +10,7 @@
   <header class="top">
     <h1>Resume Tweaker <span>LaTeX</span></h1>
     <p class="lede">Rule-based. No AI, no invented skills. Your resume is only reordered and given a Core Competencies line built from keywords you already have, plus any gaps you confirm.</p>
+    <p class="lede">Want an example? See the <a href="https://github.com/imajaydwivedi/imajaydwivedi.github.io/blob/main/resume-tweaker/samples/ajay_resume.tex" target="_blank" rel="noopener">sample resume (.tex)</a>.</p>
   </header>
 
   <main>
@@ -20,6 +21,11 @@
           <label class="file-btn">Upload<input type="file" id="resume-file" accept=".tex,text/plain"></label>
         </div>
         <textarea id="resume" spellcheck="false" placeholder="Paste your LaTeX resume here"></textarea>
+        <div class="url-row">
+          <input type="url" id="resume-url" spellcheck="false" placeholder="or a GitHub / Google Drive link to a .tex file">
+          <button id="load-url-btn">Load from URL</button>
+        </div>
+        <p id="url-status" class="muted small" role="status"></p>
       </div>
 
       <div class="card">

@@ -4,6 +4,7 @@ A local web app that tailors a LaTeX resume to a job description. It uses Manish
 
 ## What it does
 
+0. **Load the resume.** Paste the `.tex`, upload it, or paste a link to it. Links can point to a file on GitHub (`github.com/owner/repo/blob/branch/file.tex`) or Google Drive (`drive.google.com/file/d/ID/view`). A Drive file must be shared as "Anyone with the link". Only GitHub and Google Drive links are fetched.
 1. **Analyze.** Finds keywords from the catalog (178 entries, taken from Manisha's `help-from-manisha.txt`) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.

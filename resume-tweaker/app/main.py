@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from .convert import ConvertError, capabilities, to_docx, to_pdf
+from .remote import RemoteError, fetch_tex
 from .tailor import AdditionError, analyze, experience_jobs, extract_jd_keywords, tailor
 
 MAX_CHARS = 200_000
@@ -43,6 +44,10 @@ class TexRequest(BaseModel):
     tex: str = Field(min_length=1, max_length=MAX_CHARS)
 
 
+class UrlRequest(BaseModel):
+    url: str = Field(min_length=1, max_length=2048)
+
+
 def _file(content: bytes, media_type: str, name: str) -> Response:
     return Response(content=content, media_type=media_type,
                     headers={"Content-Disposition": f'attachment; filename="{name}"'})
@@ -57,14 +62,30 @@ def healthz() -> dict:
     return {"ok": True}
 
 
+def _versioned(name: str) -> str:
+    # The file's mtime in the URL makes browsers fetch a new copy after every change.
+    return f"/static/{name}?v={int((STATIC_DIR / name).stat().st_mtime)}"
+
+
 @app.get("/", response_class=HTMLResponse)
-def index() -> str:
-    return (STATIC_DIR / "index.html").read_text(encoding="utf-8")
+def index() -> Response:
+    html = (STATIC_DIR / "index.html").read_text(encoding="utf-8")
+    html = html.replace('href="/static/style.css"', f'href="{_versioned("style.css")}"')
+    html = html.replace('src="/static/app.js"', f'src="{_versioned("app.js")}"')
+    return HTMLResponse(html, headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/api/status")
 def status() -> dict:
     return capabilities()
+
+
+@app.post("/api/fetch", response_model=None)
+def fetch_route(req: UrlRequest):
+    try:
+        return {"tex": fetch_tex(req.url)}
+    except RemoteError as exc:
+        return Response(content=str(exc), status_code=422, media_type="text/plain")
 
 
 @app.post("/api/analyze")

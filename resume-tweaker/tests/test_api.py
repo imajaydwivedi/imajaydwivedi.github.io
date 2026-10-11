@@ -17,6 +17,13 @@ def test_index_serves_page():
     assert "Resume Tweaker" in r.text
 
 
+def test_index_versions_static_assets():
+    r = client.get("/")
+    assert r.headers["cache-control"] == "no-cache"
+    assert '/static/app.js?v=' in r.text
+    assert '/static/style.css?v=' in r.text
+
+
 def test_analyze_returns_covered_and_gaps():
     r = client.post("/api/analyze", json={"resume_tex": RESUME, "jd_text": JD})
     assert r.status_code == 200

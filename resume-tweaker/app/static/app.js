@@ -9,7 +9,7 @@
     result: $("result"), notes: $("notes"), output: $("output"),
     analyzeBtn: $("analyze-btn"), tailorBtn: $("tailor-btn"),
     downloadTex: $("download-tex"), downloadPdf: $("download-pdf"), downloadDocx: $("download-docx"),
-    copy: $("copy-tex"),
+    copy: $("copy-tex"), resumeUrl: $("resume-url"), loadUrlBtn: $("load-url-btn"),
   };
 
   function setStatus(msg, isError = false) {
@@ -247,6 +247,35 @@
     } catch {
       setStatus("Clipboard blocked. Select the text and copy it manually.", true);
     }
+  });
+
+  async function loadFromUrl() {
+    const urlStatus = $("url-status");
+    const url = els.resumeUrl.value.trim();
+    if (!url) {
+      urlStatus.textContent = "Paste a GitHub or Google Drive link first.";
+      urlStatus.classList.add("error");
+      return;
+    }
+    busy(els.loadUrlBtn, true);
+    urlStatus.textContent = "Loading resume from link...";
+    urlStatus.classList.remove("error");
+    try {
+      const res = await post("/api/fetch", { url });
+      const data = await res.json();
+      els.resume.value = data.tex;
+      urlStatus.textContent = "Loaded resume from link.";
+    } catch (err) {
+      urlStatus.textContent = err.message;
+      urlStatus.classList.add("error");
+    } finally {
+      busy(els.loadUrlBtn, false);
+    }
+  }
+
+  els.loadUrlBtn.addEventListener("click", loadFromUrl);
+  els.resumeUrl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") loadFromUrl();
   });
 
   readFileInto($("resume-file"), els.resume);
