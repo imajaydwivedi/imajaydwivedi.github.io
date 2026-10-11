@@ -14,6 +14,8 @@ A local web app that tailors a LaTeX resume to a job description. It uses Manish
    - Reorders bullets in Skills and Experience so the most relevant ones come first. Wording, job order, and headings never change.
 4. **Output.** Download `.tex`, `.pdf`, or `.docx`, or copy the `.tex` text.
 
+No job description? Leave it empty and press **Analyze**. The keyword analysis is skipped, and the page goes straight to the download section with the resume unchanged.
+
 The PDF and DOCX buttons appear only when the server has the converters. The container includes them.
 
 ## Run it (container)

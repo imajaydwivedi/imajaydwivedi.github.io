@@ -129,7 +129,7 @@ def test_bullet_is_added_to_chosen_job_and_escaped():
     assert "\\item Ran Kafka consumers \\& 50\\% retries" in out
     assert out.count("Ran Kafka consumers") == 1
     # It goes at the top of job 1 (AngelOne), before its first existing bullet, and job 0 is unchanged.
-    assert out.index("Ran Kafka consumers") < out.index("Developed DB AI Agent")
+    assert out.index("Ran Kafka consumers") < out.index("Built a DB AI agent")
     assert out.index("Ran Kafka consumers") > out.index("Tessell")
 
 

@@ -141,11 +141,30 @@
     return [...els.gaps.querySelectorAll("input:checked")].map((i) => i.value);
   }
 
+  // No job description: skip the keyword analysis and go straight to the downloads.
+  // The resume is returned unchanged.
+  function showResumeOnly(tex) {
+    state.tex = tex;
+    els.output.textContent = tex;
+    els.notes.replaceChildren();
+    const li = document.createElement("li");
+    li.textContent = "No job description given, so the resume is unchanged.";
+    els.notes.appendChild(li);
+    els.analysis.classList.add("hidden");
+    els.result.classList.remove("hidden");
+    els.result.scrollIntoView({ behavior: "smooth", block: "start" });
+    setStatus("");
+  }
+
   els.analyzeBtn.addEventListener("click", async () => {
     const resume_tex = els.resume.value.trim();
     const jd_text = els.jd.value.trim();
-    if (!resume_tex || !jd_text) {
-      setStatus("Add both a resume and a job description.", true);
+    if (!resume_tex) {
+      setStatus("Add a resume first.", true);
+      return;
+    }
+    if (!jd_text) {
+      showResumeOnly(els.resume.value);
       return;
     }
     busy(els.analyzeBtn, true);
