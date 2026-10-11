@@ -33,11 +33,11 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 
 \section{Core Competencies}
 \begin{itemize}
-  \item AWS  ~|~  Ansible  ~|~  RDS  ~|~  Python
-  \item SQL  ~|~  PostgreSQL  ~|~  Monitoring  ~|~  CI/CD
-  \item Infrastructure as Code  ~|~  Automation  ~|~  Kubernetes  ~|~  Terraform
-  \item EC2  ~|~  Cloud Infrastructure  ~|~  On-Call  ~|~  Capacity Planning
-  \item Customer-Facing
+  \item \textbf{Databases:} SQL Server  ~|~  PostgreSQL  ~|~  MongoDB  ~|~  T-SQL  ~|~  Performance Tuning  ~|~  Query Optimization  ~|~  Data Migration \& Upgrades
+  \item \textbf{Reliability \& Incidents:} High Availability \& DR  ~|~  Reliability Engineering  ~|~  Incident Management  ~|~  Root Cause Analysis  ~|~  On-Call  ~|~  Capacity Planning  ~|~  Customer-Facing
+  \item \textbf{Cloud \& Containers:} AWS  ~|~  Azure  ~|~  Cloud Infrastructure  ~|~  EC2  ~|~  RDS  ~|~  Kubernetes  ~|~  Distributed Systems
+  \item \textbf{Automation \& Scripting:} Infrastructure as Code  ~|~  Automation  ~|~  Terraform  ~|~  Ansible  ~|~  CI/CD  ~|~  GitHub Actions  ~|~  PowerShell  ~|~  Python  ~|~  Shell Scripting  ~|~  Open-Source Development
+  \item \textbf{Monitoring \& AI:} Monitoring \& Observability  ~|~  Prometheus  ~|~  Grafana  ~|~  Datadog  ~|~  AI Agents (LangChain, Ollama)
 \end{itemize}
 
 \section{Skills}
@@ -78,7 +78,7 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
   \item Saved 80 hours/week of SRE effort with a single-click GitHub Actions workflow for PostgreSQL cluster deployment and configuration using an Ansible playbook
-  \item Developed a DB AI agent using Ollama (LLM) and LangChain for performance monitoring and troubleshooting
+  \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
   \item Baselined all Windows and Linux servers using Prometheus and Grafana
 \end{itemize}
 \vspace{14.7pt}
@@ -142,12 +142,21 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
   \item Built-in auto-actions to clear and resolve issues
 \end{itemize}
 \vspace{14.7pt}
+\noindent\textbf{SQLDBATools}~\hfill~\textit{July 2021 -- February 2023}
+
+\textit{PowerShell module with cmdlets for SQL Server DBA activities} (\href{https://github.com/imajaydwivedi/SQLDBATools}{GitHub})
+\begin{itemize}
+  \item Covers server inventory, disk and space estimation, backup history, permission audits, and maintenance job setup
+  \item Built a monitoring and alerting system with Grafana dashboards, auto-clearing alerts, email notifications, and alert suppression
+  \item Published to PSGallery for installation with \texttt{Install-Module}
+\end{itemize}
+\vspace{14.7pt}
 \noindent\textbf{AI Agent}~\hfill~\textit{October 2025 -- Present}
 
-\textit{AI agent that helps application users troubleshoot database performance issues interactively through the portal and Slack} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
+\textit{LLM-powered SQL agent that answers natural-language performance questions about SQL Server instances monitored by SQLMonitor} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
 \begin{itemize}
-  \item Built using Python, LangChain, Ollama, and SQLMonitor
-  \item Supports developers and application users with database performance tuning
+  \item Built using Python, LangChain, Ollama, Streamlit, and SQLMonitor
+  \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{HadrSync}~\hfill~\textit{January 2021 -- Present}
