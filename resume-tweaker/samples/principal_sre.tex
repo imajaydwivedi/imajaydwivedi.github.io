@@ -33,10 +33,10 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 
 \section{Core Competencies}
 \begin{itemize}
-  \item \textbf{Leadership \& Reliability:} Leadership \& Stakeholder Management  ~|~  Reliability Engineering  ~|~  On-Call  ~|~  Capacity Planning  ~|~  Customer-Facing
+  \item \textbf{Leadership \& Reliability:} Leadership \& Stakeholder Management  ~|~  Reliability Engineering  ~|~  Problem Management  ~|~  On-Call  ~|~  Capacity Planning  ~|~  Customer-Facing
   \item \textbf{Databases:} SQL Server  ~|~  PostgreSQL  ~|~  MongoDB  ~|~  Performance Tuning  ~|~  Query Optimization  ~|~  High Availability \& DR
   \item \textbf{Cloud \& Containers:} AWS  ~|~  Azure  ~|~  Cloud Infrastructure  ~|~  EC2  ~|~  RDS  ~|~  Kubernetes  ~|~  Distributed Systems
-  \item \textbf{Automation \& DevOps:} Infrastructure as Code  ~|~  Automation  ~|~  Terraform  ~|~  Ansible  ~|~  CI/CD  ~|~  GitHub Actions  ~|~  Python  ~|~  Shell Scripting  ~|~  Open-Source Development
+  \item \textbf{Automation \& DevOps:} Infrastructure as Code  ~|~  Automation  ~|~  Terraform  ~|~  Ansible  ~|~  CI/CD  ~|~  Deployment Pipelines  ~|~  GitHub Actions  ~|~  Python  ~|~  Shell Scripting  ~|~  Open-Source Development
   \item \textbf{Monitoring \& AI:} Monitoring \& Observability  ~|~  Prometheus  ~|~  Grafana  ~|~  AI Agents (LangChain, Ollama)
 \end{itemize}
 
@@ -57,11 +57,10 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 \textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
   \item Worked on Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker/Kubernetes as the control plane and AWS, Azure, and GCP as the data plane
-  \item Wrote SAGA workflows on Kubernetes and a dockerized environment to build Tessell's DBaaS platform on AWS and Azure
+  \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's DBaaS platform on AWS and Azure
   \item Used root cause analysis to debug production issues and implement customer fixes during 24x7 on-call support
   \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible
   \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs
-  \item Wrote a Python-based SAGA workload to build Tessell DBaaS on cloud infrastructure
   \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
 \end{itemize}
@@ -75,11 +74,12 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
   \item Automated AWS RDS/Aurora PostgreSQL database deployment and maintenance using Terraform
   \item Created a GitHub repo-based approach to baselining servers, simplifying monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
-  \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible
+  \item Automated standalone PostgreSQL setup using Ansible
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
-  \item Saved 80 hours/week of SRE effort with a single-click GitHub Actions workflow for PostgreSQL cluster deployment and configuration using an Ansible playbook
+  \item Built Deployment Pipelines in GitHub Actions, using Ansible in the background, to set up multi-datacenter HA with a 2-node Patroni PostgreSQL cluster in the primary data center and a 3-node Patroni cluster in the secondary data center, linked by cascading streaming replication managed by Patroni, saving 80 hours/week of SRE effort with a single-click workflow
   \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
   \item Baselined all Windows and Linux servers using Prometheus and Grafana
+  \item Ran Problem Management for P1/P2 database incidents in Jira, performing an RCA for each database incident and representing the DBA team in CAB meetings
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}~\hfill~\textit{May 2020 -- February 2022}
@@ -106,8 +106,7 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 
 \textit{Senior SQL DBA}\\[-5pt]
 \begin{itemize}
-  \item Handled incident management for production issues, debugging customer issues and implementing fixes during 24x7 on-call support
-  \item Practiced stakeholder management by directly interacting with customers to fix critical customer-facing performance and deployment issues
+  \item Handled incident management for production issues during 24x7 On-Call support, practicing Stakeholder Management by directly interacting with customers to debug and fix critical Customer-Facing performance and deployment issues
   \item Saved \$1 million per year through DB space capacity automation
   \item Improved performance issues by 50\% and reduced VLDB maintenance time
 \end{itemize}
