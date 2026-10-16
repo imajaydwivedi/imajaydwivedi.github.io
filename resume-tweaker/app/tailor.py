@@ -31,6 +31,7 @@ CASE_SENSITIVE_ALIASES = {
     "MQ", "SOX", "GPU", "HPC", "TCP", "UDP", "NFR", "React", "Excel",
     "XDP", "NTP", "PTP", "MCP", "RTO", "RPO", "Lambda",
     "VLDB", "VLDBs", "DBCC", "NVMe", "EBS", "SSMS",
+    "QA", "E2E", "PII",
 }
 
 REORDER_SECTION_NAMES = {"skills", "technical skills", "experience"}
