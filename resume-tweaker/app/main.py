@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field
 
 from .convert import ConvertError, capabilities, to_docx, to_pdf
 from .remote import RemoteError, fetch_tex
-from .tailor import AdditionError, analyze, experience_jobs, extract_jd_keywords, tailor
+from .tailor import AdditionError, analyze, core_subsections, experience_jobs, extract_jd_keywords, tailor
 
 MAX_CHARS = 200_000
 STATIC_DIR = Path(__file__).parent / "static"
@@ -30,10 +30,17 @@ class Addition(BaseModel):
     bullet: str = Field(min_length=1, max_length=300)
 
 
+class Placement(BaseModel):
+    keyword: str = Field(min_length=1, max_length=100)
+    subsection: int | None = Field(default=None, ge=0, le=500)
+    new_label: str | None = Field(default=None, max_length=60)
+
+
 class TailorRequest(ResumeJD):
     include_keywords: list[str] = Field(default_factory=list, max_length=500)
     reorder: bool = True
     additions: list[Addition] = Field(default_factory=list, max_length=100)
+    placements: list[Placement] = Field(default_factory=list, max_length=500)
 
 
 class ResumeOnly(BaseModel):
@@ -103,6 +110,11 @@ def jobs_route(req: ResumeOnly) -> dict:
     return {"jobs": experience_jobs(req.resume_tex)}
 
 
+@app.post("/api/core-subsections")
+def core_subsections_route(req: ResumeOnly) -> dict:
+    return {"subsections": core_subsections(req.resume_tex)}
+
+
 @app.post("/api/tailor", response_model=None)
 def tailor_route(req: TailorRequest):
     try:
@@ -112,6 +124,7 @@ def tailor_route(req: TailorRequest):
             include_keywords=req.include_keywords,
             reorder=req.reorder,
             additions=[a.model_dump() for a in req.additions],
+            placements=[p.model_dump() for p in req.placements],
         )
     except AdditionError as exc:
         return Response(content=str(exc), status_code=422, media_type="text/plain")

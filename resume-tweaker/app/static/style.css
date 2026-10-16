@@ -148,7 +148,7 @@ pre {
 .addition { border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; gap: 8px; }
 .addition-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; justify-content: space-between; }
 .addition-head strong { color: var(--chip-text); }
-.addition select, .addition textarea {
+.addition select, .addition textarea, .addition input[type=text] {
   width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
   background: var(--bg); color: var(--text); font: inherit;
 }

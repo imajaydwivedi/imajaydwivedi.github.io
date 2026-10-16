@@ -169,3 +169,66 @@ def test_short_storage_acronyms_ignore_prose():
     # "san" and "nas" in ordinary words must not count as SAN/NAS storage.
     assert "Enterprise Storage" not in extract_jd_keywords("Visit San Diego for the nascent project")
     assert "Enterprise Storage" in extract_jd_keywords("Managed SAN and NAS arrays")
+
+
+def test_confirmed_gap_keywords_reach_existing_core_competencies():
+    # Regression: ticked gap keywords were dropped when Core Competencies already existed.
+    resume = (
+        "\\section{Core Competencies}\n\\begin{itemize}\n  \\item Linux\n\\end{itemize}\n"
+        "\\section{Experience}\n\\begin{itemize}\n  \\item Ran jobs\n\\end{itemize}\n"
+    )
+    jd = "Looking for Kafka and VMware experience"
+    result = tailor(resume, jd, include_keywords=["Kafka", "VMware"])
+    core = result.tex[result.tex.index("\\section{Core Competencies}"):result.tex.index("\\section{Experience}")]
+    assert "Kafka" in core and "VMware" in core
+    assert result.tex.count("\\section{Core Competencies}") == 1
+    assert "Linux" in core
+
+
+SAMPLE = (Path(__file__).parent.parent / "samples" / "principal_sre.tex").read_text()
+
+
+def _core_text(tex):
+    start = tex.index("\\section{Core Competencies}")
+    return tex[start : tex.index("\\section{", start + 5)]
+
+
+def test_core_subsections_lists_existing_lines():
+    from app.tailor import core_subsections
+    labels = [s["label"] for s in core_subsections(SAMPLE)]
+    assert "Cloud & Containers" in labels
+    assert "Automation & DevOps" in labels
+
+
+def test_keyword_placed_into_chosen_existing_line():
+    # Self-contained: does not depend on the sample resume's current wording.
+    resume = (
+        "\\section{Core Competencies}\n\\begin{itemize}\n"
+        "  \\item \\textbf{Cloud \\& Containers:} AWS, Azure, Kubernetes\n"
+        "  \\item \\textbf{Monitoring:} Prometheus\n\\end{itemize}\n"
+        "\\section{Experience}\n\\begin{itemize}\n  \\item Ran jobs\n\\end{itemize}\n"
+    )
+    from app.tailor import core_subsections
+    idx = next(s["index"] for s in core_subsections(resume) if s["label"] == "Cloud & Containers")
+    result = tailor(resume, "Looking for Microservices experience", include_keywords=["Microservices"],
+                    placements=[{"keyword": "Microservices", "subsection": idx}])
+    assert result.gaps == ["Microservices"] or "Microservices" in result.core_keywords
+    cloud_line = next(l for l in _core_text(result.tex).splitlines() if "Cloud \\& Containers" in l)
+    cloud_line = next(l for l in _core_text(result.tex).splitlines() if "Cloud \\& Containers" in l)
+    assert cloud_line.rstrip().endswith("Microservices")
+    assert _core_text(result.tex).count("Microservices") == 1
+    assert "\\textbf{Microservices" not in _core_text(result.tex)
+
+
+def test_unplaced_keyword_goes_to_new_labelled_line():
+    result = tailor(SAMPLE, "Looking for Kafka experience", include_keywords=["Kafka"],
+                    placements=[{"keyword": "Kafka", "subsection": None, "new_label": "Streaming"}])
+    assert "\\item \\textbf{Streaming:} Kafka" in _core_text(result.tex)
+
+
+def test_placement_to_missing_line_is_rejected():
+    import pytest
+    from app.tailor import AdditionError
+    with pytest.raises(AdditionError):
+        tailor(SAMPLE, "Looking for Kafka experience", include_keywords=["Kafka"],
+               placements=[{"keyword": "Kafka", "subsection": 99}])

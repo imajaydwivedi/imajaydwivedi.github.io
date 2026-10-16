@@ -1,12 +1,13 @@
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { tex: "", jobs: [] };
+  const state = { tex: "", jobs: [], subsections: [] };
 
   const els = {
     resume: $("resume"), jd: $("jd"), status: $("status"),
     analysis: $("analysis"), summary: $("summary"), rows: $("addition-rows"),
     covered: $("covered"), gaps: $("gaps"), reorder: $("reorder"),
     result: $("result"), notes: $("notes"), output: $("output"),
+    placementBlock: $("placement-block"), placementRows: $("placement-rows"),
     analyzeBtn: $("analyze-btn"), tailorBtn: $("tailor-btn"),
     downloadTex: $("download-tex"), downloadPdf: $("download-pdf"), downloadDocx: $("download-docx"),
     copy: $("copy-tex"), resumeUrl: $("resume-url"), loadUrlBtn: $("load-url-btn"),
@@ -93,6 +94,72 @@
     } else if (els.rows.querySelector(".empty")) {
       els.rows.querySelector(".empty").remove();
     }
+    renderPlacementRows();
+  }
+
+  // One picker per ticked keyword: an existing Core Competencies line, or a new labelled line.
+  function renderPlacementRows() {
+    const wanted = selectedGaps();
+    els.placementBlock.classList.toggle("hidden", !(state.subsections.length && wanted.length));
+    [...els.placementRows.querySelectorAll(".placement")].forEach((row) => {
+      if (!wanted.includes(row.dataset.keyword)) row.remove();
+    });
+    if (!state.subsections.length) return;
+    wanted.forEach((k) => {
+      if (els.placementRows.querySelector(`.placement[data-keyword="${CSS.escape(k)}"]`)) return;
+      els.placementRows.appendChild(makePlacementRow(k));
+    });
+  }
+
+  function makePlacementRow(keyword) {
+    const row = document.createElement("div");
+    row.className = "addition placement";
+    row.dataset.keyword = keyword;
+
+    const head = document.createElement("div");
+    head.className = "addition-head";
+    const title = document.createElement("strong");
+    title.textContent = keyword;
+    head.append(title);
+
+    const select = document.createElement("select");
+    select.className = "placement-line";
+    state.subsections.forEach((s) => {
+      const opt = document.createElement("option");
+      opt.value = String(s.index);
+      opt.textContent = `Add to: ${s.label}`;
+      select.appendChild(opt);
+    });
+    const newOpt = document.createElement("option");
+    newOpt.value = "new";
+    newOpt.textContent = "New line with its own label";
+    select.appendChild(newOpt);
+    select.value = "new";
+
+    const label = document.createElement("input");
+    label.type = "text";
+    label.className = "new-label";
+    label.maxLength = 60;
+    label.value = "Other";
+    label.placeholder = "Label for the new line, e.g. Streaming";
+    const syncLabel = () => label.classList.toggle("hidden", select.value !== "new");
+    select.addEventListener("change", syncLabel);
+    syncLabel();
+
+    row.append(head, select, label);
+    return row;
+  }
+
+  function collectPlacements() {
+    return [...els.placementRows.querySelectorAll(".placement")].map((row) => {
+      const keyword = row.dataset.keyword;
+      const select = row.querySelector("select.placement-line");
+      if (select.value === "new") {
+        const label = row.querySelector("input.new-label").value.trim();
+        return { keyword, subsection: null, new_label: label || "Other" };
+      }
+      return { keyword, subsection: Number(select.value), new_label: null };
+    });
   }
 
   function makeRow(keyword) {
@@ -175,6 +242,8 @@
       renderKeywords(data.covered, data.gaps);
       const jobsRes = await post("/api/jobs", { resume_tex });
       state.jobs = (await jobsRes.json()).jobs;
+      const subsRes = await post("/api/core-subsections", { resume_tex });
+      state.subsections = (await subsRes.json()).subsections;
       renderAdditionRows();
       els.summary.textContent =
         `${data.jd_keyword_count} keywords found in the job description. ` +
@@ -199,6 +268,7 @@
         include_keywords: selectedGaps(),
         reorder: els.reorder.checked,
         additions: collectAdditions(),
+        placements: collectPlacements(),
       });
       const data = await res.json();
       state.tex = data.tex;

@@ -5,12 +5,13 @@ A local web app that tailors a LaTeX resume to a job description. It uses Manish
 ## What it does
 
 0. **Load the resume.** Paste the `.tex`, upload it, or paste a link to it. Links can point to a file on GitHub (`github.com/owner/repo/blob/branch/file.tex`) or Google Drive (`drive.google.com/file/d/ID/view`). A Drive file must be shared as "Anyone with the link". Only GitHub and Google Drive links are fetched.
-1. **Analyze.** Finds keywords from the catalog (312 entries, based on Manisha's `help-from-manisha.txt` and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
+1. **Analyze.** Finds keywords from the catalog (356 entries, based on Manisha's `help-from-manisha.txt` and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.
 2. **Fit into experience (optional).** For each missing keyword you tick, pick a job and write one bullet describing work you actually did. The tool inserts your wording as written, escaped for LaTeX. The bullet must contain its keyword. The tool never writes bullets itself. Leaving a box empty adds nothing to the resume.
 3. **Build.** Produces the tailored `.tex`:
-   - Adds a **Core Competencies** section after the summary (`Profile`, `Professional Summary`, or `Summary`), built from the keywords you accepted.
+   - Core Competencies placement: for each keyword you ticked, choose an existing line (for example *Cloud & Containers*) to append it to, or *New line with its own label*. Keywords that are not placed go to a line labelled *Other*.
+   - If the resume has no Core Competencies section, adds one after the summary (`Profile`, `Professional Summary`, or `Summary`), built from the keywords you accepted.
    - Reorders bullets in Skills and Experience so the most relevant ones come first. Wording, job order, and headings never change.
 4. **Output.** Download `.tex`, `.pdf`, or `.docx`, or copy the `.tex` text.
 
@@ -26,6 +27,11 @@ Run these from the `resume-tweaker` directory. Step 1 builds the image, and step
 
 ```bash
 cd resume-tweaker
+
+# 0. Cleanup
+docker ps --all
+docker stop resume-tweaker
+docker rm resume-tweaker
 
 # 1. Build the image
 docker --context default build -t resume-tweaker:latest .

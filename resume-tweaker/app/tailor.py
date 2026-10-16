@@ -30,6 +30,7 @@ CASE_SENSITIVE_ALIASES = {
     # Short acronyms and words that are also common prose ("react", "excel at")
     "MQ", "SOX", "GPU", "HPC", "TCP", "UDP", "NFR", "React", "Excel",
     "XDP", "NTP", "PTP", "MCP", "RTO", "RPO", "Lambda",
+    "VLDB", "VLDBs", "DBCC", "NVMe", "EBS", "SSMS",
 }
 
 REORDER_SECTION_NAMES = {"skills", "technical skills", "experience"}
@@ -127,16 +128,66 @@ def _reorder_itemize_blocks(text: str, keywords: list[str]) -> str:
     return re.sub(r"\\begin\{itemize\}(.*?)\\end\{itemize\}", repl, text, flags=re.DOTALL)
 
 
-def build_core_competencies(keywords: list[str], chunk_size: int = 4) -> str:
+def _core_item_lines(keywords: list[str], chunk_size: int = 4) -> list[str]:
     escaped = [latex_escape(k) for k in keywords]
     chunks = [escaped[i : i + chunk_size] for i in range(0, len(escaped), chunk_size)]
-    lines = ["    \\item " + " \\quad\\textbar\\quad ".join(chunk) for chunk in chunks]
+    return ["    \\item " + " \\quad\\textbar\\quad ".join(chunk) for chunk in chunks]
+
+
+def build_core_competencies(keywords: list[str], chunk_size: int = 4) -> str:
+    lines = _core_item_lines(keywords, chunk_size)
     return (
         "\n% --- Core Competencies (auto-generated: JD keywords already in your resume,"
         " plus any gap keywords you confirmed) ---\n"
         "\\section{Core Competencies}\n\n"
         "\\begin{itemize}\n" + "\n".join(lines) + "\n\\end{itemize}\n"
     )
+
+
+def _core_label(item: str) -> str:
+    """Bold label of a Core Competencies line, e.g. 'Cloud & Containers'. Falls back to the text."""
+    m = re.search(r"\\textbf\{([^}]*)\}", item)
+    if m:
+        return m.group(1).replace("\\&", "&").strip().rstrip(":").strip()
+    return " ".join(strip_latex(item).split())[:40] or "Untitled"
+
+
+def core_subsections(resume_tex: str) -> list[dict]:
+    """Lines of the existing Core Competencies list, in order, for the placement picker."""
+    _, segments = _section_segments(resume_tex)
+    for seg in segments:
+        if seg["name"] != CORE_SECTION_NAME:
+            continue
+        m = ITEMIZE_RE.search(seg["text"])
+        if not m:
+            return []
+        items = [p for p in re.split(r"(?=\\item)", m.group(1)) if p.strip().startswith("\\item")]
+        return [{"index": i, "label": _core_label(item)} for i, item in enumerate(items)]
+    return []
+
+
+def place_in_core(section_text: str, existing: dict[int, list[str]], new: dict[str, list[str]]) -> str:
+    """Put keywords into chosen Core Competencies lines.
+
+    existing: line index -> keywords to append to that line's list.
+    new: label -> keywords for a new bold-labelled line added at the end.
+    """
+    m = ITEMIZE_RE.search(section_text)
+    if not m:
+        return section_text
+    pieces = re.split(r"(?=\\item)", m.group(1))
+    lead, items = pieces[0], pieces[1:]
+    for idx, keywords in existing.items():
+        body = items[idx].rstrip()
+        trailing = items[idx][len(body):]
+        items[idx] = body + ", " + ", ".join(latex_escape(k) for k in keywords) + trailing
+    for label, keywords in new.items():
+        if items and not items[-1].endswith("\n"):
+            items[-1] += "\n"
+        text = ", ".join(latex_escape(k) for k in keywords)
+        items.append(f"  \\item \\textbf{{{latex_escape(label)}:}} {text}\n")
+    inner = lead + "".join(items)
+    return section_text[: m.start(1)] + inner + section_text[m.end(1) :]
 
 
 def _section_segments(resume_tex: str):
@@ -224,12 +275,34 @@ def add_bullets(resume_tex: str, additions: list[dict]) -> str:
     return "".join(out)
 
 
+def _core_placement_plan(
+    resume_tex: str, confirmed: list[str], placements: list[dict]
+) -> tuple[dict[int, list[str]], dict[str, list[str]]]:
+    """Split confirmed keywords into existing-line targets and new-line labels."""
+    chosen = {p["keyword"]: p for p in placements if p.get("keyword") in confirmed}
+    line_count = len(core_subsections(resume_tex))
+    existing: dict[int, list[str]] = {}
+    new: dict[str, list[str]] = {}
+    for keyword in confirmed:
+        place = chosen.get(keyword) or {}
+        if place.get("subsection") is not None:
+            idx = place["subsection"]
+            if not 0 <= idx < line_count:
+                raise AdditionError(f"Core Competencies line {idx} does not exist.")
+            existing.setdefault(idx, []).append(keyword)
+        else:
+            label = " ".join((place.get("new_label") or "Other").split())[:60]
+            new.setdefault(label, []).append(keyword)
+    return existing, new
+
+
 def tailor(
     resume_tex: str,
     jd_text: str,
     include_keywords: list[str] | None = None,
     reorder: bool = True,
     additions: list[dict] | None = None,
+    placements: list[dict] | None = None,
 ) -> TailorResult:
     """Tailor a LaTeX resume against a job description without inventing content.
 
@@ -237,6 +310,9 @@ def tailor(
     are actually gaps are honored. Anything else is ignored.
     additions: bullets the user wrote for a keyword and a job (see add_bullets).
     A keyword with an addition counts as confirmed.
+    placements: where each confirmed keyword goes in an existing Core Competencies list.
+    {"keyword", "subsection": line index or None, "new_label": label for a new line}.
+    Confirmed keywords without a placement go to a new line labelled "Other".
     """
     covered, gaps = analyze(resume_tex, jd_text)
     added_keywords = [a["keyword"] for a in additions or []]
@@ -253,8 +329,14 @@ def tailor(
         return result
 
     has_core = any(seg["name"] == CORE_SECTION_NAME for seg in segments)
-    if has_core and core_keywords:
-        result.warnings.append("Resume already has a Core Competencies section. No new one was added.")
+    # Confirmed gap keywords (not already in the resume) that must appear in Core Competencies.
+    confirmed = [k for k in core_keywords if k not in covered]
+    existing, new = _core_placement_plan(resume_tex, confirmed, placements or [])
+    if has_core and confirmed:
+        result.warnings.append(
+            "Resume already has a Core Competencies section. No new one was added; "
+            f"{len(confirmed)} confirmed keyword(s) were placed in it."
+        )
 
     out = [preamble]
     core_inserted = has_core or not core_keywords
@@ -265,6 +347,8 @@ def tailor(
             if new_text != text:
                 result.reordered_sections.append(seg["name"])
             text = new_text
+        if has_core and seg["name"] == CORE_SECTION_NAME and confirmed:
+            text = place_in_core(text, existing, new)
         out.append(text)
         if not core_inserted and seg["name"] in SUMMARY_SECTION_NAMES:
             out.append(build_core_competencies(core_keywords))

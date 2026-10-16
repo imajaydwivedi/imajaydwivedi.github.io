@@ -35,8 +35,8 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 \begin{itemize}
   \item \textbf{Leadership \& Reliability:} Leadership \& Stakeholder Management, Reliability Engineering, Problem Management, On-Call, Capacity Planning, Customer-Facing
   \item \textbf{Databases:} SQL Server, PostgreSQL, MongoDB, Performance Tuning, Query Optimization, High Availability \& DR
-  \item \textbf{Cloud \& Containers:} AWS, Azure, Cloud Infrastructure, EC2, RDS, Kubernetes, Distributed Systems
-  \item \textbf{Automation \& DevOps:} Infrastructure as Code, Automation, Terraform, Ansible, CI/CD, Deployment Pipelines, GitHub Actions, Python, Shell Scripting, Open-Source Development
+  \item \textbf{Cloud \& Containers:} AWS, Azure, Cloud Infrastructure, EC2, RDS, Kubernetes, Distributed Systems, Microservices, Networking
+  \item \textbf{Automation \& DevOps:} Infrastructure as Code, Automation, Terraform, Ansible, CI/CD, Deployment Pipelines, GitHub Actions, Python, Shell Scripting, Open-Source Development, DNS, LDAP, Bare Metal, Linux Kernel, Configuration Management
   \item \textbf{Monitoring \& AI:} Monitoring \& Observability, Prometheus, Grafana, AI Agents (LangChain, Ollama)
 \end{itemize}
 
@@ -56,12 +56,12 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 
 \textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
+  \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Worked on Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker/Kubernetes as the control plane and AWS, Azure, and GCP as the data plane
   \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's DBaaS platform on AWS and Azure, reducing provisioning time to 20 minutes
-  \item Used root cause analysis to debug production issues and implement customer fixes during 24x7 on-call support
-  \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
-  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
   \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
+  \item Used root cause analysis to debug production issues and implement customer fixes during 24x7 on-call support
+  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
 \end{itemize}
 \vspace{14.7pt}
@@ -70,15 +70,15 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
   \item Automated common database team activities, such as installation, configuration, monitoring, and alerting, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
-  \item Improved database reliability and business continuity by automating ScriptOut of entire SQL Server instances for disaster recovery
+  \item Built Deployment Pipelines in GitHub Actions, using Ansible in the background, to set up multi-datacenter HA with a 3-node Patroni PostgreSQL cluster in the primary data center and a 3-node Patroni cluster in the secondary data center, linked by cascading streaming replication managed by Patroni, saving 80 hours/week of SRE effort with a single-click workflow
   \item Automated AWS RDS/Aurora PostgreSQL database deployment and maintenance using Terraform
   \item Created a GitHub repo-based approach to baselining servers, simplifying monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
-  \item Automated standalone PostgreSQL setup using Ansible
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
-  \item Built Deployment Pipelines in GitHub Actions, using Ansible in the background, to set up multi-datacenter HA with a 3-node Patroni PostgreSQL cluster in the primary data center and a 3-node Patroni cluster in the secondary data center, linked by cascading streaming replication managed by Patroni, saving 80 hours/week of SRE effort with a single-click workflow
-  \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
   \item Baselined all Windows and Linux servers using Prometheus and Grafana
+  \item Improved database reliability and business continuity by automating ScriptOut of entire SQL Server instances for disaster recovery
+  \item Automated standalone PostgreSQL setup using Ansible
+  \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
   \item Ran Problem Management for P1/P2 database incidents in Jira, performing an RCA for each database incident and representing the DBA team in CAB meetings
 \end{itemize}
 \vspace{14.7pt}
@@ -86,10 +86,10 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 
 \textit{Database Reliability Engineer}\\[-5pt]
 \begin{itemize}
+  \item Built automation to prevent common issues such as tempdbSaver and LogSaver
   \item Applied reliability engineering as a Database Reliability Engineer, upgrading 30 critical SQL clusters/AGs in 12 hours to avoid a week-long downtime
   \item Resolved hundreds of incidents by moving 38 TB of AG databases with PowerShell
   \item Improved database reliability by automating ScriptOut of entire SQL Server instances for disaster recovery
-  \item Built automation to prevent common issues such as tempdbSaver and LogSaver
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{TiVo}~\hfill~\textit{February 2018 -- May 2020}
@@ -98,16 +98,16 @@ Site Reliability Engineer with 15+ years of experience automating infrastructure
 \begin{itemize}
   \item Implemented monitoring and alerting with Datadog
   \item Reduced performance incidents by 80\% by building Delta Index Defragmentation automation for replicated and HADR databases
-  \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
   \item Reduced transactional replication issues by 80\% using latency monitoring infrastructure
+  \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{United Health Group}~\hfill~\textit{October 2016 -- February 2018}
 
 \textit{Senior SQL DBA}\\[-5pt]
 \begin{itemize}
-  \item Handled incident management for production issues during 24x7 on-call support, practicing stakeholder management by directly interacting with customers to debug and fix critical customer-facing performance and deployment issues
   \item Saved \$1 million per year through DB space capacity automation
+  \item Handled incident management for production issues during 24x7 on-call support, practicing stakeholder management by directly interacting with customers to debug and fix critical customer-facing performance and deployment issues
   \item Improved performance issues by 50\% and reduced VLDB maintenance time
 \end{itemize}
 \vspace{14.7pt}
