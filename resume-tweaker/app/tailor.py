@@ -25,7 +25,12 @@ from .keywords import KEYWORD_GROUPS
 ALIAS_BY_LABEL = dict(KEYWORD_GROUPS)
 
 # Aliases that double as ordinary words or are very short. Matched case-sensitively.
-CASE_SENSITIVE_ALIASES = {"Go", "R", "HA", "DR", "ML"}
+CASE_SENSITIVE_ALIASES = {
+    "Go", "R", "HA", "DR", "ML", "SAN", "NAS",
+    # Short acronyms and words that are also common prose ("react", "excel at")
+    "MQ", "SOX", "GPU", "HPC", "TCP", "UDP", "NFR", "React", "Excel",
+    "XDP", "NTP", "PTP", "MCP", "RTO", "RPO", "Lambda",
+}
 
 REORDER_SECTION_NAMES = {"skills", "technical skills", "experience"}
 SUMMARY_SECTION_NAMES = {"summary", "profile", "professional summary"}

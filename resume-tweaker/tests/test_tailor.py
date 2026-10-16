@@ -153,3 +153,19 @@ def test_tailor_with_addition_confirms_keyword_and_places_bullet():
     result = tailor(RESUME, JD, additions=[{"keyword": "Kafka", "job_index": 0, "bullet": "Built Kafka pipelines for alerts"}])
     assert "Kafka" in result.core_keywords
     assert "\\item Built Kafka pipelines for alerts" in result.tex
+
+
+def test_enterprise_jd_terms_are_flagged_as_gaps():
+    # Terms from a systems-reliability JD that the catalog used to miss.
+    jd = "Strong VMware ESXi, Citrix, Enterprise Storage and Layer 2/3 networking skills; mentor juniors"
+    jd_keywords = extract_jd_keywords(jd)
+    for label in ["VMware", "ESXi", "Citrix", "Enterprise Storage", "Layer 2/3 Networking", "Mentoring"]:
+        assert label in jd_keywords
+    _, gaps = analyze("\\section{Skills}\nLinux, Python", jd)
+    assert "ESXi" in gaps and "Citrix" in gaps and "Enterprise Storage" in gaps
+
+
+def test_short_storage_acronyms_ignore_prose():
+    # "san" and "nas" in ordinary words must not count as SAN/NAS storage.
+    assert "Enterprise Storage" not in extract_jd_keywords("Visit San Diego for the nascent project")
+    assert "Enterprise Storage" in extract_jd_keywords("Managed SAN and NAS arrays")

@@ -5,7 +5,7 @@ A local web app that tailors a LaTeX resume to a job description. It uses Manish
 ## What it does
 
 0. **Load the resume.** Paste the `.tex`, upload it, or paste a link to it. Links can point to a file on GitHub (`github.com/owner/repo/blob/branch/file.tex`) or Google Drive (`drive.google.com/file/d/ID/view`). A Drive file must be shared as "Anyone with the link". Only GitHub and Google Drive links are fetched.
-1. **Analyze.** Finds keywords from the catalog (178 entries, taken from Manisha's `help-from-manisha.txt`) in the job description, and splits them into:
+1. **Analyze.** Finds keywords from the catalog (312 entries, based on Manisha's `help-from-manisha.txt` and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.
 2. **Fit into experience (optional).** For each missing keyword you tick, pick a job and write one bullet describing work you actually did. The tool inserts your wording as written, escaped for LaTeX. The bullet must contain its keyword. The tool never writes bullets itself. Leaving a box empty adds nothing to the resume.
@@ -95,7 +95,7 @@ The suite has 36 tests. It covers keyword matching, the no-invention rule, bulle
 ```
 Dockerfile, docker-compose.yml, requirements*.txt
 app/
-  keywords.py     keyword catalog, copied verbatim from Manisha's file
+  keywords.py     keyword catalog, based on Manisha's file, extended for infrastructure JDs
   tailor.py       matching, bullet insertion, reorder, Core Competencies, job labels, LaTeX escaping
   convert.py      PDF (xelatex, -no-shell-escape) and DOCX (pandoc) conversion, 60 s timeout
   main.py         FastAPI: /api/analyze, /api/jobs, /api/tailor, /api/pdf, /api/docx, /api/status, /healthz
