@@ -196,8 +196,8 @@ def _core_text(tex):
 def test_core_subsections_lists_existing_lines():
     from app.tailor import core_subsections
     labels = [s["label"] for s in core_subsections(SAMPLE)]
-    assert "Cloud & Containers" in labels
-    assert "Automation & DevOps" in labels
+    assert "Cloud and Containers" in labels
+    assert "Automation and DevOps" in labels
 
 
 def test_keyword_placed_into_chosen_existing_line():
