@@ -1,8 +1,9 @@
-Hi Chanjot, 
+Hi,
 
-I’m a Database/SRE professional with 15+ years of experience in SQL Server, PostgreSQL, automation & DevOps, including building open-source tools like SQLMonitor. 
+I have 15+ years of experience as DBA & SRE. Have contributed to many open source projects & blog posts which has been appreciated by experts like BrentOzar.
 
-I’m exploring new opportunities and would love to connect. 
+Resume -> https://ajaydwivedi.com/go/resume
+Recognitions -> https://ajaydwivedi.com/go/rewards
 
 Thanks,
 Ajay
