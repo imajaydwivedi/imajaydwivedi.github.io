@@ -59,29 +59,34 @@ Database Reliability and Site Reliability Engineer with 15+ years of experience 
 \textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
   \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
-  \item Worked on Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker/Kubernetes as the control plane and AWS, Azure, and GCP as the data plane
-  \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's DBaaS platform on AWS and Azure, reducing provisioning time to 20 minutes
+  \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane, reducing provisioning time to 20 minutes
   \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
   \item Used root cause analysis to debug production issues and implement fixes for customers during 24x7 on-call support
+  \item Provided technical leadership on PostgreSQL architecture for Tessell's DBaaS SaaS platform, covering provisioning, high availability, and day 2 operations, and mentoring engineers
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{AngelOne}\hfill \textit{February 2022 - February 2026}
 
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
-  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL/TLS drivers, and built a credential manager to securely store and retrieve credentials for DBA automation
+  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager to securely store and retrieve credentials for DBA automation
   \item Automated common database team activities, such as installation, configuration, monitoring, and alerting, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
-  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O
+  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual disk reads and writes
   \item Automated AWS RDS and Aurora PostgreSQL database deployment and maintenance using Terraform
-  \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
-  \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible
-  \item Created a GitHub repo-based approach to baselining servers, simplifying monitoring with Prometheus and Grafana
+  \item Created a GitHub repo-based approach to baselining all Windows and Linux servers, simplifying monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
-  \item Saved 80 hours per week of SRE effort with a single-click GitHub Actions workflow for PostgreSQL cluster deployment and configuration using an Ansible playbook
-  \item Baselined all Windows and Linux servers using Prometheus and Grafana
+  \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible, saving 80 hours per week of SRE effort with a single-click GitHub Actions workflow for cluster deployment and configuration
+  \item Provided production support for PostgreSQL databases on a 24x7 on-call rotation, meeting SLA commitments for availability and incident response
+  \item Owned business continuity for PostgreSQL clusters, maintaining and testing failover and recovery procedures
+  \item Led rolling upgrades and database upgrades of PostgreSQL clusters with minimal downtime, using Patroni-managed failover
+  \item Designed read replicas for PostgreSQL using streaming replication, forming replica sets that route read operations away from the primary
+  \item Designed sharding, table partitioning, and data lifecycle management for large PostgreSQL datasets, including time-series tables with retention, archival, and purge policies
+  \item Used explain plans (EXPLAIN and EXPLAIN ANALYZE) to troubleshoot slow query performance and fix plan regressions in PostgreSQL
+  \item Established database best practices and standards for PostgreSQL configuration, backups, and security
+  \item Supported Redis caching for PostgreSQL-backed applications, troubleshooting cache and database interaction issues
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}

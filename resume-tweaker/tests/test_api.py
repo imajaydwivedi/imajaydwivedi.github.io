@@ -128,3 +128,10 @@ def test_tailor_rejects_bad_addition():
     })
     assert r.status_code == 422
     assert "must contain that keyword" in r.text
+
+
+def test_pdf_rejects_markdown_input():
+    from app.convert import ConvertError, to_pdf
+    import pytest
+    with pytest.raises(ConvertError, match="not a LaTeX resume"):
+        to_pdf("# Resume Tweaker\n\nA local web app.\n")

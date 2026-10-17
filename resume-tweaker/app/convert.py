@@ -44,7 +44,19 @@ def _without_section_numbers(tex: str) -> str:
     return tex.replace("\\begin{document}", setting + "\n\\begin{document}", 1)
 
 
+NOT_LATEX = (
+    "This is not a LaTeX resume: there is no \\documentclass line. "
+    "Load your .tex resume, not a Markdown or text file."
+)
+
+
+def _check_latex(tex: str) -> None:
+    if "\\documentclass" not in tex:
+        raise ConvertError(NOT_LATEX)
+
+
 def to_pdf(tex: str) -> bytes:
+    _check_latex(tex)
     engine = pdf_engine()
     if engine is None:
         raise ConvertError("No LaTeX engine (xelatex or pdflatex) is installed.")
@@ -63,6 +75,7 @@ def to_pdf(tex: str) -> bytes:
 
 
 def to_docx(tex: str) -> bytes:
+    _check_latex(tex)
     if shutil.which("pandoc") is None:
         raise ConvertError("pandoc is not installed.")
     with tempfile.TemporaryDirectory(prefix="rt-docx-") as tmp:
