@@ -71,11 +71,11 @@ Database Reliability and Site Reliability Engineer with 15+ years of experience 
 
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
-  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, securely storing and retrieving credentials for DBA automation
-  \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
+  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
+  \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
   \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, and deadlocks
   \item Automated AWS database services across IaaS and PaaS, including RDS and Aurora PostgreSQL, deployment and maintenance using Terraform
-  \item Created a GitHub repo-based approach to baselining all Windows and Linux servers, simplifying database monitoring with Prometheus and Grafana
+  \item Created a GitHub repo-based approach to baselining all Windows Server and Linux servers, simplifying database monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
   \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible, saving 80 hours per week of SRE effort with a single-click GitHub Actions workflow for cluster deployment and configuration
@@ -92,6 +92,9 @@ Database Reliability and Site Reliability Engineer with 15+ years of experience 
   \item Implemented database security controls for SQL Server instances, including encryption, access hardening, and auditing of privileged access to meet regulatory compliance requirements
   \item Handled request management for database access, change, and provisioning requests within the team's incident and change workflow
   \item Developed runbooks, knowledge base articles, and documentation for database operations, enabling on-call engineers to resolve incidents
+  \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
+  \item Established repeatable performance baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
+  \item Reviewed T-SQL code with code review guidance and managed source-controlled deployments for SQL Server releases
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}
@@ -109,7 +112,7 @@ Database Reliability and Site Reliability Engineer with 15+ years of experience 
 
 \textit{Database Administrator}\\[-5pt]
 \begin{itemize}
-  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, automated scheduled refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
+  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, integrity checks, and recovery testing, automated scheduled refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
   \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
   \item Reduced transactional replication issues by 80\% using latency monitoring infrastructure
   \item Implemented monitoring and alerting with Datadog
@@ -140,7 +143,7 @@ Database Reliability and Site Reliability Engineer with 15+ years of experience 
 \textit{SQL DBA Developer}\\[-5pt]
 \begin{itemize}
   \item Saved 20+ hours per week by automating core DBA tasks using dynamic SQL
-  \item Moved 250+ large tables, each with billions of records, using SSIS in 45 hours
+  \item Moved 250+ large tables from large databases, each with billions of records, using SSIS bulk loads in 45 hours
   \item Built data warehouse ETL pipelines using Pentaho and Kettle for high-volume liquor retail stores
 \end{itemize}
 
