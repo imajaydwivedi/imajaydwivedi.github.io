@@ -1,11 +1,11 @@
 # Resume Tweaker
 
-A local web app that tailors a LaTeX resume to a job description. It uses Manisha's rule-based approach: no LLM, no invented skills, and nothing is added unless you confirm it.
+A local web app that tailors a LaTeX resume to a job description. It uses a rule-based approach: no LLM, no invented skills, and nothing is added unless you confirm it.
 
 ## What it does
 
 0. **Load the resume.** Paste the `.tex`, upload it, or paste a link to it. Links can point to a file on GitHub (`github.com/owner/repo/blob/branch/file.tex`) or Google Drive (`drive.google.com/file/d/ID/view`). A Drive file must be shared as "Anyone with the link". Only GitHub and Google Drive links are fetched.
-1. **Analyze.** Finds keywords from the catalog (399 entries, based on Manisha's `help-from-manisha.txt` and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
+1. **Analyze.** Finds keywords from the catalog (427 entries, covering DBA, SRE, cloud, and data terms, and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.
 2. **Fit into experience (optional).** For each missing keyword you tick, pick a job and write one bullet describing work you actually did. The tool inserts your wording as written, escaped for LaTeX. The bullet must contain its keyword. The tool never writes bullets itself. Leaving a box empty adds nothing to the resume.
@@ -91,7 +91,7 @@ The suite has 36 tests. It covers keyword matching, the no-invention rule, bulle
 
 ## Sample resume
 
-`samples/ajay_resume.tex` is the current resume in the Manisha-style layout. Paste it into the page to try the tool.
+`samples/ajay_resume.tex` is the current resume. Paste it into the page to try the tool.
 
 - `samples/output/ajay_resume.pdf` and `.docx` are the outputs generated from it.
 - `samples/ajay_resume_v1.tex` is the previous layout, kept for reference.
@@ -101,7 +101,7 @@ The suite has 36 tests. It covers keyword matching, the no-invention rule, bulle
 ```
 Dockerfile, docker-compose.yml, requirements*.txt
 app/
-  keywords.py     keyword catalog, based on Manisha's file, extended for infrastructure JDs
+  keywords.py     keyword catalog, extended for infrastructure and DBA JDs
   tailor.py       matching, bullet insertion, reorder, Core Competencies, job labels, LaTeX escaping
   convert.py      PDF (xelatex, -no-shell-escape) and DOCX (pandoc) conversion, 60 s timeout
   main.py         FastAPI: /api/analyze, /api/jobs, /api/tailor, /api/pdf, /api/docx, /api/status, /healthz
@@ -112,9 +112,9 @@ samples/          sample resume and generated outputs
 
 The API is stateless. Each request carries its own resume and job description, and nothing is stored on the server.
 
-## Changes from Manisha's script
+## Changes from the original script
 
-Her matching rules, reorder logic, and Core Competencies format are kept. Small changes:
+The matching rules, reorder logic, and Core Competencies format are kept. Small changes:
 
 - `\%` (an escaped percent sign) is no longer treated as the start of a LaTeX comment.
 - `HA`, `DR`, and `ML` match case-sensitively, like `Go` and `R`. This stops prose such as "Dr. Patel" from matching Disaster Recovery.
@@ -130,7 +130,7 @@ Her matching rules, reorder logic, and Core Competencies format are kept. Small 
 - Keyword matching is literal. "k8s" does not match "Kubernetes" unless the alias is in the catalog.
 - Generic words such as `Hiring` and `Monitoring` are in the catalog, so they can appear as gaps. Leave them unticked if they don't describe you.
 - The resume layout comes from the pasted `.tex`. The app does not impose a template.
-- The PDF is 3 pages with the current sample. Manisha's sample is 4 pages.
+- The PDF is 3 pages with the current sample. The original reference sample is 4 pages.
 - The DOCX keeps the content, order, and dates, but not the PDF's colors, rules, or spacing. Word uses its own styles for those.
 - Job labels in the picker are built from the last two lines above each bullet list. A resume with an unusual layout may give unclear labels.
 
