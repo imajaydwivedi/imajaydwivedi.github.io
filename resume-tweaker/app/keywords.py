@@ -399,7 +399,7 @@ KEYWORD_GROUPS = [
     ("Database Upgrades", ["Database Upgrades", "Patching"]),
     ("Database Migration", ["Database Migration", "Database Migrations", "Migration Strategies"]),
     ("Point-in-Time Recovery", ["Point-in-Time Recovery", "Point-in-Time Restore", "Point-in-time"]),
-    ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategies", "Backups"]),
+    ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategy", "Backup Strategies", "Backups"]),
     ("Rollback Procedures", ["Rollback", "Rollback Procedures"]),
     ("Standard Operating Procedures", ["SOPs", "SOP", "Standard Operating Procedures"]),
     ("Incident Severity", ["Sev-1", "Sev-2", "Sev 1", "Sev 2"]),
@@ -420,7 +420,7 @@ KEYWORD_GROUPS = [
     ("CommVault", ["CommVault", "Commvault"]),
     # Security and compliance
     ("Encryption", ["Encryption", "Encryption at Rest", "Encryption in Transit"]),
-    ("Auditing", ["Auditing", "Audit Logging"]),
+    ("Auditing", ["Auditing", "Audit", "Audit Logging"]),
     ("HIPAA", ["HIPAA", "HITECH"]),
 
     # Round 5: QA database analyst JD (QA environments, test data, data privacy)

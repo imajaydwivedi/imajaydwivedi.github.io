@@ -8,7 +8,7 @@
     covered: $("covered"), gaps: $("gaps"), reorder: $("reorder"),
     result: $("result"), notes: $("notes"), output: $("output"),
     placementBlock: $("placement-block"), placementRows: $("placement-rows"),
-    analyzeBtn: $("analyze-btn"), tailorBtn: $("tailor-btn"),
+    analyzeBtn: $("analyze-btn"), tailorBtn: $("tailor-btn"), tailorStatus: $("tailor-status"),
     downloadTex: $("download-tex"), downloadPdf: $("download-pdf"), downloadDocx: $("download-docx"),
     copy: $("copy-tex"), resumeUrl: $("resume-url"), loadUrlBtn: $("load-url-btn"),
   };
@@ -16,6 +16,12 @@
   function setStatus(msg, isError = false) {
     els.status.textContent = msg;
     els.status.classList.toggle("error", isError);
+  }
+
+  // Build errors show next to the Build button, so they are visible from there.
+  function setTailorStatus(msg, isError = false) {
+    els.tailorStatus.textContent = msg;
+    els.tailorStatus.classList.toggle("error", isError);
   }
 
   function busy(btn, on) {
@@ -134,7 +140,11 @@
     newOpt.value = "new";
     newOpt.textContent = "New line with its own label";
     select.appendChild(newOpt);
-    select.value = "new";
+    const skipOpt = document.createElement("option");
+    skipOpt.value = "skip";
+    skipOpt.textContent = "Don't add to core competency";
+    select.appendChild(skipOpt);
+    select.value = "skip";
 
     const label = document.createElement("input");
     label.type = "text";
@@ -154,6 +164,9 @@
     return [...els.placementRows.querySelectorAll(".placement")].map((row) => {
       const keyword = row.dataset.keyword;
       const select = row.querySelector("select.placement-line");
+      if (select.value === "skip") {
+        return { keyword, subsection: null, new_label: null, skip: true };
+      }
       if (select.value === "new") {
         const label = row.querySelector("input.new-label").value.trim();
         return { keyword, subsection: null, new_label: label || "Other" };
@@ -260,7 +273,7 @@
 
   els.tailorBtn.addEventListener("click", async () => {
     busy(els.tailorBtn, true);
-    setStatus("Building...");
+    setTailorStatus("Building...");
     try {
       const res = await post("/api/tailor", {
         resume_tex: els.resume.value,
@@ -290,9 +303,9 @@
 
       els.result.classList.remove("hidden");
       els.result.scrollIntoView({ behavior: "smooth", block: "start" });
-      setStatus("");
+      setTailorStatus("");
     } catch (err) {
-      setStatus(err.message, true);
+      setTailorStatus(err.message, true);
     } finally {
       busy(els.tailorBtn, false);
     }

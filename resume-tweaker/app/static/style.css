@@ -106,8 +106,8 @@ button.primary { background: var(--accent); border-color: var(--accent); color: 
 .file-btn input { display: none; }
 
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-#status { color: var(--muted); font-size: 14px; }
-#status.error { color: var(--warn); }
+#status, #tailor-status { color: var(--muted); font-size: 14px; }
+#status.error, #tailor-status.error { color: var(--warn); }
 
 .kw-block { margin: 16px 0; }
 .kw-block h3 { font-size: .95rem; margin: 0 0 4px; }

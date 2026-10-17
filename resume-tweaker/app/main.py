@@ -34,6 +34,7 @@ class Placement(BaseModel):
     keyword: str = Field(min_length=1, max_length=100)
     subsection: int | None = Field(default=None, ge=0, le=500)
     new_label: str | None = Field(default=None, max_length=60)
+    skip: bool = False
 
 
 class TailorRequest(ResumeJD):

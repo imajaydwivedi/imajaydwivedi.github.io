@@ -10,7 +10,7 @@ A local web app that tailors a LaTeX resume to a job description. It uses a rule
    - *Missing*: unticked by default. Tick only what is true of you.
 2. **Fit into experience (optional).** For each missing keyword you tick, pick a job and write one bullet describing work you actually did. The tool inserts your wording as written, escaped for LaTeX. The bullet must contain its keyword. The tool never writes bullets itself. Leaving a box empty adds nothing to the resume.
 3. **Build.** Produces the tailored `.tex`:
-   - Core Competencies placement: for each keyword you ticked, choose an existing line (for example *Cloud & Containers*) to append it to, or *New line with its own label*. Keywords that are not placed go to a line labelled *Other*.
+   - Core Competencies placement: for each keyword you ticked, choose an existing line (for example *Cloud & Containers*) to append it to, or *New line with its own label*. Choose *Don't add to core competency* to keep the keyword out of Core Competencies. It is the default. Keywords with a new line and no label go to a line labelled *Other*.
    - If the resume has no Core Competencies section, adds one after the summary (`Profile`, `Professional Summary`, or `Summary`), built from the keywords you accepted.
    - Reorders bullets in Skills and Experience so the most relevant ones come first. Wording, job order, and headings never change.
 4. **Output.** Download `.tex`, `.pdf`, or `.docx`, or copy the `.tex` text.

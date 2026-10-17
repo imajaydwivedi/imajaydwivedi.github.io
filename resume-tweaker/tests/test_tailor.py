@@ -232,3 +232,10 @@ def test_placement_to_missing_line_is_rejected():
     with pytest.raises(AdditionError):
         tailor(SAMPLE, "Looking for Kafka experience", include_keywords=["Kafka"],
                placements=[{"keyword": "Kafka", "subsection": 99}])
+
+
+def test_experience_only_keyword_stays_out_of_core():
+    result = tailor(SAMPLE, "Looking for Kafka experience", include_keywords=["Kafka"],
+                    placements=[{"keyword": "Kafka", "skip": True}])
+    assert "Kafka" not in result.core_keywords
+    assert "Kafka" not in _core_text(result.tex)

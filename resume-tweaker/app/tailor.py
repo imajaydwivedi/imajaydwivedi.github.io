@@ -313,13 +313,17 @@ def tailor(
     A keyword with an addition counts as confirmed.
     placements: where each confirmed keyword goes in an existing Core Competencies list.
     {"keyword", "subsection": line index or None, "new_label": label for a new line}.
+    {"keyword", "skip": True} keeps the keyword out of Core Competencies entirely.
     Confirmed keywords without a placement go to a new line labelled "Other".
     """
     covered, gaps = analyze(resume_tex, jd_text)
     added_keywords = [a["keyword"] for a in additions or []]
     extra = [k for k in (list(include_keywords or []) + added_keywords) if k in gaps]
     extra = list(dict.fromkeys(extra))
-    core_keywords = covered + [k for k in extra if k not in covered]
+    # Keywords placed as "experience only" stay out of Core Competencies. They still rank for reordering.
+    skipped = {p["keyword"] for p in placements or [] if p.get("skip")}
+    ranked = covered + [k for k in extra if k not in covered]
+    core_keywords = covered + [k for k in extra if k not in covered and k not in skipped]
     resume_tex = add_bullets(resume_tex, additions or [])
 
     preamble, segments = _section_segments(resume_tex)
@@ -343,8 +347,8 @@ def tailor(
     core_inserted = has_core or not core_keywords
     for seg in segments:
         text = seg["text"]
-        if reorder and core_keywords and seg["name"] in REORDER_SECTION_NAMES:
-            new_text = _reorder_itemize_blocks(text, core_keywords)
+        if reorder and ranked and seg["name"] in REORDER_SECTION_NAMES:
+            new_text = _reorder_itemize_blocks(text, ranked)
             if new_text != text:
                 result.reordered_sections.append(seg["name"])
             text = new_text
