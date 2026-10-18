@@ -741,4 +741,36 @@ KEYWORD_GROUPS = [
     # Soft skills
     ("Presentation Skills", ["Presentation Skills", "Presentation Skill"]),
     ("Accountability", ["Accountable", "Accountability"]),
+
+    # Round 17: Qualcomm Senior Lead Engineer Cloud Platform, DevOps & SRE JD (IoT cloud, Kubernetes, IaC, observability)
+    # Cloud governance, cost and modernization
+    ("FinOps", ["FinOps"]),
+    ("Cloud Governance", ["Cloud Governance", "Resource Governance", "Governance Standards"]),
+    ("Security Compliance Frameworks", ["Security Compliance", "Security Compliance Frameworks", "Compliance Frameworks"]),
+    ("Modernization", ["Modernization", "Platform Modernization", "Application Modernization", "Engineering Transformation"]),
+    ("Cloud Architecture", ["Cloud Architecture", "Cloud Architect", "Solutions Architecture", "Architecture Design"]),
+    ("Technology Evaluation", ["Technology Evaluation", "Technology Evaluations", "Technology Assessment"]),
+    ("Scalability Assessment", ["Scalability Assessment", "Scalability Assessments", "Scalability Planning"]),
+    ("Load Testing", ["Load Testing", "Performance Testing", "Performance Benchmarking"]),
+    ("Automated Remediation", ["Automated Remediation", "Remediation Automation"]),
+    ("Infrastructure Provisioning", ["Infrastructure Provisioning", "Infrastructure Automation"]),
+    ("Software Engineering", ["Software Engineering", "Software Engineer", "Software Engineers"]),
+    # Infrastructure as code and delivery
+    ("Azure Bicep", ["Bicep", "ARM Templates", "Azure Resource Manager"]),
+    ("DevSecOps", ["DevSecOps"]),
+    ("Shift-Left Practices", ["Shift-Left", "Shift Left", "Shift-Left Practices"]),
+    ("SDLC", ["SDLC", "Software Development Life Cycle", "Software Delivery Lifecycle"]),
+    ("Azure Solutions Architect", ["Azure Solutions Architect", "Azure Solutions Architect Expert"]),
+    ("Azure DevOps Engineer", ["Azure DevOps Engineer"]),
+    ("Kubernetes Certifications", ["CKA", "CKS", "CKAD", "Certified Kubernetes Administrator", "Certified Kubernetes Security Specialist"]),
+    # Networking and distributed systems
+    ("CDN", ["CDN", "Content Delivery Network", "Content Delivery Networks"]),
+    ("Network Security", ["Network Security", "Network Security Groups", "Network Segmentation"]),
+    ("Caching", ["Caching", "Distributed Caching", "Cache", "Caches"]),
+    # Domains and engineering culture
+    ("Telecom", ["Telecom", "Telecommunications", "Telecom Industry"]),
+    ("Cyber-Physical Systems", ["CPS", "Cyber-Physical Systems", "Cyber-Physical"]),
+    ("Globally Available Services", ["Global Services", "Globally Available Services", "Globally Distributed Systems", "Highly Available Global Services"]),
+    ("Engineering Excellence", ["Engineering Excellence", "Engineering Culture", "Engineering Leadership"]),
+    ("Operational Maturity", ["Operational Maturity"]),
 ]
