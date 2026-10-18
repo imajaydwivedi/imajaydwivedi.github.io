@@ -773,4 +773,33 @@ KEYWORD_GROUPS = [
     ("Globally Available Services", ["Global Services", "Globally Available Services", "Globally Distributed Systems", "Highly Available Global Services"]),
     ("Engineering Excellence", ["Engineering Excellence", "Engineering Culture", "Engineering Leadership"]),
     ("Operational Maturity", ["Operational Maturity"]),
+
+    # Round 18: SQL Database Administrator JD, Ras Al Khaimah (DBA duties, platforms, secure and reliable environments)
+    ("SQL Database Administrator", ["SQL Database Administrator", "SQL Database Administration", "SQL Database Admin"]),
+    ("Database Platforms", ["Database Platforms", "Database Platform", "Database Technologies"]),
+    ("Secure and Reliable Database Environments", ["Secure and Reliable Database Environments", "Secure Database Environments", "Reliable Database Environments", "Secure Database Operations"]),
+    ("Database Availability", ["Database Availability", "Database Uptime", "Availability Improvements"]),
+    ("Database Performance Improvement", ["Database Performance Improvement", "Database Performance Improvements", "Improving Database Performance", "Performance Improvements"]),
+
+    # Round 19: DPL Group SQL Database Administrator JD, Ras Al Khaimah (administration, backup and restore, access control, troubleshooting)
+    ("Relational Database Concepts", ["Relational Database Concepts", "Relational Databases", "Relational Database", "RDBMS"]),
+    ("Database Schemas", ["Database Schemas", "Schema Management"]),
+    ("Database Access Management", ["User Permissions", "Database Permissions", "Database Access Management", "Users and Permissions"]),
+    ("Database Configuration Management", ["Configuration Settings", "Configuration Review", "Configuration Reviews", "Server Configuration"]),
+    ("Slow Query Analysis", ["Slow Queries", "Slow Query", "Slow Query Analysis", "Long-Running Queries"]),
+    ("Storage Capacity Management", ["Storage Capacity", "Capacity Utilization", "Capacity Reporting", "Storage Management"]),
+    ("Backup Job Monitoring", ["Backup Jobs", "Backup Job Monitoring", "Failed Backups", "Incomplete Backups", "Backup Failures"]),
+    ("Restore Testing", ["Restore Testing", "Restoration Testing", "Restore Validation", "Test Restores"]),
+    ("Database Activity Monitoring", ["Database Activity Monitoring", "Activity Monitoring", "Access Monitoring"]),
+    ("Security Policies", ["Security Policies", "Security Policy", "Security Standards"]),
+    ("Database Errors", ["Database Errors", "Database Error", "Error Investigation", "Failed Transactions", "Failed Transaction"]),
+    ("Preventive Maintenance", ["Preventive Measures", "Preventive Maintenance", "Preventive Actions"]),
+    ("Routine Maintenance", ["Routine Maintenance", "Maintenance Activities"]),
+    ("Database Scripting", ["Database Scripting", "Scripting Skills"]),
+    ("Operational Reporting", ["Operational Reports", "Incident Reports", "Performance Reports", "Maintenance Reports"]),
+    ("Cross-Team Communication", ["Technical and Non-Technical Teams", "Non-Technical Stakeholders", "Non-Technical Teams"]),
+    ("Information Technology", ["Information Technology", "IT Operations"]),
+    ("Business Applications", ["Business Applications", "Business Application Support"]),
+    ("Incident Resolution", ["Incident Resolution", "Incident Resolutions"]),
+    ("Database Deployments", ["Database Deployments", "Database Deployment"]),
 ]
