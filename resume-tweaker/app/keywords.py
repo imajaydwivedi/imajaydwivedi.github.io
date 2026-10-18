@@ -802,4 +802,51 @@ KEYWORD_GROUPS = [
     ("Business Applications", ["Business Applications", "Business Application Support"]),
     ("Incident Resolution", ["Incident Resolution", "Incident Resolutions"]),
     ("Database Deployments", ["Database Deployments", "Database Deployment"]),
+
+    # Round 20: Amgen Manager, SRE Data Platforms JD (AWS architecture, SRE practice, IaC, pod leadership, FinOps)
+    # AWS services
+    ("SageMaker", ["SageMaker", "Amazon SageMaker", "AWS SageMaker"]),
+    ("Amazon Bedrock", ["Bedrock", "Amazon Bedrock", "AWS Bedrock"]),
+    ("AWS PrivateLink", ["PrivateLink", "AWS PrivateLink"]),
+    ("AWS KMS", ["KMS", "AWS KMS", "Key Management Service"]),
+    ("AWS CloudTrail", ["CloudTrail", "AWS CloudTrail"]),
+    ("AWS Secrets Manager", ["Secrets Manager", "AWS Secrets Manager"]),
+    ("AWS CDK", ["AWS CDK", "CDK", "Cloud Development Kit"]),
+    ("AWS Organizations", ["AWS Organizations", "Control Tower", "AWS Control Tower", "Landing Zones", "Multi-Account Landing Zones"]),
+    ("Service Control Policies", ["Service Control Policies", "Service Control Policy", "SCPs"]),
+    ("AWS Solutions Architect Professional", ["AWS Certified Solutions Architect", "Solutions Architect - Professional", "AWS Solutions Architect Professional"]),
+    ("AWS DevOps Engineer Professional", ["AWS Certified DevOps Engineer", "DevOps Engineer - Professional", "AWS DevOps Engineer Professional"]),
+    ("SAFe", ["SAFe", "SAFe Agilist", "Scaled Agile"]),
+    # Languages and tooling
+    ("Jira Align", ["Jira Align"]),
+    ("Graph Platforms", ["Graph Platforms", "Graph Databases", "Graph Database", "Neptune", "Amazon Neptune"]),
+    # SRE practice
+    ("Blameless Postmortems", ["Blameless Post-Incident Review", "Blameless Postmortems", "Blameless Postmortem", "Blameless Reviews"]),
+    ("Progressive Delivery", ["Progressive Delivery", "Progressive Rollouts", "Progressive Rollout"]),
+    ("Rollback Mechanisms", ["Rollback Mechanisms", "Reliable Rollback", "Rollback Automation"]),
+    ("Failover Exercises", ["Failover Exercises", "Failover Testing", "Failover Drills"]),
+    ("Operational Readiness Reviews", ["Production-Readiness Reviews", "Production Readiness Reviews", "Operational-Readiness Criteria", "Architecture and Production-Readiness Reviews"]),
+    ("Reference Architectures", ["Reference Architectures", "Reference Architecture", "Reusable Platform Services"]),
+    ("Engineering Guardrails", ["Engineering Guardrails", "Engineering Guardrail"]),
+    ("Metrics, Logs, and Traces", ["Metrics, Logs, and Traces", "Metrics, Logs and Traces", "Actionable Alerting"]),
+    ("Toil Reduction", ["Reduce Manual Toil", "Manual Toil"]),
+    # Cost efficiency and FinOps
+    ("Savings Plans", ["Savings Plans", "Savings Plan", "Reserved Instances"]),
+    ("Unit-Cost Modeling", ["Unit-Cost Modeling", "Unit Cost Modeling", "Unit Economics", "Unit-Cost"]),
+    ("Cloud Cost Allocation", ["Cost Allocation", "Cloud Cost Allocation", "Resource Tagging", "Tagging"]),
+    ("Right-Sizing", ["Right-Sizing", "Rightsizing", "Right Sizing"]),
+    ("Resource Lifecycle Management", ["Resource Lifecycle Management", "Resource Lifecycle"]),
+    # Security and resilience
+    ("Vulnerability Remediation", ["Vulnerability Remediation", "Vulnerability Remediation Efforts"]),
+    ("Policy-Based Controls", ["Policy-Based Controls", "Policy-Based Control", "Policy Controls"]),
+    ("Recovery Objectives", ["Recovery Objectives", "Business Recovery Objectives", "Recovery Requirements"]),
+    # Leadership and people
+    ("Pod Leadership", ["Pod Leadership", "Pod Lead", "SRE Pod", "Engineering Pod", "Engineering Squad", "Squad Lead"]),
+    ("Performance Feedback", ["Performance Feedback", "Constructive Feedback", "One-on-One Discussions", "One-on-Ones"]),
+    ("Career Development", ["Career Development", "Career Growth", "Career-Development"]),
+    ("Platform Community", ["Platform Community", "Technical Workshops", "Technical Workshop", "Community of Practice"]),
+    ("Responsible AI", ["Responsible AI", "Responsible Adoption of AI", "Responsible Use of AI", "Responsible GenAI"]),
+    ("Influencing Without Authority", ["Influencing", "Consensus-Building", "Consensus Building", "Drive Adoption"]),
+    ("Global Teams", ["Global Teams", "Globally Distributed", "Global Collaboration", "Globally Minded"]),
+    ("Risk-Based Prioritization", ["Risk-Based Prioritization", "Risk-Based Priority Decisions"]),
 ]
