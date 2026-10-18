@@ -1,0 +1,24 @@
+Hello VAST Data Hiring Team,
+
+I am applying for the Core Database Developer (Database Internals) role. For 15+ years, I have worked on how database engines behave under real production load: why a plan goes wrong, where memory and I/O stall, and how a fix holds up at scale. I want to move closer to the engine itself, and this role is where I would like to do that.
+
+What I bring:
+- Engine-level troubleshooting: execution plans, parameter sniffing, cardinality estimation, memory grants, spills, wait statistics, and deadlocks in SQL Server, plus EXPLAIN ANALYZE and plan regressions in PostgreSQL.
+- Scale: moved 38 TB of availability group databases in one effort, and built SQLMonitor, an open-source tool that monitors 500+ SQL Servers.
+- Distributed systems: worked on a database-as-a-service platform with Kubernetes and Docker as the control plane and AWS, Azure, and GCP as the data plane. I wrote Python SAGA workflows that cut provisioning time to 20 minutes.
+- Performance results: cut performance incidents by 80% with automated index defragmentation, and achieved a 3x query performance improvement through query and partitioning changes.
+- Code review and mentoring: reviewed T-SQL code and mentored 18+ developers in engineering best practices.
+
+I would welcome a conversation about how I can contribute to VAST's database engine. My resume, blog, and open-source work are linked below.
+
+Resume: https://ajaydwivedi.com/go/resume
+Blog: https://ajaydwivedi.com
+SQLMonitor: https://github.com/imajaydwivedi/sqlmonitor
+Recognitions: https://ajaydwivedi.com/go/rewards
+LinkedIn Recommendations: https://ajaydwivedi.com/go/recommendations
+
+I am available on 7 days' notice and open to relocation.
+
+Thank you,
+Ajay Dwivedi
++91 7032312749 | ajay.dwivedi2007@gmail.com

@@ -1,24 +1,26 @@
+Hello Hiring Team,
 
-I can confidently lead Database/SRE team and design a robust infrastructure that is highly available, scalable & running at peak performance.
+I lead database and SRE work to keep SQL Server and PostgreSQL platforms highly available, scalable, and fast. Over 15+ years, I have automated the repetitive work that used to consume DBA and SRE hours, and I have led incident response for production systems.
 
-I have 15+ years of experience in designing & running SQL Server, PostgreSQL, Python, PowerShell, Shell Scripting, and Ansible.
+Results:
+- Upgraded 30 critical SQL Server clusters and availability groups in 12 hours, avoiding a week-long outage.
+- Cut performance incidents by 80% with automated delta index defragmentation.
+- Saved 80 hours per week of SRE effort with a single-click PostgreSQL HA deployment workflow.
 
-Resume - https://ajaydwivedi.com/go/resume
-Blog - https://ajaydwivedi.com
+Open-source projects:
+- SQLMonitor, monitoring and alerting for 500+ SQL Servers: https://github.com/imajaydwivedi/sqlmonitor
+- Setup guide for SQL Server alerts: https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/
+- HadrSync, keeps objects in sync across Availability Group replicas: https://github.com/imajaydwivedi/HadrSync
 
-Project showing my skills - https://ajaydwivedi.com/category/sqlmonitor
+My projects and writing have been appreciated by experts such as BrentOzar: https://github.com/imajaydwivedi/Images/blob/master/Recognitions/SQLMonitor-Recognitions-gif.gif
 
-HaDrSync - Sync delta objects b/w 2 servers - https://github.com/imajaydwivedi/HadrSync
-Alerting tool - https://ajaydwivedi.com/sqlmonitor/setup-sqlserver-alerts-with-open-source-sqlmonitor/
-Monitoring Tool - https://github.com/imajaydwivedi/sqlmonitor
+Resume: https://ajaydwivedi.com/go/resume
+Blog: https://ajaydwivedi.com
+Recognitions: https://ajaydwivedi.com/go/rewards
+LinkedIn Recommendations: https://ajaydwivedi.com/go/recommendations
 
-My projects/Blogs have been appreciated experts like BrentOzar - https://github.com/imajaydwivedi/Images/blob/master/Recognitions/SQLMonitor-Recognitions-gif.gif
-Received various reward in various jobs for automating repetitive tasks bring efficiency in processes. https://github.com/imajaydwivedi/Images/tree/master/Recognitions
+I am available for database, DevOps, and SRE roles on 7 days' notice. I am open to full remote work, or hybrid within India. I would welcome a conversation about how I can help your team.
 
-Kindly refer me for any database or devops related roles.
-
-Location: Full Remote. Hybrid within India.
-
-
-Thanks,
+Thank you,
 Ajay Dwivedi
++91 7032312749 | ajay.dwivedi2007@gmail.com
