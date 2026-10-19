@@ -1,0 +1,26 @@
+Hello [Contact Name],
+
+I am applying for the Associate Architect (Cloud Engineering) role at HighRadius, and I would be grateful for your referral.
+
+For 15+ years I have designed and operated production infrastructure. This role is the work I most enjoy: making systems reliable, automated, and easy to run.
+
+What I bring:
+- Reliability: I measure service health with SLIs, SLOs, and SLAs, and I have run 24x7 on-call support and root cause analysis for production incidents on SQL Server and PostgreSQL.
+- Architecture: As Principal Solution Architect at Tessell, I worked on a Database as a Service platform with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane. I wrote Python SAGA workflows that cut provisioning time to 20 minutes.
+- Automation: I automate infrastructure with Terraform, Ansible, GitHub Actions, Python, and PowerShell. A single-click workflow I built for multi-datacenter Patroni PostgreSQL high availability saved 80 hours per week of SRE effort.
+- Monitoring: I built SQLMonitor, an open-source tool that monitors 500+ SQL Servers, and set up Prometheus and Grafana monitoring across Windows and Linux servers. I have also worked with the ELK Stack.
+- Infrastructure and security: I have worked with VMware, KVM, and Hyper-V virtualization, and on Linux (RHEL, CentOS). I implemented TDE certificate rotation automation, database security controls, and identity and access management for service accounts.
+
+I would welcome a conversation about how I can help [Company] run its cloud infrastructure reliably. My resume, blog, and open-source work are linked below.
+
+Resume: https://ajaydwivedi.com/go/resume
+Blog: https://ajaydwivedi.com
+SQLMonitor: https://github.com/imajaydwivedi/sqlmonitor
+Recognitions: https://ajaydwivedi.com/go/rewards
+LinkedIn Recommendations: https://ajaydwivedi.com/go/recommendations
+
+I am available on 7 days' notice and open to relocation.
+
+Thank you,
+Ajay Dwivedi
++91 7032312749 | ajay.dwivedi2007@gmail.com
