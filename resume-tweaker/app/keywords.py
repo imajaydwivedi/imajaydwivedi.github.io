@@ -883,4 +883,20 @@ KEYWORD_GROUPS = [
     ("Operational Standards", ["Operational Standards", "Operational Standard"]),
     ("Communication Skills", ["Communication Skills", "Communication Skill", "Clear Communication"]),
     ("Collaboration", ["Collaboration", "Collaborate", "Collaborating"]),
+
+    # Round 23: Lilly Senior Principal SRE Engineering Lead JD (SLO governance, regulated environments, agent-assisted reliability)
+    ("Circuit Breakers", ["Circuit Breaker", "Circuit Breakers", "Circuit Breaking"]),
+    ("Graceful Degradation", ["Graceful Degradation"]),
+    ("AIOps", ["AIOps", "Agent-Assisted Operations", "Agent-assisted operations"]),
+    ("Human-in-the-Loop", ["Human-in-the-Loop", "Human in the Loop"]),
+    ("GxP", ["GxP"]),
+    ("Validated Systems", ["Validated Systems", "Validated System", "Validated Environments", "Validated Environment", "Validated-System"]),
+    ("AWS X-Ray", ["X-Ray", "AWS X-Ray"]),
+    ("AWS Well-Architected", ["Well-Architected", "Well-Architected Framework", "AWS Well-Architected"]),
+    ("AWS Fault Injection Service", ["AWS Fault Injection Service", "Fault Injection Service", "Fault Injection"]),
+    ("Gremlin", ["Gremlin"]),
+    ("LitmusChaos", ["LitmusChaos"]),
+    ("Burn Rate Alerting", ["Burn Rate", "Burn-Rate Alerting", "Burn Rate Alerting"]),
+    ("Production Engineering", ["Production Engineering", "Production Engineer"]),
+    ("Pharmaceutical", ["Pharmaceutical", "Pharmaceuticals", "Pharma"]),
 ]

@@ -1,0 +1,23 @@
+To: pradeep.p@flexontechnologies.com
+Subject: Sr PostgreSQL Database Engineer (Hartford, CT) - Ajay Dwivedi, 15+ years
+
+Attachment: Ajay_Kumar_Dwivedi_Resume_DBRE_PostgreSQL_SQLServer.pdf (Work/ajay_dwivedi_dbre_postgres_sqlserver.pdf)
+
+Hi Pradeep,
+
+I am applying for the Sr PL/SQL / PostgreSQL Developer - Database Engineer role. I have 15+ years of database experience, and most of the last several years have been hands-on PostgreSQL work: high availability, performance tuning, and data movement at scale.
+
+What I bring:
+- PostgreSQL operations: Patroni-managed HA, streaming replication and read replicas, table partitioning and sharding, rolling upgrades, and EXPLAIN ANALYZE-driven query tuning. I have run these on-premises and on AWS RDS and Aurora PostgreSQL.
+- Scale and migration: designed CentOS-to-RHEL PostgreSQL migration automation across 180+ database clusters, with about 15 minutes of downtime per cluster.
+- Data integration and ETL: built ETL pipelines with Pentaho and Kettle, and bulk loads with SSIS for tables with billions of rows.
+- Cloud and automation: worked across AWS, Azure, and GCP, using Python, Ansible, and Terraform for database deployment and operations.
+- Reliability: supported 24x7 on-call production systems against SLA commitments, and owned business continuity and failover testing for PostgreSQL clusters.
+
+I would welcome a conversation about the role. I am available on 7 days' notice and open to relocation.
+
+Resume: https://ajaydwivedi.com/go/resume
+
+Thank you,
+Ajay Dwivedi
++91 7032312749 | ajay.dwivedi2007@gmail.com
