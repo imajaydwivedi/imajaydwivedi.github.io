@@ -185,7 +185,7 @@ def test_confirmed_gap_keywords_reach_existing_core_competencies():
     assert "Linux" in core
 
 
-SAMPLE = (Path(__file__).parent.parent / "samples" / "principal_sre.tex").read_text()
+SAMPLE = (Path(__file__).parent.parent / "samples" / "dbre.tex").read_text()
 
 
 def _core_text(tex):
@@ -197,7 +197,7 @@ def test_core_subsections_lists_existing_lines():
     from app.tailor import core_subsections
     labels = [s["label"] for s in core_subsections(SAMPLE)]
     assert "Cloud and Containers" in labels
-    assert "Automation and DevOps" in labels
+    assert "Automation and Scripting" in labels
 
 
 def test_keyword_placed_into_chosen_existing_line():

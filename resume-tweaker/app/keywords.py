@@ -869,4 +869,18 @@ KEYWORD_GROUPS = [
     ("Crossplane", ["Crossplane"]),
     ("Hadoop", ["Hadoop"]),
     ("Cloud Cost Management", ["Cloud Cost Management", "Cloud Cost Optimization", "Cloud Cost Efficiency"]),
+
+    # Round 22: DBRE III/II JD (multi-cloud DBaaS, PostgreSQL HA/DR, SRE practice, automation-first)
+    ("Database Reliability Engineering", ["DBRE", "Database Reliability Engineer", "Database Reliability Engineers", "Database Reliability Engineering"]),
+    ("DBaaS", ["DBaaS", "Database as a Service", "Database-as-a-Service"]),
+    ("Database Scaling", ["Database Scaling", "Vertical Scaling", "Horizontal Scaling", "Vertical and Horizontal Scaling"]),
+    ("Containerized Databases", ["Containerized Databases", "Containerized Database", "Databases in Containers", "Running Databases in Containers", "Database Containers"]),
+    ("Cloud SQL", ["Cloud SQL", "Google Cloud SQL"]),
+    ("Firestore", ["Firestore", "Cloud Firestore"]),
+    ("Logstash", ["Logstash"]),
+    ("Automation Frameworks", ["Automation Frameworks", "Automation Framework"]),
+    ("Scripting", ["Scripting"]),
+    ("Operational Standards", ["Operational Standards", "Operational Standard"]),
+    ("Communication Skills", ["Communication Skills", "Communication Skill", "Clear Communication"]),
+    ("Collaboration", ["Collaboration", "Collaborate", "Collaborating"]),
 ]
