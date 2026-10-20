@@ -899,4 +899,23 @@ KEYWORD_GROUPS = [
     ("Burn Rate Alerting", ["Burn Rate", "Burn-Rate Alerting", "Burn Rate Alerting"]),
     ("Production Engineering", ["Production Engineering", "Production Engineer"]),
     ("Pharmaceutical", ["Pharmaceutical", "Pharmaceuticals", "Pharma"]),
+
+    # Round 24: Charles River Development Senior Azure Database Performance Engineer JD (Azure SQL VM, performance tuning, Snowflake, 24x7 production)
+    ("DP-300", ["DP-300", "Azure Database Administrator Associate"]),
+    ("DP-900", ["DP-900", "Azure Data Fundamentals"]),
+    ("AZ-900", ["AZ-900", "Azure Fundamentals"]),
+    ("SQL Server 2017", ["SQL Server 2017"]),
+    ("Hosted SQL Server", ["Hosted SQL Server", "Hosted Environments", "Hosted Environment"]),
+    ("Performance Engineering", ["Performance Engineering", "Performance Engineer", "Database Performance Engineering"]),
+    ("Database Internals", ["Database Internals", "SQL Server Internals", "SQL Server Engine Internals"]),
+    ("Database Design Patterns", ["Database Design Patterns", "Design Patterns"]),
+    ("Technical Standards", ["Technical Standards", "Technical Standard"]),
+    ("Technical Support", ["Technical Support"]),
+    ("Application Team Support", ["Application Teams", "Application Team", "Application Support Teams"]),
+    ("24x7x365 Operations", ["24x7x365", "24 x 7 x 365", "24/7/365"]),
+    ("Priority Incident Management", ["Priority Incidents", "Priority Incident"]),
+    ("Customer Service", ["Customer Service", "Customer Service Orientation"]),
+    ("Self-Starter", ["Self-Starter", "Self Starter", "Self-Motivated"]),
+    ("Taking Initiative", ["Taking Initiative", "Take Initiative", "Takes Initiative"]),
+    ("Written and Verbal Communication", ["Written and Verbal Communication", "Written Communication", "Verbal Communication"]),
 ]
