@@ -91,10 +91,7 @@ The suite has 36 tests. It covers keyword matching, the no-invention rule, bulle
 
 ## Sample resume
 
-`samples/ajay_resume.tex` is the current resume. Paste it into the page to try the tool.
-
-- `samples/output/ajay_resume.pdf` and `.docx` are the outputs generated from it.
-- `samples/ajay_resume_v1.tex` is the previous layout, kept for reference.
+`samples/dbre_postgres_sqlserver.tex` is the sample resume. Paste it into the page to try the tool.
 
 ## Layout
 

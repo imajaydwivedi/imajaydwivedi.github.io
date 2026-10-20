@@ -100,7 +100,7 @@ def test_section_numbers_are_turned_off_in_pdf_source():
     out = _without_section_numbers("\\documentclass{article}\n\\begin{document}\nHi\n\\end{document}")
     assert "\\setcounter{secnumdepth}{-1}\n\\begin{document}" in out
     # An existing setting is left alone.
-    own = (Path(__file__).parents[1] / "samples" / "ajay_resume.tex").read_text()
+    own = (Path(__file__).parents[1] / "samples" / "dbre_postgres_sqlserver.tex").read_text()
     assert _without_section_numbers(own) == own
 
 

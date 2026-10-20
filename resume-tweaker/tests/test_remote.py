@@ -9,8 +9,8 @@ client = TestClient(app)
 
 
 @pytest.mark.parametrize("link, expected", [
-    ("https://github.com/imajaydwivedi/imajaydwivedi.github.io/blob/main/resume-tweaker/samples/ajay_resume.tex",
-     "https://raw.githubusercontent.com/imajaydwivedi/imajaydwivedi.github.io/main/resume-tweaker/samples/ajay_resume.tex"),
+    ("https://github.com/imajaydwivedi/imajaydwivedi.github.io/blob/main/resume-tweaker/samples/dbre_postgres_sqlserver.tex",
+     "https://raw.githubusercontent.com/imajaydwivedi/imajaydwivedi.github.io/main/resume-tweaker/samples/dbre_postgres_sqlserver.tex"),
     ("https://raw.githubusercontent.com/o/r/main/cv.tex",
      "https://raw.githubusercontent.com/o/r/main/cv.tex"),
     ("https://drive.google.com/file/d/1AbCdEfGhIjKlMnOp/view?usp=sharing",

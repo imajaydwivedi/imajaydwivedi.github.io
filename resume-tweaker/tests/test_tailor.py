@@ -110,13 +110,13 @@ def test_professional_summary_heading_is_recognized():
     assert result.tex.index("\\section{Professional Summary}") < result.tex.index("\\section{Core Competencies}") < result.tex.index("\\section{Skills}")
 
 
-AJAY = (Path(__file__).parents[1] / "samples" / "ajay_resume.tex").read_text()
+BASE = (Path(__file__).parents[1] / "samples" / "dbre_postgres_sqlserver.tex").read_text()
 
 
 def test_experience_jobs_lists_each_job():
     from app.tailor import experience_jobs
 
-    jobs = experience_jobs(AJAY)
+    jobs = experience_jobs(BASE)
     assert [j["index"] for j in jobs] == list(range(len(jobs)))
     assert "Tessell" in jobs[0]["label"]
     assert "AngelOne" in jobs[1]["label"]
@@ -125,11 +125,11 @@ def test_experience_jobs_lists_each_job():
 def test_bullet_is_added_to_chosen_job_and_escaped():
     from app.tailor import add_bullets
 
-    out = add_bullets(AJAY, [{"keyword": "Kafka", "job_index": 1, "bullet": "Ran Kafka consumers & 50% retries"}])
+    out = add_bullets(BASE, [{"keyword": "Kafka", "job_index": 1, "bullet": "Ran Kafka consumers & 50% retries"}])
     assert "\\item Ran Kafka consumers \\& 50\\% retries" in out
     assert out.count("Ran Kafka consumers") == 1
     # It goes at the top of job 1 (AngelOne), before its first existing bullet, and job 0 is unchanged.
-    assert out.index("Ran Kafka consumers") < out.index("Built a DB AI agent")
+    assert out.index("Ran Kafka consumers") < out.index("Implemented single-click automation for Transparent Data Encryption")
     assert out.index("Ran Kafka consumers") > out.index("Tessell")
 
 
@@ -185,7 +185,7 @@ def test_confirmed_gap_keywords_reach_existing_core_competencies():
     assert "Linux" in core
 
 
-SAMPLE = (Path(__file__).parent.parent / "samples" / "dbre.tex").read_text()
+SAMPLE = (Path(__file__).parent.parent / "samples" / "dbre_postgres_sqlserver.tex").read_text()
 
 
 def _core_text(tex):
@@ -196,7 +196,7 @@ def _core_text(tex):
 def test_core_subsections_lists_existing_lines():
     from app.tailor import core_subsections
     labels = [s["label"] for s in core_subsections(SAMPLE)]
-    assert "Cloud and Containers" in labels
+    assert "DBaaS and Multi-Cloud" in labels
     assert "Automation and Scripting" in labels
 
 
