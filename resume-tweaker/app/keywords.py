@@ -918,4 +918,19 @@ KEYWORD_GROUPS = [
     ("Self-Starter", ["Self-Starter", "Self Starter", "Self-Motivated"]),
     ("Taking Initiative", ["Taking Initiative", "Take Initiative", "Takes Initiative"]),
     ("Written and Verbal Communication", ["Written and Verbal Communication", "Written Communication", "Verbal Communication"]),
+
+    # Round 25: Citi Application DBA, Sybase T-SQL AVP JD (Sybase ASE, app-layer tuning, locking, sysprocesses, MDADB reporting)
+    ("Application DBA", ["Application DBA", "Application Database Administration", "Application Database Administrator"]),
+    ("Sybase ASE", ["Sybase ASE", "Adaptive Server Enterprise", "Sybase Adaptive Server"]),
+    ("Index Management", ["Index Management"]),
+    ("Lock Management", ["Lock Management", "Locking", "Lock Contention", "Lock Analysis"]),
+    ("sysprocesses", ["sysprocesses", "sp_who"]),
+    ("MDADB Reporting", ["MDADB", "MDADB Reporting"]),
+    ("Connection Management", ["Connection Management", "Database Connections", "Database Connection Management"]),
+    ("Schema Changes", ["Schema Changes", "Schema Change", "Schema Change Management"]),
+    ("Release Deployments", ["Release Deployments", "Release Deployment", "Production Deployments", "Non-Production Deployments"]),
+    ("Non-Production Environments", ["Non-Production Environments", "Non-Production", "Non-Prod"]),
+    ("Dependency Management", ["Dependency Management"]),
+    ("Technical Decision-Making", ["Technical Decisions", "Technical Decision Making", "Technical Decision-Making", "Technical Decision"]),
+    ("Data Modelling", ["Data Modelling"]),
 ]
