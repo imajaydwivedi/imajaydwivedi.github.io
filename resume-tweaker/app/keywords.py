@@ -1046,4 +1046,71 @@ KEYWORD_GROUPS = [
     ("Application Performance Tuning", ["Application Performance Tuning", "Application Tuning", "Application-Layer Tuning"]),
     ("Deployment Reliability", ["Deployment Reliability", "Deployment Reliability Engineering"]),
     ("PostgreSQL Administration", ["PostgreSQL Administration", "PostgreSQL Administrator", "PostgreSQL DBA", "PostgreSQL Performance Tuning"]),
+
+    # Round 31: Schwab Senior Engineer, Corporate Applications SAvE JD (Control-M batch, corporate and compliance apps, India business-day support, shift handoffs)
+    # Batch scheduling and corporate applications
+    ("Control-M", ["Control-M", "Control M", "BMC Control-M", "Control-M Scheduler"]),
+    ("Batch Monitoring", ["Batch Schedules", "Batch Monitoring", "Batch Schedule Monitoring", "Critical Batch Schedules"]),
+    ("Job Reruns", ["Reruns", "Rerun", "Job Reruns", "Job Rerun"]),
+    ("Data Exception Handling", ["Data Exceptions", "Data Exception", "Data Exception Handling"]),
+    ("Compliance One", ["Compliance One"]),
+    ("Actimize", ["Actimize", "NICE Actimize", "Actimize/CDD", "CDD"]),
+    ("FCCM", ["FCCM"]),
+    ("eCounsel", ["eCounsel"]),
+    ("OFSAA", ["OFSAA", "Oracle Financial Services Analytical Applications"]),
+    ("PeopleSoft", ["PeopleSoft", "PeopleSoft Financials"]),
+    ("Ariba", ["Ariba", "SAP Ariba"]),
+    ("Clarity PPM", ["Clarity PPM"]),
+    ("Corporate Applications", ["Corporate Applications", "Enterprise Applications", "Corporate Application Support"]),
+    ("Legal Applications", ["Legal Applications", "Legal Technology"]),
+    ("Accounting Systems", ["Accounting Systems", "Accounting Applications", "General Ledger"]),
+    ("Procurement Systems", ["Procurement Systems", "Procurement Applications", "Procurement"]),
+    ("Application Ownership", ["Application Owners", "Application Owner", "Application Portfolio", "Application Ownership"]),
+    # ITSM and monitoring tools
+    ("SmartIT", ["SmartIT", "BMC SmartIT"]),
+    # Operations and reliability practices
+    ("Certificate Management", ["Certificate Management", "Certificate Renewals", "Certificate Renewal", "SSL Certificates"]),
+    ("Disaster Recovery Testing", ["Disaster Recovery Testing", "DR Testing", "DR Tests", "DR Test"]),
+    ("Off-Hours Releases", ["Non-Business-Hours Releases", "Non-Business Hours Releases", "Off-Hours Releases", "After-Hours Releases"]),
+    ("Production Incident Management", ["Production Incidents", "Production Incident", "Production Incident Management"]),
+    ("High-Severity Incidents", ["High-Severity Incidents", "High Severity Incidents", "High-Severity", "High Severity"]),
+    ("Remediation Tracking", ["Remediation Tracking", "Track Remediation", "Remediation Plans"]),
+    ("Audit Participation", ["Audit Reviews", "Audit Review", "Audit Support"]),
+    ("Standards Enforcement", ["Enforce Standards", "Enforce Standards and Practices", "Standards Enforcement"]),
+    ("Follow-the-Sun Support", ["Follow-the-Sun", "Follow the Sun", "India Business Hours", "Business-Day Support"]),
+    ("Cross-Time-Zone Collaboration", ["US-Based Teams", "US Teams", "Cross-Time-Zone", "Time Zone Coordination", "Working Across Time Zones"]),
+    ("Shift Handover", ["Shift Handover", "Shift Handoffs", "Shift Handoff", "Handover", "Handoffs", "Hand Off", "Hand-Off"]),
+    ("Knowledge Transfer", ["Knowledge Transfer", "Knowledge Transition", "KT Sessions"]),
+    ("Onboarding", ["Onboarding", "Engineer Onboarding"]),
+    ("Status Reporting", ["Status Reporting", "Status Reports", "Risk Reporting", "Stakeholder Reporting", "Status and Risk Reporting"]),
+    ("Team Mentoring", ["Mentor Engineers", "Guide Engineers", "Engineer Guidance"]),
+
+    # Round 32: Petadata Senior Technical Architect JD (multi-tenant SaaS, tenant isolation, async and event-driven systems, connector frameworks, CRM APIs)
+    # Multi-tenancy
+    ("Tenant Isolation", ["Tenant Isolation", "Tenant Data Isolation", "Tenant Separation"]),
+    ("Noisy-Neighbor Mitigation", ["Noisy Neighbor", "Noisy Neighbors", "Noisy-Neighbor", "Noisy-Neighbor Mitigation"]),
+    ("Tenant Lifecycle Management", ["Tenant Provisioning", "Tenant Onboarding", "Tenant Decommissioning", "Tenant Lifecycle"]),
+    ("Per-Tenant Configuration", ["Per-Tenant Configuration", "Per-Tenant Config", "Tenant Configuration"]),
+    # Distributed systems and async processing
+    ("Backpressure", ["Backpressure", "Back-Pressure"]),
+    ("Retry Strategies", ["Retries", "Retry", "Retry Logic", "Retry Strategies"]),
+    ("Consistency Models", ["Eventual Consistency", "Strong Consistency", "Consistency Models", "Consistency Guarantees"]),
+    ("Horizontal Scaling Architecture", ["Horizontal Scaling Architecture", "Concurrent Migration Workloads", "Concurrent Workloads"]),
+    # Integration and APIs
+    ("Connector Frameworks", ["Connector Framework", "Connector Frameworks", "Integration Framework", "Integration Frameworks", "Connectors", "Connector"]),
+    ("iPaaS", ["iPaaS", "Integration Platform as a Service"]),
+    ("HubSpot", ["HubSpot"]),
+    ("Zoho", ["Zoho", "Zoho CRM"]),
+    ("API Design", ["API Design", "API Design Patterns", "Scalable APIs", "Platform Abstractions"]),
+    ("Data Migration", ["Data Migration", "Data Migrations"]),
+    # Architecture leadership
+    ("Principal Engineering", ["Principal Architect", "Principal Engineer", "Staff Engineer", "Staff+", "Founding Architect", "Founding Engineer", "Early Senior Technical Leader"]),
+    ("Architectural Standards", ["Architectural Standards", "Architecture Standards", "Architectural Patterns", "Architectural Complexity"]),
+    ("Build-vs-Buy Decisions", ["Build-vs-Buy", "Build vs Buy", "Build or Buy"]),
+    ("Prototyping", ["Prototyping", "Prototype", "Prototypes"]),
+    # Compliance and regions
+    ("GDPR", ["GDPR", "General Data Protection Regulation"]),
+    ("Regulated Data Environments", ["Regulated Data", "Regulated-Data", "High-Compliance", "High-Compliance Environments"]),
+    ("US Time Zone Overlap", ["USA Time Zones", "US Time Zones", "USA Time Zone", "US Time Zone"]),
+    ("Self-Directed Delivery", ["Highly Self-Directed", "Pragmatic", "Balance Long-Term Architecture with Rapid Delivery", "Rapid Product Delivery"]),
 ]
