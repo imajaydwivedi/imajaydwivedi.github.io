@@ -1027,4 +1027,23 @@ KEYWORD_GROUPS = [
     ("Commitment Planning", ["Commitment Planning", "Commitment Management"]),
     ("Cloud Financial Management", ["Cloud Financial Management", "Cloud Financial Management Practices"]),
     ("Cost Anomaly Detection", ["Cost Anomaly", "Cost Anomalies", "Cost Anomaly Detection"]),
+
+    # Round 30: Vertafore Principal SQL DBA JD (SQL Server and AWS leadership, VLDB performance, modernization, PostgreSQL)
+    ("Principal Database Administration", ["Principal SQL Database Administrator", "Principal Database Administrator", "Principal DBA", "Principal SQL DBA"]),
+    ("Database Architect", ["Database Architect", "Database Architects", "Database Architecture Leadership"]),
+    ("SQL Development", ["SQL Development", "SQL Developer", "T-SQL Development", "Database Development"]),
+    ("Workload Optimization", ["Workload Optimization", "Workload Optimisation"]),
+    ("Critical Incident Management", ["Critical Incident Management", "Critical Incidents", "Critical Incident"]),
+    ("Database Modernization", ["Database Modernization", "Database Modernisation", "Legacy Database Modernization", "Legacy Database Architectures", "Legacy Architectures", "Legacy Systems"]),
+    ("Migration Strategy", ["Migration Strategy", "Migration Architecture", "Migration Risk", "Migration Risk Mitigation"]),
+    ("Replatforming", ["Replatforming", "Replatform", "Rehosting", "Lift and Shift", "Lift-and-Shift"]),
+    ("Operational Tooling", ["Operational Tooling", "Operational Tools", "Operational Automation"]),
+    ("Security Controls", ["Security Controls", "Security Control", "Database Security Controls"]),
+    ("Coding Standards", ["Coding Standards", "Coding Standard", "SQL Coding Standards", "SQL Standards"]),
+    ("Cloud Database Adoption", ["Cloud Database Adoption", "Cloud Adoption", "Cloud Database Modernization"]),
+    ("Technical Strategy", ["Technical Strategy", "Technical Strategy Influence", "Influence Technical Strategy"]),
+    ("Multi-Terabyte Databases", ["Multi-TB", "Multi-Terabyte", "Multi-Terabyte Databases", "Multi-Terabyte Data Volumes", "Multi-Terabyte Data Volume", "Terabyte-Scale", "TB-Scale"]),
+    ("Application Performance Tuning", ["Application Performance Tuning", "Application Tuning", "Application-Layer Tuning"]),
+    ("Deployment Reliability", ["Deployment Reliability", "Deployment Reliability Engineering"]),
+    ("PostgreSQL Administration", ["PostgreSQL Administration", "PostgreSQL Administrator", "PostgreSQL DBA", "PostgreSQL Performance Tuning"]),
 ]
