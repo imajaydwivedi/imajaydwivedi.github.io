@@ -1113,4 +1113,39 @@ KEYWORD_GROUPS = [
     ("Regulated Data Environments", ["Regulated Data", "Regulated-Data", "High-Compliance", "High-Compliance Environments"]),
     ("US Time Zone Overlap", ["USA Time Zones", "US Time Zones", "USA Time Zone", "US Time Zone"]),
     ("Self-Directed Delivery", ["Highly Self-Directed", "Pragmatic", "Balance Long-Term Architecture with Rapid Delivery", "Rapid Product Delivery"]),
+
+    # Round 33: Teradata Principal Engineer JD (PostgreSQL internals, WAL and recovery, MVCC, storage and buffer management, AI coding agents)
+    # Engine languages and open source
+    ("Rust", ["Rust"]),
+    ("PostgreSQL Internals", ["PostgreSQL Internals", "Postgres Internals", "PostgreSQL Engine Internals", "Source-Level PostgreSQL", "PostgreSQL Source Code"]),
+    ("PostgreSQL Extensions", ["PostgreSQL Extensions", "Postgres Extensions"]),
+    ("Fork-Level Work", ["Fork-Level Work", "Fork-Level", "Engine Forks"]),
+    ("Teradata", ["Teradata", "Teradata Vantage"]),
+    # Storage, logging and recovery
+    ("Write-Ahead Logging", ["WAL", "Write-Ahead Log", "Write-Ahead Logging", "WAL Write Path", "Write Path"]),
+    ("Checkpointing", ["Checkpointing", "Checkpoints", "Checkpoint", "Checkpoint Tuning"]),
+    ("Crash Recovery", ["Crash Recovery", "Crash Recovery Mechanics", "Recovery Subsystem", "Logging and Recovery"]),
+    ("Durability Guarantees", ["Durability", "Durability Guarantees"]),
+    ("Page Management", ["Page Management", "Page Layout"]),
+    ("Buffer Management", ["Buffer Management", "Buffer Manager", "Buffer Pool", "Buffer Pools"]),
+    ("Prefetching", ["Prefetch", "Prefetching", "Prefetch Behavior"]),
+    ("Disaggregated Storage", ["Disaggregated Storage", "Disaggregated Compute-Storage", "Compute-Storage Separation", "Disaggregated Architecture", "Remote Storage"]),
+    ("Replication Subsystems", ["Replication Subsystem", "Replication Subsystems", "Replication Internals"]),
+    ("Distributed Transactions", ["Distributed Transactions", "Multi-Node Transactions", "Two-Phase Commit"]),
+    ("Failure Conditions", ["Real Failure Conditions", "Failure Conditions", "Failure Scenarios", "Failure Injection"]),
+    # Concurrency and optimizer
+    ("MVCC", ["MVCC", "Multi-Version Concurrency Control"]),
+    ("Concurrency Anomalies", ["Concurrency Anomalies", "Concurrency Anomaly", "Isolation Anomalies"]),
+    ("Isolation Semantics", ["Isolation Semantics", "Isolation Levels", "Transaction Isolation", "Visibility Semantics", "Non-Linear Execution"]),
+    ("Cost Model", ["Cost Model", "Cost Models", "Cost Model Correctness"]),
+    # AI-assisted engineering
+    ("AI Coding Assistants", ["AI Coding Assistants", "AI Coding Assistant", "AI Coding Agents", "Coding Agents", "AI Coding Tools"]),
+    ("Agentic Tooling", ["Agentic Tooling", "Agentic Workflows"]),
+    # Role and qualifications
+    ("Systems Engineering", ["Systems Engineering", "Database Engineering", "Systems or Database Engineering"]),
+    ("Backend Services", ["Backend Services", "Backend Development", "Backend Engineering"]),
+    ("Data Platform Development", ["Data Platform Development", "Data Platform"]),
+    ("Product Strategy", ["Product Strategy", "Product Roadmap", "Product Partners"]),
+    ("PhD", ["PhD", "Ph.D.", "Doctorate"]),
+    ("High Autonomy", ["High Autonomy", "High-Autonomy", "Low Process Overhead"]),
 ]
