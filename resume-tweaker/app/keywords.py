@@ -1148,4 +1148,30 @@ KEYWORD_GROUPS = [
     ("Product Strategy", ["Product Strategy", "Product Roadmap", "Product Partners"]),
     ("PhD", ["PhD", "Ph.D.", "Doctorate"]),
     ("High Autonomy", ["High Autonomy", "High-Autonomy", "Low Process Overhead"]),
+
+    # Round 34: Persistent Linux Administrator JD (RHEL and Oracle Linux, Oracle DBA, PL/SQL, shell automation, monitoring, change and release management)
+    # Operating systems and server administration
+    ("Linux Administration", ["Linux Administration", "Linux Administrator", "Linux Systems Administration", "Linux Server Administration", "Linux Operations"]),
+    ("Oracle Linux", ["Oracle Linux", "OEL"]),
+    ("Server Administration", ["Server Administration", "Server Administrator", "Systems Administration", "System Administration", "Server Operations"]),
+    ("User and Access Administration", ["User Accounts", "User Account Management", "Account Management", "User Administration", "File Permissions", "Permissions"]),
+    ("File System Management", ["File Systems", "File System", "File System Management", "LVM", "Disk Management"]),
+    ("Linux Performance Tuning", ["Linux Performance Tuning", "Linux Performance", "Server Performance Tuning", "System Performance Tuning", "Kernel Parameters"]),
+    ("Server Monitoring", ["Server Monitoring", "System Health", "Server Health", "System Health Monitoring", "Application Availability"]),
+    ("Security Configuration", ["Security Configuration", "Security Configurations", "Hardening", "Security Hardening"]),
+    ("Environment Management", ["Production, Development, Testing, and Disaster Recovery", "Development and Testing Environments"]),
+    # Oracle database
+    ("Oracle Database Administration", ["Oracle Database Administration", "Oracle DBA", "Oracle Database", "Oracle Database Administrator", "Oracle Administration"]),
+    ("Oracle Backup and Recovery", ["Oracle Backup", "Oracle Recovery", "Oracle Backup and Recovery", "Oracle Recovery Tools"]),
+    ("Oracle Installation and Configuration", ["Oracle Installation", "Oracle Configuration", "Oracle Installation and Configuration"]),
+    ("PL/SQL", ["PL/SQL", "PLSQL", "PL SQL"]),
+    ("Query Troubleshooting", ["Troubleshoot SQL", "SQL Troubleshooting", "PL/SQL Troubleshooting", "Query Troubleshooting"]),
+    # Operations, support and governance
+    ("Business-Critical Applications", ["Business-Critical", "Business-Critical Applications", "Business Critical Applications", "Business-Critical Systems"]),
+    ("Enterprise Production Support", ["Enterprise Production Environments", "Enterprise Production", "Production Support Activities"]),
+    ("Corrective Actions", ["Corrective Measures", "Corrective Actions", "Preventive and Corrective Measures"]),
+    ("Support Procedures", ["Support Procedures", "Knowledge Repositories", "Knowledge Repository"]),
+    ("Risk Identification", ["Proactively Identify Risks", "Identify Risks", "Vulnerabilities"]),
+    ("Standards Compliance", ["Organizational Standards", "Operational Processes", "Adherence to Standards"]),
+    ("Application Deployment Support", ["Application Deployments", "Deployment Support", "Production Maintenance"]),
 ]
