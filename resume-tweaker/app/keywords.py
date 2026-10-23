@@ -1174,4 +1174,18 @@ KEYWORD_GROUPS = [
     ("Risk Identification", ["Proactively Identify Risks", "Identify Risks", "Vulnerabilities"]),
     ("Standards Compliance", ["Organizational Standards", "Operational Processes", "Adherence to Standards"]),
     ("Application Deployment Support", ["Application Deployments", "Deployment Support", "Production Maintenance"]),
+
+    # Round 5: Synmatch AI client Senior Data & Automation Engineer JD (PostgreSQL, Python ETL/ELT, finance data)
+    ("Data Wrangling", ["Data Wrangling", "Data Wrangling and Cleansing", "Data Munging"]),
+    ("Data Cleansing", ["Data Cleansing", "Data Cleaning", "Data Cleanup", "Data Scrubbing"]),
+    ("Data Transformation", ["Data Transformation", "Data Transformations", "Data Transformation Logic"]),
+    ("Data Normalization", ["Data Normalization", "Database Normalization", "Normalization", "Normalisation"]),
+    ("Financial Data", ["Financial Data", "Financial Datasets", "Financial Data Structuring", "Financial Data Management"]),
+    ("Financial Reporting", ["Financial Reporting", "Finance Reporting", "Management Reporting", "Financial Close"]),
+    ("Accounting Software", ["Accounting Software", "QuickBooks", "Xero", "Zoho Books", "Tally", "Sage"]),
+    ("API Integration", ["API Integration", "API Integrations", "Third-Party APIs", "Third-Party Integrations", "API Connectivity"]),
+    ("Cloud Exports", ["Cloud Exports", "Cloud Data Exports", "Cloud Storage Exports"]),
+    ("Custom Reporting", ["Custom Reporting", "Custom Reporting Tools", "Reporting Tools"]),
+    ("Workflow Automation", ["Workflow Automation", "Automation Workflows", "Automation Workflow"]),
+    ("Containerized Workflows", ["Containerized Workflows", "Containerised Workflows", "Containerized Deployments"]),
 ]
