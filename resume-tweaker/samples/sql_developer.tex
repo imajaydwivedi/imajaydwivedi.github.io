@@ -1,0 +1,143 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=0.6in,bottom=0.6in,left=0.75in,right=0.75in]{geometry}
+\usepackage[hidelinks,pdftitle={Ajay Kumar Dwivedi - Resume},pdfauthor={Ajay Kumar Dwivedi}]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{1F6F5C}
+\pagestyle{empty}
+\setcounter{secnumdepth}{-1} % no numbers on section headings
+\setlength{\parindent}{0pt}
+\renewcommand{\normalsize}{\fontsize{10.9}{13.6}\selectfont}
+\setlist[itemize]{nosep, leftmargin=*, topsep=0pt, itemsep=1pt}
+\titleformat{\section}{\fontsize{12}{14}\selectfont\bfseries\color{accent}}{}{0em}{}[\vspace{12pt}{\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{11pt}{11pt}
+\begin{document}
+\begin{center}
+{\Huge\bfseries Ajay Kumar Dwivedi}
+\vspace{4pt}
+{\large\color{accent}SQL Developer}
+\vspace{6pt}
+Hyderabad, Telangana, India, +91 7032312749, \href{mailto:ajay.dwivedi2007@gmail.com}{ajay.dwivedi2007@gmail.com}
+\vspace{2pt}
+\href{https://ajaydwivedi.com/}{ajaydwivedi.com}, \href{https://github.com/imajaydwivedi}{github.com/imajaydwivedi}, \href{https://linkedin.com/in/imajaydwivedi/}{linkedin.com/in/imajaydwivedi}
+\end{center}
+\section{Profile}
+SQL Developer with 15+ years of experience designing, developing, and optimizing T-SQL and PostgreSQL databases for financial services and other data-rich environments. I write stored procedures, build SSIS and Python ETL pipelines, design partitioning and data lifecycle strategies, and tune queries using execution plans, Query Store, and EXPLAIN ANALYZE. I work closely with application, analytics, and production teams to turn business requirements into reliable data solutions.
+\section{Core Competencies}
+\begin{itemize}
+  \item \textbf{SQL Development:} T-SQL, SQL Server Stored Procedures, Common Table Expressions (CTEs), Recursive CTEs, Dynamic SQL, T-SQL Code Review
+  \item \textbf{Database Design:} Indexing, Index Maintenance, Table Partitioning, Data Archival, Data Lifecycle Management, Database Migration
+  \item \textbf{ETL and Data Integration:} ETL and ELT Pipelines, SSIS, Bulk Loads, Pentaho and Kettle, Data Warehouse, Stored Procedures, Data Migration
+  \item \textbf{Performance Tuning:} Query Optimization, Execution Plan Analysis, Query Store, Extended Events, Dynamic Management Views, Wait Statistics, Deadlock Analysis, Parameter Sniffing, Performance Troubleshooting
+  \item \textbf{PostgreSQL:} Table Partitioning, EXPLAIN ANALYZE, Streaming Replication, Aurora PostgreSQL, Patroni, Database Migration (CentOS to RHEL)
+  \item \textbf{Data Quality and Security:} Data Integrity, Integrity Checks, Database Security, Auditing, Transparent Data Encryption (TDE), Always Encrypted, Financial Data, Regulatory Compliance
+  \item \textbf{Automation and Tools:} Python, PowerShell, SQL Server Agent Jobs, Git, GitHub Actions, CI/CD, Docker, Containerized Workflows, Linux, Command Line, Ansible, Terraform, Grafana, Prometheus
+  \item \textbf{Production Support:} Production Support, Incident Management, Root Cause Analysis, On-Call, Documentation, Runbooks
+\end{itemize}
+\section{Skills}
+\begin{itemize}
+  \item \textbf{Databases:} SQL Server, PostgreSQL, MongoDB, SQLite, Azure SQL, Managed Instance, Amazon RDS, Aurora
+  \item \textbf{Programming Languages:} T-SQL, SQL, Python, PowerShell, JavaScript, HTML, CSS, Shell Scripting
+  \item \textbf{High Availability and Disaster Recovery:} Always On Availability Groups, Failover Clustering, Log Shipping, Replication, Mirroring, Disaster Recovery
+  \item \textbf{Cloud Platforms:} AWS, Azure
+  \item \textbf{Tools and Frameworks:} Git, Linux, Ansible, Flask, GitHub Actions, CI/CD, VS Code, Grafana, Prometheus, Containers, Docker, PowerShell DSC, Infrastructure as Code (IaC)
+  \item \textbf{Languages:} English (proficient), Hindi (native)
+\end{itemize}
+\section{Experience}
+\noindent\textbf{Tessell}\hfill \textit{February 2026 - September 2026}
+\textit{Principal Solution Architect - SQL Server}\\[-5pt]
+\begin{itemize}
+  \item Added enhancements to support Change Data Capture (CDC) and transactional replication
+  \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
+  \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
+  \item Wrote Python-based workflows on Kubernetes and a dockerized environment for a Database as a Service (DBaaS) platform, reducing provisioning time to 20 minutes
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{AngelOne}\hfill \textit{February 2022 - February 2026}
+\textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
+\begin{itemize}
+  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, and deadlocks
+  \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
+  \item Rewrote stored procedures to improve plan stability, and established repeatable performance baselines to tune access paths, bind variables, and concurrency
+  \item Reviewed T-SQL code with code review guidance and managed source-controlled deployments for SQL Server releases
+  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, and applied least privilege to service accounts for DBA automation
+  \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty
+  \item Designed sharding, table partitioning, and data lifecycle management for large PostgreSQL datasets, including time-series tables with retention, archival, and purge policies
+  \item Used EXPLAIN and EXPLAIN ANALYZE to troubleshoot slow queries and fix plan regressions in PostgreSQL
+  \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
+  \item Provided production support for PostgreSQL databases on a 24x7 on-call rotation, meeting SLA commitments for availability and incident response
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}
+\textit{Database Reliability Engineer}\\[-5pt]
+\begin{itemize}
+  \item Built single-click audit infrastructure for databases so application teams can set up auditing and generate reports on table usage, data modifications, security events, and data changes
+  \item Improved database reliability by automating ScriptOut of entire SQL Server instances for disaster recovery
+  \item Resolved hundreds of incidents by moving 38 TB of AG databases with PowerShell
+  \item Built automation to prevent common issues such as tempdbSaver and LogSaver
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{TiVo}\hfill \textit{February 2018 - May 2020}
+\textit{Database Administrator}\\[-5pt]
+\begin{itemize}
+  \item Implemented a change management process using SQL Database Projects, SQL DACPAC, and GitHub Actions
+  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, integrity checks, and recovery testing
+  \item Reduced performance incidents by 80\% by building Delta Index Defragmentation automation for replicated and HADR databases
+  \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{United Health Group}\hfill \textit{October 2016 - February 2018}
+\textit{Senior SQL DBA}\\[-5pt]
+\begin{itemize}
+  \item Saved \$1 million per year through DB space capacity automation
+  \item Improved performance by 50\% and reduced VLDB maintenance time
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{Ericsson Global}\hfill \textit{June 2015 - October 2016}
+\textit{Technical Lead}\\[-5pt]
+\begin{itemize}
+  \item Achieved a 3x performance improvement through advanced query optimization, such as recursive CTEs and table partitioning
+  \item Mentored 18+ developers in following best practices and guidelines
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{TATA Consultancy Services}\hfill \textit{March 2011 - June 2015}
+\textit{SQL DBA Developer}\\[-5pt]
+\begin{itemize}
+  \item Moved 250+ large tables, each with billions of records, using SSIS bulk loads in 45 hours
+  \item Built data warehouse ETL pipelines using Pentaho and Kettle for high-volume liquor retail stores
+  \item Saved 20+ hours per week by automating core DBA tasks using dynamic SQL
+\end{itemize}
+\section{Projects}
+\noindent\textbf{SQLMonitor}\hfill \textit{January 2021 - Present}
+\textit{Open-source, enterprise-grade SQL Server monitoring tool} (\href{https://github.com/imajaydwivedi/SQLMonitor}{GitHub})
+\begin{itemize}
+  \item Built using T-SQL, PowerShell, Python, and Grafana
+  \item Monitoring 500+ SQL Servers across environments
+  \item Sends observability alerts to Slack, PagerDuty, and email
+\end{itemize}
+\vspace{14.7pt}
+\noindent\textbf{AI Agent}\hfill \textit{October 2025 - Present}
+\textit{LLM-powered SQL agent that answers natural-language performance questions about SQL Server instances monitored by SQLMonitor} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
+\begin{itemize}
+  \item Built using Python, LangChain, Ollama, Streamlit, and SQLMonitor
+  \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements
+\end{itemize}
+\section{Certifications}
+\begin{itemize}
+  \item Microsoft Certified Professional - Database Querying (October 2013)
+  \item Microsoft Certified Professional - Database Administration (December 2013)
+  \item BrentOzarUnlimited Mastering SQL Server (November 2022)
+  \item SQLSkills Blackbelt Professional (June 2023)
+\end{itemize}
+\section{Education}
+\noindent\textbf{Bachelor of Engineering in Electronics and Communication Engineering}\hfill \textit{July 2006 - June 2010}
+RustamJi Institute of Technology, Gwalior, Madhya Pradesh
+\section{Awards and Honors}
+\begin{itemize}
+  \item \textbf{Tech Titan}, AngelOne for 10x performance optimization on production SQL Server (2022)
+  \item \textbf{Sapphire}, United Health Group for innovation and automation (2017)
+\end{itemize}
+\section{Availability}
+Notice Period: 7 Days, Open to Relocation, Open to remote opportunities
+\end{document}
