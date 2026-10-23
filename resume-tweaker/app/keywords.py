@@ -1188,4 +1188,16 @@ KEYWORD_GROUPS = [
     ("Custom Reporting", ["Custom Reporting", "Custom Reporting Tools", "Reporting Tools"]),
     ("Workflow Automation", ["Workflow Automation", "Automation Workflows", "Automation Workflow"]),
     ("Containerized Workflows", ["Containerized Workflows", "Containerised Workflows", "Containerized Deployments"]),
+
+    # Round 6: Senior Microsoft SQL Server Developer JD (T-SQL development, SSIS, query tuning, production support)
+    ("Table Variables", ["Table Variables", "Table Variable"]),
+    ("Common Table Expressions", ["CTE", "CTEs", "Common Table Expressions", "Common Table Expression", "Recursive CTE", "Recursive CTEs"]),
+    ("Cursors", ["Cursors", "Cursor"]),
+    ("Flat Files", ["Flat Files", "Flat File", "Flat File Sources"]),
+    ("XML", ["XML", "XML Data"]),
+    ("Index Rebuild and Reorganize", ["Index Rebuild", "Index Rebuilds", "Index Reorganize", "Index Reorganization", "Index Rebuild and Reorganize"]),
+    ("SQL Server Agent Jobs", ["SQL Server Agent Jobs", "SQL Agent Jobs", "Agent Jobs"]),
+    ("Solution Design", ["Solution Design", "Solution Designs"]),
+    ("Post-Production Validation", ["Post-Production Validation", "Post-Production", "Post-Release Validation", "Release Validation"]),
+    ("Large-Volume Databases", ["Large-Volume Databases", "Large-Volume", "Large Volume Databases", "Large-Volume Data"]),
 ]
