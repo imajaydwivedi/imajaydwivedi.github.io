@@ -1200,4 +1200,23 @@ KEYWORD_GROUPS = [
     ("Solution Design", ["Solution Design", "Solution Designs"]),
     ("Post-Production Validation", ["Post-Production Validation", "Post-Production", "Post-Release Validation", "Release Validation"]),
     ("Large-Volume Databases", ["Large-Volume Databases", "Large-Volume", "Large Volume Databases", "Large-Volume Data"]),
+
+    # Round 35: Staff Engineer Distributed Data Systems & Infrastructure JD (distributed SQL, storage, platforms, economics)
+    ("Distributed SQL", ["Distributed SQL", "NewSQL"]),
+    ("Search Infrastructure", ["Search Infrastructure", "Search Platforms", "Search Engines"]),
+    ("Analytical Databases", ["Analytical Databases", "Analytical Database", "Analytics Databases", "OLAP"]),
+    ("Large-Scale Storage Systems", ["Large-Scale Storage", "Large-Scale Storage Systems", "Storage Systems", "Storage Infrastructure"]),
+    ("Data Platforms", ["Data Platforms", "Data Infrastructure", "Data Systems"]),
+    ("Data Distribution", ["Data Distribution", "Data Distribution Strategies"]),
+    ("Data Consistency", ["Data Consistency", "Consistency Guarantees"]),
+    ("Infrastructure Platforms", ["Infrastructure Platforms", "Infrastructure Platform", "Platform Capabilities", "Internal Platforms"]),
+    ("Reusable Infrastructure", ["Reusable Infrastructure", "Reusable Solutions", "Reusable Frameworks", "Reusable Components"]),
+    ("Infrastructure Economics", ["Infrastructure Economics", "Infrastructure Costs", "Resource Efficiency", "Resource Optimization"]),
+    ("Technical Influence", ["Technical Influence", "Influence Without Formal Authority", "Influence Architectural Decisions"]),
+    ("Engineering Leadership", ["Engineering Leadership", "Engineering Leaders"]),
+    ("Resilient Systems", ["Resilient Systems", "Resilient Architecture", "Resilient Architectures"]),
+    ("Scalable Systems", ["Scalable Systems", "Scalable Architecture", "Scalable Architectures", "Scaling Systems"]),
+    ("Throughput", ["Throughput", "Operations per Second", "Ops per Second", "Requests per Second", "QPS"]),
+    ("Architecture", ["Architecture", "Architectures", "Architectural Design", "Architecture Design"]),
+    ("Event Streaming", ["Event Streaming", "Event Stream", "Event Streams"]),
 ]

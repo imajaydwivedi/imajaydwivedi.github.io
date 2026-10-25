@@ -1,0 +1,23 @@
+I am applying for the Database Administrator (SQL / ERP) role in Ras Al Khaimah. I have 15+ years of hands-on Microsoft SQL Server administration, and I am open to relocation.
+
+What I bring:
+- High availability and DR: Always On Availability Groups, failover clustering, log shipping, and transactional replication, with failover and recovery testing.
+- Performance tuning: execution plan analysis, Query Store, wait statistics, and index maintenance, with root cause analysis for production incidents under 24x7 on-call support.
+- Backup and integrity: backup and restore strategy using Ola Hallengren's maintenance solution, including integrity checks and recovery testing.
+- Automation and monitoring: PowerShell and Python automation for deployment, configuration, and health monitoring, with alerting on CPU, disk, and replication health.
+- Security and compliance: Transparent Data Encryption, access hardening, and auditing of privileged access.
+- Patching and upgrades: SQL Server patching, upgrades, and configuration across production instances.
+
+I would welcome a conversation about the role. I am available on 7 days' notice.
+
+Resume: https://ajaydwivedi.com/go/resume
+Blog: https://ajaydwivedi.com
+SQLMonitor: https://github.com/imajaydwivedi/sqlmonitor
+Recognitions: https://ajaydwivedi.com/go/rewards
+LinkedIn Recommendations: https://ajaydwivedi.com/go/recommendations
+
+SQLMonitor-Recognitions-gif.gif
+
+Best Regards,
+Ajay Dwivedi
++91 7032312749 | ajay.dwivedi2007@gmail.com
