@@ -596,7 +596,7 @@ KEYWORD_GROUPS = [
     # Round 13: Natus Senior Oracle and SQL Server DBA JD (performance engineering, SQL Server internals, Oracle tooling, regulated data)
     ("AWR Reports", ["AWR", "AWR Reports", "Automatic Workload Repository"]),
     ("ASH Reports", ["ASH", "ASH Reports", "Active Session History"]),
-    ("Wait Events", ["Wait Events", "Wait Event Analysis"]),
+    ("Wait Events", ["Wait Events", "Wait Event Analysis", "Wait-Event Analysis", "Database Wait Events"]),
     ("Memory Grants", ["Memory Grants", "Memory Grant"]),
     ("Spills", ["Spills", "Tempdb Spills", "Sort Spills"]),
     ("Parameter Sensitivity", ["Parameter Sensitivity", "Parameter Sensitive"]),
@@ -605,7 +605,7 @@ KEYWORD_GROUPS = [
     ("Cardinality Estimation", ["Cardinality Estimation", "Cardinality Estimates", "Cardinality Misestimates", "Cardinality Misestimation"]),
     ("Join Strategies", ["Join Strategies", "Join Strategy", "Join Types", "Join Methods"]),
     ("Access Paths", ["Access Paths", "Access Path"]),
-    ("Optimizer Statistics", ["Optimizer Statistics", "Statistics Management"]),
+    ("Optimizer Statistics", ["Optimizer Statistics", "Statistics Management", "Table Statistics", "Statistics Gathering"]),
     ("Bind Variables", ["Bind Variables", "Bind Variable", "Parameterization"]),
     ("Concurrency", ["Concurrency", "Concurrency Issues", "Concurrency Tuning"]),
     ("Workload Analysis", ["Workload Analysis", "Workload History", "Workload Tuning", "Workload Patterns"]),
@@ -922,7 +922,7 @@ KEYWORD_GROUPS = [
     # Round 25: Citi Application DBA, Sybase T-SQL AVP JD (Sybase ASE, app-layer tuning, locking, sysprocesses, MDADB reporting)
     ("Application DBA", ["Application DBA", "Application Database Administration", "Application Database Administrator"]),
     ("Sybase ASE", ["Sybase ASE", "Adaptive Server Enterprise", "Sybase Adaptive Server"]),
-    ("Index Management", ["Index Management"]),
+    ("Index Management", ["Index Management", "Indexes", "Index Strategies", "Indexing Strategies"]),
     ("Lock Management", ["Lock Management", "Locking", "Lock Contention", "Lock Analysis"]),
     ("sysprocesses", ["sysprocesses", "sp_who"]),
     ("MDADB Reporting", ["MDADB", "MDADB Reporting"]),
@@ -1241,4 +1241,15 @@ KEYWORD_GROUPS = [
     ("TOGAF", ["TOGAF", "The Open Group Architecture Framework"]),
     ("Application Development", ["Application Development", "Application Developer"]),
     ("Operational Stability", ["Operational Stability", "Operational Reliability"]),
+
+    # Round 37: Oracle Database Administrator JD (RAC, Data Guard, Flashback, AWR/ADDM, OLTP and DW tuning)
+    ("ADDM", ["ADDM", "Automatic Database Diagnostic Monitor"]),
+    ("Data Guard Broker", ["Data Guard Broker", "DGMGRL"]),
+    ("Oracle Grid Infrastructure", ["Oracle Grid Infrastructure", "Grid Infrastructure", "Oracle Clusterware", "Clusterware"]),
+    ("Oracle Patching", ["Oracle Patching", "Oracle PSU", "Oracle Patch Management", "Release Updates"]),
+    ("Oracle Upgrades and Migrations", ["Oracle Upgrades", "Oracle Migrations", "Oracle Database Upgrades", "Oracle Database Migration"]),
+    ("Table Maintenance", ["Table Maintenance", "Table Reorganization", "Table Reorg"]),
+    ("Space Management", ["Space Management", "Space Utilization", "Space Monitoring", "Tablespace Management"]),
+    ("OLTP", ["OLTP", "Online Transaction Processing", "Transactional Workloads"]),
+    ("SQL Tuning", ["SQL Tuning", "SQL Performance Tuning", "SQL Plan Management", "SQL Plan Baselines", "SQL Profiles"]),
 ]
