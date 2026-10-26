@@ -131,7 +131,7 @@ KEYWORD_GROUPS = [
     ("GitHub Actions", ["GitHub Actions"]),
     ("GitLab CI", ["GitLab CI"]),
     ("CI/CD", ["CI/CD", "Continuous Integration", "Continuous Deployment", "Continuous Delivery"]),
-    ("Infrastructure as Code", ["Infrastructure as Code", "IaC"]),
+    ("Infrastructure as Code", ["Infrastructure as Code", "Infrastructure-as-Code", "IaC"]),
     ("Automation", ["Automation"]),
     ("DevOps", ["DevOps"]),
     ("Release Engineering", ["Release Engineering"]),
@@ -1252,4 +1252,15 @@ KEYWORD_GROUPS = [
     ("Space Management", ["Space Management", "Space Utilization", "Space Monitoring", "Tablespace Management"]),
     ("OLTP", ["OLTP", "Online Transaction Processing", "Transactional Workloads"]),
     ("SQL Tuning", ["SQL Tuning", "SQL Performance Tuning", "SQL Plan Management", "SQL Plan Baselines", "SQL Profiles"]),
+
+    # Round 38: AssetMark Senior SRE / PPL Manager JD (SRE engineering, observability, toil reduction, regulated operations)
+    ("Azure Log Analytics", ["Azure Log Analytics", "Log Analytics", "Log Analytics Workspace"]),
+    ("Service-Oriented Architecture", ["Service-Oriented Architecture", "Service-Oriented Architectures", "Service Oriented Architecture", "SOA"]),
+    ("Enterprise Integration Patterns", ["Enterprise Integration Patterns", "Enterprise Integration", "Integration Patterns"]),
+    ("Reliability Advocacy", ["Reliability Advocate", "Reliability Advocacy", "Reliability Champion"]),
+    ("Recoverability", ["Recoverability", "Recoverable Systems", "Recoverable Architecture"]),
+    ("Platform Resilience", ["Platform Resilience", "Platform Reliability"]),
+    ("Production Systems", ["Production Systems", "Production Operations", "Production Environments"]),
+    ("Secure Configuration", ["Secure Configuration", "Secure Configurations", "Secure Config"]),
+    ("Client Obsession", ["Client Obsession", "Client-Obsessed", "Client Focus"]),
 ]
