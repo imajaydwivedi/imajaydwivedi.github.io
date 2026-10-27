@@ -759,7 +759,7 @@ KEYWORD_GROUPS = [
     ("Azure Bicep", ["Bicep", "ARM Templates", "Azure Resource Manager"]),
     ("DevSecOps", ["DevSecOps"]),
     ("Shift-Left Practices", ["Shift-Left", "Shift Left", "Shift-Left Practices"]),
-    ("SDLC", ["SDLC", "Software Development Life Cycle", "Software Delivery Lifecycle"]),
+    ("SDLC", ["SDLC", "Software Development Life Cycle", "Systems Development Life Cycle", "Software Delivery Lifecycle"]),
     ("Azure Solutions Architect", ["Azure Solutions Architect", "Azure Solutions Architect Expert"]),
     ("Azure DevOps Engineer", ["Azure DevOps Engineer"]),
     ("Kubernetes Certifications", ["CKA", "CKS", "CKAD", "Certified Kubernetes Administrator", "Certified Kubernetes Security Specialist"]),
@@ -1274,4 +1274,23 @@ KEYWORD_GROUPS = [
     ("Job Scheduling", ["Job Scheduling", "Job Scheduler", "Job Dependencies", "Execution Sequences"]),
     ("Data Mart", ["Data Mart", "Data Marts"]),
     ("Data Discrepancy Investigation", ["Data Discrepancies", "Data Discrepancy", "Data Discrepancy Investigation"]),
+
+    # Round 41: Celanese Principal Data Architect JD (data modeling, governance, data platform architecture, NLP, Informatica)
+    ("Data Architecture", ["Data Architecture", "Data Architect", "Principal Data Architect", "Data Architecture Solutions"]),
+    ("Data Strategy", ["Data Strategy", "Data Strategies", "Data-Led Transformation", "Data Transformation"]),
+    ("Conceptual Data Models", ["Conceptual Data Model", "Conceptual Data Models", "Conceptual Modeling"]),
+    ("Data Flow Management", ["Data Flow", "Data Flows", "Data Flow Structures", "Data Flow Management", "Data Dissemination"]),
+    ("Informatica", ["Informatica", "Informatica PowerCenter", "Informatica IDMC"]),
+    ("Natural Language Processing", ["NLP", "Natural Language Processing", "Text Analysis", "Text Analytics"]),
+    ("Predictive Modeling", ["Predictive Modeling", "Predictive Modelling", "Predictive Analytics"]),
+    ("Data Products", ["Data Products", "Data Product", "Data Product Development"]),
+    ("Data-Driven Decision-Making", ["Data-Driven Decision-Making", "Data-Driven Decisions", "Data-Driven", "Data Driven Decision Making"]),
+    ("Business Process Understanding", ["Business Process", "Business Processes", "Business Process Understanding"]),
+    ("Critical Thinking", ["Critical Thinking"]),
+
+    # Round 40: TMF Group Senior Database Administrator (L3 DBA) JD (SQL Server escalation, SSRS/SSIS, global teams, audits)
+    ("SSRS", ["SSRS", "SQL Server Reporting Services", "Reporting Services"]),
+    ("Multicultural Teams", ["Multicultural Teams", "Multicultural", "Multi-Cultural Teams", "Multicultural Environments"]),
+    ("Fluent English", ["Fluent English", "Fluent in English", "English (C1)", "C1 English"]),
+    ("Database Audits", ["Database Audit", "Database Audits", "Database Compliance Audits"]),
 ]
