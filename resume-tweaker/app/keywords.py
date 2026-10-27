@@ -1275,6 +1275,12 @@ KEYWORD_GROUPS = [
     ("Data Mart", ["Data Mart", "Data Marts"]),
     ("Data Discrepancy Investigation", ["Data Discrepancies", "Data Discrepancy", "Data Discrepancy Investigation"]),
 
+    # Round 40: TMF Group Senior Database Administrator (L3 DBA) JD (SQL Server escalation, SSRS/SSIS, global teams, audits)
+    ("SSRS", ["SSRS", "SQL Server Reporting Services", "Reporting Services"]),
+    ("Multicultural Teams", ["Multicultural Teams", "Multicultural", "Multi-Cultural Teams", "Multicultural Environments"]),
+    ("Fluent English", ["Fluent English", "Fluent in English", "English (C1)", "C1 English"]),
+    ("Database Audits", ["Database Audit", "Database Audits", "Database Compliance Audits"]),
+
     # Round 41: Celanese Principal Data Architect JD (data modeling, governance, data platform architecture, NLP, Informatica)
     ("Data Architecture", ["Data Architecture", "Data Architect", "Principal Data Architect", "Data Architecture Solutions"]),
     ("Data Strategy", ["Data Strategy", "Data Strategies", "Data-Led Transformation", "Data Transformation"]),
@@ -1288,9 +1294,15 @@ KEYWORD_GROUPS = [
     ("Business Process Understanding", ["Business Process", "Business Processes", "Business Process Understanding"]),
     ("Critical Thinking", ["Critical Thinking"]),
 
-    # Round 40: TMF Group Senior Database Administrator (L3 DBA) JD (SQL Server escalation, SSRS/SSIS, global teams, audits)
-    ("SSRS", ["SSRS", "SQL Server Reporting Services", "Reporting Services"]),
-    ("Multicultural Teams", ["Multicultural Teams", "Multicultural", "Multi-Cultural Teams", "Multicultural Environments"]),
-    ("Fluent English", ["Fluent English", "Fluent in English", "English (C1)", "C1 English"]),
-    ("Database Audits", ["Database Audit", "Database Audits", "Database Compliance Audits"]),
+    # Round 42: Optum Principal Software Engineering / Platform Architect JD (technical leadership, cloud-native platforms, IaC, DevSecOps, governance)
+    ("Architectural Guidance", ["Architectural Guidance", "Architecture Guidance", "Technical Guidance"]),
+    ("Emerging Technologies", ["Emerging Technologies", "Emerging Technology", "Emerging Technology Adoption"]),
+    ("Technical Risk Management", ["Technical Risk", "Technical Risks", "Technical Risk Management", "Risk Mitigation"]),
+    ("Software Quality Engineering", ["Software Quality Engineering", "Software Quality", "Quality Engineering"]),
+    ("Platform Automation", ["Platform Automation", "Platform Automation Frameworks"]),
+    ("Shared Services Platforms", ["Shared Services", "Shared Platforms", "Shared Services Platforms", "Multi-Team Platforms"]),
+    ("System Architecture", ["System Architecture", "Systems Architecture", "System Architectures"]),
+    ("Solution Architecture", ["Solution Architect", "Solution Architecture", "Solution Architects"]),
+    ("Enterprise Application Development", ["Enterprise Application Development", "Enterprise Applications", "Enterprise Application"]),
+    ("Engineering Governance", ["Governance Frameworks", "Governance Framework", "Engineering Governance"]),
 ]
