@@ -1263,4 +1263,15 @@ KEYWORD_GROUPS = [
     ("Production Systems", ["Production Systems", "Production Operations", "Production Environments"]),
     ("Secure Configuration", ["Secure Configuration", "Secure Configurations", "Secure Config"]),
     ("Client Obsession", ["Client Obsession", "Client-Obsessed", "Client Focus"]),
+
+    # Round 39: Navitas Senior Data Engineer JD (Redshift, ETL/ELT, Databricks migration, production data support, Tableau)
+    ("Delta Lake", ["Delta Lake", "Delta Tables"]),
+    ("Unity Catalog", ["Unity Catalog"]),
+    ("Medallion Architecture", ["Medallion Architecture", "Medallion", "Bronze, Silver, and Gold", "Bronze Silver Gold"]),
+    ("Databricks SQL", ["Databricks SQL"]),
+    ("Databricks Workflows", ["Databricks Workflows", "Databricks Jobs"]),
+    ("D2L", ["D2L", "Brightspace"]),
+    ("Job Scheduling", ["Job Scheduling", "Job Scheduler", "Job Dependencies", "Execution Sequences"]),
+    ("Data Mart", ["Data Mart", "Data Marts"]),
+    ("Data Discrepancy Investigation", ["Data Discrepancies", "Data Discrepancy", "Data Discrepancy Investigation"]),
 ]
