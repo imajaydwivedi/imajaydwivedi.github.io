@@ -135,3 +135,15 @@ def test_pdf_rejects_markdown_input():
     import pytest
     with pytest.raises(ConvertError, match="not a LaTeX resume"):
         to_pdf("# Resume Tweaker\n\nA local web app.\n")
+
+
+def test_match_updates_with_ticks_and_bullets():
+    base = client.post("/api/match", json={"resume_tex": RESUME, "jd_text": JD}).json()
+    ticked = client.post("/api/match", json={
+        "resume_tex": RESUME, "jd_text": JD, "include_keywords": ["Kubernetes"],
+    }).json()
+    written = client.post("/api/match", json={
+        "resume_tex": RESUME, "jd_text": JD, "include_keywords": ["Kubernetes"],
+        "additions": [{"keyword": "Kubernetes", "job_index": 0, "bullet": "Ran Kubernetes clusters"}],
+    }).json()
+    assert base["percent"] < ticked["percent"] < written["percent"]

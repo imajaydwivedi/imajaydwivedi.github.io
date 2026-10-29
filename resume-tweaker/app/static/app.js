@@ -1,6 +1,8 @@
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { tex: "", jobs: [], subsections: [] };
+  // resumeTex and jdText are the texts the last Analyze ran on, so re-scoring matches the keyword lists.
+  const state = { tex: "", jobs: [], subsections: [], resumeTex: "", jdText: "" };
+  const match = { timer: null, seq: 0 };
 
   const els = {
     resume: $("resume"), jd: $("jd"), status: $("status"),
@@ -11,6 +13,7 @@
     analyzeBtn: $("analyze-btn"), tailorBtn: $("tailor-btn"), tailorStatus: $("tailor-status"),
     downloadTex: $("download-tex"), downloadPdf: $("download-pdf"), downloadDocx: $("download-docx"),
     copy: $("copy-tex"), resumeUrl: $("resume-url"), loadUrlBtn: $("load-url-btn"),
+    matchPct: $("match-pct"), matchBar: $("match-bar"), matchDetail: $("match-detail"),
   };
 
   function setStatus(msg, isError = false) {
@@ -101,6 +104,44 @@
       els.rows.querySelector(".empty").remove();
     }
     renderPlacementRows();
+    refreshMatch();
+  }
+
+  // Re-score as keywords are ticked and bullets are typed. Debounced so typing stays smooth,
+  // and stale replies are dropped so an older score never overwrites a newer one.
+  function refreshMatch() {
+    clearTimeout(match.timer);
+    match.timer = setTimeout(sendMatch, 150);
+  }
+
+  async function sendMatch() {
+    const seq = ++match.seq;
+    try {
+      const res = await post("/api/match", {
+        resume_tex: state.resumeTex,
+        jd_text: state.jdText,
+        include_keywords: selectedGaps(),
+        additions: collectAdditions(),
+      });
+      const data = await res.json();
+      if (seq === match.seq) showMatch(data);
+    } catch (err) {
+      if (seq === match.seq) els.matchDetail.textContent = err.message;
+    }
+  }
+
+  function showMatch(data) {
+    if (data.percent === null) {
+      els.matchPct.textContent = "--";
+      els.matchBar.style.width = "0";
+      els.matchDetail.textContent = "No job keywords found, so there is nothing to match.";
+      return;
+    }
+    els.matchPct.textContent = `${data.percent}`;
+    els.matchBar.style.width = `${data.percent}%`;
+    els.matchDetail.textContent =
+      `${data.covered} of ${data.total} job keywords are in your resume. ` +
+      "Ticking a missing keyword adds half credit; writing its bullet adds full credit.";
   }
 
   // One picker per ticked keyword: an existing Core Competencies line, or a new labelled line.
@@ -201,7 +242,10 @@
     const text = document.createElement("textarea");
     text.maxLength = 300;
     text.placeholder = `Your bullet for this job, including "${keyword}"`;
-    text.addEventListener("input", () => { count.textContent = `${text.value.length}/300`; });
+    text.addEventListener("input", () => {
+      count.textContent = `${text.value.length}/300`;
+      refreshMatch();
+    });
 
     row.append(head, select, text);
     return row;
@@ -249,6 +293,8 @@
     }
     busy(els.analyzeBtn, true);
     setStatus("Analyzing...");
+    state.resumeTex = resume_tex;
+    state.jdText = jd_text;
     try {
       const res = await post("/api/analyze", { resume_tex, jd_text });
       const data = await res.json();

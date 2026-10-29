@@ -8,6 +8,7 @@ A local web app that tailors a LaTeX resume to a job description. It uses a rule
 1. **Analyze.** Finds keywords from the catalog (565 entries, covering DBA, SRE, cloud, and data terms, and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.
+   - *% match*: the share of job keywords you cover. It updates live as you tick keywords and type bullets. A ticked keyword counts half, and a keyword with a bullet in your experience counts in full.
 2. **Fit into experience (optional).** For each missing keyword you tick, pick a job and write one bullet describing work you actually did. The tool inserts your wording as written, escaped for LaTeX. The bullet must contain its keyword. The tool never writes bullets itself. Leaving a box empty adds nothing to the resume.
 3. **Build.** Produces the tailored `.tex`:
    - Core Competencies placement: for each keyword you ticked, choose an existing line (for example *Cloud & Containers*) to append it to, or *New line with its own label*. Choose *Don't add to core competency* to keep the keyword out of Core Competencies. It is the default. Keywords with a new line and no label go to a line labelled *Other*.

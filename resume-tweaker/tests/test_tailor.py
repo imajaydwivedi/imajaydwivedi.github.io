@@ -239,3 +239,37 @@ def test_experience_only_keyword_stays_out_of_core():
                     placements=[{"keyword": "Kafka", "skip": True}])
     assert "Kafka" not in result.core_keywords
     assert "Kafka" not in _core_text(result.tex)
+
+
+def test_match_score_counts_resume_coverage():
+    from app.tailor import match_score
+    covered, gaps = analyze(RESUME, JD)
+    result = match_score(RESUME, JD)
+    assert result == {"percent": round(100 * len(covered) / (len(covered) + len(gaps))),
+                      "covered": len(covered), "total": len(covered) + len(gaps)}
+
+
+def test_match_score_ticked_gap_is_half_credit_and_bullet_is_full():
+    from app.tailor import match_score
+    covered, gaps = analyze(RESUME, JD)
+    total = len(covered) + len(gaps)
+    keyword = gaps[0]
+    ticked = match_score(RESUME, JD, include_keywords=[keyword])
+    assert ticked["percent"] == round(100 * (len(covered) + 0.5) / total)
+    bullet = {"keyword": keyword, "bullet": f"Ran {keyword} in production", "job_index": 0}
+    written = match_score(RESUME, JD, include_keywords=[keyword], additions=[bullet])
+    assert written["percent"] == round(100 * (len(covered) + 1) / total)
+
+
+def test_match_score_ignores_bullet_without_its_keyword_and_unknown_ticks():
+    from app.tailor import match_score
+    covered, gaps = analyze(RESUME, JD)
+    base = match_score(RESUME, JD)["percent"]
+    bad = {"keyword": gaps[0], "bullet": "Did unrelated work", "job_index": 0}
+    assert match_score(RESUME, JD, additions=[bad])["percent"] == base
+    assert match_score(RESUME, JD, include_keywords=[covered[0]])["percent"] == base
+
+
+def test_match_score_none_when_jd_has_no_keywords():
+    from app.tailor import match_score
+    assert match_score(RESUME, "Friendly team and good coffee.") == {"percent": None, "covered": 0, "total": 0}

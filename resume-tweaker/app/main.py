@@ -9,7 +9,15 @@ from pydantic import BaseModel, Field
 
 from .convert import ConvertError, capabilities, to_docx, to_pdf
 from .remote import RemoteError, fetch_tex
-from .tailor import AdditionError, analyze, core_subsections, experience_jobs, extract_jd_keywords, tailor
+from .tailor import (
+    AdditionError,
+    analyze,
+    core_subsections,
+    experience_jobs,
+    extract_jd_keywords,
+    match_score,
+    tailor,
+)
 
 MAX_CHARS = 200_000
 STATIC_DIR = Path(__file__).parent / "static"
@@ -42,6 +50,11 @@ class TailorRequest(ResumeJD):
     reorder: bool = True
     additions: list[Addition] = Field(default_factory=list, max_length=100)
     placements: list[Placement] = Field(default_factory=list, max_length=500)
+
+
+class MatchRequest(ResumeJD):
+    include_keywords: list[str] = Field(default_factory=list, max_length=500)
+    additions: list[Addition] = Field(default_factory=list, max_length=100)
 
 
 class ResumeOnly(BaseModel):
@@ -104,6 +117,16 @@ def analyze_route(req: ResumeJD) -> dict:
         "covered": covered,
         "gaps": gaps,
     }
+
+
+@app.post("/api/match")
+def match_route(req: MatchRequest) -> dict:
+    return match_score(
+        req.resume_tex,
+        req.jd_text,
+        include_keywords=req.include_keywords,
+        additions=[a.model_dump() for a in req.additions],
+    )
 
 
 @app.post("/api/jobs")

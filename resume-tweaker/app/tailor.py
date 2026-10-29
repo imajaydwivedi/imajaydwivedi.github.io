@@ -100,6 +100,33 @@ def analyze(resume_tex: str, jd_text: str) -> tuple[list[str], list[str]]:
     return covered, gaps
 
 
+def match_score(
+    resume_tex: str,
+    jd_text: str,
+    include_keywords: list[str] | None = None,
+    additions: list[dict] | None = None,
+) -> dict:
+    """Percent of job keywords the resume covers, counting the user's choices so far.
+
+    A keyword in the resume counts in full. A missing keyword counts in full when the user
+    wrote an experience bullet for it, and half when only ticked (Core Competencies only).
+    Unticked keywords count for nothing. Bullets that do not contain their keyword are ignored.
+    """
+    covered, gaps = analyze(resume_tex, jd_text)
+    total = len(covered) + len(gaps)
+    if not total:
+        return {"percent": None, "covered": 0, "total": 0}
+    ticked = {k for k in include_keywords or [] if k in gaps}
+    with_bullet = {
+        a["keyword"] for a in additions or []
+        if a["keyword"] in gaps and _group_in_text(" ".join(a["bullet"].split()), ALIAS_BY_LABEL[a["keyword"]])
+    }
+    points = len(covered) + sum(
+        1.0 if k in with_bullet else 0.5 if k in ticked else 0.0 for k in gaps
+    )
+    return {"percent": round(100 * points / total), "covered": len(covered), "total": total}
+
+
 def _count_matches(fragment: str, keywords: list[str]) -> int:
     plain = strip_latex(fragment)
     return sum(1 for k in keywords if _group_in_text(plain, ALIAS_BY_LABEL.get(k, [k])))

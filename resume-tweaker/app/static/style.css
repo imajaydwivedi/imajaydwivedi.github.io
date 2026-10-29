@@ -109,6 +109,12 @@ button.primary { background: var(--accent); border-color: var(--accent); color: 
 #status, #tailor-status { color: var(--muted); font-size: 14px; }
 #status.error, #tailor-status.error { color: var(--warn); }
 
+.match { display: grid; gap: 6px; margin: 0 0 16px; }
+.match-score { display: flex; align-items: baseline; gap: 4px; }
+.match-score strong { font-size: 1.6rem; color: var(--accent); }
+.match-bar { height: 8px; border-radius: 999px; background: var(--chip); overflow: hidden; }
+.match-bar span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+
 .kw-block { margin: 16px 0; }
 .kw-block h3 { font-size: .95rem; margin: 0 0 4px; }
 .muted { color: var(--muted); margin: 0 0 8px; }
