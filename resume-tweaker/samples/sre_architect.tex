@@ -33,12 +33,12 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
 
 \section{Core Competencies}
 \begin{itemize}
-  \item \textbf{Leadership and Reliability:} Leadership and Stakeholder Management, Service Reliability, SLI, SLO, SLA, Reliability Engineering, Incident Response, Root Cause Analysis, Proof of Concept, Problem Management, On-Call, Capacity Planning, Customer-Facing
-  \item \textbf{Databases:} SQL Server, PostgreSQL, MongoDB, Performance Tuning, Query Optimization, High Availability and DR, Disaster Recovery, MySQL
-  \item \textbf{Cloud and Containers:} Cloud Architecture, Cloud Infrastructure, AWS, Azure, GCP, EC2, RDS, Containers, Kubernetes, Distributed Systems, Microservices, Virtualization, VMware, KVM, Hyper-V, Cost Management, Networking, FTP, SMTP
+  \item \textbf{Leadership and Reliability:} Leadership and Stakeholder Management, Service Reliability, SLI, SLO, SLA, Reliability Engineering, Incident Response, Root Cause Analysis, Proof of Concept, Problem Management, On-Call, Capacity Planning, Customer-Facing, Ownership, Problem Solving, Technical Analysis, Documentation
+  \item \textbf{Databases:} SQL Server, PostgreSQL, MongoDB, Performance Tuning, Query Optimization, High Availability and DR, Disaster Recovery, MySQL, Backup and Recovery
+  \item \textbf{Cloud and Containers:} Cloud Architecture, Cloud Infrastructure, AWS, Azure, GCP, EC2, RDS, Containers, Kubernetes, Distributed Systems, Microservices, Virtualization, VMware, KVM, Hyper-V, Cost Management, Networking, FTP, SMTP, Platform Resilience
   \item \textbf{Automation and DevOps:} Infrastructure as Code, Automation, Standardization, Terraform, Ansible, CI/CD, Deployment Pipelines, GitHub Actions, ArgoCD, Python, Shell Scripting, Open-Source Development, DNS, LDAP, Bare Metal, Linux Kernel, Configuration Management
   \item \textbf{Monitoring and AI:} Monitoring and Observability, Alerting, ELK Stack, Prometheus, Grafana, Generative AI, AI Agents (LangChain, Ollama)
-  \item \textbf{Security and Compliance:} Encryption, Identity and Access Management, Least Privilege, Security Controls, Regulatory Compliance, Business Continuity
+  \item \textbf{Security and Compliance:} Encryption, Identity and Access Management, Least Privilege, Security Controls, Regulatory Compliance, Business Continuity, Secure Development
 \end{itemize}
 
 \section{Skills}
@@ -60,9 +60,9 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
   \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Worked on Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker/Kubernetes as the control plane and AWS, Azure, and GCP as the data plane
   \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's DBaaS platform on AWS and Azure, reducing provisioning time to 20 minutes
-  \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
-  \item Used root cause analysis to debug production issues and implement customer fixes during 24x7 on-call support
-  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
+  \item Added data collection and monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
+  \item Performed triage and led critical incident management for production issues, using root cause analysis to debug and implement customer fixes during 24x7 on-call support
+  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling scalable, self-service concurrent deployments
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
 \end{itemize}
 \vspace{14.7pt}
@@ -70,27 +70,27 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
 
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
-  \item Automated common database team activities, such as installation, configuration, monitoring, and alerting, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
+  \item Automated common database team activities, such as installation, configuration, monitoring, and alerting, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty escalation policies for on-premises and cloud Managed Instances
   \item Built Deployment Pipelines in GitHub Actions, using Ansible in the background, to set up multi-datacenter HA with a 3-node Patroni PostgreSQL cluster in the primary data center and a 3-node Patroni cluster in the secondary data center, linked by cascading streaming replication managed by Patroni, saving 80 hours per week of SRE effort with a single-click workflow
   \item Automated AWS RDS and Aurora PostgreSQL database deployment and maintenance using Terraform
   \item Created a GitHub repo-based approach to baselining servers, simplifying monitoring with Prometheus and Grafana
-  \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
+  \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years through demand forecasting and time-series analysis of past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
   \item Baselined all Windows and Linux servers using Prometheus and Grafana
   \item Automated standalone PostgreSQL setup using Ansible
-  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
+  \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, applied security patching by upgrading SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
   \item Implemented database security controls for SQL Server instances, including encryption, access hardening, and auditing of privileged access to meet regulatory compliance requirements
-  \item Owned business continuity for PostgreSQL clusters, maintaining and testing failover and recovery procedures
+  \item Owned business continuity for PostgreSQL clusters, maintaining and testing failover and recovery procedures with recovery safeguards
   \item Provided production support for PostgreSQL databases on a 24x7 on-call rotation, meeting SLA commitments for availability and incident response
   \item Built a DB AI agent with LangChain and Ollama (local LLMs) that answers natural-language SQL Server performance questions by querying SQLMonitor data
-  \item Ran Problem Management for P1/P2 database incidents in Jira, performing an RCA for each database incident and representing the DBA team in CAB meetings
+  \item Ran Problem Management for P1/P2 database incidents in Jira, performing a postmortem and RCA for each database incident and representing the DBA team in CAB change approvals
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}
 
 \textit{Database Reliability Engineer}\\[-5pt]
 \begin{itemize}
-  \item Built automation to prevent common issues such as tempdbSaver and LogSaver
+  \item Ran incident analysis on historical incidents and built automated remediation to prevent common issues such as tempdbSaver and LogSaver
   \item Applied reliability engineering as a Database Reliability Engineer, upgrading 30 critical SQL clusters and AGs in 12 hours to avoid a week-long downtime
   \item Resolved hundreds of incidents by moving 38 TB of AG databases with PowerShell
   \item Improved database reliability by automating ScriptOut of entire SQL Server instances for disaster recovery
@@ -103,24 +103,24 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
   \item Implemented monitoring and alerting with Datadog
   \item Reduced performance incidents by 80\% by building Delta Index Defragmentation automation for replicated and HADR databases
   \item Reduced transactional replication issues by 80\% using latency monitoring infrastructure
-  \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
+  \item Drove continuous improvement by saving 40+ hours through automating SQL Server deployment and configuration using PowerShell
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{United Health Group}\hfill \textit{October 2016 - February 2018}
 
 \textit{Senior SQL DBA}\\[-5pt]
 \begin{itemize}
-  \item Saved \$1 million per year through DB space capacity automation
-  \item Handled incident management for production issues during 24x7 on-call support, practicing stakeholder management by directly interacting with customers to debug and fix critical customer-facing performance and deployment issues
-  \item Improved performance issues by 50\% and reduced VLDB maintenance time
+  \item Achieved cost optimization worth \$1 million per year through DB space capacity automation
+  \item Handled incident management for production issues during 24x7 on-call support, providing incident communication while practicing stakeholder management and cross-functional collaboration by directly interacting with customers to debug and fix critical customer-facing performance and deployment issues
+  \item Ran performance diagnostics and improved performance issues by 50\% and reduced VLDB maintenance time
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Ericsson Global}\hfill \textit{June 2015 - October 2016}
 
 \textit{Technical Lead}\\[-5pt]
 \begin{itemize}
-  \item Achieved a 3x performance improvement through advanced query optimization, such as recursive CTEs and table partitioning
-  \item Mentored 18+ developers in following best practices and guidelines
+  \item Resolved performance bottlenecks and achieved a 3x performance improvement through advanced query optimization, such as recursive CTEs and table partitioning
+  \item Mentored 18+ developers through knowledge sharing of best practices and guidelines
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{TATA Consultancy Services}\hfill \textit{March 2011 - June 2015}
@@ -140,7 +140,7 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
 \begin{itemize}
   \item Built using T-SQL, PowerShell, Python, and Grafana
   \item Monitoring 500+ SQL Servers across environments
-  \item Sends observability alerts to Slack, PagerDuty, and email
+  \item Built a notification service with integrations to Slack, PagerDuty, and email for observability alerts
   \item Built-in auto-actions to clear and resolve issues
 \end{itemize}
 \vspace{14.7pt}
@@ -149,7 +149,7 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
 \textit{PowerShell module with cmdlets for SQL Server DBA activities} (\href{https://github.com/imajaydwivedi/SQLDBATools}{GitHub})
 \begin{itemize}
   \item Covers server inventory, disk and space estimation, backup history, permission audits, and maintenance job setup, reducing manual DBA effort by 60\% across 120+ servers
-  \item Built a monitoring and alerting system with Grafana dashboards, auto-clearing alerts, email notifications, and alert suppression
+  \item Built a monitoring and alerting system with performance reporting in Grafana dashboards and noise reduction through auto-clearing alerts, email notifications, and alert suppression
   \item Published to PSGallery for installation with \texttt{Install-Module}
 \end{itemize}
 \vspace{14.7pt}
@@ -157,8 +157,8 @@ Site Reliability Engineer and Cloud Solution Architect with 15+ years of experie
 
 \textit{LLM-powered SQL agent that answers natural-language performance questions about SQL Server instances monitored by SQLMonitor} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
 \begin{itemize}
-  \item Built using Python, LangChain, Ollama, Streamlit, and SQLMonitor
-  \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements, enabling application teams to troubleshoot performance problems themselves
+  \item Built agentic workflows using Python, LangChain, Ollama, Streamlit, and SQLMonitor
+  \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements, providing operational decision support so application teams can troubleshoot performance problems themselves
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{HadrSync}\hfill \textit{January 2021 - Present}
