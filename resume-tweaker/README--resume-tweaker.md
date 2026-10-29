@@ -20,6 +20,8 @@ No job description? Leave it empty and press **Analyze**. The keyword analysis i
 
 The PDF and DOCX buttons appear only when the server has the converters. The container includes them.
 
+## IMPORTANT: The "Keywords library" file keywords.py should be updated from time to time using various desired Job Descriptions
+
 ## Run it (container)
 
 This uses the system Docker engine (`/var/run/docker.sock`), which starts at boot. Docker Desktop is not needed. If Docker Desktop is installed, make sure it is not holding port 8080, or the start will fail with "address already in use".
