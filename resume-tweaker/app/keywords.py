@@ -308,7 +308,7 @@ KEYWORD_GROUPS = [
     ("Pulumi", ["Pulumi"]),
     ("Azure Data Factory", ["Azure Data Factory"]),
     ("Azure Data Lake", ["Azure Data Lake"]),
-    ("Databricks", ["Databricks"]),
+    ("Databricks", ["Databricks", "Azure Databricks"]),
     # Disaster recovery and resilience
     ("RTO/RPO", ["RTO", "RPO", "RTO/RPO", "Recovery Time Objective", "Recovery Point Objective"]),
     ("Failover", ["Failover", "Automated Failover"]),
@@ -683,7 +683,7 @@ KEYWORD_GROUPS = [
     ("Power BI Certification", ["Power BI Data Analyst", "PL-300"]),
     # Microsoft Fabric and Azure data stack
     ("Fabric Pipelines", ["Fabric Pipelines", "Fabric Pipeline", "Fabric Dataflows", "Dataflows", "Dataflow"]),
-    ("Lakehouse", ["Lakehouse", "Lakehouses", "Fabric Lakehouse"]),
+    ("Lakehouse", ["Lakehouse", "Lakehouses", "Fabric Lakehouse", "Data Lakehouse"]),
     ("OneLake", ["OneLake"]),
     ("On-Premises Data Gateway", ["On-Premises Data Gateway", "Data Gateway", "Gateway Refresh"]),
     ("Azure Synapse Analytics", ["Azure Synapse Analytics", "Azure Synapse", "Synapse Analytics", "Synapse Spark"]),
@@ -1692,7 +1692,38 @@ KEYWORD_GROUPS = [
     ("Large-Scale Systems", ["Large-Scale Systems", "Large-Scale Production Systems", "Large-Scale Production Platforms"]),
     ("Reliability Objectives", ["Reliability Objectives", "Reliability Objective"]),
     ("Cloud Networking", ["Cloud Networking"]),
+
+    # Round 60: Solution Architect Data & AI JD (agent frameworks, RAG and vector stores, AI evaluation, data mesh, Azure ML/AKS)
+    ("LangGraph", ["LangGraph"]),
+    ("LCEL", ["LCEL", "LangChain Expression Language"]),
+    ("Semantic Kernel", ["Semantic Kernel"]),
+    ("Context Engineering", ["Context Engineering", "Context Pipelines"]),
+    ("Tool Routing", ["Tool Routing"]),
+    ("Agent Memory", ["Agent Memory", "Memory Strategies"]),
+    ("Deterministic Workflows", ["Deterministic Workflows", "Deterministic Workflow"]),
+    ("Azure AI Search", ["Azure AI Search", "Azure Cognitive Search"]),
+    ("Pinecone", ["Pinecone"]),
+    ("Weaviate", ["Weaviate"]),
+    ("pgvector", ["pgvector"]),
+    ("Embeddings", ["Embeddings", "Embedding Lifecycle", "Embedding Pipelines"]),
+    ("Chunking Strategies", ["Chunking", "Chunking Strategies"]),
+    ("Re-ranking", ["Re-ranking", "Reranking"]),
+    ("Fallback Logic", ["Fallback Logic", "Fallback Strategies"]),
+    ("AI Evaluation", ["Evaluation Frameworks", "Agent Evaluation", "Model Evaluation", "LLM Evaluation"]),
+    ("Hallucination Detection", ["Hallucination Detection"]),
+    ("Cost Control", ["Cost Control", "Cost Controls", "Latency and Cost Controls"]),
+    ("Data Mesh", ["Data Mesh"]),
+    ("Interoperability", ["Interoperability", "Data Interoperability"]),
+    ("Azure Machine Learning", ["Azure ML", "Azure Machine Learning"]),
+    ("Azure Kubernetes Service", ["AKS", "Azure Kubernetes Service"]),
+    ("Feature Stores", ["Feature Stores", "Feature Store"]),
+    ("Enterprise Architecture", ["Enterprise Architecture"]),
+    ("Model Monitoring", ["Model Monitoring"]),
+    ("Model Registry", ["Model Registry"]),
+    ("Failure Mode Analysis", ["Failure Mode Analysis", "Failure Mode Handling", "Failure Modes"]),
+    ("Production Deployment", ["Production Deployment"]),
 ]
+
 
 
 
