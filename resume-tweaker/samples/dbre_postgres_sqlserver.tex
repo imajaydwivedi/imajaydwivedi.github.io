@@ -33,14 +33,14 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 
 \section{Core Competencies}
 \begin{itemize}
-  \item \textbf{PostgreSQL DBA:} PostgreSQL, Database Administration, Database Architecture, Database Installation, High Availability (Patroni), Streaming Replication, Read Replicas, Sharding, Table Partitioning, Explain Plans, Query Optimization, Performance Tuning, Performance Troubleshooting, pgbench Stress Testing, Rolling Upgrades, Database Migration (CentOS to RHEL), Backup and Recovery, On-Premises PostgreSQL, Amazon RDS and Aurora PostgreSQL
+  \item \textbf{PostgreSQL DBA:} PostgreSQL, Database Administration, Database Architecture, Database Installation, High Availability (Patroni), Streaming Replication, Read Replicas, Sharding, Table Partitioning, Explain Plans, Query Optimization, Performance Tuning, Performance Troubleshooting, pgbench Load Testing and Stress Testing, Rolling Upgrades, Database Migration (CentOS to RHEL), Backup and Recovery, On-Premises PostgreSQL, Amazon RDS and Aurora PostgreSQL
   \item \textbf{DBaaS and Multi-Cloud:} DBaaS, Multi-Cloud, AWS, Azure, GCP, Cloud Infrastructure, Database Scaling (vertical and horizontal), Containerized Databases on Kubernetes, Distributed Systems, Azure SQL, Amazon RDS, Cloud Migration
   \item \textbf{SQL Server DBA:} Always On Availability Groups, Failover Clustering, Log Shipping, Transactional Replication, Change Data Capture (CDC), Index Maintenance, Table Partitioning, Query Store, Performance Tuning, Amazon RDS for SQL Server, SQL Server on Azure VMs
   \item \textbf{Reliability and Incidents:} Database Reliability Engineering, Site Reliability Engineering, High Availability and Disaster Recovery, Business Continuity, Incident Management, Incident Response, Root Cause Analysis, On-Call Rotations, SLA Commitments, 24x7 Operations, Operational Standards
   \item \textbf{Security and Access Control:} Database Security, Roles and Permissions, RBAC, Access Control, Least Privilege, Auditing, Transparent Data Encryption, Vulnerability Assessment
   \item \textbf{Automation and Scripting:} Infrastructure as Code, Terraform, Ansible, Automation Frameworks, Scripting, CI/CD, GitHub Actions, Deployment Automation, PowerShell, Python, Shell Scripting, Cost Optimization, Generative AI, AI Tooling
   \item \textbf{Monitoring and Observability:} Observability, Monitoring, Alerting, Prometheus, Grafana, Datadog, CloudWatch, PagerDuty, Dashboards, SQL Server Profiler
-  \item \textbf{Collaboration and Leadership:} Cross-Functional Collaboration, Communication Skills, Stakeholder Management, Problem Solving, Technical Leadership, Mentoring
+  \item \textbf{Collaboration and Leadership:} Cross-Functional Collaboration, Communication Skills, Stakeholder Management, Problem Solving, Ownership, Technical Leadership, Mentoring
 \end{itemize}
 
 \section{Skills}
@@ -61,11 +61,11 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 \begin{itemize}
   \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
   \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane, reducing provisioning time to 20 minutes
-  \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
+  \item Designed data migration automation for PostgreSQL CentOS-to-RHEL migration using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
   \item Used root cause analysis to debug production issues and implement fixes for customers during 24x7 on-call support
-  \item Provided technical leadership on PostgreSQL architecture for Tessell's DBaaS SaaS platform, covering provisioning, high availability, and day 2 operations, and mentoring engineers
+  \item Made architectural decisions and trade-off analysis on PostgreSQL architecture for Tessell's DBaaS SaaS platform, covering provisioning, high availability, and day 2 operations, and mentored engineers
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{AngelOne}\hfill \textit{February 2022 - February 2026}
@@ -74,7 +74,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 \begin{itemize}
   \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
   \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
-  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, and deadlocks
+  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, lock management, and deadlocks
   \item Automated AWS database services across IaaS and PaaS, including RDS and Aurora PostgreSQL, deployment and maintenance using Terraform
   \item Created a GitHub repo-based approach to baselining all Windows Server and Linux servers, simplifying database monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
@@ -86,7 +86,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Designed read replicas for PostgreSQL using streaming replication, forming replica sets that route read operations away from the primary
   \item Designed database architecture for sharding, table partitioning, and data lifecycle management for large PostgreSQL datasets, including time-series tables with retention, archival, and purge policies
   \item Used explain plans (EXPLAIN and EXPLAIN ANALYZE) to troubleshoot slow query performance and fix plan regressions in PostgreSQL
-  \item Established PostgreSQL security best practices and database standards for configuration, backups, and security, and delivered internal training on them
+  \item Established PostgreSQL architectural standards and security best practices for configuration, backups, and security, and delivered internal training on them
   \item Supported Redis caching for PostgreSQL-backed applications, troubleshooting cache and database interaction issues
   \item Performed SQL Server administration across production instances, including patching, upgrades, and configuration
   \item Ran database health checks and statistics maintenance on SQL Server and PostgreSQL instances, reporting findings and remediating issues
@@ -95,7 +95,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Developed runbooks, knowledge base articles, and documentation for database operations, enabling on-call engineers to resolve incidents
   \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
   \item Established repeatable performance benchmarks and baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
-  \item Reviewed T-SQL code with code review guidance and managed source-controlled deployments for SQL Server releases
+  \item Reviewed T-SQL code against coding standards with code review guidance and managed source-controlled deployments for SQL Server releases
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}
