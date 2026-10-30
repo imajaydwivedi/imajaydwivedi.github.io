@@ -5,7 +5,7 @@ A local web app that tailors a LaTeX resume to a job description. It uses a rule
 ## What it does
 
 0. **Load the resume.** Paste the `.tex`, upload it, or paste a link to it. Links can point to a file on GitHub (`github.com/owner/repo/blob/branch/file.tex`) or Google Drive (`drive.google.com/file/d/ID/view`). A Drive file must be shared as "Anyone with the link". Only GitHub and Google Drive links are fetched.
-1. **Analyze.** Finds keywords from the catalog (1390 entries, covering DBA, SRE, cloud, and data terms, and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
+1. **Analyze.** Finds keywords from the catalog (1402 entries, covering DBA, SRE, cloud, and data terms, and extended with VMware, ESXi, Citrix, enterprise storage, layer 2/3, and similar terms) in the job description, and splits them into:
    - *Already in your resume*: included automatically.
    - *Missing*: unticked by default. Tick only what is true of you.
    - *% match*: the share of job keywords you cover. It updates live as you tick keywords and type bullets. A ticked keyword counts half, and a keyword with a bullet in your experience counts in full.
