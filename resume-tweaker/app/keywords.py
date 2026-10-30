@@ -48,7 +48,7 @@ KEYWORD_GROUPS = [
     ("Microservices", ["Microservices"]),
     ("High Availability", ["High Availability", "HA"]),
     ("Disaster Recovery", ["Disaster Recovery", "DR"]),
-    ("Business Continuity", ["Business Continuity", "BCP"]),
+    ("Business Continuity", ["Business Continuity", "Business Continuity Planning", "BCP"]),
     ("Load Balancing", ["Load Balancing"]),
     ("Networking", ["Networking", "Network Protocols"]),
     ("Layer 2/3 Networking", ["Layer 2/3", "Layer 2", "Layer 3"]),
@@ -371,7 +371,7 @@ KEYWORD_GROUPS = [
     ("Application Security", ["Application Security", "AppSec", "Application Security Best Practices"]),
     ("Post-Incident Analysis", ["Post-Incident Analysis", "Post-Incident Investigation"]),
     ("Data Exploration", ["Data Exploration"]),
-    ("Bachelor's Degree", ["Bachelor's Degree", "Bachelor's", "Bachelor of Engineering", "B.Tech"]),
+    ("Bachelor's Degree", ["Bachelor's Degree", "Bachelors Degree", "Bachelor's", "Bachelor of Engineering", "B.Tech"]),
 
     # Round 3: DBA and database reliability JDs (SQL Server, PostgreSQL, MySQL, cloud DBs)
     # SQL Server engine and tooling
@@ -396,12 +396,12 @@ KEYWORD_GROUPS = [
     ("Data Archival", ["Data Archival", "Data Archiving", "Archival", "Data Retention"]),
     ("Database Health Checks", ["Health Checks", "Health Check", "Health Check Reporting"]),
     ("Integrity Checks", ["DBCC", "Integrity Checks", "Integrity Validation"]),
-    ("Database Upgrades", ["Database Upgrades", "Patching"]),
+    ("Database Upgrades", ["Database Upgrades", "Patching", "Version Upgrades", "Major Version Upgrades", "Minor Version Upgrades"]),
     ("Database Migration", ["Database Migration", "Database Migrations", "Migration Strategies"]),
     ("Point-in-Time Recovery", ["Point-in-Time Recovery", "Point-in-Time Restore", "Point-in-time"]),
     ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategy", "Backup Strategies", "Backups", "Restore", "Restores", "Database Restore"]),
     ("Rollback Procedures", ["Rollback", "Rollback Procedures"]),
-    ("Standard Operating Procedures", ["SOPs", "SOP", "Standard Operating Procedures", "Operational Procedures", "Repeatable Procedures"]),
+    ("Standard Operating Procedures", ["SOPs", "SOP", "Standard Operating Procedures", "Standard Operating Procedure", "Operational Procedures", "Repeatable Procedures"]),
     ("Incident Severity", ["Sev-1", "Sev-2", "Sev 1", "Sev 2"]),
     ("Very Large Databases", ["VLDB", "VLDBs", "Very Large Databases"]),
     ("NVMe", ["NVMe"]),
@@ -409,7 +409,7 @@ KEYWORD_GROUPS = [
     # Cloud, PostgreSQL/MySQL and other data stores
     ("Azure SQL", ["Azure SQL", "Azure SQL Database", "Azure SQL DB", "Azure SQL Managed Instance", "Managed Instance", "Azure SQL Managed Instance"]),
     ("Azure Monitor", ["Azure Monitor"]),
-    ("Streaming Replication", ["Streaming Replication", "Logical Replication", "PostgreSQL Replication"]),
+    ("Streaming Replication", ["Streaming Replication", "Logical Replication", "PostgreSQL Replication", "Physical Replication"]),
     ("ProxySQL", ["ProxySQL"]),
     ("Amazon ElastiCache", ["ElastiCache", "Elasticache"]),
     ("Data Masking", ["Data Masking", "Data Virtualization"]),
@@ -486,7 +486,7 @@ KEYWORD_GROUPS = [
     ("SQL Server on Azure VMs", ["SQL Server on Azure Virtual Machines", "SQL Server on Azure VMs", "SQL Server on Azure"]),
     ("Azure Automation", ["Azure Automation"]),
     ("Cloud Migration", ["Cloud Migration", "Cloud Migrations", "Migration to Cloud"]),
-    ("Master's Degree", ["Master's Degree", "Master's", "Master of Science", "Master of Engineering"]),
+    ("Master's Degree", ["Master's Degree", "Masters Degree", "Master's", "Master of Science", "Master of Engineering", "MS in Computer Science", "MS in Computer Engineering"]),
     ("Cloud Certifications", ["AWS Certified", "AWS Certification", "Azure Certified", "Azure Certification", "Google Cloud Certified", "GCP Certification"]),
     ("SQL Server Certifications", ["Microsoft Certified", "Microsoft Certification", "SQL Server Certification"]),
 
@@ -542,8 +542,8 @@ KEYWORD_GROUPS = [
 
     # Round 10: Senior SQL Server DBA JD (admin, security, DR, ITIL, Fabric, cloud DB services)
     ("SQL Server Administration", ["SQL Server Administration", "SQL Server Administrator", "MS SQL Administration"]),
-    ("SQL Server Installation", ["SQL Server Installation", "SQL Server Installations", "SQL Server Configuration"]),
-    ("Database Maintenance", ["Database Maintenance", "Maintenance Plans", "Maintenance Solution"]),
+    ("SQL Server Installation", ["SQL Server Installation", "SQL Server Installations", "Install SQL Server", "SQL Server Configuration"]),
+    ("Database Maintenance", ["Database Maintenance", "Maintenance Plans", "Maintenance Solution", "VACUUM", "Autovacuum", "VACUUM ANALYZE", "REINDEX"]),
     ("Database Security", ["Database Security", "SQL Server Security", "SQL Server Access Management"]),
     ("Roles and Permissions", ["Roles and Permissions", "Permissions Management", "User Access Management", "User and Role Management", "User Management", "Role Management"]),
     ("Third-Party Backup Tools", ["Third-Party Backup Tools", "Third-Party Backup", "Third-Party Backup Solutions"]),
@@ -1369,7 +1369,7 @@ KEYWORD_GROUPS = [
     ("Data Flow Documentation", ["Data Flow Documentation", "Data Flow Diagrams", "Schema Documentation"]),
     ("Self-Service Reporting", ["Self-Service Reporting", "Self-Service BI", "Self-Service Analytics"]),
     ("Inefficient Query Detection", ["Inefficient Queries", "Inefficient SQL", "Query Inefficiencies"]),
-    ("Security Best Practices", ["Security Best Practices", "Database Security Best Practices"]),
+    ("Security Best Practices", ["Security Best Practices", "Database Security Best Practices", "PostgreSQL Security", "PostgreSQL Security Best Practices"]),
 
     # Round 46: D. E. Shaw QS Dev Principal Manager JD (HPC schedulers, GPU and RDMA networking, Nix/Bazel build tooling, leadership)
     ("ZooKeeper", ["ZooKeeper", "Apache ZooKeeper"]),
@@ -1459,7 +1459,7 @@ KEYWORD_GROUPS = [
     ("Diversity and Inclusion", ["Diversity and Inclusion", "Inclusivity", "Diverse Perspectives"]),
     ("Talent Strategy", ["Talent Strategy", "Talent Acquisition"]),
     ("Interviewing", ["Interviewing", "Candidate Interviews", "Candidate Assessment"]),
-    ("Continuous Learning", ["Continuous Learning"]),
+    ("Continuous Learning", ["Continuous Learning", "Self-Learning", "Independent Learning"]),
     ("Budget Management", ["Budget Management", "Budgeting", "Budgets"]),
     ("Triage", ["Triage", "Technical Triage"]),
     ("Technical Analysis", ["Technical Analysis"]),
@@ -1527,7 +1527,7 @@ KEYWORD_GROUPS = [
     # Round 51: Staff Database Engineer JD (DB operations for hosted prod/non-prod, OCI, GoldenGate/Fivetran/DMS migrations, SNS, PAM tools)
     ("Database Engineering", ["Database Engineering", "Database Engineer", "Staff Database Engineer"]),
     ("Database Observability", ["Database Observability", "Observability Tools"]),
-    ("Database Installation", ["Database Installation", "Database Installations", "Database Software Installation", "Database Software Installations"]),
+    ("Database Installation", ["Database Installation", "Database Installations", "Database Software Installation", "Database Software Installations", "PostgreSQL Installation", "Source Code Installation", "RPM Installation"]),
     ("Database Builds", ["Database Builds", "Database Build", "Build Databases"]),
     ("Oracle Support", ["Oracle Support", "Oracle Support Processes", "Oracle Support Requests"]),
     ("Vendor Support", ["Vendor Support", "Vendor Technical Support", "Database Vendors", "Database Vendor"]),
@@ -1593,6 +1593,25 @@ KEYWORD_GROUPS = [
     ("Recurrence Reduction", ["Recurring Failures", "Recurring Failure", "Repeat Failures", "Recurrence Reduction", "Recurring Incidents"]),
     ("Observability Standards", ["Observability Standards", "Instrumentation Standards"]),
     ("Multi-Application Estates", ["Multi-Application", "Multi-Application Estate", "Multi-Application Estates", "Multi-Application Production"]),
+
+    # Round 54: Apple AiDP Postgres Database Team JD (PostgreSQL internals, MVCC, upgrades with near-zero downtime, replication, pgbench, Oracle-to-PostgreSQL, 12x7 L3 on-call)
+    ("Data Services", ["Data Services"]),
+    ("PostgreSQL Architecture", ["PostgreSQL Architecture", "PostgreSQL Engine Architecture"]),
+    ("Database Parameter Tuning", ["Database Parameters", "Parameter Tuning", "Database Configuration Tuning", "PostgreSQL Parameters"]),
+    ("L2/L3 Support", ["L2 Support", "L3 Support", "L2/L3 Support", "L3 On-Call"]),
+    ("Outage Analysis", ["Outage Analysis", "Outage Investigation"]),
+    ("High-Volume Systems", ["High-Volume Systems", "High-Volume Environments", "High Volume Systems"]),
+    ("Incremental Backups", ["Incremental Backups", "Incremental Backup", "Differential Backups", "Differential Backup"]),
+    ("Online Backups", ["Online Backups", "Online Backup"]),
+    ("pg_dump", ["pg_dump", "pg_restore", "pg_basebackup"]),
+    ("AliCloud", ["AliCloud", "Alibaba Cloud"]),
+    ("Delivery Timelines", ["Delivery Timelines", "Tight Deadlines", "Tight Delivery Timelines"]),
+    ("Creative Problem Solving", ["Creative Problem Solving", "Out-of-the-Box Thinking", "Creative Thinking"]),
+    ("pgbench", ["pgbench"]),
+    ("Oracle to PostgreSQL Migration", ["Oracle to PostgreSQL Migration", "Oracle to PostgreSQL", "Oracle-to-PostgreSQL", "Oracle to Postgres"]),
+    ("AI Tooling", ["AI Tooling", "AI Tools", "AI Tooling and MCP Servers"]),
+    ("RPM Packaging", ["RPM"]),
 ]
+
 
 

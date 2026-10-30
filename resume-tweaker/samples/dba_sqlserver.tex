@@ -35,14 +35,14 @@ SQL Server Database Administrator, Performance Engineer, and Database Architect 
 \begin{itemize}
   \item \textbf{SQL Server Performance Engineering:} Performance Engineering, Performance Tuning, Query Optimization, Query Store, Dynamic Management Views (DMVs), Execution Plan Analysis, Wait Statistics, Extended Events, Indexing Strategies, Index Tuning, Statistics Maintenance, Lock Management, Deadlock Analysis, Concurrency, Memory Grants, Parameter Sensitivity, Plan Regression, Stored Procedure Tuning, Performance Bottlenecks
   \item \textbf{Database Architecture and Modernization:} Database Architecture, Database Design, Data Modeling, Table Partitioning, Database Modernization, Very Large Databases (VLDB), Multi-Terabyte Databases, Capacity Planning, Database Migration, Technical Leadership, Technical Decision-Making
-  \item \textbf{SQL Server Administration:} SQL Server Administration, Always On Availability Groups, Failover Clustering, Log Shipping, Transactional Replication, Change Data Capture (CDC), Backup and Restore, Integrity Checks, Index Maintenance, Database Health Checks, Patching and Upgrades, Ola Hallengren Maintenance Solution
-  \item \textbf{AWS and Cloud Databases:} AWS Database Services, Amazon RDS for SQL Server, SQL Server on AWS EC2, Cloud Migration, Multi-Cloud, DBaaS, SQL Server on Azure Virtual Machines, Azure SQL Managed Instance, Azure SQL Database, IaaS, PaaS
+  \item \textbf{SQL Server Administration:} SQL Server Administration, Always On Availability Groups, Failover Clustering, Failover Cluster Instances (FCI), Log Shipping, Transactional Replication, Change Data Capture (CDC), Backup and Restore, Integrity Checks, Index Maintenance, Database Health Checks, Patch Management, Patching and Upgrades, Database Refreshes, Ola Hallengren Maintenance Solution
+  \item \textbf{AWS and Cloud Databases:} Cloud Infrastructure, AWS Database Services, Amazon RDS for SQL Server, SQL Server on AWS EC2, Cloud Migration, Multi-Cloud, DBaaS, SQL Server on Azure Virtual Machines, Azure SQL Managed Instance, Azure SQL Database, IaaS, PaaS
   \item \textbf{PostgreSQL:} PostgreSQL Administration, Performance Tuning, Patroni, Rolling Upgrades, Amazon Aurora, AWS RDS
-  \item \textbf{High Availability, DR and Incidents:} High Availability, Disaster Recovery, Business Continuity, Backup and Recovery, Incident Management, Priority Incident Management, Root Cause Analysis, On-Call Rotations, 24x7 Operations, SLA Commitments, Operational Standards
-  \item \textbf{Automation, CI/CD and IaC:} Infrastructure as Code, Terraform, Ansible, PowerShell, Python, T-SQL, Automation Frameworks, CI/CD, GitHub Actions, Git, Source-Controlled Deployments, Deployment Automation, SSIS, ETL/ELT, Capacity Planning
-  \item \textbf{Security and Access Control:} Database Security, Least Privilege, Identity and Access Management, Access Control, Auditing, Transparent Data Encryption (TDE), Always Encrypted, Vulnerability Assessment
+  \item \textbf{High Availability, DR and Incidents:} High Availability, Disaster Recovery, Business Continuity, Operational Resilience, Backup and Recovery, Incident Management, Priority Incident Management, Root Cause Analysis, On-Call Rotations, 24x7 Operations, SLA Commitments, Operational Standards
+  \item \textbf{Automation, CI/CD and IaC:} Infrastructure as Code, Terraform, Ansible, PowerShell, Python, T-SQL, Automation Frameworks, CI/CD, Database DevOps, GitHub Actions, Git, Source-Controlled Deployments, Database Deployments, Deployment Automation, SSIS, ETL/ELT, Capacity Planning
+  \item \textbf{Security and Access Control:} Database Security, Security Best Practices, Security Patching, Role-Based Access Control (RBAC), Least Privilege, Identity and Access Management, Access Control, Auditing, Transparent Data Encryption (TDE), Always Encrypted, Vulnerability Assessment
   \item \textbf{T-SQL Development and Standards:} T-SQL, Stored Procedures, Dynamic SQL, Code Review, Technical Standards, Database Best Practices, Database Design Patterns
-  \item \textbf{Monitoring and Leadership:} Observability, Monitoring, Alerting, Grafana, Prometheus, Dashboards, Mentoring, Stakeholder Management, Application Team Support, Ownership, Problem Solving, Written and Verbal Communication
+  \item \textbf{Monitoring and Leadership:} Observability, Monitoring, Alerting, Grafana, Prometheus, Dashboards, SQL Server Profiler, SolarWinds DPA, Mentoring, Stakeholder Management, Cross-Functional Collaboration, Operational Documentation, Standard Operating Procedures (SOPs), Application Team Support, Ownership, Problem Solving, Written and Verbal Communication
 \end{itemize}
 
 \section{Skills}
@@ -62,7 +62,7 @@ SQL Server Database Administrator, Performance Engineer, and Database Architect 
 \textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
   \item Provided technical leadership and technical decision-making on database architecture for Tessell's DBaaS SaaS platform, covering provisioning, high availability, and day 2 operations, and mentored engineers
-  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
+  \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling scalability through self-service concurrent deployments
   \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane, reducing provisioning time to 20 minutes
   \item Designed CentOS-to-RHEL migration automation for PostgreSQL using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
@@ -74,22 +74,22 @@ SQL Server Database Administrator, Performance Engineer, and Database Architect 
 
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
-  \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, lock management, and deadlocks
+  \item Performed performance troubleshooting by tuning SQL Server queries through execution plan analysis to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, lock management, and deadlocks
   \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
   \item Established repeatable performance baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Implemented database security controls for SQL Server instances, including encryption, access hardening, and auditing of privileged access to meet regulatory compliance requirements
   \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
   \item Automated AWS database services across IaaS and PaaS, including RDS for SQL Server, deployment and maintenance using Terraform
-  \item Performed SQL Server administration across production instances, including patching, upgrades, and configuration, and ran database health checks and statistics maintenance, reporting findings and remediating issues
-  \item Reviewed T-SQL code with code review guidance and managed source-controlled release deployments and schema changes for SQL Server
-  \item Established database best practices and technical standards for SQL Server configuration, backups, and security, and delivered internal training on them
+  \item Performed SQL Server administration and patch management across production instances, including upgrades and configuration, and ran database health checks and statistics maintenance, reporting findings and remediating issues
+  \item Reviewed T-SQL code with code review guidance and managed source-controlled database deployments and schema changes for SQL Server
+  \item Established database security best practices and technical standards for SQL Server configuration, backups, and security, and delivered internal training on them
   \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
   \item Created a GitHub repo-based approach to baselining all Windows Server and Linux servers, simplifying database monitoring with Prometheus and Grafana
   \item Provided production support for SQL Server and PostgreSQL databases on a 24x7 on-call rotation, meeting SLA commitments for availability and incident response
-  \item Owned business continuity for database clusters, maintaining and testing failover and recovery procedures
+  \item Owned business continuity and operational resilience for database clusters, maintaining and testing failover and recovery procedures
   \item Handled request management for database access, change, and provisioning requests within the team's incident and change workflow
-  \item Developed runbooks, knowledge base articles, and documentation for database operations, enabling on-call engineers to resolve incidents
+  \item Developed runbooks, Standard Operating Procedures (SOPs), knowledge base articles, and operational documentation for database operations, enabling on-call engineers to resolve incidents
   \item Led rolling upgrades of PostgreSQL clusters with minimal downtime, using Patroni-managed failover
   \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible, saving 80 hours per week of SRE effort with a single-click GitHub Actions workflow for cluster deployment and configuration
 \end{itemize}
@@ -110,10 +110,10 @@ SQL Server Database Administrator, Performance Engineer, and Database Architect 
 
 \textit{Database Administrator}\\[-5pt]
 \begin{itemize}
-  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, integrity checks, and recovery testing, automated scheduled refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
+  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, integrity checks, and recovery testing, automated scheduled database refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
   \item Reduced transactional replication issues by 80\% using latency monitoring infrastructure
   \item Reduced performance incidents by 80\% by building Delta Index Defragmentation automation for replicated and HADR databases
-  \item Implemented a change management process using SQL Database Projects, SQL DACPAC, and GitHub Actions
+  \item Implemented a database DevOps change management process using SQL Database Projects, SQL DACPAC, and GitHub Actions
   \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
   \item Implemented monitoring and alerting with Datadog
 \end{itemize}

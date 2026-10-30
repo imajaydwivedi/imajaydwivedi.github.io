@@ -33,12 +33,12 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 
 \section{Core Competencies}
 \begin{itemize}
-  \item \textbf{PostgreSQL DBA:} PostgreSQL, Database Administration, High Availability (Patroni), Streaming Replication, Read Replicas, Sharding, Table Partitioning, Explain Plans, Query Optimization, Performance Tuning, Performance Troubleshooting, Rolling Upgrades, Database Migration (CentOS to RHEL), Backup and Recovery, On-Premises PostgreSQL, Amazon RDS and Aurora PostgreSQL
+  \item \textbf{PostgreSQL DBA:} PostgreSQL, Database Administration, Database Architecture, Database Installation, High Availability (Patroni), Streaming Replication, Read Replicas, Sharding, Table Partitioning, Explain Plans, Query Optimization, Performance Tuning, Performance Troubleshooting, pgbench Stress Testing, Rolling Upgrades, Database Migration (CentOS to RHEL), Backup and Recovery, On-Premises PostgreSQL, Amazon RDS and Aurora PostgreSQL
   \item \textbf{DBaaS and Multi-Cloud:} DBaaS, Multi-Cloud, AWS, Azure, GCP, Cloud Infrastructure, Database Scaling (vertical and horizontal), Containerized Databases on Kubernetes, Distributed Systems, Azure SQL, Amazon RDS, Cloud Migration
   \item \textbf{SQL Server DBA:} Always On Availability Groups, Failover Clustering, Log Shipping, Transactional Replication, Change Data Capture (CDC), Index Maintenance, Table Partitioning, Query Store, Performance Tuning, Amazon RDS for SQL Server, SQL Server on Azure VMs
   \item \textbf{Reliability and Incidents:} Database Reliability Engineering, Site Reliability Engineering, High Availability and Disaster Recovery, Business Continuity, Incident Management, Incident Response, Root Cause Analysis, On-Call Rotations, SLA Commitments, 24x7 Operations, Operational Standards
-  \item \textbf{Security and Access Control:} Database Security, Roles and Permissions, Access Control, Least Privilege, Auditing, Transparent Data Encryption, Vulnerability Assessment
-  \item \textbf{Automation and Scripting:} Infrastructure as Code, Terraform, Ansible, Automation Frameworks, Scripting, CI/CD, GitHub Actions, Deployment Automation, PowerShell, Python, Shell Scripting, Cost Optimization
+  \item \textbf{Security and Access Control:} Database Security, Roles and Permissions, RBAC, Access Control, Least Privilege, Auditing, Transparent Data Encryption, Vulnerability Assessment
+  \item \textbf{Automation and Scripting:} Infrastructure as Code, Terraform, Ansible, Automation Frameworks, Scripting, CI/CD, GitHub Actions, Deployment Automation, PowerShell, Python, Shell Scripting, Cost Optimization, Generative AI, AI Tooling
   \item \textbf{Monitoring and Observability:} Observability, Monitoring, Alerting, Prometheus, Grafana, Datadog, CloudWatch, PagerDuty, Dashboards, SQL Server Profiler
   \item \textbf{Collaboration and Leadership:} Cross-Functional Collaboration, Communication Skills, Stakeholder Management, Problem Solving, Technical Leadership, Mentoring
 \end{itemize}
@@ -79,14 +79,14 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Created a GitHub repo-based approach to baselining all Windows Server and Linux servers, simplifying database monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
-  \item Automated multi-datacenter HA and standalone PostgreSQL setup using Ansible, saving 80 hours per week of SRE effort with a single-click GitHub Actions workflow for cluster deployment and configuration
+  \item Automated PostgreSQL database installation, standalone setup, and multi-datacenter HA using Ansible, saving 80 hours per week of SRE effort with a single-click GitHub Actions workflow for cluster deployment and configuration
   \item Provided production support for PostgreSQL databases on a 24x7 on-call rotation, meeting SLA commitments for availability and incident response
   \item Owned business continuity for PostgreSQL clusters, maintaining and testing failover and recovery procedures
   \item Led rolling upgrades and database upgrades of PostgreSQL clusters with minimal downtime, using Patroni-managed failover
   \item Designed read replicas for PostgreSQL using streaming replication, forming replica sets that route read operations away from the primary
-  \item Designed sharding, table partitioning, and data lifecycle management for large PostgreSQL datasets, including time-series tables with retention, archival, and purge policies
+  \item Designed database architecture for sharding, table partitioning, and data lifecycle management for large PostgreSQL datasets, including time-series tables with retention, archival, and purge policies
   \item Used explain plans (EXPLAIN and EXPLAIN ANALYZE) to troubleshoot slow query performance and fix plan regressions in PostgreSQL
-  \item Established database best practices and standards for PostgreSQL configuration, backups, and security, and delivered internal training on them
+  \item Established PostgreSQL security best practices and database standards for configuration, backups, and security, and delivered internal training on them
   \item Supported Redis caching for PostgreSQL-backed applications, troubleshooting cache and database interaction issues
   \item Performed SQL Server administration across production instances, including patching, upgrades, and configuration
   \item Ran database health checks and statistics maintenance on SQL Server and PostgreSQL instances, reporting findings and remediating issues
@@ -94,7 +94,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Handled request management for database access, change, and provisioning requests within the team's incident and change workflow
   \item Developed runbooks, knowledge base articles, and documentation for database operations, enabling on-call engineers to resolve incidents
   \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
-  \item Established repeatable performance baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
+  \item Established repeatable performance benchmarks and baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
   \item Reviewed T-SQL code with code review guidance and managed source-controlled deployments for SQL Server releases
 \end{itemize}
 \vspace{14.7pt}
@@ -174,7 +174,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 
 \textit{LLM-powered SQL agent that answers natural-language performance questions about SQL Server instances monitored by SQLMonitor} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
 \begin{itemize}
-  \item Built using Python, LangChain, Ollama, Streamlit, and SQLMonitor
+  \item Built generative AI tooling using Python, LangChain, Ollama, Streamlit, and SQLMonitor
   \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements, enabling application teams to troubleshoot performance problems themselves
 \end{itemize}
 \vspace{14.7pt}
