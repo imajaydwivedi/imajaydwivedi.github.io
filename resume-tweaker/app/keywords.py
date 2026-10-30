@@ -9,7 +9,7 @@ KEYWORD_GROUPS = [
     ("AWS", ["AWS", "Amazon Web Services"]),
     ("GCP", ["GCP", "Google Cloud Platform", "Google Cloud"]),
     ("Azure", ["Azure", "Microsoft Azure"]),
-    ("Kubernetes", ["Kubernetes", "K8s"]),
+    ("Kubernetes", ["Kubernetes", "K8s", "Kubernetes Platforms"]),
     ("Docker", ["Docker"]),
     ("Terraform", ["Terraform"]),
     ("Ansible", ["Ansible"]),
@@ -113,7 +113,7 @@ KEYWORD_GROUPS = [
     ("Splunk", ["Splunk"]),
     ("ELK Stack", ["ELK Stack", "ELK", "Kibana"]),
     ("Nagios", ["Nagios"]),
-    ("CloudWatch", ["CloudWatch"]),
+    ("CloudWatch", ["CloudWatch", "AWS CloudWatch"]),
     ("Thanos", ["Thanos"]),
     ("PagerDuty", ["PagerDuty"]),
     ("Dynatrace", ["Dynatrace"]),
@@ -135,7 +135,7 @@ KEYWORD_GROUPS = [
     ("Automation", ["Automation"]),
     ("DevOps", ["DevOps"]),
     ("Release Engineering", ["Release Engineering"]),
-    ("Deployment Pipelines", ["Deployment Pipelines"]),
+    ("Deployment Pipelines", ["Deployment Pipelines", "Delivery Pipelines"]),
 
     # ITSM / ticketing
     ("ServiceNow", ["ServiceNow"]),
@@ -150,11 +150,11 @@ KEYWORD_GROUPS = [
     ("Site Reliability Engineering", ["Site Reliability Engineering", "SRE", "SRE Practices", "SRE Principles"]),
     ("Incident Management", ["Incident Management", "Incident Life Cycle", "Incident Lifecycle"]),
     ("Incident Response", ["Incident Response"]),
-    ("On-Call", ["On-Call", "On Call", "Rotational On-Call", "On-Call Rotation"]),
+    ("On-Call", ["On-Call", "On Call", "Rotational On-Call", "On-Call Rotation", "Global On-Call", "On-Call Roster"]),
     ("Root Cause Analysis", ["Root Cause Analysis", "RCA", "Root-Cause Analysis", "Leading RCAs", "Leading Root Cause Analysis"]),
     ("Postmortem", ["Postmortem", "Post-Mortem", "Post-Incident Review", "Post-Incident Reviews"]),
     ("Problem Management", ["Problem Management"]),
-    ("Change Management", ["Change Management"]),
+    ("Change Management", ["Change Management", "Change Enablement"]),
     ("Production Readiness", ["Production Readiness"]),
     ("Capacity Planning", ["Capacity Planning", "Capacity Management", "Capacity Forecasting", "Growth Modeling", "Growth Modelling"]),
     ("SLI", ["SLI", "SLIs", "Service Level Indicator", "Service Level Indicators", "Service-Level Indicator", "Service-Level Indicators"]),
@@ -263,12 +263,12 @@ KEYWORD_GROUPS = [
     ("GitLab", ["GitLab"]),
     ("Bitbucket", ["Bitbucket"]),
     ("Artifactory", ["Artifactory"]),
-    ("Azure DevOps", ["Azure DevOps"]),
+    ("Azure DevOps", ["Azure DevOps", "ADO"]),
     # Containers, cloud and networking
     ("Service Mesh", ["Service Mesh", "Istio", "Linkerd"]),
     ("GKE", ["GKE", "Google Kubernetes Engine"]),
     ("ECS", ["ECS", "Elastic Container Service", "Amazon ECS"]),
-    ("EKS", ["EKS", "Elastic Kubernetes Service", "Amazon EKS"]),
+    ("EKS", ["EKS", "Elastic Kubernetes Service", "Amazon EKS", "AWS EKS"]),
     ("TCP/IP", ["TCP/IP", "TCP", "UDP"]),
     ("DNS", ["DNS"]),
     ("DHCP", ["DHCP"]),
@@ -491,7 +491,7 @@ KEYWORD_GROUPS = [
     ("SQL Server Certifications", ["Microsoft Certified", "Microsoft Certification", "SQL Server Certification"]),
 
     # Round 8: AMD Lead DevOps Platform Engineer JD (Kubernetes platform, AI/ML infrastructure, observability, security)
-    ("Platform Engineering", ["Platform Engineering", "Platform Engineer", "Platform Engineers"]),
+    ("Platform Engineering", ["Platform Engineering", "Platform Engineer", "Platform Engineers", "Cloud Platform Engineering"]),
     ("Internal Developer Platform", ["Internal Developer Platform", "Internal Developer Platforms", "IDP", "Self-Service Platform", "Self-Service Platforms", "Self-Service Infrastructure"]),
     ("Golden Paths", ["Golden Paths", "Golden Path"]),
     ("Platform APIs", ["Platform APIs", "Platform API"]),
@@ -744,7 +744,7 @@ KEYWORD_GROUPS = [
 
     # Round 17: Qualcomm Senior Lead Engineer Cloud Platform, DevOps & SRE JD (IoT cloud, Kubernetes, IaC, observability)
     # Cloud governance, cost and modernization
-    ("FinOps", ["FinOps"]),
+    ("FinOps", ["FinOps", "Cloud FinOps", "AI FinOps"]),
     ("Cloud Governance", ["Cloud Governance", "Resource Governance", "Governance Standards"]),
     ("Security Compliance Frameworks", ["Security Compliance", "Security Compliance Frameworks", "Compliance Frameworks"]),
     ("Modernization", ["Modernization", "Platform Modernization", "Application Modernization", "Engineering Transformation"]),
@@ -1011,7 +1011,7 @@ KEYWORD_GROUPS = [
     ("Cloudability", ["Cloudability", "Cloud-ability"]),
     ("CloudHealth", ["CloudHealth", "Cloud Health", "CloudHealth by VMware"]),
     ("Showback and Chargeback", ["Showback", "Chargeback", "Showback/Chargeback", "Showback and Chargeback"]),
-    ("Autoscaling", ["Autoscaling", "Auto-Scaling", "Auto Scaling"]),
+    ("Autoscaling", ["Autoscaling", "Auto-Scaling", "Auto Scaling", "Autoscaling Policies"]),
     ("Graviton Migration", ["Graviton", "Graviton Migration", "AWS Graviton"]),
     ("Idle and Underutilized Resources", ["Idle Resources", "Idle Resource", "Idle Infrastructure", "Underutilized", "Underutilized Infrastructure", "Over-Provisioned", "Over-Provisioned Workloads"]),
     ("Cloud Waste Reduction", ["Cloud Wastage", "Cloud Waste", "Wastage", "Reduce Waste"]),
@@ -1644,7 +1644,58 @@ KEYWORD_GROUPS = [
     ("Huge Pages", ["Huge Pages", "HugePages", "Huge Pages Configuration", "Huge Pages Tuning"]),
     ("Azure Flexible Server", ["Azure Flexible Server", "Azure Database for PostgreSQL Flexible Server"]),
     ("AlloyDB", ["AlloyDB", "AlloyDB for PostgreSQL"]),
+
+    # Round 57: Airflow/AWS data pipeline JD (custom DAGs and operators, Airflow on EKS, Firehose, Batch, Kinesis)
+    ("Airflow DAGs", ["Airflow DAGs", "Airflow DAG", "Custom Airflow DAGs", "DAGs", "Directed Acyclic Graphs"]),
+    ("Airflow Operators", ["Airflow Operators", "Custom Airflow Operators", "Custom Operators"]),
+    ("Airflow Management", ["Airflow on EKS", "Managing Airflow", "Airflow Management", "Airflow Administration"]),
+    ("Amazon Data Firehose", ["AWS Firehose", "Kinesis Data Firehose", "Firehose", "Amazon Data Firehose"]),
+    ("Amazon Kinesis", ["AWS Kinesis", "Amazon Kinesis"]),
+    ("AWS Batch", ["AWS Batch"]),
+
+    # Round 58: Macquarie database automation and observability JD (on-call roster, software delivery, ITIL change, secure automation)
+    ("Log Management", ["Log Management"]),
+    ("Database Concepts", ["Database Concepts", "Database Fundamentals"]),
+    ("Software Delivery", ["Software Delivery", "Software Delivery Practices"]),
+    ("Secure Automation", ["Secure Automation", "Secure Automation Solutions"]),
+    ("Cloud Services", ["Cloud Services", "Cloud Service"]),
+    ("Customer Focus", ["Customer Focus", "Customer-Focused", "Customer-Focus"]),
+    ("Database Certifications", ["Database Certifications", "Database Certification"]),
+
+    # Round 59: SRE / AI platform JD (LLMOps and model drift, AI gateways, load testing tools, AI FinOps, ADR/diagram skills)
+    ("Model Drift", ["Model Drift", "Drift Detection", "Model Drift Detection"]),
+    ("Output Variance", ["Output Variance"]),
+    ("Train/Serve Skew", ["Train/Serve Skew", "Training-Serving Skew", "Train-Serve Skew"]),
+    ("AI Control Plane", ["AI Control Plane", "Control Plane"]),
+    ("Model Gateway", ["Model Gateway", "Model Gateways", "AI Gateway"]),
+    ("LoadRunner", ["LoadRunner"]),
+    ("k6", ["k6"]),
+    ("JMeter", ["JMeter", "Apache JMeter"]),
+    ("Token and Inference Cost", ["Token Cost", "Token Costs", "Token-Cost Management", "Inference Cost", "GPU and Inference Cost"]),
+    ("Cost Attribution", ["Cost Attribution", "Token-Cost Attribution"]),
+    ("Segregation of Duties", ["Segregation of Duties", "Separation of Duties"]),
+    ("Deployment Approvals", ["Deployment Approvals", "Deployment Approval Gates"]),
+    ("Azure OpenAI", ["Azure OpenAI", "Azure OpenAI Service"]),
+    ("Vertex AI", ["Vertex AI", "Google Vertex AI"]),
+    ("MLflow", ["MLflow", "ML Flow"]),
+    ("LangChain", ["LangChain"]),
+    ("LangFuse", ["LangFuse", "Langfuse"]),
+    ("LangSmith", ["LangSmith"]),
+    ("Agent Orchestration", ["Agent Orchestration", "AI Agent Orchestration"]),
+    ("Object-Oriented Design", ["OOP", "OOD", "Object-Oriented Design", "Object-Oriented Programming", "Object Oriented Design"]),
+    ("Code Instrumentation", ["Code Instrumentation", "Instrumentation"]),
+    ("Technical Diagrams", ["Entity-Relationship Diagrams", "ERD", "ERDs", "Sequence Diagrams", "UML"]),
+    ("Extreme Programming", ["Extreme Programming"]),
+    ("Spec-Driven Development", ["Spec-Driven Development", "Spec-Driven Software Development", "AI-Augmented Development", "AI-Augmented Software Development"]),
+    ("Environment Integrity", ["Environment Integrity"]),
+    ("Multi-Environment Deployments", ["Multi-Environment Deployments", "Multi-Environment Delivery"]),
+    ("Large-Scale Systems", ["Large-Scale Systems", "Large-Scale Production Systems", "Large-Scale Production Platforms"]),
+    ("Reliability Objectives", ["Reliability Objectives", "Reliability Objective"]),
+    ("Cloud Networking", ["Cloud Networking"]),
 ]
+
+
+
 
 
 
