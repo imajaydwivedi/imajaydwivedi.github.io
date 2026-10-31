@@ -36,7 +36,7 @@ KEYWORD_GROUPS = [
     ("RHEL", ["RHEL"]),
     ("CentOS", ["CentOS"]),
     ("Ubuntu", ["Ubuntu"]),
-    ("Windows Server", ["Windows Server"]),
+    ("Windows Server", ["Windows Server", "Windows Server Administration", "Windows Administration"]),
     ("Solaris", ["Solaris"]),
     ("Hybrid Cloud", ["Hybrid Cloud", "Hybrid Infrastructure"]),
     ("Multi-Cloud", ["Multi-Cloud"]),
@@ -49,10 +49,10 @@ KEYWORD_GROUPS = [
     ("High Availability", ["High Availability", "HA"]),
     ("Disaster Recovery", ["Disaster Recovery", "Disaster Recovery Planning", "DR", "HA/DR"]),
     ("Business Continuity", ["Business Continuity", "Business Continuity Planning", "BCP"]),
-    ("Load Balancing", ["Load Balancing"]),
+    ("Load Balancing", ["Load Balancing", "Load Balancers", "Load Balancer"]),
     ("Networking", ["Networking", "Network Protocols"]),
     ("Layer 2/3 Networking", ["Layer 2/3", "Layer 2", "Layer 3"]),
-    ("Firewall", ["Firewall"]),
+    ("Firewall", ["Firewall", "Firewalls"]),
 
     # Programming
     ("Python", ["Python"]),
@@ -149,7 +149,7 @@ KEYWORD_GROUPS = [
     # SRE / operations concepts
     ("Site Reliability Engineering", ["Site Reliability Engineering", "SRE", "SRE Practices", "SRE Principles"]),
     ("Incident Management", ["Incident Management", "Incident Life Cycle", "Incident Lifecycle"]),
-    ("Incident Response", ["Incident Response"]),
+    ("Incident Response", ["Incident Response", "Outages", "Outage", "Outage Response"]),
     ("On-Call", ["On-Call", "On Call", "Rotational On-Call", "On-Call Rotation", "Global On-Call", "On-Call Roster"]),
     ("Root Cause Analysis", ["Root Cause Analysis", "RCA", "Root-Cause Analysis", "Leading RCAs", "Leading Root Cause Analysis"]),
     ("Postmortem", ["Postmortem", "Post-Mortem", "Post-Incident Review", "Post-Incident Reviews"]),
@@ -318,7 +318,7 @@ KEYWORD_GROUPS = [
     ("DDoS Mitigation", ["DDoS", "DDoS Mitigation"]),
     ("Recovery Testing", ["Recovery Testing", "Recovery Exercises", "Failure Simulation"]),
     # Networking and infrastructure services
-    ("VLAN", ["VLAN"]),
+    ("VLAN", ["VLAN", "VLANs"]),
     ("VXLAN", ["VXLAN", "VxLAN"]),
     ("SDN", ["SDN", "Software-Defined Networking"]),
     ("BGP", ["BGP"]),
@@ -371,7 +371,7 @@ KEYWORD_GROUPS = [
     ("Application Security", ["Application Security", "AppSec", "Application Security Best Practices"]),
     ("Post-Incident Analysis", ["Post-Incident Analysis", "Post-Incident Investigation"]),
     ("Data Exploration", ["Data Exploration"]),
-    ("Bachelor's Degree", ["Bachelor's Degree", "Bachelors Degree", "Bachelor's", "Bachelor of Engineering", "B.Tech"]),
+    ("Bachelor's Degree", ["Bachelor’s Degree", "Bachelor’s", "Bachelor's Degree", "Bachelors Degree", "Bachelor's", "Bachelor of Engineering", "B.Tech"]),
 
     # Round 3: DBA and database reliability JDs (SQL Server, PostgreSQL, MySQL, cloud DBs)
     # SQL Server engine and tooling
@@ -851,7 +851,7 @@ KEYWORD_GROUPS = [
     ("Risk-Based Prioritization", ["Risk-Based Prioritization", "Risk-Based Priority Decisions"]),
 
     # Round 21: Associate Architect, Cloud Engineering JD (reliability, automation, on-prem infrastructure, bonus DevOps and DR skills)
-    ("Cloud Engineering", ["Cloud Engineering"]),
+    ("Cloud Engineering", ["Cloud Engineering", "Cloud Engineer", "Cloud Engineers"]),
     ("Service Reliability", ["Service Reliability", "Reliability Best Practices"]),
     ("Bottleneck Identification", ["Bottleneck Identification", "Bottlenecks", "Bottleneck"]),
     ("Infrastructure Standardization", ["Infrastructure Standardization", "Standardization", "Standardisation"]),
@@ -1522,7 +1522,7 @@ KEYWORD_GROUPS = [
     ("Reliability Risks", ["Reliability Risks", "Reliability Risk Identification"]),
     ("YAML", ["YAML"]),
     ("JSON", ["JSON"]),
-    ("Infrastructure Engineering", ["Infrastructure Engineering", "Infrastructure Engineering Experience"]),
+    ("Infrastructure Engineering", ["Infrastructure Engineering", "Infrastructure Engineering Experience", "Infrastructure Engineer", "Infrastructure Engineers"]),
 
     # Round 51: Staff Database Engineer JD (DB operations for hosted prod/non-prod, OCI, GoldenGate/Fivetran/DMS migrations, SNS, PAM tools)
     ("Database Engineering", ["Database Engineering", "Database Engineer", "Staff Database Engineer"]),
@@ -1729,6 +1729,11 @@ KEYWORD_GROUPS = [
     ("High-Volume Transactions", ["High-Volume Transactions", "High Volume Transactions", "High-Volume Transaction Processing", "Billions of Transactions", "Billions of Transactions Annually"]),
     ("Claude Code", ["Claude Code"]),
     ("Communication", ["Communication", "Excellent Communication"]),
+
+    # Round 62: Infrastructure / Cloud Engineer JD (OpenStack and private cloud, VLANs and load balancers, Linux/Windows administration, uptime monitoring, IaC)
+    ("OpenStack", ["OpenStack"]),
+    ("Uptime", ["Uptime", "Uptime Monitoring"]),
+    ("Network Interface Configuration", ["Network Interfaces", "Network Interface", "Network Interface Configuration"]),
 ]
 
 
