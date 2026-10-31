@@ -18,7 +18,7 @@ KEYWORD_GROUPS = [
     ("VPC", ["VPC"]),
     ("EC2", ["EC2"]),
     ("S3", ["S3"]),
-    ("RDS", ["RDS", "Amazon RDS", "RDS for PostgreSQL"]),
+    ("RDS", ["RDS", "Amazon RDS", "RDS for PostgreSQL", "AWS RDS"]),
     ("Route 53", ["Route 53"]),
     ("AWS DMS", ["AWS DMS", "DMS"]),
     ("AWS SCT", ["AWS SCT", "SCT", "AWS Schema Conversion Tool"]),
@@ -47,7 +47,7 @@ KEYWORD_GROUPS = [
     ("Distributed Computing", ["Distributed Computing"]),
     ("Microservices", ["Microservices"]),
     ("High Availability", ["High Availability", "HA"]),
-    ("Disaster Recovery", ["Disaster Recovery", "DR", "HA/DR"]),
+    ("Disaster Recovery", ["Disaster Recovery", "Disaster Recovery Planning", "DR", "HA/DR"]),
     ("Business Continuity", ["Business Continuity", "Business Continuity Planning", "BCP"]),
     ("Load Balancing", ["Load Balancing"]),
     ("Networking", ["Networking", "Network Protocols"]),
@@ -120,7 +120,7 @@ KEYWORD_GROUPS = [
     ("AppDynamics", ["AppDynamics"]),
     ("StackStorm", ["StackStorm"]),
     ("Observability", ["Observability"]),
-    ("Monitoring", ["Monitoring"]),
+    ("Monitoring", ["Monitoring", "Database Metrics"]),
     ("Logging", ["Logging"]),
     ("Tracing", ["Tracing"]),
     ("Alerting", ["Alerting"]),
@@ -351,7 +351,7 @@ KEYWORD_GROUPS = [
     ("Data Reconciliation", ["Data Reconciliation", "Reconciliation"]),
     ("A/B Testing", ["A/B Testing", "A/B Test", "Experimentation"]),
     ("Statistical Analysis", ["Statistical Analysis", "Statistical Models"]),
-    ("Runbooks", ["Runbooks", "Runbook", "Playbooks"]),
+    ("Runbooks", ["Runbooks", "Runbook", "Playbooks", "Operational Runbooks"]),
     ("Technical Writing", ["Technical Writing", "Technical Documentation"]),
     ("Documentation", ["Documentation"]),
     ("Operational Excellence", ["Operational Excellence"]),
@@ -394,12 +394,12 @@ KEYWORD_GROUPS = [
     ("Parameter Sniffing", ["Parameter Sniffing"]),
     ("Table Partitioning", ["Table Partitioning", "Partition Switching", "Partitioning", "Partitioning Strategies", "Data Partitioning", "Data Partitions"]),
     ("Data Archival", ["Data Archival", "Data Archiving", "Archival", "Data Retention"]),
-    ("Database Health Checks", ["Health Checks", "Health Check", "Health Check Reporting"]),
+    ("Database Health Checks", ["Health Checks", "Health Check", "Health Check Reporting", "Database Health Monitoring", "Health Monitoring"]),
     ("Integrity Checks", ["DBCC", "Integrity Checks", "Integrity Validation"]),
     ("Database Upgrades", ["Database Upgrades", "Patching", "Version Upgrades", "Major Version Upgrades", "Minor Version Upgrades"]),
     ("Database Migration", ["Database Migration", "Database Migrations", "Migration Strategies", "Migration Planning"]),
     ("Point-in-Time Recovery", ["Point-in-Time Recovery", "Point-in-Time Restore", "Point-in-time", "PITR"]),
-    ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategy", "Backup Strategies", "Backups", "Restore", "Restores", "Database Restore"]),
+    ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategy", "Backup Strategies", "Backups", "Restore", "Restores", "Database Restore", "Backup Automation", "Restore Automation", "Recovery Automation", "Intelligent Backup"]),
     ("Rollback Procedures", ["Rollback", "Rollback Procedures", "Rollback Plans"]),
     ("Standard Operating Procedures", ["SOPs", "SOP", "Standard Operating Procedures", "Standard Operating Procedure", "Operational Procedures", "Repeatable Procedures"]),
     ("Incident Severity", ["Sev-1", "Sev-2", "Sev 1", "Sev 2"]),
@@ -753,7 +753,7 @@ KEYWORD_GROUPS = [
     ("Scalability Assessment", ["Scalability Assessment", "Scalability Assessments", "Scalability Planning"]),
     ("Load Testing", ["Load Testing", "Performance Testing", "Performance Benchmarking"]),
     ("Automated Remediation", ["Automated Remediation", "Automated Remediations", "Remediation Automation", "Remediation Workflows", "Automated Remediation Workflows"]),
-    ("Infrastructure Provisioning", ["Infrastructure Provisioning", "Infrastructure Automation"]),
+    ("Infrastructure Provisioning", ["Infrastructure Provisioning", "Infrastructure Automation", "Database Provisioning"]),
     ("Software Engineering", ["Software Engineering", "Software Engineer", "Software Engineers"]),
     # Infrastructure as code and delivery
     ("Azure Bicep", ["Bicep", "ARM Templates", "Azure Resource Manager"]),
@@ -887,7 +887,7 @@ KEYWORD_GROUPS = [
     # Round 23: Lilly Senior Principal SRE Engineering Lead JD (SLO governance, regulated environments, agent-assisted reliability)
     ("Circuit Breakers", ["Circuit Breaker", "Circuit Breakers", "Circuit Breaking"]),
     ("Graceful Degradation", ["Graceful Degradation"]),
-    ("AIOps", ["AIOps", "Agent-Assisted Operations", "Agent-assisted operations"]),
+    ("AIOps", ["AIOps", "AI Ops", "AI Operations", "Agent-Assisted Operations", "Agent-assisted operations"]),
     ("Human-in-the-Loop", ["Human-in-the-Loop", "Human in the Loop"]),
     ("GxP", ["GxP"]),
     ("Validated Systems", ["Validated Systems", "Validated System", "Validated Environments", "Validated Environment", "Validated-System"]),
@@ -1139,7 +1139,7 @@ KEYWORD_GROUPS = [
     ("Isolation Semantics", ["Isolation Semantics", "Isolation Levels", "Transaction Isolation", "Visibility Semantics", "Non-Linear Execution"]),
     ("Cost Model", ["Cost Model", "Cost Models", "Cost Model Correctness"]),
     # AI-assisted engineering
-    ("AI Coding Assistants", ["AI Coding Assistants", "AI Coding Assistant", "AI Coding Agents", "Coding Agents", "AI Coding Tools", "Coding Assistants"]),
+    ("AI Coding Assistants", ["AI Coding Assistants", "AI Coding Assistant", "AI Coding Agents", "Coding Agents", "AI Coding Tools", "Coding Assistants", "AI Coding Assistance"]),
     ("Agentic Tooling", ["Agentic Tooling", "Agentic Workflows"]),
     # Role and qualifications
     ("Systems Engineering", ["Systems Engineering", "Systems or Database Engineering"]),
@@ -1722,6 +1722,13 @@ KEYWORD_GROUPS = [
     ("Model Registry", ["Model Registry"]),
     ("Failure Mode Analysis", ["Failure Mode Analysis", "Failure Mode Handling", "Failure Modes"]),
     ("Production Deployment", ["Production Deployment"]),
+
+    # Round 61: Billtrust Database Reliability Engineer JD (MySQL/SQL Server/MongoDB, Aurora and Cloud SQL, agentic DB monitoring, database-as-code)
+    ("Database-as-Code", ["Database-as-Code", "Database as Code", "Database-as-a-Code", "Schema Migration Automation", "Schema Migrations"]),
+    ("Agentic Database Management", ["Agentic Backup Validation", "Agentic Database Management", "Agentic Database Operations", "Autonomous Database Management", "Autonomous Database Operations"]),
+    ("High-Volume Transactions", ["High-Volume Transactions", "High Volume Transactions", "High-Volume Transaction Processing", "Billions of Transactions", "Billions of Transactions Annually"]),
+    ("Claude Code", ["Claude Code"]),
+    ("Communication", ["Communication", "Excellent Communication"]),
 ]
 
 

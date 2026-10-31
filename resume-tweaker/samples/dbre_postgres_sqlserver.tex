@@ -29,7 +29,7 @@ Hyderabad, Telangana, India, +91 7032312749, \href{mailto:ajay.dwivedi2007@gmail
 \end{center}
 
 \section{Profile}
-Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA on on-premises and AWS RDS and Aurora platforms, and as a SQL Server DBA, keeping multi-cloud DBaaS and on-premises platforms highly available, performant, and secure. I automate database operations with Terraform, Ansible, Python, and CI/CD pipelines, and build monitoring and alerting with Prometheus, Grafana, and Datadog across AWS, Azure, and GCP, including SLA-driven 24x7 on-call support.
+Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA on on-premises and AWS RDS and Aurora platforms, and as a SQL Server DBA, keeping multi-cloud DBaaS and on-premises platforms highly available, performant, and secure. I automate database operations to reduce toil with Terraform, Ansible, Python, and CI/CD pipelines, and build database health monitoring and alerting with Prometheus, Grafana, and Datadog across AWS, Azure, and GCP, including SLA-driven 24x7 on-call support.
 
 \section{Core Competencies}
 \begin{itemize}
@@ -38,8 +38,8 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item \textbf{SQL Server DBA:} Always On Availability Groups, Failover Clustering, Log Shipping, Transactional Replication, Change Data Capture (CDC), Index Maintenance, Table Partitioning, Query Store, Performance Tuning, Amazon RDS for SQL Server, SQL Server on Azure VMs
   \item \textbf{Reliability and Incidents:} Database Reliability Engineering, Site Reliability Engineering, High Availability and Disaster Recovery, Business Continuity, Incident Management, Incident Response, Root Cause Analysis, On-Call Rotations, SLA Commitments, 24x7 Operations, Operational Standards
   \item \textbf{Security and Access Control:} Database Security, Roles and Permissions, RBAC, Access Control, Least Privilege, Auditing, Transparent Data Encryption, Vulnerability Assessment
-  \item \textbf{Automation and Scripting:} Infrastructure as Code, Terraform, Ansible, Automation Frameworks, Scripting, CI/CD, GitHub Actions, Deployment Automation, PowerShell, Python, Shell Scripting, Cost Optimization, Generative AI, AI Tooling
-  \item \textbf{Monitoring and Observability:} Observability, Monitoring, Alerting, Prometheus, Grafana, Datadog, CloudWatch, PagerDuty, Dashboards, SQL Server Profiler
+  \item \textbf{Automation and Scripting:} Infrastructure as Code, Database-as-Code, Schema Migration Automation, Terraform, Ansible, Automation Frameworks, Toil Reduction, Scripting, CI/CD, GitHub Actions, Deployment Automation, PowerShell, Python, Shell Scripting, Cost Optimization, Generative AI, AI Tooling
+  \item \textbf{Monitoring and Observability:} Observability, Monitoring, Database Health Monitoring, Alerting, Prometheus, Grafana, Datadog, CloudWatch, PagerDuty, Dashboards, SQL Server Profiler
   \item \textbf{Collaboration and Leadership:} Cross-Functional Collaboration, Communication Skills, Stakeholder Management, Problem Solving, Ownership, Technical Leadership, Mentoring
 \end{itemize}
 
@@ -60,7 +60,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 \textit{Principal Solution Architect - SQL Server}\\[-5pt]
 \begin{itemize}
   \item Built DBaaS capabilities for deploying SQL Server on AWS EC2 and Azure VMs, enabling self-service concurrent deployments
-  \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's Database as a Service (DBaaS) platform, a distributed systems architecture with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane, reducing provisioning time to 20 minutes
+  \item Wrote Python-based SAGA workflows on Kubernetes and a dockerized environment to build Tessell's Database as a Service (DBaaS) platform, a cloud-native distributed systems architecture with Docker and Kubernetes as the control plane and AWS, Azure, and GCP as the data plane, reducing provisioning time to 20 minutes
   \item Designed data migration automation for PostgreSQL CentOS-to-RHEL migration using Python and Ansible, migrating 180+ database clusters with 15 minutes of downtime each
   \item Added monitoring for data and log file growth using SQLExporter, Prometheus, and VictoriaMetrics
   \item Added enhancements to support Change Data Capture (CDC) and transactional replication
@@ -73,9 +73,9 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 \textit{Senior Site Reliability Engineer (DevOps)}\\[-5pt]
 \begin{itemize}
   \item Implemented single-click automation for Transparent Data Encryption (TDE) certificate rotation, helped customers implement Always Encrypted, upgraded SSL and TLS drivers, and built a credential manager for identity and access management, applying least privilege to service accounts while securely storing and retrieving their credentials for DBA automation
-  \item Automated common database team activities, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
+  \item Automated common database team activities to reduce toil, such as SQL Server installation, configuration, monitoring, and alerting through Database Mail, using PowerShell, Flask, Python, T-SQL, Grafana, and PagerDuty for on-premises and cloud Managed Instances
   \item Tuned SQL Server queries by analyzing execution plans to fix forced serialization, scalar UDF inlining, lazy spools, cardinality misestimates, wrong join types, and residual I/O performance issues, performance bottlenecks, lock management, and deadlocks
-  \item Automated AWS database services across IaaS and PaaS, including RDS and Aurora PostgreSQL, deployment and maintenance using Terraform
+  \item Automated AWS database provisioning and maintenance across IaaS and PaaS, including RDS and Aurora PostgreSQL, using Terraform
   \item Created a GitHub repo-based approach to baselining all Windows Server and Linux servers, simplifying database monitoring with Prometheus and Grafana
   \item Built the SQLMonitor tool with dashboards that supported capacity planning and estimated storage needs for the next couple of years based on past growth
   \item Automated disk, connectivity, Patroni health, and backup alerts for PostgreSQL servers using Python
@@ -95,7 +95,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Developed runbooks, knowledge base articles, and documentation for database operations, enabling on-call engineers to resolve incidents
   \item Diagnosed SQL Server plan issues using Query Store, Extended Events, DMVs, and wait statistics, including memory grants, spills, parameter sensitivity, and plan regressions
   \item Established repeatable performance benchmarks and baselines, reviewed workload history to tune access paths, bind variables, concurrency, and justified query hints, and rewrote stored procedures to improve plan stability
-  \item Reviewed T-SQL code against coding standards with code review guidance and managed source-controlled deployments for SQL Server releases
+  \item Reviewed T-SQL code against coding standards with code review guidance and managed source-controlled database-as-code deployments for SQL Server releases
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{Arcesium}\hfill \textit{May 2020 - February 2022}
@@ -114,11 +114,11 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 
 \textit{Database Administrator}\\[-5pt]
 \begin{itemize}
-  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, integrity checks, and recovery testing, automated scheduled refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
+  \item Built a resilient backup strategy with Ola Hallengren's maintenance solution, including native backup and restore, backup validation through recovery testing and integrity checks to protect data integrity, automated scheduled refreshes of non-prod environments, set up log shipping from one prod server to another, and enabled single-click full recovery of a SQL Server instance or database
   \item Saved 40+ hours by automating SQL Server deployment and configuration using PowerShell
   \item Reduced transactional replication issues by 80\% using latency monitoring infrastructure
   \item Implemented monitoring and alerting with Datadog
-  \item Implemented a change management process using SQL Database Projects, SQL DACPAC, and GitHub Actions
+  \item Implemented database-as-code change management using SQL Database Projects, SQL DACPAC, and GitHub Actions for schema migration deployments
   \item Reduced performance incidents by 80\% by building Delta Index Defragmentation automation for replicated and HADR databases
 \end{itemize}
 \vspace{14.7pt}
@@ -158,7 +158,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
   \item Built using T-SQL, PowerShell, Python, and Grafana
   \item Monitoring 500+ SQL Servers across environments
   \item Sends observability alerts to Slack, PagerDuty, and email
-  \item Built-in auto-actions to clear and resolve issues
+  \item Built-in auto-actions to clear and resolve issues, providing database health monitoring across environments
 \end{itemize}
 \vspace{14.7pt}
 \noindent\textbf{SQLDBATools}\hfill \textit{July 2021 - February 2023}
@@ -174,7 +174,7 @@ Database Reliability Engineer with 15+ years of experience as a PostgreSQL DBA o
 
 \textit{LLM-powered SQL agent that answers natural-language performance questions about SQL Server instances monitored by SQLMonitor} (\href{https://github.com/imajaydwivedi/SQLMonitor/tree/dev/AI-Agent}{GitHub})
 \begin{itemize}
-  \item Built generative AI tooling using Python, LangChain, Ollama, Streamlit, and SQLMonitor
+  \item Built agentic generative AI tooling using Python, LangChain, Ollama, Streamlit, and SQLMonitor
   \item Grounds every answer in SQL queries against SQLMonitor data, shows the query in each explanation, and includes prompt guardrails against write statements, enabling application teams to troubleshoot performance problems themselves
 \end{itemize}
 \vspace{14.7pt}
