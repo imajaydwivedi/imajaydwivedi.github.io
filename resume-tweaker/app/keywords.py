@@ -187,7 +187,7 @@ KEYWORD_GROUPS = [
     ("Engineering Management", ["Engineering Management"]),
     ("Mentoring", ["Mentoring", "Mentorship", "Mentor", "Mentors", "Mentored"]),
     ("Troubleshooting", ["Troubleshooting", "Troubleshoot"]),
-    ("Knowledge Base", ["Knowledge Base", "Knowledge Bases"]),
+    ("Knowledge Base", ["Knowledge Base", "Knowledge Bases", "Knowledge Management"]),
     ("Hiring", ["Hiring", "Recruiting"]),
     ("Performance Management", ["Performance Management"]),
     ("Cross-Functional Leadership", ["Cross-Functional Leadership", "Cross-Functional Collaboration", "Cross-Team Collaboration"]),
@@ -198,7 +198,7 @@ KEYWORD_GROUPS = [
     ("Roadmap Planning", ["Roadmap Planning", "Roadmaps", "Technical Roadmap", "Technical Roadmaps"]),
     ("OKRs", ["OKRs", "Objectives and Key Results"]),
     ("Operational Reviews", ["Operational Reviews"]),
-    ("Process Improvement", ["Process Improvement", "Process Simplification"]),
+    ("Process Improvement", ["Process Improvement", "Process Simplification", "Continuous Process Improvement"]),
     ("Workflow Optimization", ["Workflow Optimization"]),
     ("Technical Leadership", ["Technical Leadership"]),
     ("Coaching", ["Coaching"]),
@@ -355,7 +355,7 @@ KEYWORD_GROUPS = [
     ("Technical Writing", ["Technical Writing", "Technical Documentation"]),
     ("Documentation", ["Documentation"]),
     ("Operational Excellence", ["Operational Excellence"]),
-    ("Release Management", ["Release Management", "Release Process", "Production Releases", "Production Release"]),
+    ("Release Management", ["Release Management", "Release Process", "Production Releases", "Production Release", "Database Releases", "Database Release"]),
     ("Cost Optimization", ["Cost Optimization", "Cost Optimisation", "Cost Management", "Cloud Cost Optimization", "Cost Efficiency", "Cloud Spending Optimization", "Cloud Spend Optimization"]),
     ("Risk Management", ["Risk Management", "Risk Registry", "Risk Registries"]),
     ("Cloud Security", ["Cloud Security"]),
@@ -396,7 +396,7 @@ KEYWORD_GROUPS = [
     ("Data Archival", ["Data Archival", "Data Archiving", "Archival", "Data Retention"]),
     ("Database Health Checks", ["Health Checks", "Health Check", "Health Check Reporting", "Database Health Monitoring", "Health Monitoring"]),
     ("Integrity Checks", ["DBCC", "Integrity Checks", "Integrity Validation"]),
-    ("Database Upgrades", ["Database Upgrades", "Upgrades", "SQL Server Upgrades", "SQL Server Upgrade", "SQL Server Migrations", "Patching", "Version Upgrades", "Major Version Upgrades", "Minor Version Upgrades"]),
+    ("Database Upgrades", ["Database Upgrades", "Database Upgrade", "Upgrades", "SQL Server Upgrades", "SQL Server Upgrade", "SQL Server Migrations", "Patching", "Version Upgrades", "Major Version Upgrades", "Minor Version Upgrades"]),
     ("Database Migration", ["Database Migration", "Database Migrations", "Migration Strategies", "Migration Planning"]),
     ("Point-in-Time Recovery", ["Point-in-Time Recovery", "Point-in-Time Restore", "Point-in-time", "PITR"]),
     ("Backup & Recovery", ["Backup and Recovery", "Backup and Restore", "Backup Strategy", "Backup Strategies", "Backups", "Restore", "Restores", "Database Restore", "Backup Automation", "Restore Automation", "Recovery Automation", "Intelligent Backup", "Backup Utilities", "Backup Utility"]),
@@ -435,7 +435,7 @@ KEYWORD_GROUPS = [
     ("Data Quality", ["Data Quality"]),
     ("Data Validation", ["Data Validation", "Data Comparison"]),
     ("Data Lakes", ["Data Lake", "Data Lakes"]),
-    ("Environment Provisioning", ["Environment Provisioning", "Environment Setup", "Environment Refresh", "Environment Readiness"]),
+    ("Environment Provisioning", ["Environment Provisioning", "Environment Setup", "Environment Refresh", "Environment Readiness", "Environment Management"]),
     ("Test Automation", ["Test Automation", "Automation Testing", "Automation Test"]),
     ("Regression Testing", ["Regression Testing", "Regression"]),
     ("End-to-End Testing", ["End-to-End Testing", "End-to-End", "E2E", "E2E Testing"]),
@@ -461,7 +461,7 @@ KEYWORD_GROUPS = [
     ("Banking", ["Banking"]),
 
     # Round 7: SQL Server DBA JD (HA/DR topologies, security, cloud DB services, tooling)
-    ("Database Administration", ["Database Administration", "Database Administrator", "DBA", "DBAs"]),
+    ("Database Administration", ["Database Administration", "Database Administrator", "DBA", "DBAs", "Enterprise Database", "Enterprise Database Administration"]),
     ("SQL Server 2016/2019/2022", ["SQL Server 2016", "SQL Server 2019", "SQL Server 2022"]),
     ("Failover Cluster Instances", ["Failover Cluster Instances", "Failover Cluster Instance", "FCI", "FCIs"]),
     ("Replication", ["Replication", "Database Replication"]),
@@ -545,7 +545,7 @@ KEYWORD_GROUPS = [
     ("SQL Server Installation", ["SQL Server Installation", "SQL Server Installations", "Install SQL Server", "SQL Server Configuration"]),
     ("Database Maintenance", ["Database Maintenance", "Maintenance Plans", "Maintenance Solution", "VACUUM", "Autovacuum", "VACUUM ANALYZE", "REINDEX"]),
     ("Database Security", ["Database Security", "SQL Server Security", "SQL Server Access Management"]),
-    ("Roles and Permissions", ["Roles and Permissions", "Permissions Management", "User Access Management", "User and Role Management", "User Management", "Role Management"]),
+    ("Roles and Permissions", ["Roles and Permissions", "Permissions Management", "User Access Management", "User and Role Management", "User Management", "Role Management", "User Access", "User Access Administration"]),
     ("Third-Party Backup Tools", ["Third-Party Backup Tools", "Third-Party Backup", "Third-Party Backup Solutions"]),
     ("CPU Tuning", ["CPU Tuning", "CPU Utilization", "CPU Performance"]),
     ("Memory Tuning", ["Memory Tuning", "Memory Management", "Memory Pressure"]),
@@ -628,7 +628,7 @@ KEYWORD_GROUPS = [
     ("Least Privilege", ["Least Privilege", "Least-Privilege", "Principle of Least Privilege"]),
     ("Privileged Access", ["Privileged Access", "Privileged Access Management", "Privileged Accounts"]),
     ("PHI Compliance", ["PHI", "Protected Health Information"]),
-    ("Regulated Healthcare", ["Regulated Healthcare", "Healthcare"]),
+    ("Regulated Healthcare", ["Regulated Healthcare", "Healthcare", "Health Care", "Healthcare Compliance", "Healthcare Regulations", "Healthcare Industry"]),
     ("SQL Server 2025", ["SQL Server 2025"]),
 
     # Round 14: Oracle terms (library only, not used in any sample resume yet)
@@ -1742,9 +1742,13 @@ KEYWORD_GROUPS = [
 
     # Round 64: Fiserv SQL DBA – Azure JD (Azure SQL Database and VMs, multi-environment support, releases, payments and regulated finance, analytical skills)
     ("Azure Data Services", ["Azure Data Services", "Other Azure Data Services", "Azure Data Service"]),
-    ("Multi-Environment Support", ["Development, Test and Production", "Development, Test and Production Environments", "Test and Production Environments"]),
+    ("Multi-Environment Support", ["Development, Test and Production", "Development, Test and Production Environments", "Test and Production Environments", "Development Environments", "Development, QA, UAT and Production", "Development, QA, UAT, and Production", "Development, QA, UAT, Production"]),
     ("Payments", ["Payments", "Payment Systems", "Payment Processing"]),
     ("Analytical Skills", ["Analytical Skills", "Analytical", "Analytical Thinking"]),
+
+    # Round 65: Healthcare DBA (offshore) JD (Oracle/SQL Server/PostgreSQL/MySQL, healthcare compliance, environment management, knowledge management, EDB PostgreSQL certification)
+    ("Database Object Management", ["Database Objects", "Database Object Management", "Database Object Creation"]),
+    ("EDB PostgreSQL Certification", ["EDB PostgreSQL Certification", "EDB PostgreSQL Associate", "EDB PostgreSQL Professional", "EDB Certification", "EDB"]),
 ]
 
 
