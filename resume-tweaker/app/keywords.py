@@ -1808,6 +1808,19 @@ KEYWORD_GROUPS = [
     ("Audit Readiness", ["Audit Readiness", "Audit-Ready", "Audit Preparedness"]),
     ("Customer-Centric Platform Delivery", ["Customer Mindset", "Consumer Teams", "Internal Customers", "Customer-Centric"]),
     ("Cloud Cost Methodology", ["Cloud Cost Methodology", "Cost Methodology", "Cloud Financial Operations", "Cloud Cost Modeling"]),
+
+    # Round 71: Database Administrator - Microsoft SQL / Kinetica JD (investment banking risk systems, Kinetica and Sybase IQ, DDL/DML query improvement, HA/DR with RTO/RPO, AIOps, post-mortems, market and counterparty risk)
+    ("Kinetica", ["Kinetica", "Kinetika", "Kinetica Database", "Kinetica DB"]),
+    ("Sybase IQ", ["Sybase IQ", "SAP IQ", "Sybase IQ Administration"]),
+    ("DDL and DML", ["DDL", "DML", "DDL/DML", "Data Definition Language", "Data Manipulation Language"]),
+    ("Query Rewriting", ["Query Rewriting", "Query Restructuring", "SQL Construction", "DML Improvements", "SQL Query Improvement"]),
+    ("Database Implementation", ["Database Implementation", "Implementation Plans", "Implementation Plan", "Database Implementation Choices"]),
+    ("Market Risk", ["Market Risk", "Market and Liquidity Risk", "Market & Liquidity Risk", "Market Risk Systems"]),
+    ("Counterparty Risk", ["Counterparty Risk", "Counterparty Risk Management", "Counterparty Credit Risk"]),
+    ("Liquidity Risk", ["Liquidity Risk", "Liquidity Risk Management"]),
+    ("Derivatives and Repo Transactions", ["Derivatives", "Derivative Transactions", "Repo Transactions", "Repo"]),
+    ("ALM Treasury", ["ALM", "ALM Treasury", "Asset and Liability Management", "Treasury Systems"]),
+    ("Risk Systems", ["Risk Systems", "Risk System", "Risk Management Systems"]),
 ]
 
 
