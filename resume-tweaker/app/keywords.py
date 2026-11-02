@@ -412,7 +412,7 @@ KEYWORD_GROUPS = [
     ("Streaming Replication", ["Streaming Replication", "Logical Replication", "PostgreSQL Replication", "Physical Replication"]),
     ("ProxySQL", ["ProxySQL"]),
     ("Amazon ElastiCache", ["ElastiCache", "Elasticache"]),
-    ("Data Masking", ["Data Masking", "Data Virtualization"]),
+    ("Data Masking", ["Data Masking"]),
     # Monitoring and backup tools
     ("Delphix", ["Delphix"]),
     ("Foglight", ["Foglight"]),
@@ -1821,6 +1821,14 @@ KEYWORD_GROUPS = [
     ("Derivatives and Repo Transactions", ["Derivatives", "Derivative Transactions", "Repo Transactions", "Repo"]),
     ("ALM Treasury", ["ALM", "ALM Treasury", "Asset and Liability Management", "Treasury Systems"]),
     ("Risk Systems", ["Risk Systems", "Risk System", "Risk Management Systems"]),
+
+    # Round 72: Denodo / data virtualization JD (Denodo installation and administration, virtual data layer, Python utilities, AWS data workloads, Teradata, NoSQL)
+    ("Denodo", ["Denodo", "Denodo Platform", "Denodo Virtual DataPort", "Denodo Platform Administration"]),
+    ("Data Virtualization", ["Data Virtualization", "Data Virtualisation", "Virtual Data Layer", "Virtual Data Layers", "Virtual DataPort", "Data Virtualization Solutions"]),
+    ("Platform Installation and Administration", ["Platform Installation", "Platform Administration", "Environment Administration", "Installation and Configuration", "Platform Upgrades"]),
+    ("Virtualized Data Sources", ["Virtualized Data Sources", "Virtual Data Sources", "Federated Data Sources", "Data Federation"]),
+    ("Python Utilities", ["Python Utilities", "Python-Based Utilities", "Platform Support Scripts", "Python Automation"]),
+    ("Enterprise Data Platforms", ["Enterprise Data Platforms", "Enterprise Data Platform"]),
 ]
 
 
