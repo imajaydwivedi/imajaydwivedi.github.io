@@ -1781,6 +1781,16 @@ KEYWORD_GROUPS = [
     ("ETL Development", ["ETL Development", "ETL Processes", "ETL Process Development", "ETL Pipeline Development", "ETL Workflows"]),
     ("Git Branching", ["Git Branching", "Branching Strategies", "Branching Strategy", "Git Flow", "Trunk-Based Development"]),
     ("Pull Requests", ["Pull Request", "Pull Requests", "Merge Requests", "Merge Request"]),
+
+    # Round 69: Senior DBA PostgreSQL, RDS & DevOps Tooling JD (major version upgrades, RDS Proxy and parameter groups, snapshots, vacuum/analyze, pgBadger, geographical replication, ISO/SOC, AWS database certification)
+    ("RDS Proxy", ["RDS Proxy", "Amazon RDS Proxy", "AWS RDS Proxy"]),
+    ("RDS Parameter Groups", ["Parameter Groups", "Parameter Group", "DB Parameter Groups", "RDS Parameter Groups"]),
+    ("RDS Snapshots", ["RDS Snapshots", "RDS Snapshot", "DB Snapshots", "DB Snapshot", "Snapshots", "Manual Snapshots"]),
+    ("Vacuum and Analyze Tuning", ["Vacuum/Analyze Tuning", "VACUUM ANALYZE Tuning", "Vacuum Tuning", "Vacuum and Analyze", "Vacuum/Analyze"]),
+    ("pgBadger", ["pgBadger", "PgBadger", "pgbadger"]),
+    ("Geographical Replication", ["Geographical Replication", "Geographic Replication", "Geological Replication", "Cross-Region Replication"]),
+    ("ISO and SOC Compliance", ["ISO", "ISO 27001", "ISO/IEC 27001", "ISO and SOC", "SOC", "SOC 1", "SOC Compliance"]),
+    ("AWS Database Specialty Certification", ["AWS Certified Database – Specialty", "AWS Certified Database - Specialty", "AWS Database Specialty", "AWS Certified Database"]),
 ]
 
 
