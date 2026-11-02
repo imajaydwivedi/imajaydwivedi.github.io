@@ -576,7 +576,7 @@ KEYWORD_GROUPS = [
     ("Data Integrity", ["Data Integrity", "Data Consistency"]),
     ("Data Ingestion", ["Data Ingestion", "Ingestion Pipelines", "Ingestion Processes"]),
     ("Stored Procedures", ["Stored Procedures", "Stored Procedure"]),
-    ("SQL Views", ["SQL Views"]),
+    ("SQL Views", ["SQL Views", "Database Views", "Indexed Views"]),
     ("Complex SQL Queries", ["Complex SQL Queries", "Complex Queries", "SQL Queries"]),
     ("Regulatory Reporting", ["Regulatory Reporting", "Regulatory Reports", "Audit Reporting"]),
     ("Audit Evidence", ["Audit Evidence", "Evidence Production"]),
@@ -1339,7 +1339,7 @@ KEYWORD_GROUPS = [
     ("Duplicate Detection", ["Duplicate Detection", "Data Duplicates", "Deduplication", "Duplicate Records"]),
     ("Fact and Dimension Tables", ["Fact and Dimension Tables", "Fact Tables", "Fact Table", "Dimension Tables", "Dimension Table"]),
     ("Kimball", ["Kimball", "Kimball Methodology"]),
-    ("SQL Joins", ["SQL Joins", "Complex Joins"]),
+    ("SQL Joins", ["SQL Joins", "Complex Joins", "Joins", "Inner Joins", "Outer Joins"]),
     ("Aggregation Logic", ["Aggregation Logic", "Aggregation Functions", "Aggregations"]),
     ("Business Systems Analysis", ["Business Systems Analysis", "Business Systems Analyst", "Business Systems Analysts", "Requirements Gathering", "Requirements Analysis"]),
     ("Synapse", ["Synapse"]),
@@ -1633,7 +1633,7 @@ KEYWORD_GROUPS = [
     ("pg_stat_statements", ["pg_stat_statements"]),
     ("Architectural Judgment", ["Architectural Judgment", "Architectural Judgement"]),
     ("ORM", ["ORM", "ORMs", "Object-Relational Mapping"]),
-    ("Transaction Management", ["Transaction Management", "Transaction Handling"]),
+    ("Transaction Management", ["Transaction Management", "Transaction Handling", "Database Transactions", "SQL Transactions", "Explicit Transactions"]),
     ("Data Access Patterns", ["Data Access Patterns"]),
     ("Patroni", ["Patroni"]),
 
@@ -1769,6 +1769,18 @@ KEYWORD_GROUPS = [
     ("Biosensors", ["Biosensor", "Biosensors", "Biosensor Data"]),
     ("Digital Health", ["Digital Health", "Digital Health Platforms", "High-Growth Digital Health"]),
     ("Consumer Technology", ["Consumer Technology", "Consumer Technology Company", "Consumer Technology Companies"]),
+
+    # Round 68: Senior SQL Developer JD (T-SQL development, joins/CTEs/window functions, dynamic SQL, procedures/triggers, deadlocks, SSIS/ETL, data warehousing SCD, source control, production support)
+    ("Dynamic SQL", ["Dynamic SQL", "Dynamic T-SQL", "sp_executesql", "Dynamic Queries", "Dynamic Query Generation"]),
+    ("Set-Based Programming", ["Set-Based Programming", "Set-Based Logic", "Set-Based Operations", "Set-Based"]),
+    ("Scalar and Table-Valued Functions", ["Table-Valued Functions", "Table Valued Functions", "Scalar Functions", "Scalar-Valued Functions", "Inline Table-Valued Functions", "Multi-Statement Table-Valued Functions"]),
+    ("Deadlock Resolution", ["Deadlock Resolution", "Resolving Deadlocks", "Deadlock Troubleshooting", "Blocking Resolution"]),
+    ("ACID Transactions", ["ACID", "ACID Properties", "ACID Compliance", "ACID Transactions"]),
+    ("Referential Integrity", ["Referential Integrity", "Referential Constraints", "Table Relationships", "Database Relationships", "Entity Relationships"]),
+    ("Slowly Changing Dimensions", ["Slowly Changing Dimensions", "Slowly Changing Dimension", "SCD", "SCD Type 1", "SCD Type 2", "SCD Type 3"]),
+    ("ETL Development", ["ETL Development", "ETL Processes", "ETL Process Development", "ETL Pipeline Development", "ETL Workflows"]),
+    ("Git Branching", ["Git Branching", "Branching Strategies", "Branching Strategy", "Git Flow", "Trunk-Based Development"]),
+    ("Pull Requests", ["Pull Request", "Pull Requests", "Merge Requests", "Merge Request"]),
 ]
 
 
