@@ -1791,6 +1791,23 @@ KEYWORD_GROUPS = [
     ("Geographical Replication", ["Geographical Replication", "Geographic Replication", "Geological Replication", "Cross-Region Replication"]),
     ("ISO and SOC Compliance", ["ISO", "ISO 27001", "ISO/IEC 27001", "ISO and SOC", "SOC", "SOC 1", "SOC Compliance"]),
     ("AWS Database Specialty Certification", ["AWS Certified Database – Specialty", "AWS Certified Database - Specialty", "AWS Database Specialty", "AWS Certified Database"]),
+
+    # Round 70: Principal Cloud Platform Engineer - DB JD (golden paths and self-service platforms, SLOs and toil reduction, AI-assisted engineering, partner/managed-service assurance, multi-cloud tooling, time-series, spatial and vector databases, GxP and audit readiness)
+    ("Google Anthos", ["Anthos", "Google Anthos"]),
+    ("Camunda", ["Camunda"]),
+    ("Azure Arc", ["Azure Arc"]),
+    ("Edge Computing", ["Edge Computing", "Edge Compute"]),
+    ("Time-Series Databases", ["Time-Series Database", "Time-Series Databases", "Time Series Database", "Time Series Databases", "Times Series", "Times Series Database"]),
+    ("Spatial Databases", ["Spatial Database", "Spatial Databases", "Spatial Data", "Geospatial Database", "Geospatial Databases", "PostGIS"]),
+    ("API Management", ["API Management", "API Gateway Management"]),
+    ("Paved Roads", ["Paved Road", "Paved Roads", "Paved Path", "Paved Paths"]),
+    ("Secure-by-Default Engineering", ["Secure-by-Default", "Secure by Default", "Secure-by-Design", "Secure Defaults"]),
+    ("Managed Service Partner Management", ["Managed Service Partners", "Managed Service Partner", "Supplier Components", "Supplier Management", "Partner-Delivered", "Partner Engineers"]),
+    ("Digital Workplace", ["Digital Workplace", "Digital Workplace Platforms"]),
+    ("System Monitoring", ["System Monitors", "System Monitor", "System Monitoring"]),
+    ("Audit Readiness", ["Audit Readiness", "Audit-Ready", "Audit Preparedness"]),
+    ("Customer-Centric Platform Delivery", ["Customer Mindset", "Consumer Teams", "Internal Customers", "Customer-Centric"]),
+    ("Cloud Cost Methodology", ["Cloud Cost Methodology", "Cost Methodology", "Cloud Financial Operations", "Cloud Cost Modeling"]),
 ]
 
 
