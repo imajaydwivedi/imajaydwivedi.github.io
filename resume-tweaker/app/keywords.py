@@ -1829,6 +1829,14 @@ KEYWORD_GROUPS = [
     ("Virtualized Data Sources", ["Virtualized Data Sources", "Virtual Data Sources", "Federated Data Sources", "Data Federation"]),
     ("Python Utilities", ["Python Utilities", "Python-Based Utilities", "Platform Support Scripts", "Python Automation"]),
     ("Enterprise Data Platforms", ["Enterprise Data Platforms", "Enterprise Data Platform"]),
+
+    # Round 73: Senior Backend Engineer (Python + SQL + DevOps/Cloud) JD (Python backend services, advanced SQL, system design and scalability, CI/CD and IaC, containers, observability, secure release patterns)
+    ("Python Backend Development", ["Python Backend Development", "Python Backend", "Python Backend Services", "Backend Python", "Python Web Services"]),
+    ("Advanced SQL", ["Advanced SQL", "Advanced SQL Querying", "Advanced SQL Development", "Advanced T-SQL", "Advanced SQL Optimization"]),
+    ("Performance and Reliability", ["Performance and Reliability", "Performance & Reliability", "Performance and Reliability Engineering"]),
+    ("Secure Release Patterns", ["Secure Release Patterns", "Secure Release", "Secure Release Practices", "Secure Deployment", "Secure Deployments", "Secure Release Pipelines"]),
+    ("Cloud-Native Architecture", ["Cloud-Native Architecture", "Cloud Native Architecture", "Cloud-Native Architectures"]),
+    ("Data Modeling Basics", ["Data Modeling Basics", "Data Modelling Basics", "Data Modeling Fundamentals", "Data Modelling Fundamentals"]),
 ]
 
 
