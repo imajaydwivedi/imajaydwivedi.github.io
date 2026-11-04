@@ -5,6 +5,7 @@ sensitive
 personal
 .secret
 work*
+cheat-sheets
 
 .venv
 .env
