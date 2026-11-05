@@ -1837,6 +1837,23 @@ KEYWORD_GROUPS = [
     ("Secure Release Patterns", ["Secure Release Patterns", "Secure Release", "Secure Release Practices", "Secure Deployment", "Secure Deployments", "Secure Release Pipelines"]),
     ("Cloud-Native Architecture", ["Cloud-Native Architecture", "Cloud Native Architecture", "Cloud-Native Architectures"]),
     ("Data Modeling Basics", ["Data Modeling Basics", "Data Modelling Basics", "Data Modeling Fundamentals", "Data Modelling Fundamentals"]),
+
+    # Round 74: Lead Platform Engineer - PostgreSQL DBA JD (PostgreSQL across open source, EDB and Aurora, EDB Postgres Advanced Server installation, binary streaming/XDB/BDR replication, PEM/Splunk/Dynatrace/CloudWatch/Performance Insights, security and access, Flyway, Cassandra/Redis/Oracle, Perl/Bash, CI/CD with Jenkins/Terraform/CloudFormation)
+    ("EDB Postgres Advanced Server", ["EDB Postgres Advanced Server", "EDB Advanced Server", "PostgreSQL Plus Advanced Server", "Postgres Plus Advanced Server", "PPAS", "EPAS"]),
+    ("PostgreSQL Flavours", ["PostgreSQL Flavours", "PostgreSQL Flavors", "PostgreSQL Flavour", "Multi-Flavour PostgreSQL", "Multi-Flavor PostgreSQL", "PostgreSQL Distributions"]),
+    ("Install and Configure PostgreSQL", ["PostgreSQL Configuration", "PostgreSQL Installation and Configuration", "Install and Configure PostgreSQL", "Configure PostgreSQL", "Advanced Server Installation"]),
+    ("Binary Streaming Replication", ["Binary Streaming Replication", "Binary Replication", "Binary Replication Setup"]),
+    ("XDB Replication", ["XDB Replication", "xDB Replication", "EDB xDB", "xDB Replication Server", "XDB"]),
+    ("BDR", ["BDR", "Bi-Directional Replication", "Bidirectional Replication", "EDB BDR", "BDR Replication", "Multi-Master Replication"]),
+    ("Postgres Enterprise Manager", ["Postgres Enterprise Manager", "PEM", "EDB Postgres Enterprise Manager", "PEM Monitoring"]),
+    ("Performance Insights", ["Performance Insights", "AWS Performance Insights", "RDS Performance Insights", "Amazon RDS Performance Insights"]),
+    ("Flyway", ["Flyway", "Flyway Migrations", "Flyway Schema Migrations"]),
+    ("Privileges and Access Control", ["Privileges", "Database Privileges", "Grants and Privileges", "Privilege Management", "Role and Privilege Management"]),
+    ("Schema Upgrades", ["Schema Upgrades", "Schema Upgrade", "Database Schema Upgrades"]),
+    ("Database Diagnostics", ["Database Diagnostics", "Database Diagnostic", "Database Troubleshooting", "Diagnostics and Troubleshooting"]),
+    ("Scripting Languages", ["Scripting Languages", "Other Scripting Languages", "Python, Perl and Bash", "Perl and Bash"]),
+    ("PostgreSQL Authentication", ["pg_hba", "pg_hba.conf", "SCRAM Authentication", "SCRAM-SHA-256", "Authentication Methods"]),
+    ("ITSM Processes", ["ITSM Processes", "ITSM Tools", "ITIL Processes", "Service Management Tools", "ITIL"]),
 ]
 
 
