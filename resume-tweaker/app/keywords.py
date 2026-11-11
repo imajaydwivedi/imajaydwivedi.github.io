@@ -1724,7 +1724,7 @@ KEYWORD_GROUPS = [
     ("Production Deployment", ["Production Deployment"]),
 
     # Round 61: Billtrust Database Reliability Engineer JD (MySQL/SQL Server/MongoDB, Aurora and Cloud SQL, agentic DB monitoring, database-as-code)
-    ("Database-as-Code", ["Database-as-Code", "Database as Code", "Database-as-a-Code", "Schema Migration Automation", "Schema Migrations"]),
+    ("Database-as-Code", ["Database-as-Code", "Database as Code", "Database-as-a-Code", "Schema Migration Automation", "Schema Migrations", "Database Infrastructure as Code", "Database IaC"]),
     ("Agentic Database Management", ["Agentic Backup Validation", "Agentic Database Management", "Agentic Database Operations", "Autonomous Database Management", "Autonomous Database Operations"]),
     ("High-Volume Transactions", ["High-Volume Transactions", "High Volume Transactions", "High-Volume Transaction Processing", "Billions of Transactions", "Billions of Transactions Annually"]),
     ("Claude Code", ["Claude Code"]),
@@ -1880,6 +1880,37 @@ KEYWORD_GROUPS = [
     ("Self-Motivation and Independent Thinking", ["Self-Motivated", "Self-Motivation", "Independent Thinking", "Think Independently", "Independent Problem Solving"]),
     ("Project Management and Communication Tools", ["Project Management Tools", "Communication Tools", "Project Management and Communication Tools", "Jira", "Confluence"]),
     ("Learning Agility", ["Learn Quickly", "Ability to Learn Quickly", "Fast Learner", "Openness to New Tools", "Open to New Technologies", "Tool Openness"]),
+
+    # Round 76: Sezzle Senior Database Reliability Engineer JD (database platform libraries and migration guardrails, RDS/Aurora MySQL and PostgreSQL, RDS Proxy/PgBouncer/ProxySQL, query and lock analysis, transactional outbox and idempotency, observability and SLOs, paved-road developer tooling, PCI/SOC 2 controls, Go/TypeScript/Python, AI tooling)
+    ("Senior Database Reliability Engineer", ["Senior Database Reliability Engineer", "Database Reliability Engineer", "Database Reliability Engineering", "DBRE", "Database SRE"]),
+    ("Database Platform Engineering", ["Database Platform", "Database Platform Components", "Database Platform Engineering", "Database Platform Team", "Database-as-a-Service", "Developer-Facing Abstractions"]),
+    ("Database Client Libraries", ["Database Client Libraries", "Database Client Library", "Database Connection Packages", "Database Libraries", "Database SDKs", "Internal Database Packages", "ORM Wrappers", "ORM"]),
+    ("Migration Safety Checks", ["Migration Safety Checks", "Migration Guardrails", "Schema Review Workflows", "Schema Review", "Rollback Expectations", "Migration Review", "Safe Migrations", "Safe Migration Processes", "Production Safety Controls"]),
+    ("Query Standards and Indexing", ["Query Standards", "Query Patterns", "Query Execution", "Query Plans", "Indexing Standards", "Indexing"]),
+    ("Connection Lifecycle Management", ["Connection Lifecycle", "Connection Storms", "Application-Level Pooling", "Pooling"]),
+    ("Transaction Handling and Isolation Levels", ["Transaction Handling", "Isolation Levels", "Transaction Isolation", "Lock Contention", "Lock Waits", "Wait Events"]),
+    ("Retries and Timeouts", ["Retries", "Timeouts", "Retries and Timeouts", "Retry Logic", "Timeout Handling"]),
+    ("Database Performance Analysis", ["Slow Query Logs", "Slow Query Log", "Query Plan Analysis", "Application Traces", "Replication Lag", "Capacity Bottlenecks"]),
+    ("RDS and Aurora Operations", ["Aurora MySQL", "Aurora PostgreSQL", "Amazon Aurora", "RDS/Aurora", "RDS Aurora", "Read Replicas", "Read Replica"]),
+    ("Failover and Business Continuity", ["Failover Readiness", "Failover Testing", "Failover Drills", "Business Continuity", "Business Continuity Planning"]),
+    ("Database Connection Proxies", ["RDS Proxy", "PgBouncer", "ProxySQL", "Connection Proxies", "Database Proxies", "Connection Pooler"]),
+    ("Kubernetes and Helm Deployments", ["Helm", "Helm Charts", "Helm Deployments", "Kubernetes and Helm"]),
+    ("Operational Readiness Checks", ["Operational Readiness Checks", "Readiness Checks", "Operational Readiness"]),
+    ("Database Access Standards", ["Database Access Standards", "Database Access Patterns", "Access Patterns", "Database Access Governance", "Access Governance", "Least-Privilege Access", "IAM Database Authentication", "IAM Authentication"]),
+    ("Database Security Controls", ["Database Security", "Encryption at Rest", "Encryption in Transit", "Data Encryption", "Audit Logging", "Access Auditing"]),
+    ("Transactional Outbox and Idempotency", ["Transactional Outbox", "Outbox Pattern", "Idempotency", "Eventual Consistency", "Data Consistency Tradeoffs", "Message Queues"]),
+    ("Microservices Platform Capabilities", ["Microservices", "Microservices Environment", "Microservice Platforms", "Platform Capabilities"]),
+    ("Paved-Road Developer Tooling", ["Paved Road", "Paved-Road", "Paved-Road Tooling", "Developer Tooling", "Developer-Facing Tooling", "Developer Self-Service", "Service Templates", "SDKs", "SDK Development"]),
+    ("Database Self-Service Provisioning", ["Database Provisioning", "Database Access Provisioning", "Local Development", "Developer Productivity"]),
+    ("Database Operations Automation", ["Database Operations Automation", "Large-Scale Operational Automation", "Patching Automation", "Backup Validation Automation", "Failover Testing Automation", "Access Management Automation"]),
+    ("Systemic Problem Solving", ["Systemic Problems", "Systemic Database Problems", "Systemic Fixes", "Problem Prevention", "Root Cause"]),
+    ("High Standards", ["High Standards", "Relentlessly High Standards", "Raising the Bar", "Defect Prevention", "Problems Stay Fixed"]),
+    ("Bias for Action", ["Bias for Action", "Bias to Action", "Calculated Risk-Taking", "Calculated Risk Taking"]),
+    ("Disagree and Commit", ["Disagree and Commit", "Disagree, Then Commit", "Backbone", "Respectful Challenge"]),
+    ("Earn Trust", ["Earn Trust", "Earns Trust", "Speak Candidly", "Treat Others Respectfully"]),
+    ("Fintech", ["Fintech", "FinTech", "Financial Technology"]),
+    ("E-commerce", ["E-commerce", "Ecommerce", "E-Commerce", "Online Retail"]),
+    ("AI Developer Tooling", ["AI Developer Tooling", "AI Tooling", "AI Tools", "AI-Assisted Engineering", "Gemini CLI", "Gemini", "Codex", "Cursor", "Large Language Models", "LLM Tools", "LLM Tooling"]),
 ]
 
 
