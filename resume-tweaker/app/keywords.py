@@ -1101,7 +1101,7 @@ KEYWORD_GROUPS = [
     ("iPaaS", ["iPaaS", "Integration Platform as a Service"]),
     ("HubSpot", ["HubSpot"]),
     ("Zoho", ["Zoho", "Zoho CRM"]),
-    ("API Design", ["API Design", "API Design Patterns", "Scalable APIs", "Platform Abstractions"]),
+    ("API Design", ["API Design", "API Design Patterns", "Scalable APIs", "Platform Abstractions", "API", "APIs", "API Integration", "REST API", "RESTful APIs"]),
     ("Data Migration", ["Data Migration", "Data Migrations"]),
     # Architecture leadership
     ("Principal Engineering", ["Principal Architect", "Principal Engineer", "Staff Engineer", "Staff+", "Founding Architect", "Founding Engineer", "Early Senior Technical Leader"]),
@@ -1854,6 +1854,32 @@ KEYWORD_GROUPS = [
     ("Scripting Languages", ["Scripting Languages", "Other Scripting Languages", "Python, Perl and Bash", "Perl and Bash"]),
     ("PostgreSQL Authentication", ["pg_hba", "pg_hba.conf", "SCRAM Authentication", "SCRAM-SHA-256", "Authentication Methods"]),
     ("ITSM Processes", ["ITSM Processes", "ITSM Tools", "ITIL Processes", "Service Management Tools", "ITIL"]),
+
+    # Round 75: Technical Client Solutions Architect JD (Arcesium CS3 - platform integration and scale, customer-facing solution design, product demos and PoCs, value proposition and business cases, CxO communication, customer success insights, pre-emptive risk management, API/Spark/Delta/Iceberg/Snowflake data products, ETL pipelining, DevOps, distributed teams)
+    ("Technical Client Solutions Architect", ["Technical Client Solutions Architect", "Client Solutions Architect", "Technical Client Solutions", "Client Solutions Architecture", "Technical Client Architect", "Customer-Facing Architect"]),
+    ("Platform Integration and Scale", ["Platform Integration", "Platform Integrations", "Platform Integration and Scale", "Integrating the Platform", "Unlocking Scale", "Platform Scalability"]),
+    ("Product Demonstrations", ["Product Demo", "Product Demos", "Product Demonstration", "Product Demonstrations", "Solution Demos", "Solution Demonstrations"]),
+    ("Business Use Case Solutioning", ["Business Use Cases", "Business Use Case", "Best Product Fit", "Product Fit", "Product-Fit Solutions"]),
+    ("Solution Documentation", ["Solution Documentation", "Solution Documents", "Solution Architecture Documents", "Solution Architecture Documentation", "Architecture Documentation", "Solution Architectures"]),
+    ("Value Proposition Development", ["Value Proposition", "Value Propositions", "Value Proposition Development", "Value Proposition Documents"]),
+    ("Business Case Development", ["Business Case", "Business Cases", "Business Case Development", "Business Case Creation"]),
+    ("CxO Engagement", ["CxO", "CxO Engagement", "CxO-Level Communication", "C-Level Engagement", "C-Suite", "CxO-Level Stakeholders"]),
+    ("Enterprise Roadmap Strategy", ["Enterprise Roadmap", "Enterprise Roadmaps", "Enterprise Roadmap Strategy", "Technical Strategy", "Technology Strategy"]),
+    ("Customer Engagement Programs", ["Customer Engagement", "Customer Engagement Programs", "Customer Engagement Strategy", "Client Engagement", "Customer Engagement Programmes"]),
+    ("Customer Value Realization", ["Customer Value Acquisition", "Customer Adoption", "Product Adoption", "Value Realization", "Customer Value Realization"]),
+    ("Product Usage Assessment", ["Product Usage", "Product Usage Assessment", "Assessing Customer Product Usage", "Efficiency and Effectiveness", "Efficiency and Effectiveness Gains", "Efficiency Gains", "Effectiveness Gains"]),
+    ("Data-Driven Customer Insights", ["Customer Insights", "Data-Driven Insights", "Data Driven Insights", "Customer Intelligence", "Derived Insights"]),
+    ("Proactive Risk Management", ["Proactive Risk Management", "Pre-emptive Risk Management", "Preemptive Risk Management", "Risk Escalation", "Escalating Risks to Stakeholders"]),
+    ("Metrics-Driven Delivery", ["Metrics-Driven", "Metrics-Driven Delivery", "Metrics-Driven Projects", "Project Metrics"]),
+    ("Process and Tooling Efficiency", ["Process Efficiency", "Tooling Efficiency", "Process and Tool Efficiency", "Process and Tools", "Process Recommendations", "Process Optimization"]),
+    ("Cross-Functional Stakeholder Partnerships", ["Internal Stakeholders", "Engineering Stakeholders", "Operations Stakeholders", "Stakeholder Relationships", "Building Trust with Stakeholders"]),
+    ("ETL Pipelining", ["ETL Pipelining", "ETL Pipelines", "ETL Pipeline"]),
+    ("DevOps Philosophy", ["DevOps Philosophy", "DevOps Culture", "DevOps Practices", "DevOps Principles"]),
+    ("Python Programming", ["Python Programming", "Programming in Python", "Python Scripting"]),
+    ("Distributed Team Collaboration", ["Remote Collaboration", "Remote Teams", "Distributed Team Collaboration", "Asynchronous Collaboration"]),
+    ("Self-Motivation and Independent Thinking", ["Self-Motivated", "Self-Motivation", "Independent Thinking", "Think Independently", "Independent Problem Solving"]),
+    ("Project Management and Communication Tools", ["Project Management Tools", "Communication Tools", "Project Management and Communication Tools", "Jira", "Confluence"]),
+    ("Learning Agility", ["Learn Quickly", "Ability to Learn Quickly", "Fast Learner", "Openness to New Tools", "Open to New Technologies", "Tool Openness"]),
 ]
 
 
